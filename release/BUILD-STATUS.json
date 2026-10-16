@@ -1,0 +1,67 @@
+{
+  "status": "alpha3: final snapshot for this session; experimental, hardware incomplete",
+  "sailfish": "2.0.1.11",
+  "android": "NexusHD2 CM11 V4.0 / Android 4.4.1",
+  "hybris_donor": "anzu 2.0.1.11 alpha4 / CM11",
+  "kernel": "tytung 2.6.32 kitkat with systemd configuration",
+  "platform_libraries_from_hd2": [
+    "libmemalloc.so",
+    "libqdutils.so",
+    "liboverlay.so",
+    "libgenlock.so"
+  ],
+  "known_unresolved": [
+    "Wi-Fi not working for user despite successful scan enumeration",
+    "Camera black preview: minisf gralloc -ENOMEM and BufferQueue dequeue errors",
+    "Calls, cellular data, GPS, Bluetooth, sensors and suspend not validated",
+    "Whole-process cgroup migration through tasks remains unverified",
+    "Donor RPM metadata remains; no supported official OTA updates",
+    "Repacked clean image not cold-boot tested; patches tested incrementally on the phone"
+  ],
+  "usb_debug": {
+    "adb": "always on, including early boot",
+    "adb_authentication": false,
+    "hardware_verified": true,
+    "root_rescue": "USB RNDIS 192.168.2.15:2323 always on; systemd rescue also uses port 23",
+    "early_adb_uid": "may be 2000 before Android properties are initialized"
+  },
+  "verified": [
+    "MAGLDR default SD reboot",
+    "systemd and Android HAL running",
+    "USB ADB and root rescue",
+    "480x800 language-selection page in actual framebuffer",
+    "Automatic welcome UI after reboot with two framebuffer buffers",
+    "Autologin creates active nemo session on seat0 using console",
+    "User confirms display and touch taps are normal",
+    "Wayland server-side allocation ABI crash fixed",
+    "Injected protocol-A horizontal swipe unlocks to date/time setup without compositor restart",
+    "User confirms physical swipe/unlock, sound and vibration",
+    "ConnMan scan returned services with patched bcm4329 module; connectivity remains broken"
+  ],
+  "user_confirmed": [
+    "normal display",
+    "touch taps",
+    "swipe/unlock",
+    "sound",
+    "vibration"
+  ],
+  "user_reported_not_working": [
+    "Wi-Fi",
+    "camera"
+  ],
+  "hardware_notes": {
+    "audio": "PulseAudio primary rate 48000 -> 44100; paplay succeeded; user confirms sound",
+    "vibration": "ngfd media.vibra maps to droid-vibrator; direct HAL test returned 0; user confirms vibration",
+    "wifi": "bcm4329 standard WEXT scan rejection removed; ConnMan enumerated 7 services; user still reports Wi-Fi not working",
+    "camera": "persist.camera.shutter.disable=1 removes CameraService AudioFlinger wait; preview buffer allocation still fails",
+    "excluded_experiment": "Temporary debug.composition.type=gpu did not fix preview and is not included in the image"
+  },
+  "unresolved_risks": [
+    "Wi-Fi not working for user despite successful scan enumeration",
+    "Camera black preview: minisf gralloc -ENOMEM and BufferQueue dequeue errors",
+    "Calls, cellular data, GPS, Bluetooth, sensors and suspend not validated",
+    "Whole-process cgroup migration through tasks remains unverified",
+    "Donor RPM metadata remains; no supported official OTA updates",
+    "Repacked clean image not cold-boot tested; patches tested incrementally on the phone"
+  ]
+}

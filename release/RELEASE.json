@@ -1,0 +1,17 @@
+{
+  "tag": "v2.0.1.11-hd2-alpha3",
+  "assets": [
+    {
+      "name": "hd2-sailfish-2.0.1.11-alpha3-SD.zip",
+      "bytes": 450058999,
+      "sha256": "e55fa211867b659f83779a32a11361dc6e9e34e11f6ee8c273022a66bd223c54"
+    },
+    {
+      "name": "hd2-sailfish-alpha3-kernel-source.tar.gz",
+      "bytes": 106802510,
+      "sha256": "7985b1e19ed0b8d7ec45ccd5e6eb4c70aa99ecd72b1f4086e391c6dcaa3517b1"
+    }
+  ],
+  "experimental": true,
+  "date": "2026-10-17"
+}
