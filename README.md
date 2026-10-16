@@ -1,39 +1,43 @@
-# Sailfish OS 2.0.1.11 on HTC HD2
+# Sailfish OS 2.0.1.11 for HTC HD2
 
-HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Sailfish SD 移植，采用 Android 4.4.1 / NexusHD2 CM11 HAL、tytung 2.6.32 内核和 Xperia anzu 的 Sailfish 2.0.1.11 用户空间。
+**English** | [简体中文](README.zh-CN.md)
 
-**[下载本阶段最终实验版 alpha3](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [修复过程与调试证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [Smartisan 姊妹项目](https://github.com/DCMMC/hd2-smartisan-os)
+An unofficial SD-card port for HTC HD2 / Leo, developed on a device with 576 MB RAM and 1024 MB ROM using MAGLDR. It combines the NexusHD2 CM11 / Android 4.4.1 hardware layer, tytung's Linux 2.6.32 kernel and the archived Xperia anzu Sailfish userspace.
 
-**用户已确认显示、点击、滑动解锁、声音和振动正常；Wi-Fi 和相机仍不可用。** 按用户要求停止继续修复，发布当前成果。alpha3 是本阶段的最终快照，仍是硬件功能不完整的实验版。
+**[Download alpha3, checksums and kernel source](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
 
-## 实机截图
+**The device owner confirmed working display, touch, swipe-to-unlock, sound and vibration. Wi-Fi and the camera remain unusable.** Further repairs were paused at the owner's request. Alpha3 is the final snapshot of this session, not a claim that the port is feature-complete.
 
-<img src="screenshots/applications.png" width="240" alt="HD2 Sailfish 应用列表"> <img src="screenshots/home.png" width="240" alt="HD2 Sailfish 多任务桌面">
+## Real-device screenshots
 
-两张截图均在发布前从当前手机真实 framebuffer 采集。黑色的相机预览和浏览器连接失败是已知问题，未用效果图替代。[截图来源与采集方法](screenshots/README.md)。
+<img src="screenshots/applications.png" width="240" alt="Sailfish application launcher on HTC HD2"> <img src="screenshots/home.png" width="240" alt="Sailfish multitasking home screen on HTC HD2">
 
-## 功能状态
+Captured from the running phone immediately before publication. The black camera preview and failed browser connection are real unresolved issues. These are framebuffer captures, not mockups. See [screenshot provenance](screenshots/README.md).
 
-| 功能 | 最终状态 |
+## Status
+
+| Feature | Status |
 | --- | --- |
-| MAGLDR SD 启动、systemd、Android HAL | 实机启动和重启验证 |
-| 480×800 显示、点击、滑动解锁 | 用户确认正常 |
-| 声音、振动 | 用户确认正常；未覆盖所有音频路由/通知场景 |
-| USB ADB 与 root 救援终端 | 默认开启，实机已连接 |
-| Wi-Fi | 驱动扫描部分恢复，曾枚举网络；用户报告仍不能使用 |
-| 相机 | 传感器可启动，预览缓冲分配失败，仍黑屏 |
-| 通话、数据、GPS、蓝牙、传感器、休眠 | 未完成验证 |
+| MAGLDR SD boot, systemd and Android HAL | Tested on the device, including reboot |
+| 480×800 display, taps and swipe-to-unlock | Confirmed by the owner |
+| Sound and vibration | Confirmed by the owner; not every route or notification scenario was tested |
+| USB ADB and root rescue shell | Automatically enabled and tested |
+| Wi-Fi | Scanning partially restored; the owner still cannot use Wi-Fi |
+| Camera | Sensor starts; preview allocation fails and the preview stays black |
+| Calls, data, GPS, Bluetooth, sensors, suspend | Not fully tested |
 
-## 安装
+The clean image includes patches tested incrementally on the phone; the repackaged image itself has not been cold-boot tested again. Donor RPM metadata remains, and official OTA updates are not supported.
 
-1. 下载 `hd2-sailfish-2.0.1.11-alpha3-SD.zip`，核对同名 `.sha256`。
-2. 解压，把完整 `HD2-SF` 目录放到 SD 第一分区 FAT32 根目录。至少需要 2.1 GiB；其中 `rootfs.ext4` 为 2 GiB 文件。
-3. MAGLDR → `Services` → `BootSettings` → `AD SD Dir` → `HD2-SF`，然后 `Boot AD SD`。
-4. 默认启动：`Boot source` 选 `Android from SD`，`AlwaysMenu` 设为 `NO`。
+## Installation
 
-这是 SD 镜像包，不是 Recovery 卡刷包；不刷 NAND，不要求改动 ext4 或 WP7 分区。已有安装的 `rootfs.ext4` 包含用户设置，直接覆盖会丢失这些设置，请先保存旧镜像。
+1. Download `hd2-sailfish-2.0.1.11-alpha3-SD.zip` and its `.sha256` file. Verify the checksum.
+2. Extract the ZIP and place the entire `HD2-SF` directory at the root of the SD card's first FAT32 partition. Allow at least 2.1 GiB. `rootfs.ext4` is a 2 GiB file.
+3. In MAGLDR, select **Services → BootSettings → AD SD Dir → HD2-SF**, then **Boot AD SD**.
+4. For automatic startup, set **Boot source → Android from SD** and **AlwaysMenu → NO**.
 
-## 默认调试入口
+**This is an SD image ZIP, not a recovery-flashable ZIP. Do not flash it to NAND.** No repartitioning or changes to existing ext4/WP7 partitions are required. Save an existing rootfs before replacing it: the image also contains that installation's settings and data.
+
+## Always-on debugging
 
 ```sh
 adb devices
@@ -41,18 +45,27 @@ adb shell
 adb pull /run/hd2-logs
 ```
 
-ADB 早期可能以 uid 2000 运行。USB RNDIS 接口配置电脑地址 `192.168.2.14/24` 后，可用默认 root 救援入口：
+ADB may run as uid 2000 during early boot. For the root rescue shell, configure the host USB RNDIS interface as `192.168.2.14/24`, then run:
 
 ```sh
 telnet -b 192.168.2.14 192.168.2.15 2323
 ```
 
-这些调试入口自动开启，不依赖界面授权。运行日志在内存 `/run/hd2-logs`，重启清空；早期日志在 FAT32 的 `HD2-SF/early-boot.log`。空文件 `SYSTEMD_DEBUG` 可开启详细启动日志；`DIAGNOSTIC_ONLY` 可停在 initramfs 诊断环境。
+These endpoints start automatically without UI authorization. Runtime logs are in RAM under `/run/hd2-logs` and disappear on reboot. Early logs are in `HD2-SF/early-boot.log` on FAT32. An empty `SYSTEMD_DEBUG` file enables detailed startup logging; `DIAGNOSTIC_ONLY` stops in the initramfs diagnostic environment.
 
-## 已包含的补丁
+## Included fixes
 
-启动/ADB、cgroup/SECUREBITS/accept4、旧 systemd 服务兼容、正确 bionic 库路径、活跃用户会话、RGBX8888、gralloc 回调与双缓冲、主题比例、44100 Hz 音频和 Android 振动后端。另保留了未完全解决功能的 WEXT 扫描补丁和相机快门声等待修复。
+- Early boot/ADB, cgroup sysfs, SECUREBITS and the ARM accept4 syscall entry.
+- systemd 208 compatibility, correct bionic library paths and an active local user session.
+- RGBX8888 EGL configuration, gralloc callbacks, double buffering and theme scaling.
+- The Wayland server-side allocation crash that prevented reliable unlocking.
+- 44.1 kHz PulseAudio output and the Android vibrator backend configuration.
+- Partial WEXT scanning support and removal of a camera shutter-sound wait on absent AudioFlinger.
 
-代码、探针、调试记录、反汇编及解决方案均在 `tools/`、`configs/`、`logs/` 和 `docs/`；输入来源与提交见 `sources.lock.json`。Release 同时提供本次修改后的内核源码归档。精确补丁/哈希见 [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json)。
+The partial Wi-Fi and camera fixes do **not** make those features usable. No final camera allocator patch was implemented. Exact changes and limitations are in [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json) and [BUILD-STATUS.json](release/BUILD-STATUS.json).
 
-alpha3 在电脑上的干净镜像中合入了已在手机增量测试的补丁；重新打包后的整个干净镜像未再次冷启动。保留 donor 的 RPM 记录，不支持官方 OTA 升级。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。
+## Source and debugging archive
+
+`tools/`, `configs/`, `logs/` and `docs/` contain the actual scripts, probes, redacted evidence, disassembly, root causes and solutions. `sources.lock.json` pins upstream inputs. The release includes modified kernel source, configuration, the complete local diff and compiler references. The ROM retains the boot-tested #4 zImage, with bcm4329 rebuilt separately using the same configuration.
+
+The shared archive includes companion Smartisan utilities and historical records. Earlier logs can describe superseded states. This is a binary-based adaptation, not a complete Sailfish source distribution. See [NOTICES.md](NOTICES.md) for attribution.

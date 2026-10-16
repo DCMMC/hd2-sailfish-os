@@ -1,3 +1,13 @@
+English: **Sailfish OS 2.0.1.11 for HTC HD2 — experimental SD release**
+
+Display, taps, swipe-to-unlock, sound, vibration, USB ADB and the USB root rescue shell work on the test device. Wi-Fi and the camera remain unusable. Calls, mobile data, GPS, Bluetooth, sensors and suspend are not fully tested. Official OTA updates are not supported.
+
+Copy the extracted `HD2-SF` folder to the first FAT32 SD partition, then select it as MAGLDR's AD SD Dir and choose Boot AD SD. This is an SD image ZIP, not a recovery-flashable ZIP. Verify the attached SHA-256 and back up an existing rootfs before replacing it.
+
+[English README](https://github.com/DCMMC/hd2-sailfish-os/blob/main/README.md) · [简体中文](https://github.com/DCMMC/hd2-sailfish-os/blob/main/README.zh-CN.md) · [XDA post draft](https://github.com/DCMMC/hd2-sailfish-os/blob/main/docs/XDA-POST.en.md)
+
+---
+
 本阶段最终实验版 alpha3，适用于 HTC HD2 / Leo + MAGLDR，FAT32 内 2 GiB ext4 镜像启动。按用户要求暂停继续修复，发布当前成果。
 
 - 用户确认显示、点击、滑动解锁、声音和振动正常；USB ADB 与 root 救援入口默认开启。
