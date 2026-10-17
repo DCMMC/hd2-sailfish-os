@@ -1,16 +1,18 @@
 {
   "zip": "out/hd2-sailfish-2.0.1.11-alpha4-SD.zip",
-  "bytes": 450082919,
-  "sha256": "061263d938815c7829a5fc28bc977a920656c371c95f2f4db24503bd379b0945",
+  "bytes": 450087112,
+  "sha256": "5227f9b3a051add2fe53d458d0929c52a64647461a5fed559b68ded00dbe740a",
   "zip_crc_passed": true,
   "missing_required_members": [],
   "member_count": 44,
-  "embedded_rootfs_sha256": "0c56f6bbb9dad60cb5db948c567f01e3c76ca0f8f864f4ead5987b86bcc2e38c",
+  "embedded_rootfs_sha256": "70786c0bc9df795db0f55f3812d5caf0ee0a0cbc00c941e905dffd12a47a627d",
   "embedded_rootfs_matches_verified_image": true,
   "embedded_kernel_sha256": "c0837378af2a7d068aae1d20dc06eb27e43d78aac6c77f51ad86fe1244e3ef28",
   "embedded_kernel_matches_verified_image": true,
-  "critical_files_read_back": 66,
+  "critical_files_read_back": 67,
   "filesystem_check_passed": true,
   "kernel_boot_tested_from_magldr_sd": true,
+  "power_key_short_press_runtime_verified": true,
+  "power_key_long_press_menu_runtime_verified": true,
   "clean_image_cold_boot_tested": false
 }

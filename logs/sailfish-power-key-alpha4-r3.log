@@ -1,0 +1,44 @@
+Sailfish alpha4 revision 3 power-key regression diagnosis
+
+Regression:
+- The #5 kernel correctly delivered KEY_POWER.
+- Stock MCE short-press action requested display OFF plus tklock.
+- The HD2 msm framebuffer has no fb_blank callback; FBIOBLANK returns EINVAL.
+- MCE therefore reached locked/off policy while the last frame stayed visible, making touch appear frozen.
+
+Compatibility fix:
+- actions_single_on=tklock
+- display_never_blank=1
+- tklock_blank_disable=1
+- actions_long_on=dbus1 / power-key-menu remains unchanged.
+- After installing the override and restarting MCE, reset_config returned 0 for all three values, proving that they were the active file defaults rather than one-session overrides.
+
+The panel/backlight intentionally remains on while locked. This avoids the stale-frame/touch-disabled state until a safe framebuffer blank/suspend backend exists.
+The long-press framebuffer capture showed the stock Sailfish power menu; PNG SHA-256: c8c0a71417675bc06e5dcf096cfa00553e0c5918977fbc5f15f89e3724be2914.
+
+[Static MCE defaults after service restart]
+method return sender=:1.119 -> dest=:1.132 reply_serial=2
+   variant       string "tklock"
+method return sender=:1.119 -> dest=:1.133 reply_serial=2
+   variant       int32 1
+method return sender=:1.119 -> dest=:1.134 reply_serial=2
+   variant       int32 1
+
+[Injected KEY_POWER short press through htcleo-keypad event3]
+method return sender=:1.119 -> dest=:1.135 reply_serial=2
+   string "on"
+method return sender=:1.119 -> dest=:1.136 reply_serial=2
+   string "locked"
+250
+
+[Protocol-A edge swipe on visible lockscreen]
+method return sender=:1.119 -> dest=:1.137 reply_serial=2
+   string "unlocked"
+467
+
+[Injected KEY_POWER long press through htcleo-keypad event3]
+method return sender=:1.119 -> dest=:1.138 reply_serial=2
+   string "on"
+method return sender=:1.119 -> dest=:1.139 reply_serial=2
+   string "unlocked"
+467

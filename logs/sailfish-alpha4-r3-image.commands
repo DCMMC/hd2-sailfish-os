@@ -1,0 +1,8 @@
+rm /etc/mce/60-powerkey-lipstick-jolla-home.conf
+write work/sailfish-stage/etc/mce/60-powerkey-lipstick-jolla-home.conf /etc/mce/60-powerkey-lipstick-jolla-home.conf
+sif /etc/mce/60-powerkey-lipstick-jolla-home.conf uid 0
+sif /etc/mce/60-powerkey-lipstick-jolla-home.conf gid 0
+rm /etc/hd2-build-status.json
+write work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+sif /etc/hd2-build-status.json uid 0
+sif /etc/hd2-build-status.json gid 0

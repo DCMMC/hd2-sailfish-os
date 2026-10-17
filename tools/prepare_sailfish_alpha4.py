@@ -42,6 +42,7 @@ def main():
     build_prop.write_text(text)
 
     limitations = [
+        'The HD2 framebuffer lacks fb_blank; short power press shows the lockscreen but keeps the panel/backlight on',
         'Calls, cellular data, GPS, Bluetooth, sensors, suspend and power consumption are not validated',
         'Earpiece, wired-headset, Bluetooth and telephony audio routes are not validated',
         'Gallery zoom intentionally scales one display-sized texture and does not reveal full-resolution pixels',
@@ -51,7 +52,7 @@ def main():
         'Post-alpha3 rootfs patches were tested incrementally on the phone; the clean image has offline verification but no separate cold-boot test',
     ]
     status = {
-        'status': 'alpha4 revision 2: power-key kernel fix plus the live-tested post-alpha3 rootfs fixes',
+        'status': 'alpha4 revision 3: safe visible-lock fallback for the legacy framebuffer',
         'sailfish': '2.0.1.11',
         'android': 'NexusHD2 CM11 V4.0 / Android 4.4.1',
         'hybris_donor': 'anzu 2.0.1.11 alpha4 / CM11',
@@ -71,6 +72,8 @@ def main():
             'QDSP speaker device gain changed from controlled -1500 to +500 by PulseAudio ExecStartPost',
             'Ringtone acoustic loopback rose from about -42 dBFS to about -14 dBFS; owner confirmed sound',
             'Kernel #5 booted from MAGLDR SD; htcleo-keypad advertises KEY_POWER and mce opened its evdev node',
+            'Injected KEY_POWER enters visible tklock with display state on; an HD2 protocol-A edge swipe unlocks without restarting Lipstick',
+            'MCE restart preserved the three power compatibility settings; long-press displayed the stock Sailfish power menu',
         ],
         'hardware_notes': {
             'display_touch_unlock': 'working and user-confirmed',
@@ -79,7 +82,7 @@ def main():
             'wifi': 'bcm4329 WEXT scan/runtime fixes; connection user-confirmed',
             'camera': 'preview and capture user-confirmed; HD2 allocator/droidmedia/GStreamer patches and camera-only booster included',
             'gallery': 'display-sized single texture avoids Adreno 200 PMEM exhaustion during open and pinch zoom',
-            'power_key': 'dedicated GPIO key reports KEY_POWER instead of KEY_END; short-press lock/wake and long-press menu are handled by mce',
+            'power_key': 'dedicated GPIO key reports KEY_POWER; short press enters a visible, swipeable lockscreen without framebuffer blanking; long press opens the stock power menu',
         },
         'usb_debug': {
             'adb': 'always on, including early boot',
@@ -103,6 +106,7 @@ def main():
     paths.update(str(path) for path in CAMERA_PATCHES)
     paths.update({
         'etc/hd2-build-status.json', 'etc/hw-release', 'system/build.prop',
+        'etc/mce/60-powerkey-lipstick-jolla-home.conf',
         'etc/systemd/user/pulseaudio.service.d/hd2-device-volume.conf',
         'usr/local/sbin/hd2-audio-unmute',
         'etc/systemd/system/droid-hal-init.service.d/hd2-memlock.conf',
@@ -151,7 +155,7 @@ def main():
         'limitations': limitations,
         'hardware': status['hardware_notes'],
         'source_commit_before_release': 'f15b9d90daa5c0fbd85d05f7777cf10c1ee2ee9a',
-        'alpha4_asset_revision': 2,
+        'alpha4_asset_revision': 3,
     }
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     print(FOLDER)

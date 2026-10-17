@@ -1,16 +1,16 @@
 {
   "tag": "v2.0.1.11-hd2-alpha4",
-  "asset_revision": 2,
+  "asset_revision": 3,
   "assets": [
     {
       "name": "hd2-sailfish-2.0.1.11-alpha4-SD.zip",
-      "bytes": 450082919,
-      "sha256": "061263d938815c7829a5fc28bc977a920656c371c95f2f4db24503bd379b0945"
+      "bytes": 450087112,
+      "sha256": "5227f9b3a051add2fe53d458d0929c52a64647461a5fed559b68ded00dbe740a"
     },
     {
       "name": "hd2-sailfish-2.0.1.11-alpha4-SD.zip.sha256",
       "bytes": 102,
-      "sha256": "7c59a2d25081403307acb7d58242c0613f25ca19b51ac9d41b2e847ce18ee7cf"
+      "sha256": "abff558886c3683748c2647ded8cd254d93b1e8f150ea9a0764fd75df328e477"
     },
     {
       "name": "hd2-sailfish-alpha4-kernel-source.tar.gz",
@@ -24,7 +24,7 @@
     }
   ],
   "kernel": "2.6.32_tytung_jellybean_r2 #5",
-  "power_key_fix": "dedicated HD2 GPIO reports KEY_POWER; bottom hang-up key remains KEY_END",
+  "power_key_fix": "dedicated HD2 GPIO reports KEY_POWER; short press enters visible tklock without framebuffer blanking; long press opens the stock menu; bottom hang-up remains KEY_END",
   "experimental": true,
   "prerelease": true,
   "date": "2026-10-18",

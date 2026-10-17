@@ -1,0 +1,13 @@
+debugfs 1.47.4 (6-Mar-2025)
+debugfs: rm /etc/mce/60-powerkey-lipstick-jolla-home.conf
+
+debugfs: write work/sailfish-stage/etc/mce/60-powerkey-lipstick-jolla-home.conf /etc/mce/60-powerkey-lipstick-jolla-home.conf
+Allocated inode: 438
+debugfs: sif /etc/mce/60-powerkey-lipstick-jolla-home.conf uid 0
+debugfs: sif /etc/mce/60-powerkey-lipstick-jolla-home.conf gid 0
+debugfs: rm /etc/hd2-build-status.json
+
+debugfs: write work/sailfish-stage/etc/hd2-build-status.json /etc/hd2-build-status.json
+Allocated inode: 381
+debugfs: sif /etc/hd2-build-status.json uid 0
+debugfs: sif /etc/hd2-build-status.json gid 0

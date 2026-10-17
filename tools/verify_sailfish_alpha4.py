@@ -65,7 +65,8 @@ def main():
         'kernel_sha256': kernel_sha256,
         'kernel_matches_manifest': True,
         'kernel_boot_tested_from_magldr_sd': True,
-        'power_key_boot_evidence': 'htcleo-keypad advertises KEY_POWER and mce holds /dev/input/event3 on kernel #5',
+        'power_key_boot_evidence': 'kernel #5 reports KEY_POWER; injected event3 KEY_POWER entered visible tklock; HD2 protocol-A edge swipe returned to unlocked with Lipstick PID stable',
+        'power_key_compatibility': 'MCE display remains logically on because this framebuffer has no fb_blank; long press still displays the stock power menu',
         'cold_boot_tested': False,
     }
     RESULT.write_text(json.dumps(result, indent=2) + '\n')

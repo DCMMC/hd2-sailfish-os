@@ -6,7 +6,7 @@ Current live development has working display, taps, swipe-to-unlock, power butto
 
 Alpha4 download: https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4
 
-Alpha4 revision 2 adds kernel #5, which reports the dedicated HD2 GPIO power button as `KEY_POWER` so MCE can lock/wake the display and show its long-press menu. It also includes the working Wi-Fi, camera, Gallery and QDSP speaker-gain fixes. The rebuilt image passed offline filesystem, critical-file read-back and ZIP CRC checks; it has not had a separate clean-image cold-boot cycle.
+Alpha4 revision 3 uses kernel #5, which reports the dedicated HD2 GPIO power button as `KEY_POWER`, and a safe MCE profile: short press shows a visible, swipeable lockscreen and long press shows the stock power menu. It also includes the working Wi-Fi, camera, Gallery and QDSP speaker-gain fixes. Because the HD2 framebuffer has no blank callback, the panel/backlight stays on while locked; this avoids the old stale-frame/touch-disabled failure. The rebuilt image passed offline filesystem, critical-file read-back and ZIP CRC checks; it has not had a separate clean-image cold-boot cycle.
 
 Code, English/Chinese README, real-device screenshots, debugging logs and engineering notes: https://github.com/DCMMC/hd2-sailfish-os
 

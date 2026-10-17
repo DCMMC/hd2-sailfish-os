@@ -6,13 +6,13 @@ An unofficial SD-card port for HTC HD2 / Leo, developed on a device with 576 MB 
 
 **[Download alpha4](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
 
-**Display, touch, swipe-to-unlock, the power button, built-in speaker sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom work on the test phone.** Alpha4 revision 2 adds the corrected HD2 power-key mapping to the clean SD image.
+**Display, touch, swipe-to-unlock, the power button, built-in speaker sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom work on the test phone.** Alpha4 revision 3 keeps the corrected HD2 key mapping and adds a safe visible-lock fallback for its legacy framebuffer.
 
 ## Real-device screenshots
 
-<img src="screenshots/applications.png" width="220" alt="Sailfish application launcher on HTC HD2"> <img src="screenshots/home.png" width="220" alt="Sailfish multitasking home screen on HTC HD2"> <img src="screenshots/camera-working.png" width="220" alt="Working Sailfish camera preview on HTC HD2"> <img src="screenshots/gallery-pinch-zoom.png" width="220" alt="Gallery image after pinch zoom on HTC HD2">
+<img src="screenshots/applications.png" width="220" alt="Sailfish application launcher on HTC HD2"> <img src="screenshots/home.png" width="220" alt="Sailfish multitasking home screen on HTC HD2"> <img src="screenshots/camera-working.png" width="220" alt="Working Sailfish camera preview on HTC HD2">
 
-All four are direct framebuffer captures from the running phone. The latter two show the camera and Gallery patch set included in alpha4. See [screenshot provenance](screenshots/README.md).
+All three are direct framebuffer captures from the running phone. The last image shows the camera patch set included in alpha4. See [screenshot provenance](screenshots/README.md).
 
 ## Status
 
@@ -20,7 +20,7 @@ All four are direct framebuffer captures from the running phone. The latter two 
 | --- | --- |
 | MAGLDR SD boot, systemd and Android HAL | Tested on the device, including reboot |
 | 480×800 display, taps and swipe-to-unlock | Confirmed by the owner |
-| Power button | Kernel #5 reports the dedicated GPIO as `KEY_POWER`; MCE receives it for lock/wake and the long-press menu |
+| Power button | Kernel #5 reports the dedicated GPIO as `KEY_POWER`; short press opens a visible, swipeable lockscreen and long press opens the stock power menu. The panel/backlight stays on while locked because this framebuffer has no blank callback |
 | Sound and vibration | Speaker output and vibration confirmed by the owner; speaker startup also has measured acoustic-loopback evidence. Earpiece, headset and Bluetooth audio remain untested |
 | USB ADB and root rescue shell | Automatically enabled and tested |
 | Wi-Fi | Connection works; confirmed by the owner after the WEXT and runtime fixes |
@@ -28,7 +28,7 @@ All four are direct framebuffer captures from the running phone. The latter two 
 | Gallery | Opens images and survives repeated pinch zoom; zoom uses a display-sized texture to fit Adreno 200 PMEM |
 | Calls, data, GPS, Bluetooth, sensors, suspend | Not fully tested |
 
-The fixes were tested incrementally on the phone. The alpha4 clean image passed read-back checks for 66 critical files, ZIP CRC validation and a read-only filesystem check, but it has not had a separate cold-boot cycle. Donor RPM metadata remains, and official OTA updates are not supported.
+The fixes were tested incrementally on the phone. The alpha4 clean image passed read-back checks for 67 critical files, ZIP CRC validation and a read-only filesystem check, but it has not had a separate cold-boot cycle. Donor RPM metadata remains, and official OTA updates are not supported.
 
 ## Installation
 
@@ -61,7 +61,7 @@ These endpoints start automatically without UI authorization. Runtime logs are i
 - systemd 208 compatibility, correct bionic library paths and an active local user session.
 - RGBX8888 EGL configuration, gralloc callbacks, double buffering and theme scaling.
 - The Wayland server-side allocation crash that prevented reliable unlocking.
-- The HD2 GPIO power button now reports Linux `KEY_POWER` instead of the legacy `KEY_END`; the three-key reset combination was updated with it.
+- The HD2 GPIO power button reports Linux `KEY_POWER` instead of the legacy `KEY_END`; the three-key reset combination was updated with it. MCE uses a visible-lock compatibility profile so a short press cannot leave a stale frame with touch disabled.
 - 44.1 kHz PulseAudio output, automatic QDSP receive-device unmute/gain initialization, and the Android vibrator backend configuration.
 - WEXT scanning/connection support and removal of a camera shutter-sound wait on absent AudioFlinger.
 - HD2 camera allocator, droidmedia/GStreamer compatibility and unlimited HAL memlock fallback.

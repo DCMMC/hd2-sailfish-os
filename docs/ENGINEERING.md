@@ -98,3 +98,11 @@ USB ADB 与 2323 root 救援口早于 systemd 图形会话启动。`tools/hd2_us
 HD2 板级文件原先让独立 GPIO 电源键上报 Linux `KEY_END`（107）。Android 可以通过 `.kl` 把 107 别名为 POWER，但 Sailfish 的 MCE 直接读取 evdev，只处理 `KEY_POWER`（116），所以按键不会锁屏、唤醒或弹出长按菜单。
 
 `configs/sailfish-hd2-power-key.patch` 只把独立 GPIO 电源键改为 `KEY_POWER`；底部矩阵中的挂断键继续保持 `KEY_END`。三键强制重启组合也同步改用 `KEY_POWER`。新 #5 zImage 已从 MAGLDR SD 启动，`htcleo-keypad` 的能力位同时保留 107 并新增 116，MCE 启动时打开了 `/dev/input/event3`。内核、输入能力和 MCE 文件描述符证据见 `logs/sailfish-power-key-alpha4-r2.log`。
+
+## alpha4 第三版：锁屏触摸冻结回归（2026-10-18）
+
+#5 内核让按键事件进入 MCE 后暴露了下一层兼容问题。MCE 的默认短按动作是 `blank,tklock`，但 HD2 的 `msm_fb.c` 没有注册 `fb_blank`；`FBIOBLANK` 返回 `EINVAL`。结果是 MCE 进入 `off/locked`，触摸按锁屏策略被停用，而 LCD 仍显示关屏前的最后一帧，看起来像按电源键后触摸失效。重启 MCE 可以恢复，证明触摸驱动和 Lipstick 并未崩溃。
+
+第三版在 `60-powerkey-lipstick-jolla-home.conf` 中把短按改成 `tklock`，并设置 `display_never_blank=1`、`tklock_blank_disable=1`。短按因此进入可见锁屏，显示逻辑保持 `on`；HD2 protocol-A 边缘横向滑动可从 `locked` 返回 `unlocked`，Lipstick PID 保持不变。长按仍使用原有 `dbus1=power-key-menu`，真实 `KEY_POWER` 长按后的 framebuffer 已确认显示 Sailfish 电源菜单。
+
+这是安全兼容方案，不是完整的面板休眠实现：锁屏时 LCD 和背光继续开启。完整证据见 `logs/sailfish-power-key-alpha4-r3.log`；默认配置生成逻辑在 `tools/configure_sailfish_legacy.py`。

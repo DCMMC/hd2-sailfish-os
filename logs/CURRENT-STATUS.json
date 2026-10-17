@@ -1,5 +1,5 @@
 {
-  "phone_mode": "Sailfish graphical session; camera preview active",
+  "phone_mode": "Sailfish graphical session; alpha4 revision 3 power-key compatibility active",
   "required_user_action": null,
   "fat32_check": "Interrupted partial file allocation repaired; 35 orphan clusters backed up and cleared; filesystem check returned 0; FSInfo free-space hint corrected",
   "ios_issue": "FAT32 p1 MBR type corrected from 0x07 to 0x0C; only byte 450 changed, sector readback matched; IOS boots pending",
@@ -12,7 +12,7 @@
     "Package and cold-boot-test a new image before the next release"
   ],
   "port_boot_verified": true,
-  "active_work": "Sailfish alpha4 revision 2 published with the HD2 power-key kernel fix",
+  "active_work": "Sailfish alpha4 revision 3 prepared for publication with safe visible-lock power-key handling",
   "transfer_complete": true,
   "recovery_decompression_complete": true,
   "boot_file_readback_sha256_passed": true,
@@ -69,7 +69,7 @@
   "sailfish_wayland_alloc_runtime_verified": true,
   "sailfish_injected_swipe_unlock_verified": true,
   "sailfish_lock_swipe_physical_retest_pending": false,
-  "sailfish_current_screen": "Working camera preview with controls",
+  "sailfish_current_screen": "Unlocked Sailfish desktop after KEY_POWER lock/unlock regression test",
   "sailfish_sound_user_confirmed": true,
   "sailfish_vibration_user_confirmed": true,
   "sailfish_wifi_user_reported_working": true,
@@ -86,7 +86,10 @@
     "logs/sailfish-audio-device-volume-fix.json",
     "logs/sailfish-alpha4-patch-manifest.json",
     "logs/sailfish-alpha4-verification.json",
-    "logs/sailfish-alpha4-package-verification.json"
+    "logs/sailfish-alpha4-package-verification.json",
+    "logs/sailfish-power-key-alpha4-r3.log",
+    "logs/sailfish-alpha4-r3-image.log",
+    "logs/sailfish-alpha4-r3-zip-test.log"
   ],
   "sailfish_speaker_qdsp_gain_fix_installed": true,
   "sailfish_speaker_qdsp_gain_fix_runtime_verified": true,
@@ -97,16 +100,18 @@
     "Bluetooth audio",
     "telephony audio"
   ],
-  "sailfish_release_zip_sha256": "061263d938815c7829a5fc28bc977a920656c371c95f2f4db24503bd379b0945",
+  "sailfish_release_zip_sha256": "5227f9b3a051add2fe53d458d0929c52a64647461a5fed559b68ded00dbe740a",
   "sailfish_alpha4_offline_verification_passed": true,
-  "sailfish_alpha4_manifest_files_read_back": 66,
+  "sailfish_alpha4_manifest_files_read_back": 67,
   "sailfish_alpha4_zip_crc_passed": true,
   "sailfish_alpha4_clean_image_cold_boot_tested": false,
   "sailfish_release_tag": "v2.0.1.11-hd2-alpha4",
   "sailfish_release_url": "https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4",
   "sailfish_kernel_build": "2.6.32_tytung_jellybean_r2 #5",
   "sailfish_power_key_fixed": true,
-  "sailfish_power_key_evidence": "logs/sailfish-power-key-alpha4-r2.log",
-  "sailfish_release_zip_bytes": 450082919,
-  "sailfish_alpha4_asset_revision": 2
+  "sailfish_power_key_evidence": "logs/sailfish-power-key-alpha4-r3.log",
+  "sailfish_release_zip_bytes": 450087112,
+  "sailfish_alpha4_asset_revision": 3,
+  "sailfish_power_key_short_press_behavior": "visible tklock; display remains logically on because the HD2 framebuffer lacks fb_blank",
+  "sailfish_power_key_long_press_menu_verified": true
 }

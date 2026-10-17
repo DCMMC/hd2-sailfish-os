@@ -38,6 +38,20 @@ def configure_legacy(stage):
             '[Service]\nTTYPath=/dev/console\n',
         'etc/dconf/db/vendor.d/silica-configs.txt':
             '[desktop/sailfish/silica]\ntheme_pixel_ratio=1.0\ndefault_allowed_orientations=1\n',
+        # The HD2 framebuffer has no fb_blank callback.  Letting mce request
+        # the normal OFF transition leaves its state machine waiting for an
+        # fb-sleep notification: the last frame stays visible while tklock
+        # disables touch.  Keep the framebuffer logically on and ask Lipstick
+        # for its visible lockscreen on a short press.  Long-press dbus1 keeps
+        # the stock Sailfish power menu.
+        'etc/mce/60-powerkey-lipstick-jolla-home.conf':
+            '/system/osso/dsm/powerkey/actions_single_on=tklock\n'
+            '/system/osso/dsm/powerkey/actions_long_on=dbus1\n'
+            '/system/osso/dsm/powerkey/dbus_action1=power-key-menu\n'
+            '/system/osso/dsm/powerkey/actions_double_off=unblank,tkunlock,dbus2\n'
+            '/system/osso/dsm/powerkey/dbus_action2=double-power-key\n'
+            '/system/osso/dsm/display/display_never_blank=1\n'
+            '/system/osso/dsm/locks/tklock_blank_disable=1\n',
     }
     for name, text in updates.items():
         relative = Path(name)
