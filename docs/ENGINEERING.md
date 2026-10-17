@@ -30,11 +30,15 @@ HD2 的 alloc/free 回调偏移是 64/68，donor 使用 68/72。具体修改见 
 
 ## 声音与振动
 
-PulseAudio 的 donor 配置要求 48000 Hz，但 HD2 primary 输出只接受 44100 Hz，导致打开输出流返回 -EINVAL 并退出。将 `module-droid-card` 的 rate 改为 44100 后，primary sink 正常创建，低音量测试音 paplay 返回 0，用户确认有声音。
+PulseAudio 的 donor 配置要求 48000 Hz，但 HD2 primary 输出只接受 44100 Hz，导致打开输出流返回 -EINVAL 并退出。将 `module-droid-card` 的 rate 改为 44100 后，primary sink 能正常创建，但后续实机复测发现扬声器仍然无声。
+
+最终诊断确认 PulseAudio 已把非零 PCM 数据连续写入 `/dev/msm_pcm_out`：`AUDIO_GET_CONFIG`、`AUDIO_SET_CONFIG`、`AUDIO_START`、`AUDIO_SET_VOLUME` 和 3072 字节写入均返回成功，内核也加载扬声器 ACDB 607 并调用 `htcleo_speaker_enable(1)`。缺失的是 Android AudioFlinger 通常执行、而 `module-droid-card` 没有执行的 QDSP 接收设备增益初始化。PCM 流音量与 QDSP 设备音量是两层独立控制；前者为 100% 时，后者仍可停在最低增益。
+
+`native/hd2-audio-unmute.S` 是一个不依赖 libc 的 ARM EABI 小程序，对 `/dev/msm_audio_ctl` 执行 `AUDIO_SET_RX_MUTE(0)` 和 `AUDIO_SET_VOLUME(100)`。`pulseaudio.service` 的 systemd user drop-in 在每次 PulseAudio 启动后调用该程序。验证时先把设备增益强制设为 -1500，再重启 PulseAudio；`ExecStartPost` 返回 0，内核记录增益恢复为 +500。没有再次手工执行 ioctl 的铃声回录从静音基线约 -42 dBFS 上升到约 -14 dBFS，用户随后确认有声音。
 
 振动 sysfs 权限和 Android HAL 调用本身可用；直接 250 ms 测试及 test_vibrator 返回成功。NGFD 的 `media.vibra` 资源映射由 ffmemless 改为 droid-vibrator，原有 Qt Android 振动插件保留。用户确认振动恢复；这不等于已验证每一种通知/触觉事件。最终配置与手机内容比对后合入镜像。
 
-代码：`tools/configure_sailfish_hardware.py`。集成和回读记录：`logs/sailfish-alpha3-hardware.json`、`sailfish-alpha3-image.log`。
+代码：`tools/configure_sailfish_hardware.py`、`native/hd2-audio-unmute.S`；可重复构建所用的小型预编译程序为 `prebuilt/hd2-audio-unmute`。集成和回读记录：`logs/sailfish-alpha3-hardware.json`、`sailfish-alpha3-image.log`、`logs/sailfish-audio-device-volume-fix.json`。
 
 ## Wi-Fi：部分进展，功能仍不可用
 

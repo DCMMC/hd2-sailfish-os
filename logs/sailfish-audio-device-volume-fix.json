@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-18",
+  "device": "HTC HD2 / Leo, tytung 2.6.32 kernel, Sailfish OS 2.0.1.11 over CM11 HAL",
+  "user_report_before": "声音还没工作",
+  "root_cause": "module-droid-card set PCM stream volume but did not perform the QDSP receive-device gain initialization normally supplied by Android AudioFlinger",
+  "diagnosis": {
+    "pulse_sink": "sink.primary, output-speaker, s16le stereo 44100 Hz",
+    "pcm_trace": "non-zero 3072-byte writes to /dev/msm_pcm_out succeeded; config, start and stream-volume ioctls returned 0",
+    "kernel_route": "speaker device 17306899, ACDB 607, htcleo_speaker_enable(1)",
+    "alternate_acdb_test": "htc.audio.alt.enable=1 did not change ACDB 607 or acoustic level; reverted to 0",
+    "silent_microphone_loopback_dbfs_per_second": [
+      -42.7,
+      -42.4,
+      -42.3,
+      -42.2,
+      -42.3,
+      -42.4,
+      -42.1,
+      -42.3,
+      -42.2,
+      -42.3,
+      -42.3,
+      -42.1
+    ]
+  },
+  "fix": {
+    "helper": "prebuilt/hd2-audio-unmute",
+    "source": "native/hd2-audio-unmute.S",
+    "sha256": "2804757d73048e86b0d7af5d1a289f658bdb19ef48f57b2d7c52db54ce74317d",
+    "operations": [
+      "AUDIO_SET_RX_MUTE(0) on /dev/msm_audio_ctl",
+      "AUDIO_SET_VOLUME(100) on /dev/msm_audio_ctl"
+    ],
+    "startup": "ExecStartPost=/usr/local/sbin/hd2-audio-unmute in a pulseaudio.service user drop-in"
+  },
+  "verification": {
+    "controlled_gain_before_restart": -1500,
+    "kernel_gain_after_exec_start_post": 500,
+    "exec_start_post": "status=0/SUCCESS",
+    "persistent_ringtone_microphone_loopback_dbfs_per_second": [
+      -42.7,
+      -42.1,
+      -14.9,
+      -14.6,
+      -14.0,
+      -14.3,
+      -14.2,
+      -13.9,
+      -14.1,
+      -14.0,
+      -13.2
+    ],
+    "manual_ioctl_during_final_playback": false,
+    "user_report_after": "有声音了"
+  },
+  "scope": "Built-in speaker output verified. Earpiece, wired headset, Bluetooth audio, telephony audio and a full cold reboot remain untested.",
+  "release_uploaded": false
+}

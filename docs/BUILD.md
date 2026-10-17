@@ -35,7 +35,17 @@ python3 tools/package_sailfish.py
 
 注意保留 Linux 用户空间的数字权限，不能套用全 Android 的权限模板。stage/image 已存在时脚本会拒绝覆盖。`sailfish-alpha0` 是历史目录名，当前 package_sailfish.py 输出 alpha3 ZIP。
 
-图形、adbd、systemd 和相机补丁脚本从指定 donor 文件及预期字节生成产物；不能替换输入版本后跳过断言。`configure_sailfish_hardware.py` 持久化音频、振动、相册显存、memlock、Lipstick 超时与 OTA 后台任务修复；`patch_sailfish_camera.py` 处理相机 HAL/droidmedia/GStreamer 二进制；`optimize_sailfish_camera_qml.py` 和 `configure_sailfish_camera_booster.py` 负责异步相机界面及专用一次性预编译。`finalize_sailfish_release.py` 只对应旧 alpha3 冻结镜像，不应再用于当前 post-alpha3 构建。
+图形、adbd、systemd 和相机补丁脚本从指定 donor 文件及预期字节生成产物；不能替换输入版本后跳过断言。`configure_sailfish_hardware.py` 持久化音频、振动、相册显存、memlock、Lipstick 超时与 OTA 后台任务修复；其中 QDSP 设备音量辅助程序的源码和构建产物分别为 `native/hd2-audio-unmute.S` 与 `prebuilt/hd2-audio-unmute`。`patch_sailfish_camera.py` 处理相机 HAL/droidmedia/GStreamer 二进制；`optimize_sailfish_camera_qml.py` 和 `configure_sailfish_camera_booster.py` 负责异步相机界面及专用一次性预编译。`finalize_sailfish_release.py` 只对应旧 alpha3 冻结镜像，不应再用于当前 post-alpha3 构建。
+
+QDSP 辅助程序是无 libc 依赖的 ARM EABI 静态文件，可用锁定工具链逐字节重建：
+
+```sh
+sources/toolchain-4.4.3/bin/arm-eabi-gcc -nostdlib -static \
+  -Wl,--build-id=none -o prebuilt/hd2-audio-unmute native/hd2-audio-unmute.S
+sources/toolchain-4.4.3/bin/arm-eabi-strip prebuilt/hd2-audio-unmute
+sha256sum prebuilt/hd2-audio-unmute
+# 2804757d73048e86b0d7af5d1a289f658bdb19ef48f57b2d7c52db54ce74317d
+```
 
 `sailfish_abi_report.py` 只检查明显缺库/缺符号，不能证明 HAL 私有结构、Binder 或 GPU 缓冲协议兼容。最终内核配置为 `configs/sailfish-built.config`；`sailfish-all-kernel-changes.patch` 是相对锁定内核提交的完整本地 diff，含现代 Perl 兼容处理。
 

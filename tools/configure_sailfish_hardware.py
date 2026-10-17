@@ -2,6 +2,10 @@
 """HD2 audio, haptic and camera settings for the CM11/Sailfish adaptation."""
 from pathlib import Path
 import re
+import shutil
+
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def configure_hardware(stage):
@@ -14,6 +18,24 @@ def configure_hardware(stage):
     text = re.sub(r'(?m)^(load-module module-droid-card .*\brate=)48000\b',
                   r'\g<1>44100', text)
     target.write_text(text)
+    changed.append(relative)
+
+    # Android's AudioFlinger initializes the QDSP receive-device gain through
+    # /dev/msm_audio_ctl. module-droid-card controls only the PCM stream gain,
+    # leaving the HD2 speaker path silent even though every PCM write succeeds.
+    # Apply the missing unmute and 100% device-volume ioctls after PulseAudio has
+    # opened and routed the legacy QSD8K HAL.
+    relative = Path('usr/local/sbin/hd2-audio-unmute')
+    target = stage/relative
+    target.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(ROOT/'prebuilt/hd2-audio-unmute', target)
+    target.chmod(0o755)
+    changed.append(relative)
+
+    relative = Path('etc/systemd/user/pulseaudio.service.d/hd2-device-volume.conf')
+    target = stage/relative
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text('[Service]\nExecStartPost=/usr/local/sbin/hd2-audio-unmute\n')
     changed.append(relative)
 
     relative = Path('usr/share/ngfd/plugins.d/resource.ini')
@@ -158,6 +180,5 @@ def configure_hardware(stage):
 
 
 if __name__ == '__main__':
-    root = Path(__file__).resolve().parents[1]
-    for relative in configure_hardware(root/'work/sailfish-stage'):
+    for relative in configure_hardware(ROOT/'work/sailfish-stage'):
         print(relative)

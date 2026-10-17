@@ -20,7 +20,7 @@ All four are direct framebuffer captures from the running phone. The latter two 
 | --- | --- |
 | MAGLDR SD boot, systemd and Android HAL | Tested on the device, including reboot |
 | 480×800 display, taps and swipe-to-unlock | Confirmed by the owner |
-| Sound and vibration | Confirmed by the owner; not every route or notification scenario was tested |
+| Sound and vibration | Speaker output and vibration confirmed by the owner; speaker startup also has measured acoustic-loopback evidence. Earpiece, headset and Bluetooth audio remain untested |
 | USB ADB and root rescue shell | Automatically enabled and tested |
 | Wi-Fi | Connection works; confirmed by the owner after the WEXT and runtime fixes |
 | Camera | Preview and capture work; HAL reaches its frame device about 6.9 seconds after a cold icon tap in the measured run |
@@ -60,7 +60,7 @@ These endpoints start automatically without UI authorization. Runtime logs are i
 - systemd 208 compatibility, correct bionic library paths and an active local user session.
 - RGBX8888 EGL configuration, gralloc callbacks, double buffering and theme scaling.
 - The Wayland server-side allocation crash that prevented reliable unlocking.
-- 44.1 kHz PulseAudio output and the Android vibrator backend configuration.
+- 44.1 kHz PulseAudio output, automatic QDSP receive-device unmute/gain initialization, and the Android vibrator backend configuration.
 - WEXT scanning/connection support and removal of a camera shutter-sound wait on absent AudioFlinger.
 - HD2 camera allocator, droidmedia/GStreamer compatibility and unlimited HAL memlock fallback.
 - Asynchronous camera controls plus a camera-only one-shot QML booster; the measured HAL-open delay fell from about 16.6 to 6.9 seconds without burdening every Silica application.

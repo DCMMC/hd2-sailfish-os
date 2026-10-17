@@ -2,7 +2,7 @@
   {
     "path": "logs/CURRENT-STATUS.json",
     "redacted": false,
-    "sha256": "79c2fda9aa2366942639f65cc3ec56fff525568051bcf8ed500f14100b6a19d8"
+    "sha256": "6d564e0f53592fd888384c9a11645ff673f00a45d3617c86590e7e3d79994fce"
   },
   {
     "path": "logs/base-genlock-disassembly.txt",
@@ -23,6 +23,11 @@
     "path": "logs/base-kernel.config",
     "redacted": false,
     "sha256": "6603a53b851bc9aff0e34fe337bd4f3abb2509f565fa8f8800a787adc34a2b76"
+  },
+  {
+    "path": "logs/deodex.log",
+    "redacted": false,
+    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
   },
   {
     "path": "logs/deodex/app_AppStoreSmartisan.odex.log",
@@ -53,11 +58,6 @@
     "path": "logs/deodex/app_CameraSmartisan.odex.log",
     "redacted": false,
     "sha256": "ac5f8cc37b2d1b08a6345224a0d326db79f138482cc9aed65da3380753bcacb4"
-  },
-  {
-    "path": "logs/deodex.log",
-    "redacted": false,
-    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
   },
   {
     "path": "logs/donor-graphicbuffer-disassembly.txt",
@@ -538,6 +538,11 @@
     "path": "logs/sailfish-assemble.log",
     "redacted": false,
     "sha256": "676700f224a3a4809d34c85a4f8297c2595b66fa6dce0c7d42d8fc4387c2d77a"
+  },
+  {
+    "path": "logs/sailfish-audio-device-volume-fix.json",
+    "redacted": false,
+    "sha256": "64f4f47181cab82c25381707306d4cc39294dc6e654bc41c3610ff32060e6eeb"
   },
   {
     "path": "logs/sailfish-cgroup-kernel-build.log",

@@ -82,6 +82,16 @@
   "sailfish_post_alpha3_evidence": [
     "logs/sailfish-camera-preload-timing.log",
     "logs/sailfish-camera-current-regression.log",
-    "logs/sailfish-gallery-pinch-regression.log"
+    "logs/sailfish-gallery-pinch-regression.log",
+    "logs/sailfish-audio-device-volume-fix.json"
+  ],
+  "sailfish_speaker_qdsp_gain_fix_installed": true,
+  "sailfish_speaker_qdsp_gain_fix_runtime_verified": true,
+  "sailfish_audio_evidence": "logs/sailfish-audio-device-volume-fix.json",
+  "sailfish_audio_untested_routes": [
+    "earpiece",
+    "wired headset",
+    "Bluetooth audio",
+    "telephony audio"
   ]
 }

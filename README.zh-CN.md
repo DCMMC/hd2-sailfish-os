@@ -20,7 +20,7 @@ HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Sailfish SD 移植，采
 | --- | --- |
 | MAGLDR SD 启动、systemd、Android HAL | 实机启动和重启验证 |
 | 480×800 显示、点击、滑动解锁 | 用户确认正常 |
-| 声音、振动 | 用户确认正常；未覆盖所有音频路由/通知场景 |
+| 声音、振动 | 用户确认扬声器和振动正常；扬声器启动另有声学回录验证。听筒、有线耳机和蓝牙音频尚未测试 |
 | USB ADB 与 root 救援终端 | 默认开启，实机已连接 |
 | Wi-Fi | WEXT 与运行时修复后可连接，用户已确认 |
 | 相机 | 预览和拍照正常；一次冷启动测量中，点击图标后约 6.9 秒打开 HAL 帧设备 |
@@ -56,7 +56,7 @@ telnet -b 192.168.2.14 192.168.2.15 2323
 
 ## 已包含的补丁
 
-启动/ADB、cgroup/SECUREBITS/accept4、旧 systemd 服务兼容、正确 bionic 库路径、活跃用户会话、RGBX8888、gralloc 回调与双缓冲、主题比例、Wayland 解锁崩溃、44100 Hz 音频和 Android 振动后端均已包含。后续又完成了 Wi-Fi 连接、相机 allocator/droidmedia/GStreamer 兼容、HAL memlock 回退、异步相机控件、相机专用一次性 QML 预编译，以及相册大图/双指缩放的显存限制修复。相机打开 HAL 的实测时间由约 16.6 秒降到约 6.9 秒，同时不再让其他 Silica 应用重复编译相机。
+启动/ADB、cgroup/SECUREBITS/accept4、旧 systemd 服务兼容、正确 bionic 库路径、活跃用户会话、RGBX8888、gralloc 回调与双缓冲、主题比例、Wayland 解锁崩溃、44100 Hz 音频、QDSP 接收设备增益初始化和 Android 振动后端均已包含。后续又完成了 Wi-Fi 连接、相机 allocator/droidmedia/GStreamer 兼容、HAL memlock 回退、异步相机控件、相机专用一次性 QML 预编译，以及相册大图/双指缩放的显存限制修复。相机打开 HAL 的实测时间由约 16.6 秒降到约 6.9 秒，同时不再让其他 Silica 应用重复编译相机。
 
 代码、探针、调试记录、反汇编及解决方案均在 `tools/`、`configs/`、`logs/` 和 `docs/`；输入来源与提交见 `sources.lock.json`。Release 同时提供本次修改后的内核源码归档。精确补丁/哈希见 [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json)。
 
