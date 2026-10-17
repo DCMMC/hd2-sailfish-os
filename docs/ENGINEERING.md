@@ -1,6 +1,6 @@
-# 调试经过、解决方案与停止点
+# 调试经过与解决方案
 
-冻结日期：2026-10-17。用户最后确认声音、振动恢复，并要求暂停其余修复、归档并发布。此后只进行截图、已有补丁集成和发布准备。
+alpha3 于 2026-10-17 冻结；用户随后要求继续修复。本页前半部分保留 alpha3 当时的调查记录，文末“alpha3 之后的实机修复”记录当前结果。已发布的 alpha3 不包含后续补丁。
 
 ## 早期启动与 systemd
 
@@ -71,4 +71,20 @@ USB ADB 与 2323 root 救援口早于 systemd 图形会话启动。`tools/hd2_us
 
 截图使用真实 fb0 字节及 pan 页面；单纯 screencap 或旧缓冲不能作为当前画面证据。手机时钟未设置，日志中的 2014 日期不是真实调试日期。
 
-未验证项目包括通话、蜂窝数据、GPS、蓝牙、传感器、休眠和耗电。此次最终打包在干净镜像中集成现有补丁；没有再覆盖用户正在使用的完整 rootfs，也没有再次做干净镜像冷启动。
+未验证项目包括通话、蜂窝数据、GPS、蓝牙、传感器、休眠和耗电。alpha3 打包时没有再次做干净镜像冷启动。
+
+## alpha3 之后的实机修复（2026-10-18）
+
+用户继续测试后确认 Wi-Fi 已能连接。相机的最终阻塞不是单一的分辨率设置，而是旧 qsd8k HAL、droidmedia、GStreamer caps、Qt camerabin 和 HD2 PMEM 回退之间的一组 ABI/运行时问题。当前修复包括：
+
+- `QT_GSTREAMER_CAMERABIN_VIDEOSRC=droidcamsrc`，避免 camerabin 按普通 `src` pad 使用多 pad 的 droidcamsrc。
+- 对 `libmemalloc.so`、`camera.qsd8k.so`、hybris `libgui.so`、`libgstdroid.so` 和 `libqgsttools_p.so.1.0.0` 做带输入/输出 SHA-256 与偏移校验的二进制修改。
+- 在 Android init 全局设置 memlock rlimit，并给 `droid-hal-init` 设置无限 memlock。HD2 的 32 MiB 连续 PMEM 映射仍可能失败，但 ashmem 回退不再因 `EAGAIN` 失败。
+- `CaptureView.qml` 异步创建大型设置面板，先启动 Camera 对象并提供临时快门按钮。
+- 新建 `camera-qt5` 专用 mapplauncherd booster。开机只预编译一次相机 QML，60 秒后把替补 booster 的 preload 恢复为轻量 Silica 图；普通相册、设置等应用不再承担相机预编译开销。
+
+基准冷启动从点击到 HAL 打开约 16.6 秒；预编译测量中点击 uptime 889.60，frame0 在 896.49 打开，约 6.9 秒。`screenshots/camera-working.png` 确认预览和控制按钮正常，用户确认可以拍照。证据见 `logs/sailfish-camera-preload-timing.log` 与 `logs/sailfish-camera-current-regression.log`。
+
+相册点击图片时的崩溃与双指缩放崩溃有同一根因：stock QML 申请 3264×3264 原图纹理，缩放时又申请第二份纹理，超过 Adreno 200 可用的连续 PMEM，随后 EGL native buffer 失败并触发 SIGSEGV。当前 QML 只保留一份 480×800 显示纹理，缩放时变换现有纹理，不再载入第二份原图。两次协议 A 双指注入后 `jolla-gallery` PID 均保持 3472；截图为 `screenshots/gallery-pinch-zoom.png`，记录为 `logs/sailfish-gallery-pinch-regression.log`。限制是放大后不会获得原图像素级细节。
+
+此外，Lipstick 启动超时放宽至 90 秒；不受支持的 OTA 检查 service/timer 被屏蔽，以减少 576 MB 设备上的 Store/PackageKit 后台 I/O。所有变化已固化在构建脚本中并可重复执行，但尚未生成或发布新的 ROM ZIP。

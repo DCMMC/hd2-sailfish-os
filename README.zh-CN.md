@@ -4,15 +4,15 @@
 
 HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Sailfish SD 移植，采用 Android 4.4.1 / NexusHD2 CM11 HAL、tytung 2.6.32 内核和 Xperia anzu 的 Sailfish 2.0.1.11 用户空间。
 
-**[下载本阶段最终实验版 alpha3](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [修复过程与调试证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [XDA 英文发帖草稿](docs/XDA-POST.en.md) · [Smartisan 姊妹项目](https://github.com/DCMMC/hd2-smartisan-os)
+**[下载旧版 alpha3 快照](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [修复过程与调试证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [XDA 英文发帖草稿](docs/XDA-POST.en.md) · [Smartisan 姊妹项目](https://github.com/DCMMC/hd2-smartisan-os)
 
-**用户已确认显示、点击、滑动解锁、声音和振动正常；Wi-Fi 和相机仍不可用。** 按用户要求停止继续修复，发布当前成果。alpha3 是本阶段的最终快照，仍是硬件功能不完整的实验版。
+**当前实机上的显示、点击、滑动解锁、声音、振动、Wi-Fi 连接、相机预览/拍照和相册双指缩放均已工作。** 这些 alpha3 之后的修复已经装入测试手机并固化到构建脚本，但尚未上传新版 ROM ZIP 或 release；已发布的 alpha3 不包含这些修复。
 
 ## 实机截图
 
-<img src="screenshots/applications.png" width="240" alt="HD2 Sailfish 应用列表"> <img src="screenshots/home.png" width="240" alt="HD2 Sailfish 多任务桌面">
+<img src="screenshots/applications.png" width="220" alt="HD2 Sailfish 应用列表"> <img src="screenshots/home.png" width="220" alt="HD2 Sailfish 多任务桌面"> <img src="screenshots/camera-working.png" width="220" alt="HD2 上正常工作的 Sailfish 相机预览"> <img src="screenshots/gallery-pinch-zoom.png" width="220" alt="HD2 相册双指缩放后的图片">
 
-两张截图均在发布前从当前手机真实 framebuffer 采集。黑色的相机预览和浏览器连接失败是已知问题，未用效果图替代。[截图来源与采集方法](screenshots/README.md)。
+四张图均直接采集自手机 framebuffer；后两张展示当前 alpha3 之后的相机和相册状态，没有使用效果图。[截图来源与采集方法](screenshots/README.md)。
 
 ## 功能状态
 
@@ -22,9 +22,12 @@ HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Sailfish SD 移植，采
 | 480×800 显示、点击、滑动解锁 | 用户确认正常 |
 | 声音、振动 | 用户确认正常；未覆盖所有音频路由/通知场景 |
 | USB ADB 与 root 救援终端 | 默认开启，实机已连接 |
-| Wi-Fi | 驱动扫描部分恢复，曾枚举网络；用户报告仍不能使用 |
-| 相机 | 传感器可启动，预览缓冲分配失败，仍黑屏 |
+| Wi-Fi | WEXT 与运行时修复后可连接，用户已确认 |
+| 相机 | 预览和拍照正常；一次冷启动测量中，点击图标后约 6.9 秒打开 HAL 帧设备 |
+| 相册 | 可打开图片并连续双指缩放；使用屏幕尺寸纹理以适应 Adreno 200 PMEM 限制 |
 | 通话、数据、GPS、蓝牙、传感器、休眠 | 未完成验证 |
+
+当前补丁在正在使用的手机上增量验证。新版干净镜像尚未打包和冷启动验证，因此目前可下载的最新 ROM 仍是 alpha3。donor RPM 记录仍保留，不支持官方 OTA。
 
 ## 安装
 
@@ -53,8 +56,8 @@ telnet -b 192.168.2.14 192.168.2.15 2323
 
 ## 已包含的补丁
 
-启动/ADB、cgroup/SECUREBITS/accept4、旧 systemd 服务兼容、正确 bionic 库路径、活跃用户会话、RGBX8888、gralloc 回调与双缓冲、主题比例、阻止可靠解锁的 Wayland 服务端内存分配崩溃修复、44100 Hz 音频和 Android 振动后端。另保留了未完全解决功能的 WEXT 扫描补丁和相机快门声等待修复。
+启动/ADB、cgroup/SECUREBITS/accept4、旧 systemd 服务兼容、正确 bionic 库路径、活跃用户会话、RGBX8888、gralloc 回调与双缓冲、主题比例、Wayland 解锁崩溃、44100 Hz 音频和 Android 振动后端均已包含。后续又完成了 Wi-Fi 连接、相机 allocator/droidmedia/GStreamer 兼容、HAL memlock 回退、异步相机控件、相机专用一次性 QML 预编译，以及相册大图/双指缩放的显存限制修复。相机打开 HAL 的实测时间由约 16.6 秒降到约 6.9 秒，同时不再让其他 Silica 应用重复编译相机。
 
 代码、探针、调试记录、反汇编及解决方案均在 `tools/`、`configs/`、`logs/` 和 `docs/`；输入来源与提交见 `sources.lock.json`。Release 同时提供本次修改后的内核源码归档。精确补丁/哈希见 [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json)。
 
-alpha3 在电脑上的干净镜像中合入了已在手机增量测试的补丁；重新打包后的整个干净镜像未再次冷启动。保留 donor 的 RPM 记录，不支持官方 OTA 升级。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。
+release 目录中的清单仍对应 alpha3，不包含上述后续修复；当前实现以 `tools/` 下的脚本和 `logs/` 中的实机记录为准。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。

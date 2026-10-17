@@ -8,6 +8,9 @@ from configure_debug import configure_sailfish
 from patch_sailfish_systemd import main as patch_systemd
 from configure_sailfish_legacy import configure_legacy
 from configure_sailfish_hardware import configure_hardware
+from patch_sailfish_camera import patch_stage as patch_camera
+from optimize_sailfish_camera_qml import optimize as optimize_camera_qml
+from configure_sailfish_camera_booster import configure as configure_camera_booster
 from patch_sailfish_qpa import main as patch_qpa, RELATIVE as QPA_PATH
 from patch_sailfish_gralloc import main as patch_gralloc, PATCHES as GRALLOC_PATHS
 
@@ -227,6 +230,9 @@ exec /usr/local/sbin/hd2-busybox telnetd -F -b 192.168.2.15:23 -l /bin/sh
     configure_sailfish(STAGE)
     configure_legacy(STAGE)
     configure_hardware(STAGE)
+    patch_camera(STAGE)
+    optimize_camera_qml(STAGE)
+    configure_camera_booster(STAGE)
     shutil.copy2(patch_qpa(), STAGE/QPA_PATH)
     graphics = patch_gralloc()
     for name in GRALLOC_PATHS:

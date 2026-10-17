@@ -4,15 +4,15 @@
 
 An unofficial SD-card port for HTC HD2 / Leo, developed on a device with 576 MB RAM and 1024 MB ROM using MAGLDR. It combines the NexusHD2 CM11 / Android 4.4.1 hardware layer, tytung's Linux 2.6.32 kernel and the archived Xperia anzu Sailfish userspace.
 
-**[Download alpha3, checksums and kernel source](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
+**[Download the older alpha3 snapshot](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
 
-**The device owner confirmed working display, touch, swipe-to-unlock, sound and vibration. Wi-Fi and the camera remain unusable.** Further repairs were paused at the owner's request. Alpha3 is the final snapshot of this session, not a claim that the port is feature-complete.
+**Current live development has working display, touch, swipe-to-unlock, sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom.** These post-alpha3 fixes are installed on the test phone and preserved in the build scripts, but no updated ROM ZIP or release has been uploaded yet. The published alpha3 image does not contain them.
 
 ## Real-device screenshots
 
-<img src="screenshots/applications.png" width="240" alt="Sailfish application launcher on HTC HD2"> <img src="screenshots/home.png" width="240" alt="Sailfish multitasking home screen on HTC HD2">
+<img src="screenshots/applications.png" width="220" alt="Sailfish application launcher on HTC HD2"> <img src="screenshots/home.png" width="220" alt="Sailfish multitasking home screen on HTC HD2"> <img src="screenshots/camera-working.png" width="220" alt="Working Sailfish camera preview on HTC HD2"> <img src="screenshots/gallery-pinch-zoom.png" width="220" alt="Gallery image after pinch zoom on HTC HD2">
 
-Captured from the running phone immediately before publication. The black camera preview and failed browser connection are real unresolved issues. These are framebuffer captures, not mockups. See [screenshot provenance](screenshots/README.md).
+All four are direct framebuffer captures from the running phone. The latter two show the current post-alpha3 camera and Gallery state. See [screenshot provenance](screenshots/README.md).
 
 ## Status
 
@@ -22,11 +22,12 @@ Captured from the running phone immediately before publication. The black camera
 | 480×800 display, taps and swipe-to-unlock | Confirmed by the owner |
 | Sound and vibration | Confirmed by the owner; not every route or notification scenario was tested |
 | USB ADB and root rescue shell | Automatically enabled and tested |
-| Wi-Fi | Scanning partially restored; the owner still cannot use Wi-Fi |
-| Camera | Sensor starts; preview allocation fails and the preview stays black |
+| Wi-Fi | Connection works; confirmed by the owner after the WEXT and runtime fixes |
+| Camera | Preview and capture work; HAL reaches its frame device about 6.9 seconds after a cold icon tap in the measured run |
+| Gallery | Opens images and survives repeated pinch zoom; zoom uses a display-sized texture to fit Adreno 200 PMEM |
 | Calls, data, GPS, Bluetooth, sensors, suspend | Not fully tested |
 
-The clean image includes patches tested incrementally on the phone; the repackaged image itself has not been cold-boot tested again. Donor RPM metadata remains, and official OTA updates are not supported.
+The current fixes were tested incrementally on the phone. A new clean image has not been packaged or cold-boot tested, so alpha3 remains the newest downloadable ROM. Donor RPM metadata remains, and official OTA updates are not supported.
 
 ## Installation
 
@@ -60,9 +61,13 @@ These endpoints start automatically without UI authorization. Runtime logs are i
 - RGBX8888 EGL configuration, gralloc callbacks, double buffering and theme scaling.
 - The Wayland server-side allocation crash that prevented reliable unlocking.
 - 44.1 kHz PulseAudio output and the Android vibrator backend configuration.
-- Partial WEXT scanning support and removal of a camera shutter-sound wait on absent AudioFlinger.
+- WEXT scanning/connection support and removal of a camera shutter-sound wait on absent AudioFlinger.
+- HD2 camera allocator, droidmedia/GStreamer compatibility and unlimited HAL memlock fallback.
+- Asynchronous camera controls plus a camera-only one-shot QML booster; the measured HAL-open delay fell from about 16.6 to 6.9 seconds without burdening every Silica application.
+- Display-sized Gallery textures that prevent 3264×3264 native-buffer exhaustion during open and pinch zoom.
+- Longer Lipstick startup allowance and disabled unsupported OTA polling, reducing boot-time restart and background I/O pressure.
 
-The partial Wi-Fi and camera fixes do **not** make those features usable. No final camera allocator patch was implemented. Exact changes and limitations are in [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json) and [BUILD-STATUS.json](release/BUILD-STATUS.json).
+The release manifests describe alpha3 and therefore predate the post-alpha3 fixes. Current implementations are in `configure_sailfish_hardware.py`, `patch_sailfish_camera.py`, `optimize_sailfish_camera_qml.py` and `configure_sailfish_camera_booster.py`; device evidence is under `logs/`.
 
 ## Source and debugging archive
 

@@ -1,0 +1,23 @@
+[camera files]
+b281708f4bba089dea758247ae9017f5d1bde66b32cb9c952e9b15380a3f59b8  /usr/libexec/mapplauncherd/booster-camera-qt5
+79c6413730da6435071e69e8c518b2928cc2f3324849e25a1b886e3e541a7db7  /usr/share/booster-silica-qt5/preload.qml
+79c6413730da6435071e69e8c518b2928cc2f3324849e25a1b886e3e541a7db7  /usr/share/booster-camera-qt5/preload.qml
+6bbba835d8b06592c4d9da1e610b3e8e34cdfda0a042489fd8142a3730a66eb3  /usr/share/booster-camera-qt5/preload-camera.qml
+b37535e6e067f47a1899c3f2baf3f1f6a0d0a901bfcd9f150b7738468057838b  /usr/share/jolla-camera/pages/capture/CaptureView.qml
+[camera process and replacement booster]
+6000
+ 5999   379 Ss    6828  0.0       05:00 booster-camera- /usr/libexec/mapplauncherd/booster-camera-qt5 --systemd
+ 6000  5999 Ssl  53576  8.7       05:00 jolla-camera    /usr/bin/jolla-camera                                  
+ 6083  5999 Ssl  20252  3.8       03:23 booster [camera booster [camera-qt5]                                   
+[mapplauncherd socket]
+srwx------ 1 nemo privileged 0 Oct 17 22:05 /run/user/100000/mapplauncherd/camera-qt5
+[enabled by user-session target]
+├─booster-camera-qt5.service
+├─booster-silica-qt5.service
+[one-shot preload service]
+hd2-camera-booster-preload.service - Prepare one-shot HD2 camera QML preload
+   Loaded: loaded (/etc/systemd/system/hd2-camera-booster-preload.service; enabled)
+   Active: inactive (dead) since Sat 2026-10-17 22:06:36 EEST; 3min 58s ago
+  Process: 5898 ExecStart=/usr/local/sbin/hd2-camera-booster-preload (code=exited, status=0/SUCCESS)
+ Main PID: 5898 (code=exited, status=0/SUCCESS)
+

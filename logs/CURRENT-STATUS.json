@@ -1,5 +1,5 @@
 {
-  "phone_mode": "Sailfish automatic graphical boot: welcome/language selection",
+  "phone_mode": "Sailfish graphical session; camera preview active",
   "required_user_action": null,
   "fat32_check": "Interrupted partial file allocation repaired; 35 orphan clusters backed up and cleared; filesystem check returned 0; FSInfo free-space hint corrected",
   "ios_issue": "FAT32 p1 MBR type corrected from 0x07 to 0x0C; only byte 450 changed, sector readback matched; IOS boots pending",
@@ -8,11 +8,11 @@
   "transfer_path": "/home/DCMMC/Projects/hd2-ports/out/sd-transfer",
   "compressed_bytes": 1301397268,
   "next_steps": [
-    "User confirms visible UI and touch, completes setup",
-    "Validate remaining Sailfish hardware and IOS boots"
+    "Validate remaining Bluetooth, GPS, sensors, calls/data and suspend",
+    "Package and cold-boot-test a new image before the next release"
   ],
   "port_boot_verified": true,
-  "active_work": "Archive and publish final snapshots; hardware repair stopped at user request",
+  "active_work": "Post-alpha3 live hardware and application compatibility fixes; no new ROM release yet",
   "transfer_complete": true,
   "recovery_decompression_complete": true,
   "boot_file_readback_sha256_passed": true,
@@ -69,9 +69,19 @@
   "sailfish_wayland_alloc_runtime_verified": true,
   "sailfish_injected_swipe_unlock_verified": true,
   "sailfish_lock_swipe_physical_retest_pending": false,
-  "sailfish_current_screen": "Date/time setup after injected unlock",
+  "sailfish_current_screen": "Working camera preview with controls",
   "sailfish_sound_user_confirmed": true,
   "sailfish_vibration_user_confirmed": true,
-  "sailfish_wifi_user_reported_working": false,
-  "sailfish_camera_user_reported_working": false
+  "sailfish_wifi_user_reported_working": true,
+  "sailfish_camera_user_reported_working": true,
+  "sailfish_camera_preview_runtime_verified": true,
+  "sailfish_camera_capture_user_confirmed": true,
+  "sailfish_gallery_image_open_verified": true,
+  "sailfish_gallery_pinch_regression_verified": true,
+  "sailfish_new_release_uploaded": false,
+  "sailfish_post_alpha3_evidence": [
+    "logs/sailfish-camera-preload-timing.log",
+    "logs/sailfish-camera-current-regression.log",
+    "logs/sailfish-gallery-pinch-regression.log"
+  ]
 }
