@@ -12,7 +12,7 @@
     "Package and cold-boot-test a new image before the next release"
   ],
   "port_boot_verified": true,
-  "active_work": "Sailfish alpha4 revision 3 prepared for publication with safe visible-lock power-key handling",
+  "active_work": "Sailfish alpha4 revision 3 published with safe visible-lock power-key handling",
   "transfer_complete": true,
   "recovery_decompression_complete": true,
   "boot_file_readback_sha256_passed": true,
