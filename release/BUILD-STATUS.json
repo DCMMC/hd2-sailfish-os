@@ -1,67 +1,60 @@
 {
-  "status": "alpha3: final snapshot for this session; experimental, hardware incomplete",
+  "status": "alpha4 prerelease: live-tested post-alpha3 fixes in a newly rebuilt clean image",
   "sailfish": "2.0.1.11",
   "android": "NexusHD2 CM11 V4.0 / Android 4.4.1",
   "hybris_donor": "anzu 2.0.1.11 alpha4 / CM11",
-  "kernel": "tytung 2.6.32 kitkat with systemd configuration",
-  "platform_libraries_from_hd2": [
-    "libmemalloc.so",
-    "libqdutils.so",
-    "liboverlay.so",
-    "libgenlock.so"
+  "kernel": "tytung 2.6.32 kitkat #4; same zImage as alpha3",
+  "user_confirmed": [
+    "normal 480x800 display",
+    "touch taps",
+    "swipe/unlock",
+    "built-in speaker sound",
+    "vibration",
+    "Wi-Fi connection",
+    "camera preview and capture",
+    "Gallery image open and pinch zoom"
   ],
-  "known_unresolved": [
-    "Wi-Fi not working for user despite successful scan enumeration",
-    "Camera black preview: minisf gralloc -ENOMEM and BufferQueue dequeue errors",
-    "Calls, cellular data, GPS, Bluetooth, sensors and suspend not validated",
-    "Whole-process cgroup migration through tasks remains unverified",
-    "Donor RPM metadata remains; no supported official OTA updates",
-    "Repacked clean image not cold-boot tested; patches tested incrementally on the phone"
+  "verified": [
+    "MAGLDR default SD boot on the development installation",
+    "systemd, Android HAL, USB ADB and USB root rescue shell",
+    "Wayland server-side allocation fix with physical swipe/unlock",
+    "Wi-Fi connection confirmed by the owner",
+    "Camera preview/capture confirmed by the owner; tap-to-HAL-open measured at about 6.9 seconds",
+    "Gallery PID stable across repeated pinch gestures",
+    "QDSP speaker device gain changed from controlled -1500 to +500 by PulseAudio ExecStartPost",
+    "Ringtone acoustic loopback rose from about -42 dBFS to about -14 dBFS; owner confirmed sound"
   ],
+  "hardware_notes": {
+    "display_touch_unlock": "working and user-confirmed",
+    "audio": "44.1 kHz PulseAudio plus post-start QDSP RX unmute/device gain; built-in speaker user-confirmed",
+    "vibration": "ngfd media.vibra uses droid-vibrator; user-confirmed",
+    "wifi": "bcm4329 WEXT scan/runtime fixes; connection user-confirmed",
+    "camera": "preview and capture user-confirmed; HD2 allocator/droidmedia/GStreamer patches and camera-only booster included",
+    "gallery": "display-sized single texture avoids Adreno 200 PMEM exhaustion during open and pinch zoom"
+  },
   "usb_debug": {
     "adb": "always on, including early boot",
     "adb_authentication": false,
-    "hardware_verified": true,
     "root_rescue": "USB RNDIS 192.168.2.15:2323 always on; systemd rescue also uses port 23",
     "early_adb_uid": "may be 2000 before Android properties are initialized"
   },
-  "verified": [
-    "MAGLDR default SD reboot",
-    "systemd and Android HAL running",
-    "USB ADB and root rescue",
-    "480x800 language-selection page in actual framebuffer",
-    "Automatic welcome UI after reboot with two framebuffer buffers",
-    "Autologin creates active nemo session on seat0 using console",
-    "User confirms display and touch taps are normal",
-    "Wayland server-side allocation ABI crash fixed",
-    "Injected protocol-A horizontal swipe unlocks to date/time setup without compositor restart",
-    "User confirms physical swipe/unlock, sound and vibration",
-    "ConnMan scan returned services with patched bcm4329 module; connectivity remains broken"
+  "clean_image_cold_boot_tested": false,
+  "known_unresolved": [
+    "Calls, cellular data, GPS, Bluetooth, sensors, suspend and power consumption are not validated",
+    "Earpiece, wired-headset, Bluetooth and telephony audio routes are not validated",
+    "Gallery zoom intentionally scales one display-sized texture and does not reveal full-resolution pixels",
+    "Camera cold start remains slow on the single-core CPU; measured tap-to-HAL-open time was about 6.9 seconds",
+    "Whole-process cgroup migration through the legacy tasks interface remains unverified",
+    "Donor RPM metadata remains; official OTA updates are unsupported",
+    "Post-alpha3 patches were tested incrementally on the phone; this newly rebuilt clean image has offline verification but no cold-boot test"
   ],
-  "user_confirmed": [
-    "normal display",
-    "touch taps",
-    "swipe/unlock",
-    "sound",
-    "vibration"
-  ],
-  "user_reported_not_working": [
-    "Wi-Fi",
-    "camera"
-  ],
-  "hardware_notes": {
-    "audio": "PulseAudio primary rate 48000 -> 44100; paplay succeeded; user confirms sound",
-    "vibration": "ngfd media.vibra maps to droid-vibrator; direct HAL test returned 0; user confirms vibration",
-    "wifi": "bcm4329 standard WEXT scan rejection removed; ConnMan enumerated 7 services; user still reports Wi-Fi not working",
-    "camera": "persist.camera.shutter.disable=1 removes CameraService AudioFlinger wait; preview buffer allocation still fails",
-    "excluded_experiment": "Temporary debug.composition.type=gpu did not fix preview and is not included in the image"
-  },
   "unresolved_risks": [
-    "Wi-Fi not working for user despite successful scan enumeration",
-    "Camera black preview: minisf gralloc -ENOMEM and BufferQueue dequeue errors",
-    "Calls, cellular data, GPS, Bluetooth, sensors and suspend not validated",
-    "Whole-process cgroup migration through tasks remains unverified",
-    "Donor RPM metadata remains; no supported official OTA updates",
-    "Repacked clean image not cold-boot tested; patches tested incrementally on the phone"
+    "Calls, cellular data, GPS, Bluetooth, sensors, suspend and power consumption are not validated",
+    "Earpiece, wired-headset, Bluetooth and telephony audio routes are not validated",
+    "Gallery zoom intentionally scales one display-sized texture and does not reveal full-resolution pixels",
+    "Camera cold start remains slow on the single-core CPU; measured tap-to-HAL-open time was about 6.9 seconds",
+    "Whole-process cgroup migration through the legacy tasks interface remains unverified",
+    "Donor RPM metadata remains; official OTA updates are unsupported",
+    "Post-alpha3 patches were tested incrementally on the phone; this newly rebuilt clean image has offline verification but no cold-boot test"
   ]
 }

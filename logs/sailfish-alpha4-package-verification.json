@@ -1,0 +1,13 @@
+{
+  "zip": "out/hd2-sailfish-2.0.1.11-alpha4-SD.zip",
+  "bytes": 450079651,
+  "sha256": "91dfa4ed6766460040003d729be89ba82cb8bd47c97be687e9573a29fa9cab7e",
+  "zip_crc_passed": true,
+  "missing_required_members": [],
+  "member_count": 43,
+  "embedded_rootfs_sha256": "5b56614ba48c43ef7a7043717b6ba1b39b33abdc15dec2ada095bfc95aeb1c43",
+  "embedded_rootfs_matches_verified_image": true,
+  "critical_files_read_back": 66,
+  "filesystem_check_passed": true,
+  "clean_image_cold_boot_tested": false
+}

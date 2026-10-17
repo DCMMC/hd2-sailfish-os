@@ -4,9 +4,9 @@ I have been working on an unofficial SD port of Sailfish OS 2.0.1.11 for the HTC
 
 Current live development has working display, taps, swipe-to-unlock, sound, vibration, Wi-Fi connection, camera preview/capture, Gallery image opening and pinch zoom, USB ADB and the USB root rescue shell. Calls, mobile data, GPS, Bluetooth, sensors and suspend are not fully tested. Official OTA updates are not supported.
 
-Older alpha3 download: https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3
+Alpha4 download: https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4
 
-Important: alpha3 predates the working Wi-Fi, camera and Gallery fixes. The current fixes are in the repository and on the test phone; an updated ROM ZIP has not been released yet.
+Alpha4 includes the working Wi-Fi, camera, Gallery and QDSP speaker-gain fixes. The rebuilt image passed offline filesystem, critical-file read-back and ZIP CRC checks; it has not had a separate clean-image cold-boot cycle.
 
 Code, English/Chinese README, real-device screenshots, debugging logs and engineering notes: https://github.com/DCMMC/hd2-sailfish-os
 

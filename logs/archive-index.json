@@ -2,7 +2,7 @@
   {
     "path": "logs/CURRENT-STATUS.json",
     "redacted": false,
-    "sha256": "6d564e0f53592fd888384c9a11645ff673f00a45d3617c86590e7e3d79994fce"
+    "sha256": "9025bc9881d2231f34e6e8f150a7189779ea14b67932547384eb868a4d6a6068"
   },
   {
     "path": "logs/base-genlock-disassembly.txt",
@@ -528,6 +528,21 @@
     "path": "logs/sailfish-alpha3-release.json",
     "redacted": false,
     "sha256": "a5f6c37c3d3fe38c84276ed5c635055456f1e4549b6db472d41dd7d07fd793e8"
+  },
+  {
+    "path": "logs/sailfish-alpha4-package-verification.json",
+    "redacted": false,
+    "sha256": "346f178560168c39a6175cee23f01684760980c9f30b62a6b0a165016bb640a0"
+  },
+  {
+    "path": "logs/sailfish-alpha4-patch-manifest.json",
+    "redacted": false,
+    "sha256": "654c328fb48a9690a158dd8ae0161247fa5b4458c4630278f4b8dabe66923ff4"
+  },
+  {
+    "path": "logs/sailfish-alpha4-verification.json",
+    "redacted": false,
+    "sha256": "08e1078044f808fd4e1406f8e2186d5679973cfd5febdb70c3565ae65c069a40"
   },
   {
     "path": "logs/sailfish-always-adb-image.log",

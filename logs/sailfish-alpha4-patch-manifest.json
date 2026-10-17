@@ -1,0 +1,607 @@
+{
+  "release": "Sailfish 2.0.1.11 HTC HD2 SD alpha4",
+  "files": [
+    {
+      "path": "etc/dconf/db/vendor",
+      "sha256": "eabd14f30b4da12a78852aa528c45a0a233a280d7544bddb57cf717333294fa8",
+      "image_verified": true
+    },
+    {
+      "path": "etc/dconf/db/vendor.d/silica-configs.txt",
+      "sha256": "ecf7130370a7876488243ae34d6c97d9c8a20466683d28282ad5e694c9ffd957",
+      "image_verified": true
+    },
+    {
+      "path": "etc/hd2-build-status.json",
+      "sha256": "160fd868c0bf626d882473b4db4602c4248fd3f7373f23783d04fe94a90129c8",
+      "image_verified": true
+    },
+    {
+      "path": "etc/hw-release",
+      "sha256": "d69315e097063e5ba6c1af5178d0fa8f6d64dcfa8a7107af3b2791beddc59d25",
+      "image_verified": true
+    },
+    {
+      "path": "etc/modprobe.d/hd2-wifi.conf",
+      "sha256": "b4c5dcd54ee70ead34472dcc047ef673689053f1a759d0197a1931335b33f141",
+      "image_verified": true
+    },
+    {
+      "path": "etc/modules-load.d/hd2.conf",
+      "sha256": "2091cc75639536b417718757e247169fd182e8500a349b3d1fd4b759b6c9e1d3",
+      "image_verified": true
+    },
+    {
+      "path": "etc/pulse/arm_droid_default.pa",
+      "sha256": "7a8377d464963532aba8a311a147729cb2710717283b5dd3c4ff959a2105a1dd",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/autologin@.service.d/hd2-console.conf",
+      "sha256": "95a3c01894c3972a8a4d4cf57b3f6d88edd81085a0b1fa8d51e56a60738c0836",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/basic.target.wants/hd2-camera-booster-preload.service",
+      "symlink": "../hd2-camera-booster-preload.service",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/dbus.service",
+      "sha256": "629e315ba1476040bb70489b28cecdc68b2b135f332ea5b95e49d23078c6b411",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/dev-mtp.mount",
+      "symlink": "/dev/null",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/droid-hal-init.service.d/hd2-memlock.conf",
+      "sha256": "7e42b2fde283c47ad0367f8bdbef4990cc2ea0dfdb1a1e78392233fc1d02afbb",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/hd2-adbd.service",
+      "sha256": "400a895c14b9d35a3469ce828bee6f3471f577223231cf5da33cba27e3db2180",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/hd2-camera-booster-preload.service",
+      "sha256": "eb51450e1ccfdc086f68775a404f471e797112b3a3af41f83f73863ef1993aa8",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/hd2-usb-debug.service",
+      "sha256": "3117f9707a37a4549789ab9948c4fa987101723aa5ca2e7afff99a80d930d2b0",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/hd2-wifi-load.service",
+      "sha256": "3ab86ed525fbf17d90558d9fc8d9ab977433fa56364e125a4901a4e1226eaec8",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/multi-user.target.wants/hd2-wifi-load.service",
+      "symlink": "../hd2-wifi-load.service",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/systemd-readahead-collect.service",
+      "sha256": "52204e511e8cf3d7c56b3313d85f35175996eec90c169f4df19a33cf31edfc4e",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/systemd-readahead-replay.service",
+      "sha256": "c3c2d4b1ec5abdc6f1392223dc0c337a1922adede040c78b783c660176dc2ee2",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/systemd-udevd.service",
+      "sha256": "7189a2edbfdfa60b1c07598b3722e04fe73085344a3b0df14826c8152e8084d9",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/system/user@.service",
+      "sha256": "6c4074c0ac71217edf7a9b3ffd40dce908932265672d99f47f40e70a6f1824df",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/booster-browser.service",
+      "sha256": "ad915cc492f09409d0c6018da5a33b39f44b3218782f1060008b0304d448351f",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/booster-generic.service",
+      "sha256": "fd4ce5e7e29722dd3015e75eb0b0c7e0ae852d28d1b7c32d4ae940e478c742df",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/booster-qt5.service",
+      "sha256": "d5cf256dbcc260d86bfac60da3e6773c3381314229c41dd72d5b30d9eac32f36",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/booster-silica-qt5.service",
+      "sha256": "34e423749fe4679405d6691dc05bcf88e997f8060d06b0037ed28f5a931ccd1e",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/lipstick.service.d/hd2-start-timeout.conf",
+      "sha256": "37a30903ede7d657f21c534443e60f0b354bacd819df96158528bc80bc71865c",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/osupdate-check.service",
+      "symlink": "/dev/null",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/osupdate-check.timer",
+      "symlink": "/dev/null",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/pulseaudio.service.d/hd2-device-volume.conf",
+      "sha256": "2ec879b22445687043699b55bba39778646815c00e9f51abfbc47191b1b4ae54",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/tracker-extract.service",
+      "sha256": "af1a6f3d37e4aa406f1978ac8b1d577b5b82dda5d35ed1f1cb9ee79aa848fda3",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/tracker-miner-fs.service",
+      "sha256": "5a79655ea3fe8992cc6a2fc8588520b0116c041f1e0120a8d2876eca27a20866",
+      "image_verified": true
+    },
+    {
+      "path": "etc/systemd/user/voicecall-ui-prestart.service",
+      "sha256": "8127c227de796f17ac27d9d517aa941d3a1d514fa3a4f8a501ebbdd0f9ba7eb8",
+      "image_verified": true
+    },
+    {
+      "path": "etc/tmpfiles.d/hd2-user.conf",
+      "sha256": "e9e4215508dae166bacf7a74e25c33f9d56660d561042e446ef9c26dd6b2bcdf",
+      "image_verified": true
+    },
+    {
+      "path": "lib/modules/2.6.32_tytung_jellybean_r2/kernel/drivers/net/wireless/bcm4329/bcm4329.ko",
+      "sha256": "d94b3d7c059d5a6b6efc7fa796bfb8614f4322c3baec94190cd742c7cef76fdc",
+      "image_verified": true
+    },
+    {
+      "path": "lib/systemd/systemd",
+      "sha256": "cd8e12032f18c885d53739233fcbac0c831b40dad28f19ac7af1fa34aac5fafa",
+      "image_verified": true
+    },
+    {
+      "path": "system/build.prop",
+      "sha256": "24172cb448bdc7192b98b64218dd4125ccaa18aa87e1468eb83cd811e9226993",
+      "image_verified": true
+    },
+    {
+      "path": "system/lib/hw/camera.qsd8k.so",
+      "sha256": "a260b71ba571df3903032c9b4574b004a13c5c938da1c97e4a1dda0ffe4fb26b",
+      "image_verified": true
+    },
+    {
+      "path": "system/lib/libmemalloc.so",
+      "sha256": "868b2332a8e3f771dbea290cd9e6a5bca23fbda10170bec60577ba4071625ee5",
+      "image_verified": true
+    },
+    {
+      "path": "usr/bin/droid/droid-hal-startup.sh",
+      "sha256": "14c261cfcc226d3b51517a2497d4f099898fb578e4930cc3df986fd9f39e85b7",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/gstreamer-1.0/libgstdroid.so",
+      "sha256": "552869c938e1bc75530ef672bae051701a5be13dc16f3ffc8ca110b9da92b553",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/libhybris-eglplatformcommon.so.1.0.0",
+      "sha256": "48967218eda21866ec8b192ae3605ff9a5aff395788c82c31d39bfb0e6b86325",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/libhybris-hwcomposerwindow.so.1.0.0",
+      "sha256": "3e9e5817dc2e6638e1b4977c0c2531596202da2828640481594ac1c1c565104f",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/libhybris/eglplatform_fbdev.so",
+      "sha256": "52f636535e2d3ad2898a5109b9f941426261cdec9bf362c5494d2be1b1af170f",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/libqgsttools_p.so.1.0.0",
+      "sha256": "6a67a0c9324d8937e1b1fab7e3f8a572d5f73f6ed2ed3b1a05a51ba3d0608730",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/qt5/plugins/platforms/libhwcomposer.so",
+      "sha256": "07a4e88b960b10696050ad9ac63bfe59d96d39281ba6a4d28247ac5b229ff131",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/qt5/qml/Sailfish/Gallery/ImageViewer.qml",
+      "sha256": "8b2fc05c4d968ad815efa9657c2ed1a5794a4f16b1c8449d82b906d05d1b3bbb",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/qt5/qml/Sailfish/Gallery/private/ZoomableImage.qml",
+      "sha256": "d601296318067498df4c82dd7a099c5b59d2d598852d74709c036b3d104b2fb2",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/systemd/user/booster-camera-qt5.service",
+      "sha256": "8ded1e2a41d3817376c45ce480c4adaeed654196811e146951c3f4274064aaec",
+      "image_verified": true
+    },
+    {
+      "path": "usr/lib/systemd/user/user-session.target.wants/booster-camera-qt5.service",
+      "symlink": "../booster-camera-qt5.service",
+      "image_verified": true
+    },
+    {
+      "path": "usr/libexec/droid-hybris/system/lib/libgui.so",
+      "sha256": "40b728cd154e5288c4b900296d9b66d9f8e87d73b0e66d27fb1f9bd9ff921e30",
+      "image_verified": true
+    },
+    {
+      "path": "usr/libexec/droid-hybris/system/lib/libmemalloc.so",
+      "sha256": "868b2332a8e3f771dbea290cd9e6a5bca23fbda10170bec60577ba4071625ee5",
+      "image_verified": true
+    },
+    {
+      "path": "usr/libexec/mapplauncherd/booster-camera-qt5",
+      "sha256": "b281708f4bba089dea758247ae9017f5d1bde66b32cb9c952e9b15380a3f59b8",
+      "image_verified": true
+    },
+    {
+      "path": "usr/local/sbin/hd2-adbd",
+      "sha256": "48c8a410bec393c3a7bbd0c5b00f8b94ae7406c72d5b5efc5ecfcb5636675ba9",
+      "image_verified": true
+    },
+    {
+      "path": "usr/local/sbin/hd2-audio-unmute",
+      "sha256": "2804757d73048e86b0d7af5d1a289f658bdb19ef48f57b2d7c52db54ce74317d",
+      "image_verified": true
+    },
+    {
+      "path": "usr/local/sbin/hd2-camera-booster-preload",
+      "sha256": "0993ea3175c944d6f59e55ae8b5e72ea32048d7a04a5a809c3ee8ad166f5aa5a",
+      "image_verified": true
+    },
+    {
+      "path": "usr/local/sbin/hd2-logs",
+      "sha256": "d5ca38e83185bd4b3643b865868821a739977bb98eb1d8f66acc5fe3464ee65b",
+      "image_verified": true
+    },
+    {
+      "path": "usr/local/sbin/hd2-usb-debug",
+      "sha256": "2793fecfd36a8d00fd74c939ff6036906a30c2b3421c410503c1e2bdb100d538",
+      "image_verified": true
+    },
+    {
+      "path": "usr/local/sbin/hd2-usb-setup",
+      "sha256": "d09ed7f4aa83cfbc5f4159bd6ad8786185a88faafaad3affbb01630b86255006",
+      "image_verified": true
+    },
+    {
+      "path": "usr/share/applications/jolla-camera.desktop",
+      "sha256": "99c3a4d9212df92b19959821274d9aa07e312234002c8a7dc4f8f8cfbdb4be81",
+      "image_verified": true
+    },
+    {
+      "path": "usr/share/booster-camera-qt5/preload-camera.qml",
+      "sha256": "6bbba835d8b06592c4d9da1e610b3e8e34cdfda0a042489fd8142a3730a66eb3",
+      "image_verified": true
+    },
+    {
+      "path": "usr/share/booster-camera-qt5/preload.qml",
+      "sha256": "79c6413730da6435071e69e8c518b2928cc2f3324849e25a1b886e3e541a7db7",
+      "image_verified": true
+    },
+    {
+      "path": "usr/share/booster-silica-qt5/preload.qml",
+      "sha256": "79c6413730da6435071e69e8c518b2928cc2f3324849e25a1b886e3e541a7db7",
+      "image_verified": true
+    },
+    {
+      "path": "usr/share/jolla-camera/pages/capture/CaptureView.qml",
+      "sha256": "b37535e6e067f47a1899c3f2baf3f1f6a0d0a901bfcd9f150b7738468057838b",
+      "image_verified": true
+    },
+    {
+      "path": "usr/share/ngfd/plugins.d/resource.ini",
+      "sha256": "0a1c318c591efb312ca15a2df41c0e93ee983340691d174ec14563ad99b46b0a",
+      "image_verified": true
+    },
+    {
+      "path": "var/lib/environment/compositor/droid-hal-device-leo.conf",
+      "sha256": "3fd6ec35d9fc5be0a9afa1184e5b7ebde8ab7c7421d2f1bc6cbe141c90b89a1d",
+      "image_verified": true
+    },
+    {
+      "path": "var/lib/environment/nemo/60-multimedia.conf",
+      "sha256": "140d06d49740f19456d1bf21b2fb7d6defbde082a39f5f4c2c538dc71901181d",
+      "image_verified": true
+    }
+  ],
+  "binary_patches": {
+    "sailfish-adbd-patch.json": {
+      "input_sha256": "223a28777cf36a4c0048b46542b9b47284774b2a72b99e8d3129584c41339c2d",
+      "output_sha256": "48c8a410bec393c3a7bbd0c5b00f8b94ae7406c72d5b5efc5ecfcb5636675ba9",
+      "property_trie_entry": "0x1ffb6",
+      "guard_address": "0x2e5c0",
+      "guard_bytes": 18,
+      "reason": "Let the HD2 static adbd handle an absent early-boot Android property area.\n\nThe CM11 bionic property trie assumes /dev/__properties__ was initialized by\nAndroid init. Before that happens, its root pointer is NULL + 128. Treat that\ncase as an absent property, retaining the existing behavior for valid trees."
+    },
+    "sailfish-systemd-patch.json": {
+      "input_sha256": "e9c8f917214024c92eb2295afdb0b500da6ba1eeab32fa14f382c4a877d5e920",
+      "output_sha256": "cd8e12032f18c885d53739233fcbac0c831b40dad28f19ac7af1fa34aac5fafa",
+      "literal_address": "0x52658",
+      "reason": "Use the legacy kernel's writable tasks interface for systemd cg_attach.\n\nThis is a bring-up compatibility patch, not a kernel-wide cgroup.procs\nbackport. Service children are attached before exec and their later threads\ninherit that group. Moving an already multithreaded external process as a\nwhole remains unverified; this call moves the supplied task only.",
+      "upstream_function": "https://github.com/systemd/systemd/blob/v208/src/shared/cgroup-util.c"
+    },
+    "sailfish-qpa-patch.json": {
+      "input_sha256": "f60b6b6c6f410389906c2faaf777102b8d459de12dfd20b7187af966a503ef9a",
+      "output_sha256": "07a4e88b960b10696050ad9ac63bfe59d96d39281ba6a4d28247ac5b229ff131",
+      "file_offset": "0xecea",
+      "old": "0821",
+      "new": "0021",
+      "change": "Qt HWC 32-bit framebuffer alpha size 8 -> 0 (RGBX)",
+      "evidence": "logs/sailfish-first-boot/egl-configs.log",
+      "runtime_verified": true,
+      "runtime_evidence": "logs/sailfish-first-boot/sailfish-reboot-frame.png"
+    },
+    "sailfish-gralloc-patch.json": [
+      {
+        "path": "usr/lib/libhybris/eglplatform_fbdev.so",
+        "input_sha256": "c7c5ae52f5edb3bcca55e3f2e49d23f68036c33e34de59b2a6fa2786e3a7ee69",
+        "output_sha256": "52f636535e2d3ad2898a5109b9f941426261cdec9bf362c5494d2be1b1af170f",
+        "patches": [
+          [
+            16208,
+            "d9f844c0",
+            "d9f840c0",
+            "buffer alloc 68 -> 64"
+          ],
+          [
+            11784,
+            "836c",
+            "436c",
+            "buffer free 72 -> 68"
+          ],
+          [
+            11378,
+            "0d46",
+            "0225",
+            "use two buffers for the 480x1600 HD2 framebuffer"
+          ]
+        ]
+      },
+      {
+        "path": "usr/lib/libhybris-eglplatformcommon.so.1.0.0",
+        "input_sha256": "013e93f16ff728231bc11dd65ad71dfbe79fa480817a0d6b87d84a20c524795d",
+        "output_sha256": "48967218eda21866ec8b192ae3605ff9a5aff395788c82c31d39bfb0e6b86325",
+        "patches": [
+          [
+            21450,
+            "446c",
+            "046c",
+            "native buffer alloc 68 -> 64"
+          ],
+          [
+            24026,
+            "836c",
+            "436c",
+            "native buffer free 72 -> 68"
+          ],
+          [
+            24418,
+            "d0f844c0",
+            "d0f840c0",
+            "Wayland server-side buffer alloc 68 -> 64"
+          ]
+        ]
+      },
+      {
+        "path": "usr/lib/libhybris-hwcomposerwindow.so.1.0.0",
+        "input_sha256": "857a21d33e5b0dc48221f411bfc6a5c4eccede5ff2a97fcaba9789861733c90e",
+        "output_sha256": "3e9e5817dc2e6638e1b4977c0c2531596202da2828640481594ac1c1c565104f",
+        "patches": [
+          [
+            13290,
+            "d9f844c0",
+            "d9f840c0",
+            "HWC buffer alloc 68 -> 64"
+          ],
+          [
+            9432,
+            "836c",
+            "436c",
+            "HWC buffer free 72 -> 68"
+          ]
+        ]
+      }
+    ]
+  },
+  "camera_binary_patches": {
+    "system/lib/libmemalloc.so": {
+      "input": "ec16da8907b72e251e5f70cf16b3e323d9b313416a7eacc2c77eb86091056118",
+      "output": "868b2332a8e3f771dbea290cd9e6a5bca23fbda10170bec60577ba4071625ee5",
+      "edits": [
+        [
+          9954,
+          "12d4",
+          "00bf"
+        ],
+        [
+          12054,
+          "03",
+          "07"
+        ]
+      ]
+    },
+    "usr/libexec/droid-hybris/system/lib/libmemalloc.so": {
+      "input": "ec16da8907b72e251e5f70cf16b3e323d9b313416a7eacc2c77eb86091056118",
+      "output": "868b2332a8e3f771dbea290cd9e6a5bca23fbda10170bec60577ba4071625ee5",
+      "edits": [
+        [
+          9954,
+          "12d4",
+          "00bf"
+        ],
+        [
+          12054,
+          "03",
+          "07"
+        ]
+      ]
+    },
+    "system/lib/hw/camera.qsd8k.so": {
+      "input": "3ceb3be0f5d9b11689a130fa5908de13504ce4ac07f500a99bb6e7d3e3d7ce5d",
+      "output": "a260b71ba571df3903032c9b4574b004a13c5c938da1c97e4a1dda0ffe4fb26b",
+      "edits": [
+        [
+          12104,
+          "36d1",
+          "00bf"
+        ]
+      ]
+    },
+    "usr/libexec/droid-hybris/system/lib/libgui.so": {
+      "input": "d89b5621bee2464d2c820085e73278cdcba00a6cf4ff7a05e4df66772c14e092",
+      "output": "40b728cd154e5288c4b900296d9b66d9f8e87d73b0e66d27fb1f9bd9ff921e30",
+      "edits": [
+        [
+          157024,
+          "72b9",
+          "0ee0"
+        ],
+        [
+          158276,
+          "4bb9",
+          "09e0"
+        ],
+        [
+          158298,
+          "b9f1030f0dd9",
+          "4ff000090de0"
+        ],
+        [
+          158550,
+          "1a9bdbf80010ddf80cc0",
+          "0df1580bddf80cc08ae0"
+        ]
+      ]
+    },
+    "usr/lib/gstreamer-1.0/libgstdroid.so": {
+      "input": "d062c11fef9f1b4c38d41842caa73b2e8c320c49822b474eaac1146903a0f22f",
+      "output": "552869c938e1bc75530ef672bae051701a5be13dc16f3ffc8ca110b9da92b553",
+      "edits": [
+        [
+          52402,
+          "70",
+          "37"
+        ],
+        [
+          74172,
+          "85fb0356069dd117",
+          "1d46934607e000bf"
+        ],
+        [
+          76626,
+          "c1ebac11",
+          "294600bf"
+        ],
+        [
+          76634,
+          "c3ebae13",
+          "234600bf"
+        ],
+        [
+          76734,
+          "c3ebae13",
+          "234600bf"
+        ],
+        [
+          76806,
+          "c3eba413",
+          "434600bf"
+        ],
+        [
+          77062,
+          "c1ebac11",
+          "294600bf"
+        ],
+        [
+          77070,
+          "c3ebae13",
+          "234600bf"
+        ],
+        [
+          77170,
+          "c3ebae13",
+          "234600bf"
+        ],
+        [
+          77242,
+          "c3eba413",
+          "434600bf"
+        ]
+      ]
+    },
+    "usr/lib/libqgsttools_p.so.1.0.0": {
+      "input": "6b4ac9b6b1e32c0a142a4034f41fb3855d13a86279417c8d84ca7533092a84fd",
+      "output": "6a67a0c9324d8937e1b1fab7e3f8a572d5f73f6ed2ed3b1a05a51ba3d0608730",
+      "edits": [
+        [
+          120460,
+          "7876",
+          "676c"
+        ]
+      ]
+    }
+  },
+  "kernel_patches": [
+    "configs/sailfish-cgroup-sysfs.patch",
+    "configs/sailfish-arm-accept4.patch",
+    "configs/sailfish-bcm4329-wext-scan.patch"
+  ],
+  "kernel_sha256": "6d929bc83b4ca8358e6ab980b5b18bb377e81f95bb84f0353ffa2a08f7cd8869",
+  "initrd_sha256": "184c85f7816e3d231743eb5ccd55eba77c99523a71e84eded581f43fb975072c",
+  "runtime_evidence": [
+    "MAGLDR default SD boot on the development installation",
+    "systemd, Android HAL, USB ADB and USB root rescue shell",
+    "Wayland server-side allocation fix with physical swipe/unlock",
+    "Wi-Fi connection confirmed by the owner",
+    "Camera preview/capture confirmed by the owner; tap-to-HAL-open measured at about 6.9 seconds",
+    "Gallery PID stable across repeated pinch gestures",
+    "QDSP speaker device gain changed from controlled -1500 to +500 by PulseAudio ExecStartPost",
+    "Ringtone acoustic loopback rose from about -42 dBFS to about -14 dBFS; owner confirmed sound"
+  ],
+  "limitations": [
+    "Calls, cellular data, GPS, Bluetooth, sensors, suspend and power consumption are not validated",
+    "Earpiece, wired-headset, Bluetooth and telephony audio routes are not validated",
+    "Gallery zoom intentionally scales one display-sized texture and does not reveal full-resolution pixels",
+    "Camera cold start remains slow on the single-core CPU; measured tap-to-HAL-open time was about 6.9 seconds",
+    "Whole-process cgroup migration through the legacy tasks interface remains unverified",
+    "Donor RPM metadata remains; official OTA updates are unsupported",
+    "Post-alpha3 patches were tested incrementally on the phone; this newly rebuilt clean image has offline verification but no cold-boot test"
+  ],
+  "hardware": {
+    "display_touch_unlock": "working and user-confirmed",
+    "audio": "44.1 kHz PulseAudio plus post-start QDSP RX unmute/device gain; built-in speaker user-confirmed",
+    "vibration": "ngfd media.vibra uses droid-vibrator; user-confirmed",
+    "wifi": "bcm4329 WEXT scan/runtime fixes; connection user-confirmed",
+    "camera": "preview and capture user-confirmed; HD2 allocator/droidmedia/GStreamer patches and camera-only booster included",
+    "gallery": "display-sized single texture avoids Adreno 200 PMEM exhaustion during open and pinch zoom"
+  },
+  "source_commit_before_release": "c0e2afbdeb4872de7df3b0d857aa8a22004c2352"
+}

@@ -4,15 +4,15 @@
 
 HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Sailfish SD 移植，采用 Android 4.4.1 / NexusHD2 CM11 HAL、tytung 2.6.32 内核和 Xperia anzu 的 Sailfish 2.0.1.11 用户空间。
 
-**[下载旧版 alpha3 快照](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [修复过程与调试证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [XDA 英文发帖草稿](docs/XDA-POST.en.md) · [Smartisan 姊妹项目](https://github.com/DCMMC/hd2-smartisan-os)
+**[下载 alpha4](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4)** · [修复过程与调试证据](docs/ENGINEERING.md) · [构建说明](docs/BUILD.md) · [XDA 英文发帖草稿](docs/XDA-POST.en.md) · [Smartisan 姊妹项目](https://github.com/DCMMC/hd2-smartisan-os)
 
-**当前实机上的显示、点击、滑动解锁、声音、振动、Wi-Fi 连接、相机预览/拍照和相册双指缩放均已工作。** 这些 alpha3 之后的修复已经装入测试手机并固化到构建脚本，但尚未上传新版 ROM ZIP 或 release；已发布的 alpha3 不包含这些修复。
+**当前实机上的显示、点击、滑动解锁、内置扬声器、振动、Wi-Fi 连接、相机预览/拍照和相册双指缩放均已工作。** alpha4 已把这些 alpha3 之后的修复装入重新生成的干净 SD 镜像。
 
 ## 实机截图
 
 <img src="screenshots/applications.png" width="220" alt="HD2 Sailfish 应用列表"> <img src="screenshots/home.png" width="220" alt="HD2 Sailfish 多任务桌面"> <img src="screenshots/camera-working.png" width="220" alt="HD2 上正常工作的 Sailfish 相机预览"> <img src="screenshots/gallery-pinch-zoom.png" width="220" alt="HD2 相册双指缩放后的图片">
 
-四张图均直接采集自手机 framebuffer；后两张展示当前 alpha3 之后的相机和相册状态，没有使用效果图。[截图来源与采集方法](screenshots/README.md)。
+四张图均直接采集自手机 framebuffer；后两张展示 alpha4 包含的相机和相册补丁，没有使用效果图。[截图来源与采集方法](screenshots/README.md)。
 
 ## 功能状态
 
@@ -27,11 +27,11 @@ HTC HD2 / Leo（576 MB RAM、1024 MB ROM）的非官方 Sailfish SD 移植，采
 | 相册 | 可打开图片并连续双指缩放；使用屏幕尺寸纹理以适应 Adreno 200 PMEM 限制 |
 | 通话、数据、GPS、蓝牙、传感器、休眠 | 未完成验证 |
 
-当前补丁在正在使用的手机上增量验证。新版干净镜像尚未打包和冷启动验证，因此目前可下载的最新 ROM 仍是 alpha3。donor RPM 记录仍保留，不支持官方 OTA。
+当前补丁在正在使用的手机上增量验证。alpha4 干净镜像已完成 66 个关键文件回读、ZIP CRC 和只读文件系统检查，但尚未单独冷启动验证。donor RPM 记录仍保留，不支持官方 OTA。
 
 ## 安装
 
-1. 下载 `hd2-sailfish-2.0.1.11-alpha3-SD.zip`，核对同名 `.sha256`。
+1. 下载 `hd2-sailfish-2.0.1.11-alpha4-SD.zip`，核对同名 `.sha256`。
 2. 解压，把完整 `HD2-SF` 目录放到 SD 第一分区 FAT32 根目录。至少需要 2.1 GiB；其中 `rootfs.ext4` 为 2 GiB 文件。
 3. MAGLDR → `Services` → `BootSettings` → `AD SD Dir` → `HD2-SF`，然后 `Boot AD SD`。
 4. 默认启动：`Boot source` 选 `Android from SD`，`AlwaysMenu` 设为 `NO`。
@@ -60,4 +60,4 @@ telnet -b 192.168.2.14 192.168.2.15 2323
 
 代码、探针、调试记录、反汇编及解决方案均在 `tools/`、`configs/`、`logs/` 和 `docs/`；输入来源与提交见 `sources.lock.json`。Release 同时提供本次修改后的内核源码归档。精确补丁/哈希见 [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json)。
 
-release 目录中的清单仍对应 alpha3，不包含上述后续修复；当前实现以 `tools/` 下的脚本和 `logs/` 中的实机记录为准。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。
+release 目录中的 alpha4 清单包含当前音频、相机、相册和 Wi-Fi 补丁；实现以 `tools/` 下的脚本和 `logs/` 中的实机记录为准。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。

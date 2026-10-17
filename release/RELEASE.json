@@ -1,17 +1,22 @@
 {
-  "tag": "v2.0.1.11-hd2-alpha3",
+  "tag": "v2.0.1.11-hd2-alpha4",
   "assets": [
     {
-      "name": "hd2-sailfish-2.0.1.11-alpha3-SD.zip",
-      "bytes": 450058999,
-      "sha256": "e55fa211867b659f83779a32a11361dc6e9e34e11f6ee8c273022a66bd223c54"
+      "name": "hd2-sailfish-2.0.1.11-alpha4-SD.zip",
+      "bytes": 450079651,
+      "sha256": "91dfa4ed6766460040003d729be89ba82cb8bd47c97be687e9573a29fa9cab7e"
     },
     {
-      "name": "hd2-sailfish-alpha3-kernel-source.tar.gz",
-      "bytes": 106802510,
-      "sha256": "7985b1e19ed0b8d7ec45ccd5e6eb4c70aa99ecd72b1f4086e391c6dcaa3517b1"
+      "name": "hd2-sailfish-2.0.1.11-alpha4-SD.zip.sha256",
+      "bytes": 102,
+      "sha256": "4b77fe2ead219c02cb0bb94c6d4b14c3fbad1e06052bf76a818878c78f3c0418"
     }
   ],
+  "kernel_source": "unchanged from alpha3; see v2.0.1.11-hd2-alpha3 release",
   "experimental": true,
-  "date": "2026-10-17"
+  "prerelease": true,
+  "date": "2026-10-18",
+  "clean_image_cold_boot_tested": false,
+  "published": true,
+  "url": "https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4"
 }

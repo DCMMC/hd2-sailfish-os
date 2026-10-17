@@ -1,6 +1,6 @@
 # 调试经过与解决方案
 
-alpha3 于 2026-10-17 冻结；用户随后要求继续修复。本页前半部分保留 alpha3 当时的调查记录，文末“alpha3 之后的实机修复”记录当前结果。已发布的 alpha3 不包含后续补丁。
+alpha3 于 2026-10-17 冻结；用户随后要求继续修复。本页前半部分保留 alpha3 当时的调查记录，文末“alpha3 之后的实机修复”记录当前结果。这些后续补丁已收入 alpha4。
 
 ## 早期启动与 systemd
 
@@ -91,4 +91,4 @@ USB ADB 与 2323 root 救援口早于 systemd 图形会话启动。`tools/hd2_us
 
 相册点击图片时的崩溃与双指缩放崩溃有同一根因：stock QML 申请 3264×3264 原图纹理，缩放时又申请第二份纹理，超过 Adreno 200 可用的连续 PMEM，随后 EGL native buffer 失败并触发 SIGSEGV。当前 QML 只保留一份 480×800 显示纹理，缩放时变换现有纹理，不再载入第二份原图。两次协议 A 双指注入后 `jolla-gallery` PID 均保持 3472；截图为 `screenshots/gallery-pinch-zoom.png`，记录为 `logs/sailfish-gallery-pinch-regression.log`。限制是放大后不会获得原图像素级细节。
 
-此外，Lipstick 启动超时放宽至 90 秒；不受支持的 OTA 检查 service/timer 被屏蔽，以减少 576 MB 设备上的 Store/PackageKit 后台 I/O。所有变化已固化在构建脚本中并可重复执行，但尚未生成或发布新的 ROM ZIP。
+此外，Lipstick 启动超时放宽至 90 秒；不受支持的 OTA 检查 service/timer 被屏蔽，以减少 576 MB 设备上的 Store/PackageKit 后台 I/O。所有变化已固化在构建脚本中并收入 alpha4 ROM ZIP。

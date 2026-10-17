@@ -1,26 +1,39 @@
-English: **Sailfish OS 2.0.1.11 for HTC HD2 — experimental SD release**
+English: **Sailfish OS 2.0.1.11 for HTC HD2 — experimental alpha4 SD release**
 
-Display, taps, swipe-to-unlock, sound, vibration, USB ADB and the USB root rescue shell work on the test device. Wi-Fi and the camera remain unusable. Calls, mobile data, GPS, Bluetooth, sensors and suspend are not fully tested. Official OTA updates are not supported.
+Alpha4 brings the post-alpha3 hardware and application fixes into a newly rebuilt clean image. The owner confirmed display, touch, swipe-to-unlock, built-in speaker sound, vibration, Wi-Fi connection, camera preview/capture, Gallery image opening and pinch zoom on the test phone. USB ADB and the USB root rescue shell remain enabled automatically.
 
-Copy the extracted `HD2-SF` folder to the first FAT32 SD partition, then select it as MAGLDR's AD SD Dir and choose Boot AD SD. This is an SD image ZIP, not a recovery-flashable ZIP. Verify the attached SHA-256 and back up an existing rootfs before replacing it.
+Changes since alpha3:
 
-[English README](https://github.com/DCMMC/hd2-sailfish-os/blob/main/README.md) · [简体中文](https://github.com/DCMMC/hd2-sailfish-os/blob/main/README.zh-CN.md) · [XDA post draft](https://github.com/DCMMC/hd2-sailfish-os/blob/main/docs/XDA-POST.en.md)
+- Working Wi-Fi connection through the bcm4329 WEXT/runtime fixes.
+- Working camera preview and capture through guarded HD2 allocator, droidmedia, GStreamer and Qt patches.
+- A camera-only QML booster reduces measured tap-to-HAL-open time from about 16.6 to 6.9 seconds.
+- Gallery uses one display-sized texture so image opening and pinch zoom fit the Adreno 200 PMEM limit.
+- PulseAudio starts at 44.1 kHz and now initializes the QDSP receive-device gain; the owner confirmed speaker output.
+- Unsupported OTA polling is disabled, and Lipstick receives a realistic startup timeout for the single-core CPU.
+
+The clean alpha4 image passed a read-only ext4 check, read-back verification of 66 critical files, and ZIP CRC validation. It has not had a separate clean-image cold-boot test. Calls, mobile data, GPS, Bluetooth, sensors, suspend, power consumption and non-speaker audio routes remain unverified. Official OTA updates are unsupported.
+
+Download `hd2-sailfish-2.0.1.11-alpha4-SD.zip` and its `.sha256` file. Extract and copy the complete `HD2-SF` folder to the first FAT32 SD partition. In MAGLDR select **Services → BootSettings → AD SD Dir → HD2-SF**, then **Boot AD SD**. This is an SD image ZIP, not a recovery-flashable ZIP. Back up an existing `rootfs.ext4` before replacing it.
+
+[English README](https://github.com/DCMMC/hd2-sailfish-os/blob/v2.0.1.11-hd2-alpha4/README.md) · [简体中文](https://github.com/DCMMC/hd2-sailfish-os/blob/v2.0.1.11-hd2-alpha4/README.zh-CN.md) · [Engineering notes](https://github.com/DCMMC/hd2-sailfish-os/blob/v2.0.1.11-hd2-alpha4/docs/ENGINEERING.md) · [Unchanged alpha3 kernel source](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)
 
 ---
 
-本阶段最终实验版 alpha3，适用于 HTC HD2 / Leo + MAGLDR，FAT32 内 2 GiB ext4 镜像启动。按用户要求暂停继续修复，发布当前成果。
+中文：**HTC HD2 Sailfish OS 2.0.1.11 alpha4 实验版 SD ROM**
 
-- 用户确认显示、点击、滑动解锁、声音和振动正常；USB ADB 与 root 救援入口默认开启。
-- **Wi-Fi 和相机仍不可用。** Wi-Fi 扫描曾返回网络，但用户仍无法使用；相机绕过 AudioFlinger 等待后仍在预览缓冲分配处失败。
-- 包含启动/ADB、cgroup、SECUREBITS、accept4、systemd 208、bionic 路径、用户会话、RGBX/gralloc、44100 Hz 音频与 Android 振动配置补丁；保留 WEXT 扫描及相机等待的部分修复。
-- 通话、数据、GPS、蓝牙、传感器、休眠和耗电未完成验证；不支持官方 OTA。补丁在运行手机上增量测试，重新打包的干净镜像没有再次冷启动。
+alpha4 把 alpha3 之后的实机修复装入重新生成的干净镜像。用户已确认显示、点击、滑动解锁、内置扬声器、振动、Wi-Fi 连接、相机预览/拍照，以及相册图片打开和双指缩放正常；USB ADB 与 USB root 救援入口仍默认开启。
 
-下载 `hd2-sailfish-2.0.1.11-alpha3-SD.zip` 和同名 `.sha256`。解压后把整个 `HD2-SF` 放在 SD 第一分区 FAT32 根目录，MAGLDR 的 `AD SD Dir` 选择 `HD2-SF`，然后 `Boot AD SD`。这不是 Recovery 卡刷包，不刷 NAND。覆盖旧 rootfs 会覆盖原用户设置，请先保存旧镜像。
+相对 alpha3 的主要变化：
 
-内核源码附件包含本次修改后的完整 tytung 内核、.config、完整 diff、补丁和工具链来源。ROM 中 zImage 保持已启动验证的 #4，bcm4329 模块在同配置上单独重编。
+- bcm4329 WEXT 与运行时修复后 Wi-Fi 可以连接。
+- HD2 allocator、droidmedia、GStreamer 与 Qt 兼容补丁恢复相机预览和拍照。
+- 相机专用 QML booster 把点击到 HAL 打开的实测时间从约 16.6 秒缩短到约 6.9 秒。
+- 相册改用一份屏幕尺寸纹理，避免打开图片和双指缩放时耗尽 Adreno 200 PMEM。
+- PulseAudio 使用 44100 Hz，并在启动后初始化 QDSP 接收设备增益；用户已确认扬声器有声。
+- 屏蔽不支持的 OTA 后台轮询，并延长 Lipstick 在单核 CPU 上的启动超时。
 
-[安装、调试与源码](https://github.com/DCMMC/hd2-sailfish-os/tree/v2.0.1.11-hd2-alpha3) · [根因、解决方案及未完成项](https://github.com/DCMMC/hd2-sailfish-os/blob/v2.0.1.11-hd2-alpha3/docs/ENGINEERING.md)
+alpha4 干净镜像已通过只读 ext4 检查、66 个关键文件逐项回读和 ZIP CRC 检查，但尚未单独进行干净镜像冷启动。通话、蜂窝数据、GPS、蓝牙、传感器、休眠、耗电及非扬声器音频路由仍未验证；不支持官方 OTA。
 
-<img src="https://raw.githubusercontent.com/DCMMC/hd2-sailfish-os/v2.0.1.11-hd2-alpha3/screenshots/applications.png" width="240" alt="HD2 Sailfish applications"> <img src="https://raw.githubusercontent.com/DCMMC/hd2-sailfish-os/v2.0.1.11-hd2-alpha3/screenshots/home.png" width="240" alt="HD2 Sailfish home">
+下载 `hd2-sailfish-2.0.1.11-alpha4-SD.zip` 和同名 `.sha256`。解压后把完整 `HD2-SF` 目录放到 SD 第一分区 FAT32 根目录。MAGLDR 选择 **Services → BootSettings → AD SD Dir → HD2-SF**，然后 **Boot AD SD**。这是 SD 镜像包，不是 Recovery 卡刷包；覆盖前请备份原 `rootfs.ext4`。
 
-截图在发布前从真实 HD2 framebuffer 采集。代码、补丁、探针、脱敏调试记录、来源锁定、校验和及解决方案均已归档。
+<img src="https://raw.githubusercontent.com/DCMMC/hd2-sailfish-os/v2.0.1.11-hd2-alpha4/screenshots/applications.png" width="220" alt="HD2 Sailfish applications"> <img src="https://raw.githubusercontent.com/DCMMC/hd2-sailfish-os/v2.0.1.11-hd2-alpha4/screenshots/home.png" width="220" alt="HD2 Sailfish home"> <img src="https://raw.githubusercontent.com/DCMMC/hd2-sailfish-os/v2.0.1.11-hd2-alpha4/screenshots/camera-working.png" width="220" alt="HD2 Sailfish camera"> <img src="https://raw.githubusercontent.com/DCMMC/hd2-sailfish-os/v2.0.1.11-hd2-alpha4/screenshots/gallery-pinch-zoom.png" width="220" alt="HD2 Sailfish Gallery pinch zoom">

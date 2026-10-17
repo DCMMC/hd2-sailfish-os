@@ -4,15 +4,15 @@
 
 An unofficial SD-card port for HTC HD2 / Leo, developed on a device with 576 MB RAM and 1024 MB ROM using MAGLDR. It combines the NexusHD2 CM11 / Android 4.4.1 hardware layer, tytung's Linux 2.6.32 kernel and the archived Xperia anzu Sailfish userspace.
 
-**[Download the older alpha3 snapshot](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha3)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
+**[Download alpha4](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
 
-**Current live development has working display, touch, swipe-to-unlock, sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom.** These post-alpha3 fixes are installed on the test phone and preserved in the build scripts, but no updated ROM ZIP or release has been uploaded yet. The published alpha3 image does not contain them.
+**Display, touch, swipe-to-unlock, built-in speaker sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom work on the test phone.** Alpha4 contains these post-alpha3 fixes in a newly rebuilt clean SD image.
 
 ## Real-device screenshots
 
 <img src="screenshots/applications.png" width="220" alt="Sailfish application launcher on HTC HD2"> <img src="screenshots/home.png" width="220" alt="Sailfish multitasking home screen on HTC HD2"> <img src="screenshots/camera-working.png" width="220" alt="Working Sailfish camera preview on HTC HD2"> <img src="screenshots/gallery-pinch-zoom.png" width="220" alt="Gallery image after pinch zoom on HTC HD2">
 
-All four are direct framebuffer captures from the running phone. The latter two show the current post-alpha3 camera and Gallery state. See [screenshot provenance](screenshots/README.md).
+All four are direct framebuffer captures from the running phone. The latter two show the camera and Gallery patch set included in alpha4. See [screenshot provenance](screenshots/README.md).
 
 ## Status
 
@@ -27,11 +27,11 @@ All four are direct framebuffer captures from the running phone. The latter two 
 | Gallery | Opens images and survives repeated pinch zoom; zoom uses a display-sized texture to fit Adreno 200 PMEM |
 | Calls, data, GPS, Bluetooth, sensors, suspend | Not fully tested |
 
-The current fixes were tested incrementally on the phone. A new clean image has not been packaged or cold-boot tested, so alpha3 remains the newest downloadable ROM. Donor RPM metadata remains, and official OTA updates are not supported.
+The fixes were tested incrementally on the phone. The alpha4 clean image passed read-back checks for 66 critical files, ZIP CRC validation and a read-only filesystem check, but it has not had a separate cold-boot cycle. Donor RPM metadata remains, and official OTA updates are not supported.
 
 ## Installation
 
-1. Download `hd2-sailfish-2.0.1.11-alpha3-SD.zip` and its `.sha256` file. Verify the checksum.
+1. Download `hd2-sailfish-2.0.1.11-alpha4-SD.zip` and its `.sha256` file. Verify the checksum.
 2. Extract the ZIP and place the entire `HD2-SF` directory at the root of the SD card's first FAT32 partition. Allow at least 2.1 GiB. `rootfs.ext4` is a 2 GiB file.
 3. In MAGLDR, select **Services → BootSettings → AD SD Dir → HD2-SF**, then **Boot AD SD**.
 4. For automatic startup, set **Boot source → Android from SD** and **AlwaysMenu → NO**.
@@ -67,7 +67,7 @@ These endpoints start automatically without UI authorization. Runtime logs are i
 - Display-sized Gallery textures that prevent 3264×3264 native-buffer exhaustion during open and pinch zoom.
 - Longer Lipstick startup allowance and disabled unsupported OTA polling, reducing boot-time restart and background I/O pressure.
 
-The release manifests describe alpha3 and therefore predate the post-alpha3 fixes. Current implementations are in `configure_sailfish_hardware.py`, `patch_sailfish_camera.py`, `optimize_sailfish_camera_qml.py` and `configure_sailfish_camera_booster.py`; device evidence is under `logs/`.
+The alpha4 release manifests include the current audio, camera, Gallery and Wi-Fi patch set. Implementations are in `configure_sailfish_hardware.py`, `patch_sailfish_camera.py`, `optimize_sailfish_camera_qml.py` and `configure_sailfish_camera_booster.py`; device evidence is under `logs/`.
 
 ## Source and debugging archive
 

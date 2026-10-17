@@ -25,15 +25,17 @@
 python3 tools/build_kernel.py
 python3 tools/build_sailfish_boot.py
 python3 tools/assemble_sailfish.py
+python3 tools/prepare_sailfish_alpha4.py
 fakeroot -- python3 tools/make_ext4.py work/sailfish-stage \
-  out/sailfish-alpha0/HD2-SF/rootfs.ext4 \
+  out/sailfish-alpha4/HD2-SF/rootfs.ext4 \
   --metadata work/sailfish-anzu-metadata.json \
   --permissions work/base-permissions.txt \
   --size-mib 2048 --label HD2-SF
+python3 tools/verify_sailfish_alpha4.py
 python3 tools/package_sailfish.py
 ```
 
-注意保留 Linux 用户空间的数字权限，不能套用全 Android 的权限模板。stage/image 已存在时脚本会拒绝覆盖。`sailfish-alpha0` 是历史目录名，当前 package_sailfish.py 输出 alpha3 ZIP。
+注意保留 Linux 用户空间的数字权限，不能套用全 Android 的权限模板。stage/image 已存在时脚本会拒绝覆盖。alpha4 使用 `out/sailfish-alpha4/HD2-SF`，`package_sailfish.py` 输出 alpha4 ZIP。
 
 图形、adbd、systemd 和相机补丁脚本从指定 donor 文件及预期字节生成产物；不能替换输入版本后跳过断言。`configure_sailfish_hardware.py` 持久化音频、振动、相册显存、memlock、Lipstick 超时与 OTA 后台任务修复；其中 QDSP 设备音量辅助程序的源码和构建产物分别为 `native/hd2-audio-unmute.S` 与 `prebuilt/hd2-audio-unmute`。`patch_sailfish_camera.py` 处理相机 HAL/droidmedia/GStreamer 二进制；`optimize_sailfish_camera_qml.py` 和 `configure_sailfish_camera_booster.py` 负责异步相机界面及专用一次性预编译。`finalize_sailfish_release.py` 只对应旧 alpha3 冻结镜像，不应再用于当前 post-alpha3 构建。
 
@@ -51,9 +53,9 @@ sha256sum prebuilt/hd2-audio-unmute
 
 ## 内核源码 Release 附件
 
-`hd2-sailfish-alpha3-kernel-source.tar.gz` 包含带本地变更的完整内核源码、COPYING、.config、各项补丁、完整 diff、构建脚本及工具链来源。修改已应用，不要重复打同一补丁。建议 out-of-tree 编译，使用 `ARCH=arm`、相应 `CROSS_COMPILE` 和 `HOSTCFLAGS='-O2 -fcommon'`。
+alpha3 Release 的 `hd2-sailfish-alpha3-kernel-source.tar.gz` 包含带本地变更的完整内核源码、COPYING、.config、各项补丁、完整 diff、构建脚本及工具链来源。alpha4 复用同一份已启动验证的内核。修改已应用，不要重复打同一补丁。建议 out-of-tree 编译，使用 `ARCH=arm`、相应 `CROSS_COMPILE` 和 `HOSTCFLAGS='-O2 -fcommon'`。
 
-发布的 zImage 是已实机验证的 #4；WEXT 修改仅影响外部 bcm4329 模块，后续单独重编并装入 alpha3。重建整个内核会改变构建时间/编号，不保证与发布二进制逐字节一致。
+发布的 zImage 是已实机验证的 #4；WEXT 修改仅影响外部 bcm4329 模块，单独重编的模块也已装入 alpha4。重建整个内核会改变构建时间/编号，不保证与发布二进制逐字节一致。
 
 ## 压缩传输
 
