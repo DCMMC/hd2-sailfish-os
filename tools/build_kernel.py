@@ -29,6 +29,13 @@ def main():
     if 'HD2 Sailfish: allow standard WEXT scans' not in wifi.read_text():
         subprocess.run(['patch','-p1','-i',str(ROOT/'configs/sailfish-bcm4329-wext-scan.patch')],
                        cwd=src,check=True)
+    # The HD2 board file labels its dedicated GPIO power button KEY_END.
+    # Sailfish mce consumes evdev directly and only treats KEY_POWER as the
+    # display/power key, so Android keylayout aliases cannot repair it.
+    keypad = src/'arch/arm/mach-msm/board-htcleo-keypad.c'
+    if '.code\t= KEY_POWER,\t\t// Power key' not in keypad.read_text():
+        subprocess.run(['patch','-p1','-i',str(ROOT/'configs/sailfish-hd2-power-key.patch')],
+                       cwd=src,check=True)
     # Perl >= 5.22 rejects defined(@array); the cached constants array is
     # nonempty exactly when a cached HZ value exists.
     timeconst = src / 'kernel/timeconst.pl'

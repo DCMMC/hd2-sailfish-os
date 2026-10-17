@@ -92,3 +92,9 @@ USB ADB 与 2323 root 救援口早于 systemd 图形会话启动。`tools/hd2_us
 相册点击图片时的崩溃与双指缩放崩溃有同一根因：stock QML 申请 3264×3264 原图纹理，缩放时又申请第二份纹理，超过 Adreno 200 可用的连续 PMEM，随后 EGL native buffer 失败并触发 SIGSEGV。当前 QML 只保留一份 480×800 显示纹理，缩放时变换现有纹理，不再载入第二份原图。两次协议 A 双指注入后 `jolla-gallery` PID 均保持 3472；截图为 `screenshots/gallery-pinch-zoom.png`，记录为 `logs/sailfish-gallery-pinch-regression.log`。限制是放大后不会获得原图像素级细节。
 
 此外，Lipstick 启动超时放宽至 90 秒；不受支持的 OTA 检查 service/timer 被屏蔽，以减少 576 MB 设备上的 Store/PackageKit 后台 I/O。所有变化已固化在构建脚本中并收入 alpha4 ROM ZIP。
+
+## alpha4 第二版：电源键修复（2026-10-18）
+
+HD2 板级文件原先让独立 GPIO 电源键上报 Linux `KEY_END`（107）。Android 可以通过 `.kl` 把 107 别名为 POWER，但 Sailfish 的 MCE 直接读取 evdev，只处理 `KEY_POWER`（116），所以按键不会锁屏、唤醒或弹出长按菜单。
+
+`configs/sailfish-hd2-power-key.patch` 只把独立 GPIO 电源键改为 `KEY_POWER`；底部矩阵中的挂断键继续保持 `KEY_END`。三键强制重启组合也同步改用 `KEY_POWER`。新 #5 zImage 已从 MAGLDR SD 启动，`htcleo-keypad` 的能力位同时保留 107 并新增 116，MCE 启动时打开了 `/dev/input/event3`。内核、输入能力和 MCE 文件描述符证据见 `logs/sailfish-power-key-alpha4-r2.log`。

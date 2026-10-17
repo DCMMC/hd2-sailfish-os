@@ -53,9 +53,9 @@ sha256sum prebuilt/hd2-audio-unmute
 
 ## 内核源码 Release 附件
 
-alpha3 Release 的 `hd2-sailfish-alpha3-kernel-source.tar.gz` 包含带本地变更的完整内核源码、COPYING、.config、各项补丁、完整 diff、构建脚本及工具链来源。alpha4 复用同一份已启动验证的内核。修改已应用，不要重复打同一补丁。建议 out-of-tree 编译，使用 `ARCH=arm`、相应 `CROSS_COMPILE` 和 `HOSTCFLAGS='-O2 -fcommon'`。
+alpha3 Release 的 `hd2-sailfish-alpha3-kernel-source.tar.gz` 是旧 #4 内核归档。alpha4 第二版附件 `hd2-sailfish-alpha4-kernel-source.tar.gz` 对应当前 #5。它加入 `configs/sailfish-hd2-power-key.patch`，把独立 GPIO 电源键从 `KEY_END` 改为 `KEY_POWER`，并同步三键重启组合。`configs/sailfish-all-kernel-changes.patch`、`configs/sailfish-built.config` 和 `tools/build_kernel.py` 也已对应 #5 内核。建议 out-of-tree 编译，使用 `ARCH=arm`、相应 `CROSS_COMPILE` 和 `HOSTCFLAGS='-O2 -fcommon'`。
 
-发布的 zImage 是已实机验证的 #4；WEXT 修改仅影响外部 bcm4329 模块，单独重编的模块也已装入 alpha4。重建整个内核会改变构建时间/编号，不保证与发布二进制逐字节一致。
+发布的 zImage 是已从 MAGLDR SD 启动验证的 #5。启动后 `htcleo-keypad` 能力位包含 `KEY_POWER=116`，MCE 已打开对应 `/dev/input/event3`；记录见 `logs/sailfish-power-key-alpha4-r2.log`。重建整个内核会改变构建时间/编号，不保证与发布二进制逐字节一致。
 
 ## 压缩传输
 

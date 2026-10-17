@@ -1,22 +1,35 @@
 {
   "tag": "v2.0.1.11-hd2-alpha4",
+  "asset_revision": 2,
   "assets": [
     {
       "name": "hd2-sailfish-2.0.1.11-alpha4-SD.zip",
-      "bytes": 450079651,
-      "sha256": "91dfa4ed6766460040003d729be89ba82cb8bd47c97be687e9573a29fa9cab7e"
+      "bytes": 450082919,
+      "sha256": "061263d938815c7829a5fc28bc977a920656c371c95f2f4db24503bd379b0945"
     },
     {
       "name": "hd2-sailfish-2.0.1.11-alpha4-SD.zip.sha256",
       "bytes": 102,
-      "sha256": "4b77fe2ead219c02cb0bb94c6d4b14c3fbad1e06052bf76a818878c78f3c0418"
+      "sha256": "7c59a2d25081403307acb7d58242c0613f25ca19b51ac9d41b2e847ce18ee7cf"
+    },
+    {
+      "name": "hd2-sailfish-alpha4-kernel-source.tar.gz",
+      "bytes": 85109318,
+      "sha256": "6bf804ba575c5d24f88cce74f37b5112c29e7c6db8b0596a1c046393375c5bc1"
+    },
+    {
+      "name": "hd2-sailfish-alpha4-kernel-source.tar.gz.sha256",
+      "bytes": 107,
+      "sha256": "a045d0b42fa315bbb65f31a6ca9febc96ab2de6d94c459739262dbe27fdedf42"
     }
   ],
-  "kernel_source": "unchanged from alpha3; see v2.0.1.11-hd2-alpha3 release",
+  "kernel": "2.6.32_tytung_jellybean_r2 #5",
+  "power_key_fix": "dedicated HD2 GPIO reports KEY_POWER; bottom hang-up key remains KEY_END",
   "experimental": true,
   "prerelease": true,
   "date": "2026-10-18",
   "clean_image_cold_boot_tested": false,
+  "kernel_boot_tested_from_magldr_sd": true,
   "published": true,
   "url": "https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4"
 }

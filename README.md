@@ -6,7 +6,7 @@ An unofficial SD-card port for HTC HD2 / Leo, developed on a device with 576 MB 
 
 **[Download alpha4](https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4)** · [Engineering notes (Chinese)](docs/ENGINEERING.md) · [Build notes (Chinese)](docs/BUILD.md) · [XDA post draft](docs/XDA-POST.en.md) · [Smartisan companion project](https://github.com/DCMMC/hd2-smartisan-os)
 
-**Display, touch, swipe-to-unlock, built-in speaker sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom work on the test phone.** Alpha4 contains these post-alpha3 fixes in a newly rebuilt clean SD image.
+**Display, touch, swipe-to-unlock, the power button, built-in speaker sound, vibration, Wi-Fi connection, camera preview/capture and stable Gallery pinch zoom work on the test phone.** Alpha4 revision 2 adds the corrected HD2 power-key mapping to the clean SD image.
 
 ## Real-device screenshots
 
@@ -20,6 +20,7 @@ All four are direct framebuffer captures from the running phone. The latter two 
 | --- | --- |
 | MAGLDR SD boot, systemd and Android HAL | Tested on the device, including reboot |
 | 480×800 display, taps and swipe-to-unlock | Confirmed by the owner |
+| Power button | Kernel #5 reports the dedicated GPIO as `KEY_POWER`; MCE receives it for lock/wake and the long-press menu |
 | Sound and vibration | Speaker output and vibration confirmed by the owner; speaker startup also has measured acoustic-loopback evidence. Earpiece, headset and Bluetooth audio remain untested |
 | USB ADB and root rescue shell | Automatically enabled and tested |
 | Wi-Fi | Connection works; confirmed by the owner after the WEXT and runtime fixes |
@@ -60,6 +61,7 @@ These endpoints start automatically without UI authorization. Runtime logs are i
 - systemd 208 compatibility, correct bionic library paths and an active local user session.
 - RGBX8888 EGL configuration, gralloc callbacks, double buffering and theme scaling.
 - The Wayland server-side allocation crash that prevented reliable unlocking.
+- The HD2 GPIO power button now reports Linux `KEY_POWER` instead of the legacy `KEY_END`; the three-key reset combination was updated with it.
 - 44.1 kHz PulseAudio output, automatic QDSP receive-device unmute/gain initialization, and the Android vibrator backend configuration.
 - WEXT scanning/connection support and removal of a camera shutter-sound wait on absent AudioFlinger.
 - HD2 camera allocator, droidmedia/GStreamer compatibility and unlimited HAL memlock fallback.
@@ -67,10 +69,10 @@ These endpoints start automatically without UI authorization. Runtime logs are i
 - Display-sized Gallery textures that prevent 3264×3264 native-buffer exhaustion during open and pinch zoom.
 - Longer Lipstick startup allowance and disabled unsupported OTA polling, reducing boot-time restart and background I/O pressure.
 
-The alpha4 release manifests include the current audio, camera, Gallery and Wi-Fi patch set. Implementations are in `configure_sailfish_hardware.py`, `patch_sailfish_camera.py`, `optimize_sailfish_camera_qml.py` and `configure_sailfish_camera_booster.py`; device evidence is under `logs/`.
+The alpha4 release manifests include the current power-key, audio, camera, Gallery and Wi-Fi patch set. Implementations are in `build_kernel.py`, `configure_sailfish_hardware.py`, `patch_sailfish_camera.py`, `optimize_sailfish_camera_qml.py` and `configure_sailfish_camera_booster.py`; device evidence is under `logs/`.
 
 ## Source and debugging archive
 
-`tools/`, `configs/`, `logs/` and `docs/` contain the actual scripts, probes, redacted evidence, disassembly, root causes and solutions. `sources.lock.json` pins upstream inputs. The release includes modified kernel source, configuration, the complete local diff and compiler references. The ROM retains the boot-tested #4 zImage, with bcm4329 rebuilt separately using the same configuration.
+`tools/`, `configs/`, `logs/` and `docs/` contain the actual scripts, probes, redacted evidence, disassembly, root causes and solutions. `sources.lock.json` pins upstream inputs. The repository includes the kernel configuration, complete local diff and compiler references; the Release also attaches the exact modified #5 kernel source. The power-key change is `configs/sailfish-hd2-power-key.patch`.
 
 The shared archive includes companion Smartisan utilities and historical records. Earlier logs can describe superseded states. This is a binary-based adaptation, not a complete Sailfish source distribution. See [NOTICES.md](NOTICES.md) for attribution.

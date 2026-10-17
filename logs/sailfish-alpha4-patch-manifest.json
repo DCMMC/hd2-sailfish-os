@@ -13,7 +13,7 @@
     },
     {
       "path": "etc/hd2-build-status.json",
-      "sha256": "160fd868c0bf626d882473b4db4602c4248fd3f7373f23783d04fe94a90129c8",
+      "sha256": "744a3378b5ac37fa2d9126935ac2ba7a8a2eb16b59d757b6e0cf5853b037fdf4",
       "image_verified": true
     },
     {
@@ -572,9 +572,10 @@
   "kernel_patches": [
     "configs/sailfish-cgroup-sysfs.patch",
     "configs/sailfish-arm-accept4.patch",
-    "configs/sailfish-bcm4329-wext-scan.patch"
+    "configs/sailfish-bcm4329-wext-scan.patch",
+    "configs/sailfish-hd2-power-key.patch"
   ],
-  "kernel_sha256": "6d929bc83b4ca8358e6ab980b5b18bb377e81f95bb84f0353ffa2a08f7cd8869",
+  "kernel_sha256": "c0837378af2a7d068aae1d20dc06eb27e43d78aac6c77f51ad86fe1244e3ef28",
   "initrd_sha256": "184c85f7816e3d231743eb5ccd55eba77c99523a71e84eded581f43fb975072c",
   "runtime_evidence": [
     "MAGLDR default SD boot on the development installation",
@@ -584,7 +585,8 @@
     "Camera preview/capture confirmed by the owner; tap-to-HAL-open measured at about 6.9 seconds",
     "Gallery PID stable across repeated pinch gestures",
     "QDSP speaker device gain changed from controlled -1500 to +500 by PulseAudio ExecStartPost",
-    "Ringtone acoustic loopback rose from about -42 dBFS to about -14 dBFS; owner confirmed sound"
+    "Ringtone acoustic loopback rose from about -42 dBFS to about -14 dBFS; owner confirmed sound",
+    "Kernel #5 booted from MAGLDR SD; htcleo-keypad advertises KEY_POWER and mce opened its evdev node"
   ],
   "limitations": [
     "Calls, cellular data, GPS, Bluetooth, sensors, suspend and power consumption are not validated",
@@ -593,7 +595,7 @@
     "Camera cold start remains slow on the single-core CPU; measured tap-to-HAL-open time was about 6.9 seconds",
     "Whole-process cgroup migration through the legacy tasks interface remains unverified",
     "Donor RPM metadata remains; official OTA updates are unsupported",
-    "Post-alpha3 patches were tested incrementally on the phone; this newly rebuilt clean image has offline verification but no cold-boot test"
+    "Post-alpha3 rootfs patches were tested incrementally on the phone; the clean image has offline verification but no separate cold-boot test"
   ],
   "hardware": {
     "display_touch_unlock": "working and user-confirmed",
@@ -601,7 +603,9 @@
     "vibration": "ngfd media.vibra uses droid-vibrator; user-confirmed",
     "wifi": "bcm4329 WEXT scan/runtime fixes; connection user-confirmed",
     "camera": "preview and capture user-confirmed; HD2 allocator/droidmedia/GStreamer patches and camera-only booster included",
-    "gallery": "display-sized single texture avoids Adreno 200 PMEM exhaustion during open and pinch zoom"
+    "gallery": "display-sized single texture avoids Adreno 200 PMEM exhaustion during open and pinch zoom",
+    "power_key": "dedicated GPIO key reports KEY_POWER instead of KEY_END; short-press lock/wake and long-press menu are handled by mce"
   },
-  "source_commit_before_release": "c0e2afbdeb4872de7df3b0d857aa8a22004c2352"
+  "source_commit_before_release": "f15b9d90daa5c0fbd85d05f7777cf10c1ee2ee9a",
+  "alpha4_asset_revision": 2
 }

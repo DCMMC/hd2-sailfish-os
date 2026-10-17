@@ -48,14 +48,14 @@ def main():
         'Camera cold start remains slow on the single-core CPU; measured tap-to-HAL-open time was about 6.9 seconds',
         'Whole-process cgroup migration through the legacy tasks interface remains unverified',
         'Donor RPM metadata remains; official OTA updates are unsupported',
-        'Post-alpha3 patches were tested incrementally on the phone; this newly rebuilt clean image has offline verification but no cold-boot test',
+        'Post-alpha3 rootfs patches were tested incrementally on the phone; the clean image has offline verification but no separate cold-boot test',
     ]
     status = {
-        'status': 'alpha4 prerelease: live-tested post-alpha3 fixes in a newly rebuilt clean image',
+        'status': 'alpha4 revision 2: power-key kernel fix plus the live-tested post-alpha3 rootfs fixes',
         'sailfish': '2.0.1.11',
         'android': 'NexusHD2 CM11 V4.0 / Android 4.4.1',
         'hybris_donor': 'anzu 2.0.1.11 alpha4 / CM11',
-        'kernel': 'tytung 2.6.32 kitkat #4; same zImage as alpha3',
+        'kernel': 'tytung 2.6.32 kitkat #5; HD2 GPIO power key reports Linux KEY_POWER',
         'user_confirmed': [
             'normal 480x800 display', 'touch taps', 'swipe/unlock',
             'built-in speaker sound', 'vibration', 'Wi-Fi connection',
@@ -70,6 +70,7 @@ def main():
             'Gallery PID stable across repeated pinch gestures',
             'QDSP speaker device gain changed from controlled -1500 to +500 by PulseAudio ExecStartPost',
             'Ringtone acoustic loopback rose from about -42 dBFS to about -14 dBFS; owner confirmed sound',
+            'Kernel #5 booted from MAGLDR SD; htcleo-keypad advertises KEY_POWER and mce opened its evdev node',
         ],
         'hardware_notes': {
             'display_touch_unlock': 'working and user-confirmed',
@@ -78,6 +79,7 @@ def main():
             'wifi': 'bcm4329 WEXT scan/runtime fixes; connection user-confirmed',
             'camera': 'preview and capture user-confirmed; HD2 allocator/droidmedia/GStreamer patches and camera-only booster included',
             'gallery': 'display-sized single texture avoids Adreno 200 PMEM exhaustion during open and pinch zoom',
+            'power_key': 'dedicated GPIO key reports KEY_POWER instead of KEY_END; short-press lock/wake and long-press menu are handled by mce',
         },
         'usb_debug': {
             'adb': 'always on, including early boot',
@@ -93,8 +95,8 @@ def main():
     (STAGE / 'etc/hd2-build-status.json').write_text(status_text)
     FOLDER.mkdir(parents=True, exist_ok=True)
     (FOLDER / 'BUILD-STATUS.json').write_text(status_text)
-    for name in ('zImage', 'initrd.gz'):
-        shutil.copy2(ROOT / 'out/sailfish-bringup/HD2-SF' / name, FOLDER / name)
+    shutil.copy2(ROOT / 'out/sailfish-kernel-experimental/zImage', FOLDER / 'zImage')
+    shutil.copy2(ROOT / 'out/sailfish-bringup/HD2-SF/initrd.gz', FOLDER / 'initrd.gz')
 
     old = json.loads((ROOT / 'logs/sailfish-patch-manifest.json').read_text())
     paths = {item['path'] for item in old['files']}
@@ -140,13 +142,16 @@ def main():
             str(path): {key: value for key, value in spec.items() if key in ('input', 'output', 'edits')}
             for path, spec in CAMERA_PATCHES.items()
         },
-        'kernel_patches': old['kernel_patches'],
+        'kernel_patches': list(dict.fromkeys(old['kernel_patches'] + [
+            'configs/sailfish-hd2-power-key.patch',
+        ])),
         'kernel_sha256': sha(FOLDER / 'zImage'),
         'initrd_sha256': sha(FOLDER / 'initrd.gz'),
         'runtime_evidence': status['verified'],
         'limitations': limitations,
         'hardware': status['hardware_notes'],
-        'source_commit_before_release': 'c0e2afbdeb4872de7df3b0d857aa8a22004c2352',
+        'source_commit_before_release': 'f15b9d90daa5c0fbd85d05f7777cf10c1ee2ee9a',
+        'alpha4_asset_revision': 2,
     }
     MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     print(FOLDER)

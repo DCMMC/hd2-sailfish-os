@@ -2,7 +2,7 @@
   {
     "path": "logs/CURRENT-STATUS.json",
     "redacted": false,
-    "sha256": "9025bc9881d2231f34e6e8f150a7189779ea14b67932547384eb868a4d6a6068"
+    "sha256": "dece1172033b0d0260401641cb528f75f651d24edad3ff03f895eec37e6839e3"
   },
   {
     "path": "logs/base-genlock-disassembly.txt",
@@ -23,11 +23,6 @@
     "path": "logs/base-kernel.config",
     "redacted": false,
     "sha256": "6603a53b851bc9aff0e34fe337bd4f3abb2509f565fa8f8800a787adc34a2b76"
-  },
-  {
-    "path": "logs/deodex.log",
-    "redacted": false,
-    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
   },
   {
     "path": "logs/deodex/app_AppStoreSmartisan.odex.log",
@@ -58,6 +53,11 @@
     "path": "logs/deodex/app_CameraSmartisan.odex.log",
     "redacted": false,
     "sha256": "ac5f8cc37b2d1b08a6345224a0d326db79f138482cc9aed65da3380753bcacb4"
+  },
+  {
+    "path": "logs/deodex.log",
+    "redacted": false,
+    "sha256": "fb01c794f32322a2ca907ade44ccf1753133d41a7f05f7d5d24443b8439effa9"
   },
   {
     "path": "logs/donor-graphicbuffer-disassembly.txt",
@@ -532,17 +532,17 @@
   {
     "path": "logs/sailfish-alpha4-package-verification.json",
     "redacted": false,
-    "sha256": "346f178560168c39a6175cee23f01684760980c9f30b62a6b0a165016bb640a0"
+    "sha256": "60fa0d616593507a2adcfbf92670ac50aeeef4ab82cd45cc2af4072b51a2b4e2"
   },
   {
     "path": "logs/sailfish-alpha4-patch-manifest.json",
     "redacted": false,
-    "sha256": "654c328fb48a9690a158dd8ae0161247fa5b4458c4630278f4b8dabe66923ff4"
+    "sha256": "d3b383df45d42cf0f32e1cc1b69795ca2f53caec59a329ea9fb39dd40a22aa2a"
   },
   {
     "path": "logs/sailfish-alpha4-verification.json",
     "redacted": false,
-    "sha256": "08e1078044f808fd4e1406f8e2186d5679973cfd5febdb70c3565ae65c069a40"
+    "sha256": "262e3589b45bf754b2893200e0a1066e7fa1852698139e54c056c0256a251dca"
   },
   {
     "path": "logs/sailfish-always-adb-image.log",
@@ -558,6 +558,16 @@
     "path": "logs/sailfish-audio-device-volume-fix.json",
     "redacted": false,
     "sha256": "64f4f47181cab82c25381707306d4cc39294dc6e654bc41c3610ff32060e6eeb"
+  },
+  {
+    "path": "logs/sailfish-camera-current-regression.log",
+    "redacted": false,
+    "sha256": "ecf421ad7960f20cf514e4ac1a2969c08b442a6b8e344399de23292179bd7f72"
+  },
+  {
+    "path": "logs/sailfish-camera-preload-timing.log",
+    "redacted": false,
+    "sha256": "88233c40c46fe02e8c8177714fffd0df9d53f9c930849f107a44bcdfab9f6324"
   },
   {
     "path": "logs/sailfish-cgroup-kernel-build.log",
@@ -740,6 +750,11 @@
     "sha256": "4d44d634cf25cdd5761fdda17617976c68aa92728de509be2863ff9df18e3b78"
   },
   {
+    "path": "logs/sailfish-gallery-pinch-regression.log",
+    "redacted": false,
+    "sha256": "a9695a5c3e8ef06c83ea6ce218be4de09c00fad6344d51194b6eb3b0d215f58a"
+  },
+  {
     "path": "logs/sailfish-gralloc-patch.json",
     "redacted": false,
     "sha256": "aa96a7dc83a891996db5e8455f8ddf5e960b869ef0f4f2ce55f6ee0621109e59"
@@ -763,6 +778,11 @@
     "path": "logs/sailfish-patch-manifest.json",
     "redacted": false,
     "sha256": "54e39303cac691f20d8189d75d1b247253a3b21ee70d9e1d8b91759f64f9681b"
+  },
+  {
+    "path": "logs/sailfish-power-key-alpha4-r2.log",
+    "redacted": false,
+    "sha256": "31972c3d16b41fe49b037cecabffb85142b58a3c0f59e4752560b5aacc3c3ace"
   },
   {
     "path": "logs/sailfish-qpa-patch.json",

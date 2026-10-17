@@ -23,6 +23,28 @@ index 4f07168c..76e5ad4f 100644
  #ifndef syscalls_counted
  .equ syscalls_padding, ((NR_syscalls + 3) & ~3) - NR_syscalls
  #define syscalls_counted
+diff --git a/arch/arm/mach-msm/board-htcleo-keypad.c b/arch/arm/mach-msm/board-htcleo-keypad.c
+index 3117a245..f2209a4c 100644
+--- a/arch/arm/mach-msm/board-htcleo-keypad.c
++++ b/arch/arm/mach-msm/board-htcleo-keypad.c
+@@ -94,7 +94,7 @@ static struct gpio_event_matrix_info htcleo_keypad_matrix_info = {
+ static struct gpio_event_direct_entry htcleo_keypad_key_map[] = {
+ 	{
+ 		.gpio	= HTCLEO_GPIO_POWER_KEY,
+-		.code	= KEY_END,		// Power key
++		.code	= KEY_POWER,		// Power key
+ 	},
+ };
+ 
+@@ -132,7 +132,7 @@ static struct platform_device htcleo_input_device = {
+ 
+ static struct keyreset_platform_data htcleo_reset_keys_pdata = {
+ 	.keys_down = {
+-		KEY_END,
++		KEY_POWER,
+ 		KEY_VOLUMEUP,
+ 		KEY_VOLUMEDOWN,
+ 		0
 diff --git a/drivers/net/wireless/bcm4329/wl_iw.c b/drivers/net/wireless/bcm4329/wl_iw.c
 index 434e584f..054573c7 100644
 --- a/drivers/net/wireless/bcm4329/wl_iw.c

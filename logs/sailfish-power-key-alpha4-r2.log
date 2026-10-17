@@ -1,0 +1,57 @@
+2026-10-18T03:44:52+08:00
+zImage SHA-256:
+c0837378af2a7d068aae1d20dc06eb27e43d78aac6c77f51ad86fe1244e3ef28  out/sailfish-kernel-experimental/zImage
+Kernel:
+Linux Jolla 2.6.32_tytung_jellybean_r2 #5 PREEMPT Sun Oct 18 03:40:33 CST 2026 armv7l armv7l armv7l GNU/Linux
+htcleo-keypad input block:
+N: Name="htcleo-keypad"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input3
+U: Uniq=
+H: Handlers=kbd event3 keyreset 
+B: EV=3
+B: KEY=80 0 0 40000800 1c0840 0 0 0
+
+MCE evdev descriptors:
+> > > > > > pid=179
+/proc/179/fd/10 -> anon_inode:[eventfd]
+/proc/179/fd/12 -> /dev/input/event5
+/proc/179/fd/13 -> /dev/input/event3
+/proc/179/fd/14 -> /dev/input/event2
+/proc/179/fd/15 -> /dev/input/event1
+/proc/179/fd/16 -> /dev/input/event0
+/proc/179/fd/27 -> anon_inode:[eventpoll]
+/proc/179/fd/33 -> /sys/devices/platform/gpio-event.0/leds/button-backlight/brightness
+/proc/179/fd/4 -> anon_inode:[eventfd]
+Kernel board mapping:
+		  GPIOKPF_PRINT_UNMAPPED_KEYS),
+};
+
+static struct gpio_event_direct_entry htcleo_keypad_key_map[] = {
+	{
+		.gpio	= HTCLEO_GPIO_POWER_KEY,
+		.code	= KEY_POWER,		// Power key
+	},
+};
+
+static struct gpio_event_input_info htcleo_keypad_key_info = {
+	.info.func = gpio_event_input_func,
+	.info.no_suspend = true,
+	},
+};
+
+static struct keyreset_platform_data htcleo_reset_keys_pdata = {
+	.keys_down = {
+		KEY_POWER,
+		KEY_VOLUMEUP,
+		KEY_VOLUMEDOWN,
+		0
+	},
+};
+
+Decoded key bitmap group 0x001c0840 for codes 96-127: 102, 107, 114, 115, 116 (KEY_POWER=116).
+MCE power-key actions:
+/system/osso/dsm/powerkey/actions_long_on=dbus1
+/system/osso/dsm/powerkey/dbus_action1=power-key-menu
+/system/osso/dsm/powerkey/actions_double_off=unblank,tkunlock,dbus2
+/system/osso/dsm/powerkey/dbus_action2=double-power-key

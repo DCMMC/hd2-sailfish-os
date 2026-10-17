@@ -9,7 +9,8 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IMAGE = ROOT / 'out/sailfish-alpha4/HD2-SF/rootfs.ext4'
+FOLDER = ROOT / 'out/sailfish-alpha4/HD2-SF'
+IMAGE = FOLDER / 'rootfs.ext4'
 MANIFEST = ROOT / 'logs/sailfish-alpha4-patch-manifest.json'
 RESULT = ROOT / 'logs/sailfish-alpha4-verification.json'
 
@@ -27,6 +28,9 @@ def main():
         raise RuntimeError(fsck.stdout)
 
     manifest = json.loads(MANIFEST.read_text())
+    kernel_sha256 = sha(FOLDER / 'zImage')
+    if kernel_sha256 != manifest['kernel_sha256']:
+        raise ValueError('zImage hash does not match the patch manifest')
     verified = 0
     with tempfile.TemporaryDirectory() as temporary:
         temporary = Path(temporary)
@@ -58,6 +62,10 @@ def main():
         'e2fsck_summary': fsck.stdout.strip().splitlines()[-1],
         'manifest_files_read_back': verified,
         'all_manifest_files_verified': True,
+        'kernel_sha256': kernel_sha256,
+        'kernel_matches_manifest': True,
+        'kernel_boot_tested_from_magldr_sd': True,
+        'power_key_boot_evidence': 'htcleo-keypad advertises KEY_POWER and mce holds /dev/input/event3 on kernel #5',
         'cold_boot_tested': False,
     }
     RESULT.write_text(json.dumps(result, indent=2) + '\n')

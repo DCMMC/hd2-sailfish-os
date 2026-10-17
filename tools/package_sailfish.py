@@ -34,6 +34,7 @@ def main():
         'This is an SD image, not a recovery-flashable ZIP. Do not flash it to NAND.\n'
         'Back up an existing rootfs.ext4 before replacement; it contains user settings and data.\n'
         'Working on the test device: display, touch/unlock, speaker, vibration, Wi-Fi, camera capture and Gallery pinch zoom.\n'
+        'Alpha4 revision 2 adds the HD2 GPIO power-key fix for lock/wake and the long-press power menu.\n'
         'Calls/data, GPS, Bluetooth, sensors, suspend and non-speaker audio routes remain unverified.\n'
         'USB ADB and the USB RNDIS root rescue shell at 192.168.2.15:2323 start automatically.\n'
         'Official OTA updates are unsupported. Read BUILD-STATUS.json and VERIFICATION.json.\n')
@@ -45,6 +46,7 @@ def main():
         '这是 SD 镜像包，不是 Recovery 卡刷包，不要刷入 NAND。\n'
         '覆盖前请备份原 rootfs.ext4，其中包含用户设置和数据。\n'
         '实机已确认：显示、触摸/解锁、扬声器、振动、Wi-Fi、相机拍照和相册双指缩放。\n'
+        'alpha4 第二版加入 HD2 GPIO 电源键修复，用于锁屏/唤醒和长按电源菜单。\n'
         '通话/数据、GPS、蓝牙、传感器、休眠和非扬声器音频路由仍未验证。\n'
         'USB ADB 与 USB RNDIS 192.168.2.15:2323 root 救援终端默认开启。\n'
         '不支持官方 OTA；完整范围见 BUILD-STATUS.json 与 VERIFICATION.json。\n')

@@ -12,7 +12,7 @@
     "Package and cold-boot-test a new image before the next release"
   ],
   "port_boot_verified": true,
-  "active_work": "Sailfish alpha4 released with post-alpha3 Wi-Fi, camera, Gallery and QDSP speaker fixes",
+  "active_work": "Sailfish alpha4 revision 2 published with the HD2 power-key kernel fix",
   "transfer_complete": true,
   "recovery_decompression_complete": true,
   "boot_file_readback_sha256_passed": true,
@@ -46,7 +46,7 @@
   "sailfish_rootfs_mounted": true,
   "sailfish_root_rescue_verified": true,
   "sailfish_systemd_reached": true,
-  "sailfish_kernel_sha256": "6d929bc83b4ca8358e6ab980b5b18bb377e81f95bb84f0353ffa2a08f7cd8869",
+  "sailfish_kernel_sha256": "c0837378af2a7d068aae1d20dc06eb27e43d78aac6c77f51ad86fe1244e3ef28",
   "sailfish_securebits_fixed": true,
   "sailfish_accept4_fix": "ARM EABI slot 366 implemented and runtime verified",
   "sailfish_systemd_failure": null,
@@ -97,11 +97,16 @@
     "Bluetooth audio",
     "telephony audio"
   ],
-  "sailfish_release_zip_sha256": "91dfa4ed6766460040003d729be89ba82cb8bd47c97be687e9573a29fa9cab7e",
+  "sailfish_release_zip_sha256": "061263d938815c7829a5fc28bc977a920656c371c95f2f4db24503bd379b0945",
   "sailfish_alpha4_offline_verification_passed": true,
   "sailfish_alpha4_manifest_files_read_back": 66,
   "sailfish_alpha4_zip_crc_passed": true,
   "sailfish_alpha4_clean_image_cold_boot_tested": false,
   "sailfish_release_tag": "v2.0.1.11-hd2-alpha4",
-  "sailfish_release_url": "https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4"
+  "sailfish_release_url": "https://github.com/DCMMC/hd2-sailfish-os/releases/tag/v2.0.1.11-hd2-alpha4",
+  "sailfish_kernel_build": "2.6.32_tytung_jellybean_r2 #5",
+  "sailfish_power_key_fixed": true,
+  "sailfish_power_key_evidence": "logs/sailfish-power-key-alpha4-r2.log",
+  "sailfish_release_zip_bytes": 450082919,
+  "sailfish_alpha4_asset_revision": 2
 }

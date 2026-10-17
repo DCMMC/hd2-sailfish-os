@@ -1,0 +1,19 @@
+--- a/arch/arm/mach-msm/board-htcleo-keypad.c
++++ b/arch/arm/mach-msm/board-htcleo-keypad.c
+@@ -94,6 +94,6 @@ static struct gpio_event_direct_entry htcleo_keypad_key_map[] = {
+ 	{
+ 		.gpio	= HTCLEO_GPIO_POWER_KEY,
+-		.code	= KEY_END,		// Power key
++		.code	= KEY_POWER,		// Power key
+ 	},
+ };
+ 
+@@ -132,7 +132,7 @@ static struct platform_device htcleo_input_device = {
+ 
+ static struct keyreset_platform_data htcleo_reset_keys_pdata = {
+ 	.keys_down = {
+-		KEY_END,
++		KEY_POWER,
+ 		KEY_VOLUMEUP,
+ 		KEY_VOLUMEDOWN,
+ 		0

@@ -1,13 +1,15 @@
 {
-  "zip": "out/hd2-sailfish-2.0.1.11-alpha4-SD.zip",
-  "bytes": 450079651,
-  "sha256": "91dfa4ed6766460040003d729be89ba82cb8bd47c97be687e9573a29fa9cab7e",
-  "zip_crc_passed": true,
-  "missing_required_members": [],
-  "member_count": 43,
-  "embedded_rootfs_sha256": "5b56614ba48c43ef7a7043717b6ba1b39b33abdc15dec2ada095bfc95aeb1c43",
-  "embedded_rootfs_matches_verified_image": true,
-  "critical_files_read_back": 66,
-  "filesystem_check_passed": true,
-  "clean_image_cold_boot_tested": false
+  "release": "Sailfish 2.0.1.11 HTC HD2 SD alpha4",
+  "image": "out/sailfish-alpha4/HD2-SF/rootfs.ext4",
+  "bytes": 2147483648,
+  "sha256": "0c56f6bbb9dad60cb5db948c567f01e3c76ca0f8f864f4ead5987b86bcc2e38c",
+  "e2fsck_returncode": 0,
+  "e2fsck_summary": "HD2-SF: 22476/131072 files (0.1% non-contiguous), 236462/524288 blocks",
+  "manifest_files_read_back": 66,
+  "all_manifest_files_verified": true,
+  "kernel_sha256": "c0837378af2a7d068aae1d20dc06eb27e43d78aac6c77f51ad86fe1244e3ef28",
+  "kernel_matches_manifest": true,
+  "kernel_boot_tested_from_magldr_sd": true,
+  "power_key_boot_evidence": "htcleo-keypad advertises KEY_POWER and mce holds /dev/input/event3 on kernel #5",
+  "cold_boot_tested": false
 }
