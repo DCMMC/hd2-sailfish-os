@@ -10,9 +10,20 @@ import hashlib
 import json
 import struct
 from firmware import unpack_cpio
-from patch_vector_abi import branch_link
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def branch_link(site, target):
+    """Encode a Thumb-2 BL; callers can clear the link bit for B.W."""
+    offset = target - (site + 4)
+    assert offset % 2 == 0 and -(1 << 24) <= offset < (1 << 24)
+    sign = (offset >> 24) & 1
+    j1 = 1 ^ ((offset >> 23) & 1) ^ sign
+    j2 = 1 ^ ((offset >> 22) & 1) ^ sign
+    return struct.pack('<HH',
+                       0xf000 | (sign << 10) | ((offset >> 12) & 0x3ff),
+                       0xd000 | (j1 << 13) | (j2 << 11) | ((offset >> 1) & 0x7ff))
 
 
 def main():

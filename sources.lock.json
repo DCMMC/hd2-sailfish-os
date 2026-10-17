@@ -24,13 +24,6 @@
     "commit": "bfac9176b77d23ed7bff9d23f8969a1ca537fef1"
   },
   {
-    "file": "downloads/smartisan-2.0.0-sfo.zip",
-    "url": "https://archive.org/download/sdfsfo_202609/2.0.0-2015091200-user-sfo.zip",
-    "bytes": 948521315,
-    "upstream_md5": "548d563e531959c78c36354b50ca1a6f",
-    "sha256": "f388b28079896ae2be17887d78f8b005b47a2d4fb2b088cb749276354ba254bc"
-  },
-  {
     "file": "downloads/NexusHD2-KitKat-CM11.0_V4.0.zip",
     "url": "https://androidfilehost.com/?fid=23269279319197173",
     "bytes": 211084920,

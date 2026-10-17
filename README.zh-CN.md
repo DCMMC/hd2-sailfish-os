@@ -61,4 +61,4 @@ telnet -b 192.168.2.14 192.168.2.15 2323
 
 代码、探针、调试记录、反汇编及解决方案均在 `tools/`、`configs/`、`logs/` 和 `docs/`；输入来源与提交见 `sources.lock.json`。Release 同时提供本次修改后的内核源码归档。精确补丁/哈希见 [PATCH-MANIFEST.json](release/PATCH-MANIFEST.json)。
 
-release 目录中的 alpha4 清单包含当前电源键、音频、相机、相册和 Wi-Fi 补丁；实现以 `tools/` 下的脚本和 `logs/` 中的实机记录为准。电源键的精确内核修改见 `configs/sailfish-hd2-power-key.patch`。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。
+仓库只保留 Sailfish 移植内容，不再混入锤子 OS 文件或 SD 卡修复记录。release 目录中的 alpha4 清单包含当前电源键、音频、相机、相册和 Wi-Fi 补丁；实现以 `tools/` 下的脚本和 `logs/` 中的实机记录为准。电源键的精确内核修改见 `configs/sailfish-hd2-power-key.patch`。第三方组件及版权说明见 [NOTICES.md](NOTICES.md)。

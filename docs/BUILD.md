@@ -57,8 +57,4 @@ alpha3 Release 的 `hd2-sailfish-alpha3-kernel-source.tar.gz` 是旧 #4 内核�
 
 发布的 zImage 是已从 MAGLDR SD 启动验证的 #5。启动后 `htcleo-keypad` 能力位包含 `KEY_POWER=116`，MCE 已打开对应 `/dev/input/event3`；记录见 `logs/sailfish-power-key-alpha4-r2.log`。重建整个内核会改变构建时间/编号，不保证与发布二进制逐字节一致。
 
-## 压缩传输
-
-Release ZIP 内是展开的 2 GiB ext4 镜像。向手机传输时也可通过 package_transfer.py 的 `prepare('sailfish-alpha0/HD2-SF')` 生成 gzip，使用 Recovery ADB 上传并在手机解压。只调用该函数即可准备一个系统；脚本 main 默认同时准备两个系统。
-
-仓库中 install_sd/recovery_sd 等脚本保留了本次特定 SD 卡的维护前提，不是通用安装器。一般安装按 README 复制目录，不执行分区或格式化。
+发布 ZIP 内是展开的 2 GiB ext4 镜像。仓库只保留 Sailfish 移植的构建、调试和验证工具；一般安装按 README 复制目录，不执行分区或格式化。

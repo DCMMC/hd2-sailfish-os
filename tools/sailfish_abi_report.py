@@ -1,13 +1,33 @@
 #!/usr/bin/env python3
 """Find obvious missing Android dependencies; does not prove HAL ABI compatibility."""
+from functools import lru_cache
 import json
 from pathlib import Path
-from native_abi_report import elf
+import re
+import subprocess
 
 ROOT=Path(__file__).resolve().parents[1]
 STAGE=ROOT/'work/sailfish-stage'
 HYBRIS=STAGE/'usr/libexec/droid-hybris/system'
 DIRECTORIES=[HYBRIS/'lib',STAGE/'system/vendor/lib',STAGE/'system/lib',STAGE/'system/lib/egl']
+
+
+@lru_cache(None)
+def elf(path):
+    dynamic = subprocess.check_output(['readelf', '-d', '-W', str(path)], text=True)
+    needed = re.findall(r'\(NEEDED\).*?\[(.*?)\]', dynamic)
+    symbols = subprocess.check_output(['readelf', '--dyn-syms', '-W', str(path)], text=True)
+    imports, exports = set(), set()
+    for line in symbols.splitlines():
+        parts = line.split()
+        if len(parts) < 8 or not parts[0].rstrip(':').isdigit():
+            continue
+        name = parts[7].split('@')[0]
+        if parts[6] == 'UND' and parts[4] == 'GLOBAL':
+            imports.add(name)
+        elif parts[6] != 'UND' and parts[4] in ('GLOBAL', 'WEAK'):
+            exports.add(name)
+    return needed, imports, exports
 
 def find(name):
     for folder in DIRECTORIES:

@@ -75,4 +75,4 @@ The alpha4 release manifests include the current power-key, audio, camera, Galle
 
 `tools/`, `configs/`, `logs/` and `docs/` contain the actual scripts, probes, redacted evidence, disassembly, root causes and solutions. `sources.lock.json` pins upstream inputs. The repository includes the kernel configuration, complete local diff and compiler references; the Release also attaches the exact modified #5 kernel source. The power-key change is `configs/sailfish-hd2-power-key.patch`.
 
-The shared archive includes companion Smartisan utilities and historical records. Earlier logs can describe superseded states. This is a binary-based adaptation, not a complete Sailfish source distribution. See [NOTICES.md](NOTICES.md) for attribution.
+The repository is scoped to the Sailfish port; companion Smartisan files and SD-card repair history are kept out. Earlier Sailfish logs can describe superseded states. This is a binary-based adaptation, not a complete Sailfish source distribution. See [NOTICES.md](NOTICES.md) for attribution.
