@@ -1,0 +1,41 @@
+> > Oct 17 18:39:36.944730 Jolla mapplauncherd[384]: Boosted process (pid=16721) was terminated due to signal 15
+Oct 17 18:41:11.937619 Jolla mapplauncherd[384]: Boosted process (pid=17545) was terminated due to signal 15
+Oct 17 18:51:04.906706 Jolla mapplauncherd[384]: Boosted process (pid=17947) was terminated due to signal 15
+Oct 17 18:51:17.649799 Jolla mapplauncherd[5425]: Boosted process (pid=5434) was terminated due to signal 15
+Oct 17 18:52:52.666031 Jolla mapplauncherd[384]: Boosted process (pid=18497) was terminated due to signal 15
+Oct 17 18:56:04.564529 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[18663]: Boosted process (pid=18862) was terminated due to signal 15
+Oct 17 18:59:28.502182 Jolla mapplauncherd[18663]: Boosted process (pid=18664) was terminated due to signal 15
+Oct 17 19:00:57.325912 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[19846]: Boosted process (pid=20042) was terminated due to signal 15
+Oct 17 19:06:00.768448 Jolla mapplauncherd[384]: Boosted process (pid=636) was terminated due to signal 15
+Oct 17 19:06:01.365921 Jolla mapplauncherd[384]: Boosted process (pid=559) was terminated due to signal 15
+Oct 17 19:12:00.502297 Jolla mapplauncherd[384]: Boosted process (pid=20867) was terminated due to signal 15
+Oct 17 19:12:01.241738 Jolla mapplauncherd[384]: Boosted process (pid=18944) was terminated due to signal 15
+Oct 17 19:14:49.968605 Jolla mapplauncherd[384]: Boosted process (pid=21298) was terminated due to signal 15
+Oct 17 19:17:59.701180 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[21287]: Boosted process (pid=21364) was terminated due to signal 9
+Oct 17 19:19:43.444527 Jolla mapplauncherd[21287]: Boosted process (pid=21307) was terminated due to signal 15
+Oct 17 19:20:28.896370 Jolla mapplauncherd[384]: Boosted process (pid=21726) was terminated due to signal 15
+Oct 17 19:27:43.168787 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[21952]: Boosted process (pid=22003) was terminated due to signal 11
+Oct 17 19:28:01.886317 Jolla mapplauncherd[21952]: Boosted process (pid=22182) was terminated due to signal 11
+Oct 17 19:29:30.984309 Jolla mapplauncherd[21952]: Boosted process (pid=22218) was terminated due to signal 11
+Oct 17 19:34:54.772578 Jolla mapplauncherd[384]: Boosted process (pid=22049) was terminated due to signal 15
+Oct 17 19:37:33.047877 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[22413]: Boosted process (pid=22414) was terminated due to signal 15
+Oct 17 19:42:57.140328 Jolla mapplauncherd[384]: Boosted process (pid=22521) was terminated due to signal 15
+Oct 17 19:47:56.896248 Jolla mapplauncherd[384]: Boosted process (pid=22811) was terminated due to signal 15
+Oct 17 19:48:55.745308 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[23034]: Boosted process (pid=23035) was terminated due to signal 15
+Oct 17 19:49:39.912941 Jolla mapplauncherd[384]: Boosted process (pid=23122) was terminated due to signal 15
+Oct 17 20:05:17.152038 Jolla [23217]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+Oct 17 20:05:18.442932 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[23173]: Boosted process (pid=23217) was terminated due to signal 11
+Oct 17 20:05:22.074920 Jolla mapplauncherd[384]: Boosted process (pid=23253) was terminated due to signal 15
+Oct 17 20:05:55.860840 Jolla [23664]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+Oct 17 20:05:57.696533 Jolla mapplauncherd[23173]: Boosted process (pid=23664) was terminated due to signal 11
+Oct 17 20:06:00.143219 Jolla mapplauncherd[384]: Boosted process (pid=23727) was terminated due to signal 15
+Oct 17 20:06:32.528808 Jolla [23743]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+Oct 17 20:06:32.829376 Jolla mapplauncherd[23173]: Boosted process (pid=23743) was terminated due to signal 11
+Oct 17 20:06:38.023224 Jolla mapplauncherd[384]: Boosted process (pid=23812) was terminated due to signal 15
+Oct 17 20:06:47.200531 Jolla [23821]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+Oct 17 20:06:47.621124 Jolla mapplauncherd[23173]: Boosted process (pid=23821) was terminated due to signal 11
+Oct 17 20:06:52.161468 Jolla mapplauncherd[384]: Boosted process (pid=23905) was terminated due to signal 15
+Oct 17 21:02:34.769931 Jolla [23912]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+Oct 17 21:02:34.967532 Jolla mapplauncherd[23173]: Boosted process (pid=23912) was terminated due to signal 11
+Oct 17 21:02:39.962161 Jolla mapplauncherd[384]: Boosted process (pid=23955) was terminated due to signal 15
+Oct 17 21:04:08.918887 Jolla mapplauncherd[384]: Boosted process (pid=25112) was terminated due to signal 15

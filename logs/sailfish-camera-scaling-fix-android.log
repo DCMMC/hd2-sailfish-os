@@ -1,0 +1,17 @@
+> --------- beginning of /dev/alog/main
+D/libEGL  (15002): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  (15002): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  (15002): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/Adreno200-EGL(15002): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+I/Adreno200-EGL(15002): Build Date: 07/31/12 Tue
+I/Adreno200-EGL(15002): Local Branch:
+I/Adreno200-EGL(15002): Remote Branch: quic/master
+I/Adreno200-EGL(15002): Local Patches: NONE
+I/Adreno200-EGL(15002): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+D/QcomCamera(14148): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(14148): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(14148): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(14148): HAL_get_camera_info: loading libcamera at 0x409905b8
+E/cutils-trace(10749): Error opening trace file: 没有那个文件或目录 (2)
+D/QcomCamera(14148): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(14148): HAL_get_camera_info: loading libcamera at 0x409905b8

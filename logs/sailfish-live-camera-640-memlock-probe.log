@@ -1,0 +1,12 @@
+> > > > prlimit: failed to set the MEMLOCK resource limit: Function not implemented
+Max locked memory         65536                65536                bytes
+0:00:00.637054441 [335m 7654[00m    0xc2440 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new:[00m failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:00.638702390 [335m 7654[00m    0xc2440 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load:[00m failed to load iso-speed: Key file does not have group 'iso-speed'
+parse_pipeline=yes error=(nil)
+0:00:00.650421140 [335m 7654[00m    0xc2440 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrc.c:459:gst_droidcamsrc_get_hw:<cam>[00m cannot find front camera
+0:00:00.803253167 [335m 7654[00m    0xc2440 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:1406:gst_droidcamsrc_photography_set_iso_to_droid:<cam>[00m setting iso to 0 is not supported
+
+(gst_pipeline_probe_640:7654): GStreamer-CRITICAL **: range start is not smaller than end for `GstFractionRange'
+0:00:00.836425776 [335m 7654[00m    0xc2440 [31;01mERROR  [00m [00m         droidcamsrc gstdroidcamsrcdev.c:1047:gst_droidcamsrc_dev_enable_face_detection:[00m error disabling face detection
+set_playing_result=2
+get_state_result=1 state=4 pending=0

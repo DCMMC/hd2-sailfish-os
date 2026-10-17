@@ -1,0 +1,351 @@
+> -- Logs begin at Sat 2026-10-17 16:48:25 EEST, end at Sat 2026-10-17 18:19:19 EEST. --
+Oct 17 18:15:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:15:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:15:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:21 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:23 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:33 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:33 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:33 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:33 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:33 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:34 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:34 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:34 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:16:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:44 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:53 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:53 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:53 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:53 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:53 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:54 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:54 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:55 Jolla ohmd[264]: *** resource_request:  release   25
+Oct 17 18:16:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:55 Jolla ohmd[264]: *** resource_request:  update   24
+Oct 17 18:16:55 Jolla ohmd[264]: *** resource_request:  release   24
+Oct 17 18:16:56 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:56 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:56 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:56 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:56 Jolla invoker[632]: WARNING: An inactive plugin is misbehav...w!
+Oct 17 18:16:56 Jolla invoker[632]: WARNING: requestActivate() called for  ...t.
+Oct 17 18:16:56 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:16:57 Jolla ohmd[264]: *** resource_request:  update   24
+Oct 17 18:16:57 Jolla ohmd[264]: *** resource_request:  acquire   25
+Oct 17 18:16:57 Jolla ohmd[264]: *** resource_request:  acquire   24
+Oct 17 18:16:57 Jolla [8693]: [1;31mGLIB CRITICAL ** GStreamer - gst_pad_query_ca...ed[0m
+Oct 17 18:16:57 Jolla [8693]: [1;31mGLIB CRITICAL ** GStreamer - gst_object_unref...ed[0m
+Oct 17 18:16:57 Jolla [8693]: [1;31mGLIB CRITICAL ** GStreamer - gst_caps_can_int...ed[0m
+Oct 17 18:16:57 Jolla [8693]: [1;31mGLIB CRITICAL ** GStreamer - gst_mini_object_...ed[0m
+Oct 17 18:16:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:59 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:59 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:16:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:16:59 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:16:59 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:01 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:01 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:01 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:01 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:03 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:17:03 Jolla ohmd[264]: *** resource_request:  release   25
+Oct 17 18:17:04 Jolla ohmd[264]: *** resource_request:  update   24
+Oct 17 18:17:04 Jolla ohmd[264]: *** resource_request:  release   24
+Oct 17 18:17:04 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:04 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:04 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:04 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:06 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:17:06 Jolla lipstick[563]: [1;39m[W] QQuickShaderEffectCommon::updateMa...).[0m
+Oct 17 18:17:06 Jolla ohmd[264]: *** resource_request:  unregister   24
+Oct 17 18:17:06 Jolla ohmd[264]: *** resource_request:  unregister   25
+Oct 17 18:17:06 Jolla [8693]: [1;39m[W] QWaylandWindow::createDecoration:537 - No.... [0m
+Oct 17 18:17:06 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:06 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:06 Jolla ohmd[264]: *** resource_request:  unregister   26
+Oct 17 18:17:06 Jolla mapplauncherd[5425]: Boosted process (pid=8693) exited...0
+Oct 17 18:17:06 Jolla systemd-logind[287]: Removed session c19.
+Oct 17 18:17:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:08 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:08 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:08 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:17:08 Jolla mapplauncherd[8756]: [1;31mCouldn't open '/proc/self/oom_sco...g[0m
+Oct 17 18:17:08 Jolla [8756]: [1;39m[W] QQmlImportDatabase::registerPluginTypes:1...s.[0m
+Oct 17 18:17:09 Jolla booster-silica-qt5[9766]: [D] QWaylandEglClientBufferI...
+Oct 17 18:17:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:10 Jolla mapplauncherd[9766]: SilicaBooster: Initiate asynchron....
+Oct 17 18:17:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:12 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:12 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:13 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:13 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:14 Jolla ohmd[264]: *** resource_request:  register   27
+Oct 17 18:17:14 Jolla [8756]: [D] QGstreamerVideoWindow::QGstreamerVideoWin...!
+Oct 17 18:17:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:16 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:17:16 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:17:16 Jolla lipstick[563]: [D] CoverActionModel::update:131 - voi...l
+Oct 17 18:17:16 Jolla invoker[632]: WARNING: An inactive plugin is misbehav...w!
+Oct 17 18:17:16 Jolla invoker[632]: WARNING: requestActivate() called for  ...t.
+Oct 17 18:17:16 Jolla lipstick[563]: [1;39m[W] WindowPixmapItem::updatePaintNode:.....[0m
+Oct 17 18:17:17 Jolla ohmd[264]: *** resource_request:  update   27
+Oct 17 18:17:17 Jolla [8756]: [1;39m[W] unknown:380 - file:///usr/share/jolla-cam...rl[0m
+Oct 17 18:17:17 Jolla ohmd[264]: *** resource_request:  acquire   27
+Oct 17 18:17:17 Jolla ohmd[264]: *** resource_request:  register   28
+Oct 17 18:17:17 Jolla ohmd[264]: *** resource_request:  acquire   28
+Oct 17 18:17:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:18 Jolla [8756]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:17:18 Jolla [8756]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:17:18 Jolla [8756]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:17:18 Jolla [8756]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:17:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:20 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:20 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:20 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:20 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:20 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:21 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:23 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:24 Jolla ohmd[264]: *** resource_request:  register   29
+Oct 17 18:17:24 Jolla [8756]: [D] QGstreamerVideoWindow::QGstreamerVideoWin...!
+Oct 17 18:17:24 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:17:24 Jolla ohmd[264]: *** resource_request:  audio   29
+Oct 17 18:17:24 Jolla ohmd[264]: *** resource_request:  video   29
+Oct 17 18:17:24 Jolla ohmd[264]: *** resource_request:  update   29
+Oct 17 18:17:24 Jolla dbus-daemon[385]: Activating via systemd: service name...'
+Oct 17 18:17:24 Jolla systemd[360]: Starting Transfer engine...
+Oct 17 18:17:24 Jolla mapplauncherd[8783]: [1;31mCouldn't open '/proc/self/oom_sco...g[0m
+Oct 17 18:17:24 Jolla dbus-daemon[385]: Successfully activated service 'org....'
+Oct 17 18:17:24 Jolla systemd[360]: Started Transfer engine.
+Oct 17 18:17:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:25 Jolla ne[8783]: [D] TransferEnginePrivate::exitSafely:189 -...s
+Oct 17 18:17:25 Jolla ne[8783]: [D] TransferEnginePrivate::exitSafely:189 -...s
+Oct 17 18:17:25 Jolla [8756]: [1;39m[W] unknown:43 - file:///usr/lib/qt5/qml/Sail...m*[0m
+Oct 17 18:17:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:30 Jolla ne[8783]: [D] TransferEnginePrivate::delayedExitSafel...e
+Oct 17 18:17:30 Jolla mapplauncherd[384]: Boosted process (pid=8783) was ter...5
+Oct 17 18:17:30 Jolla mapplauncherd[384]: [1;31mDaemon: Failed to kill 9817: No su...s[0m
+Oct 17 18:17:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:40 Jolla su[10116]: [1;39m(to nemo) LOGIN on pts/0[0m
+Oct 17 18:17:41 Jolla systemd-logind[287]: New session c21 of user nemo.
+Oct 17 18:17:41 Jolla su[10116]: pam_unix(su:session): session opened for u...0)
+Oct 17 18:17:41 Jolla su[10116]: pam_unix(su:session): session closed for u...mo
+Oct 17 18:17:41 Jolla systemd-logind[287]: Removed session c21.
+Oct 17 18:17:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:57 Jolla su[10137]: [1;39m(to nemo) LOGIN on pts/0[0m
+Oct 17 18:17:57 Jolla systemd-logind[287]: New session c22 of user nemo.
+Oct 17 18:17:57 Jolla su[10137]: pam_unix(su:session): session opened for u...0)
+Oct 17 18:17:57 Jolla su[10137]: pam_unix(su:session): session closed for u...mo
+Oct 17 18:17:57 Jolla systemd-logind[287]: Removed session c22.
+Oct 17 18:17:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:17:58 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:58 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:58 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:58 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:58 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:17:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:17:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:00 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:18:00 Jolla ohmd[264]: *** resource_request:  release   28
+Oct 17 18:18:00 Jolla ohmd[264]: *** resource_request:  update   27
+Oct 17 18:18:00 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:18:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:03 Jolla ohmd[264]: *** resource_request:  release   27
+Oct 17 18:18:03 Jolla lipstick[563]: [1;39m[W] QQuickShaderEffectCommon::updateMa...).[0m
+Oct 17 18:18:03 Jolla ohmd[264]: *** resource_request:  unregister   28
+Oct 17 18:18:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:04 Jolla ohmd[264]: *** resource_request:  unregister   29
+Oct 17 18:18:04 Jolla mapplauncherd[5425]: Boosted process (pid=8756) exited...0
+Oct 17 18:18:04 Jolla ohmd[264]: *** resource_request:  unregister   27
+Oct 17 18:18:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:21 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:23 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:26 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:26 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:26 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:26 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:26 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:52 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:52 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:52 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:18:52 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:18:52 Jolla mapplauncherd[9766]: [1;31mCouldn't open '/proc/self/oom_sco...g[0m
+Oct 17 18:18:53 Jolla [9766]: [1;39m[W] QQmlImportDatabase::registerPluginTypes:1...s.[0m
+Oct 17 18:18:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:54 Jolla booster-silica-qt5[10749]: [D] QWaylandEglClientBuffer...
+Oct 17 18:18:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:54 Jolla mapplauncherd[10749]: SilicaBooster: Initiate asynchro....
+Oct 17 18:18:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:18:59 Jolla ohmd[264]: *** resource_request:  register   30
+Oct 17 18:18:59 Jolla [9766]: [D] QGstreamerVideoWindow::QGstreamerVideoWin...!
+Oct 17 18:18:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:18:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:00 Jolla lipstick[563]: [7B blob data]
+Oct 17 18:19:01 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:19:01 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:19:01 Jolla lipstick[563]: [D] CoverActionModel::update:131 - voi...l
+Oct 17 18:19:01 Jolla invoker[632]: WARNING: An inactive plugin is misbehav...w!
+Oct 17 18:19:01 Jolla invoker[632]: WARNING: requestActivate() called for  ...t.
+Oct 17 18:19:01 Jolla lipstick[563]: [1;39m[W] WindowPixmapItem::updatePaintNode:.....[0m
+Oct 17 18:19:01 Jolla ohmd[264]: *** resource_request:  update   30
+Oct 17 18:19:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:01 Jolla [9766]: [1;39m[W] unknown:380 - file:///usr/share/jolla-cam...rl[0m
+Oct 17 18:19:01 Jolla ohmd[264]: *** resource_request:  acquire   30
+Oct 17 18:19:02 Jolla ohmd[264]: *** resource_request:  register   31
+Oct 17 18:19:02 Jolla ohmd[264]: *** resource_request:  acquire   31
+Oct 17 18:19:03 Jolla [9766]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:19:03 Jolla [9766]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:19:03 Jolla [9766]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:19:03 Jolla [9766]: [1;39m[W] CameraBinSession::processBusMessage:1027 ..." [0m
+Oct 17 18:19:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:19:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:08 Jolla ohmd[264]: *** resource_request:  register   32
+Oct 17 18:19:08 Jolla [9766]: [D] QGstreamerVideoWindow::QGstreamerVideoWin...!
+Oct 17 18:19:08 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:19:08 Jolla ohmd[264]: *** resource_request:  audio   32
+Oct 17 18:19:08 Jolla ohmd[264]: *** resource_request:  video   32
+Oct 17 18:19:08 Jolla ohmd[264]: *** resource_request:  update   32
+Oct 17 18:19:08 Jolla dbus-daemon[385]: Activating via systemd: service name...'
+Oct 17 18:19:08 Jolla systemd[360]: Starting Transfer engine...
+Oct 17 18:19:08 Jolla mapplauncherd[9818]: [1;31mCouldn't open '/proc/self/oom_sco...g[0m
+Oct 17 18:19:09 Jolla dbus-daemon[385]: Successfully activated service 'org....'
+Oct 17 18:19:09 Jolla systemd[360]: Started Transfer engine.
+Oct 17 18:19:09 Jolla ne[9818]: [D] TransferEnginePrivate::exitSafely:189 -...s
+Oct 17 18:19:09 Jolla ne[9818]: [D] TransferEnginePrivate::exitSafely:189 -...s
+Oct 17 18:19:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:19:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:09 Jolla [9766]: [1;39m[W] unknown:43 - file:///usr/lib/qt5/qml/Sail...m*[0m
+Oct 17 18:19:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:14 Jolla ne[9818]: [D] TransferEnginePrivate::delayedExitSafel...e
+Oct 17 18:19:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:19:14 Jolla mapplauncherd[384]: Boosted process (pid=9818) was ter...5
+Oct 17 18:19:14 Jolla mapplauncherd[384]: [1;31mDaemon: Failed to kill 10781: No s...s[0m
+Oct 17 18:19:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:19:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:19:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d

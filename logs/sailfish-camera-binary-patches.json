@@ -1,0 +1,50 @@
+[
+  {
+    "path": "work/sailfish-stage/usr/libexec/droid-hybris/system/lib/libgui.so",
+    "input_sha256": "d89b5621bee2464d2c820085e73278cdcba00a6cf4ff7a05e4df66772c14e092",
+    "output": "out/sailfish-camera-test/libgui-final.so",
+    "output_sha256": "8fba60572151b7edc55b5c843dc8b7f4c87ebe1ed57b281a51dcd376211c6314",
+    "patches": [
+      {
+        "offset": "0x26560",
+        "old": "72b9",
+        "new": "0ee0",
+        "reason": "permit multiple legacy HAL dequeues without producer buffer-count override"
+      },
+      {
+        "offset": "0x26a44",
+        "old": "4bb9",
+        "new": "09e0",
+        "reason": "accept legacy queueBuffer input with a null fence"
+      }
+    ]
+  },
+  {
+    "path": "work/sailfish-stage/system/lib/libmemalloc.so",
+    "input_sha256": "ec16da8907b72e251e5f70cf16b3e323d9b313416a7eacc2c77eb86091056118",
+    "output": "out/sailfish-camera-test/libmemalloc-final.so",
+    "output_sha256": "74f5f1d0fa56da3b81f30287e17132f4b8cddd4fc380a517decee0cb3cacfb7a",
+    "patches": [
+      {
+        "offset": "0x26e2",
+        "old": "12d4",
+        "new": "00bf",
+        "reason": "allow ashmem fallback when the separate minisf process cannot own the all-or-nothing PMEM arena"
+      }
+    ]
+  },
+  {
+    "path": "work/sailfish-stage/system/lib/hw/camera.qsd8k.so",
+    "input_sha256": "3ceb3be0f5d9b11689a130fa5908de13504ce4ac07f500a99bb6e7d3e3d7ce5d",
+    "output": "out/sailfish-camera-test/camera.qsd8k-final.so",
+    "output_sha256": "a260b71ba571df3903032c9b4574b004a13c5c938da1c97e4a1dda0ffe4fb26b",
+    "patches": [
+      {
+        "offset": "0x2f48",
+        "old": "36d1",
+        "new": "00bf",
+        "reason": "run the existing software preview conversion when MDP cannot blit to an ashmem destination"
+      }
+    ]
+  }
+]

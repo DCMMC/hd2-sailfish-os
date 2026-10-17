@@ -1,0 +1,26 @@
+> > > > > > > > > > > > 0
+0:00:01.408538816 23485    0xe32a0 WARN             droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new: failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:01.408874509 23485    0xe32a0 INFO             droidcamsrc gstdroidcamsrcphotography.c:610:gst_droidcamsrc_photography_init:<GstDroidCamSrc@0x10e218> using configuration file //etc/gst-droid/gstdroidcamsrc-0.conf
+0:00:01.409484861 23485    0xe32a0 WARN             droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load: failed to load iso-speed: Key file does not have group 'iso-speed'
+0:00:01.410919187 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:2058:gst_camera_bin_set_camera_src:<cam> Setting camera source <droidcamsrc0>
+0:00:01.436523436 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1711:gst_camera_bin_create_elements:<cam> Switching video-encodebin's profile
+0:00:01.505371094 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1232:encodebin_find_pad:<cam> Looking at encodebin pads, searching for video pad
+0:00:01.505554199 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1243:encodebin_find_pad:<cam> Found video pad video_0
+0:00:01.564849854 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1726:gst_camera_bin_create_elements:<cam> Switching image-encodebin's profile
+0:00:01.581054687 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1232:encodebin_find_pad:<cam> Looking at encodebin pads, searching for video pad
+0:00:01.581237793 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1243:encodebin_find_pad:<cam> Found video pad video_0
+0:00:01.614318848 23485    0xe32a0 INFO             droidcamsrc gstdroidcamsrc.c:306:gst_droidcamsrc_set_property:<droidcamsrc0> setting capture mode to: 1
+0:00:01.614471436 23485    0xe32a0 INFO             droidcamsrc gstdroidcamsrc.c:309:gst_droidcamsrc_set_property:<droidcamsrc0> not resetting the same mode
+0:00:01.614654541 23485    0xe32a0 INFO             droidcamsrc gstdroidcamsrcphotography.c:1297:gst_droidcamsrc_set_and_apply:<droidcamsrc0> setting zoom to 0
+0:00:01.614807129 23485    0xe32a0 DEBUG            droidcamsrc gstdroidcamsrcphotography.c:1123:gst_droidcamsrc_set_zoom:<droidcamsrc0> zoom set to 0
+0:00:01.614990235 23485    0xe32a0 DEBUG              camerabin gstcamerabin2.c:1370:gst_camera_bin_src_notify_zoom_cb:<cam> Zoom updated to 1
+0:00:01.615447998 23485    0xe32a0 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<droidcamsrc0> pad vfsrc caps query: 0x15ebb0, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:01.615783692 23485    0xe32a0 LOG              droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<droidcamsrc0> replying to caps query: 0x15ebb0, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:01.616912842 23485    0xe32a0 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<droidcamsrc0> pad imgsrc caps query: 0x15eb20, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:01.617095947 23485    0xe32a0 LOG              droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<droidcamsrc0> replying to caps query: 0x15eb20, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)image/jpeg;
+0:00:01.649322509 23485    0xe32a0 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<droidcamsrc0> pad vidsrc caps query: 0x15ed80, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:01.649566650 23485    0xe32a0 LOG              droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<droidcamsrc0> replying to caps query: 0x15ed80, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidVideoMetaData\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}";
+0:00:01.708007811 23485    0xe32a0 ERROR              camerabin gstcamerabin2.c:1801:gst_camera_bin_create_elements:<cam> Failed to link camera source's vidsrc pad to video bin capsfilter
+parse_pipeline=yes error=(nil)
+set_playing_result=0
+get_state_result=0 state=1 pending=4

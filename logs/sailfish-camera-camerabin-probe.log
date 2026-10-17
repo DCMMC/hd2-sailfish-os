@@ -1,0 +1,36 @@
+> > > > > > > > > > > --- camerabin ---
+0:00:00.621032713 [332m23299[00m    0xc04a0 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new:[00m failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:00.622039793 [332m23299[00m    0xc04a0 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load:[00m failed to load iso-speed: Key file does not have group 'iso-speed'
+0:00:00.623474119 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:2058:gst_camera_bin_set_camera_src:<cam>[00m Setting camera source <droidcamsrc0>
+0:00:00.684722900 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1711:gst_camera_bin_create_elements:<cam>[00m Switching video-encodebin's profile
+0:00:00.832519534 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1232:encodebin_find_pad:<cam>[00m Looking at encodebin pads, searching for video pad
+0:00:00.832733157 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1243:encodebin_find_pad:<cam>[00m Found video pad video_0
+0:00:00.899383547 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1726:gst_camera_bin_create_elements:<cam>[00m Switching image-encodebin's profile
+0:00:00.917205813 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1232:encodebin_find_pad:<cam>[00m Looking at encodebin pads, searching for video pad
+0:00:00.917419436 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1243:encodebin_find_pad:<cam>[00m Found video pad video_0
+0:00:00.950042726 [332m23299[00m    0xc04a0 [37mDEBUG  [00m [00m           camerabin gstcamerabin2.c:1370:gst_camera_bin_src_notify_zoom_cb:<cam>[00m Zoom updated to 1
+0:00:01.042663573 [332m23299[00m    0xc04a0 [31;01mERROR  [00m [00m           camerabin gstcamerabin2.c:1801:gst_camera_bin_create_elements:<cam>[00m Failed to link camera source's vidsrc pad to video bin capsfilter
+parse_pipeline=yes error=(nil)
+set_playing_result=0
+get_state_result=0 state=1 pending=4
+--- auto ---
+0:00:00.608673096 [336m23315[00m    0xc2040 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new:[00m failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:00.609649658 [336m23315[00m    0xc2040 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load:[00m failed to load iso-speed: Key file does not have group 'iso-speed'
+0:00:00.623779296 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:369:gst_auto_detect_detect:<autovideosink0>[00m Creating new kid
+0:00:00.625366210 [336m23315[00m    0xc2040 [33;01mLOG    [00m [00m          autodetect gstautodetect.c:277:gst_auto_detect_find_best:<autovideosink0>[00m Trying to find usable video elements ...
+0:00:00.626617431 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:286:gst_auto_detect_find_best:<autovideosink0>[00m Testing droideglsink
+0:00:00.626922607 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:296:gst_auto_detect_find_best:<autovideosink0>[00m Checking caps: video/x-raw vs. video/x-raw, format=(string){ YV12, NV21 }, width=(int)[ 1, 2147483647 ], height=(int)[ 1, 2147483647 ], framerate=(fraction)[ 0/1, 2147483647/1 ]; video/x-raw(memory:DroidMediaBuffer), format=(string){ YV12 }, width=(int)[ 1, 2147483647 ], height=(int)[ 1, 2147483647 ], framerate=(fraction)[ 0/1, 2147483647/1 ]
+0:00:00.627166748 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:305:gst_auto_detect_find_best:<autovideosink0>[00m Found compatible caps
+0:00:00.627624511 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:312:gst_auto_detect_find_best:<autovideosink0>[00m This worked!
+0:00:00.627716064 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:328:gst_auto_detect_find_best:<autovideosink0>[00m done trying
+0:00:00.628417968 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:391:gst_auto_detect_detect:<autovideosink0>[00m Re-assigning ghostpad
+0:00:00.628631591 [336m23315[00m    0xc2040 [37mDEBUG  [00m [00m          autodetect gstautodetect.c:396:gst_auto_detect_detect:<autovideosink0>[00m done changing auto video sink
+0:00:00.630126953 [336m23315[00m    0xc2040 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:419:gst_droidcamsrc_fill_info:<cam>[00m camera 0 is facing 0 with orientation 1
+0:00:00.630706787 [336m23315[00m    0xc2040 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrc.c:459:gst_droidcamsrc_get_hw:<cam>[00m cannot find front camera
+0:00:00.839447017 [336m23315[00m    0xc2040 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:1406:gst_droidcamsrc_photography_set_iso_to_droid:<cam>[00m setting iso to 0 is not supported
+0:00:00.870452877 [336m23315[00m    0xc2040 [31;01mERROR  [00m [00m         droidcamsrc gstdroidcamsrcdev.c:1047:gst_droidcamsrc_dev_enable_face_detection:[00m error disabling face detection
+0:00:00.870849606 [336m23315[00m    0xc2040 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcdev.c:731:gst_droidcamsrc_dev_start:<cam>[00m Using raw data mode
+0:00:16.165710448 [336m23315[00m    0xc2040 [36mINFO   [00m [00m        droideglsink gstdroideglsink.c:273:gst_droideglsink_event:<autovideosink0-actual-sink-droidegl>[00m emitting frame-ready with -1 after flush-start event: 0x423054a8, time 99:99:99.999999999, seq-num 184, (NULL)
+parse_pipeline=yes error=(nil)
+set_playing_result=2
+get_state_result=1 state=4 pending=0

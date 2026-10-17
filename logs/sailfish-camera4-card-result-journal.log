@@ -1,0 +1,601 @@
+> -- Logs begin at Sat 2026-10-17 16:48:25 EEST, end at Sat 2026-10-17 18:33:17 EEST. --
+Oct 17 18:29:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:29:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:46 Jolla ohmd[264]: *** resource_request:  register   38
+Oct 17 18:29:46 Jolla [15347]: [D] QGstreamerVideoWindow::QGstreamerVideoWi...!
+Oct 17 18:29:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:47 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:29:47 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:29:47 Jolla lipstick[563]: [D] CoverActionModel::update:131 - voi...l
+Oct 17 18:29:47 Jolla invoker[632]: WARNING: An inactive plugin is misbehav...w!
+Oct 17 18:29:47 Jolla invoker[632]: WARNING: requestActivate() called for  ...t.
+Oct 17 18:29:48 Jolla lipstick[563]: [1;39m[W] WindowPixmapItem::updatePaintNode:.....[0m
+Oct 17 18:29:48 Jolla ohmd[264]: *** resource_request:  update   38
+Oct 17 18:29:48 Jolla ohmd[264]: *** resource_request:  register   39
+Oct 17 18:29:48 Jolla ohmd[264]: *** resource_request:  acquire   38
+Oct 17 18:29:48 Jolla [15347]: [1;39m[W] unknown:380 - file:///usr/share/jolla-ca...rl[0m
+Oct 17 18:29:48 Jolla ohmd[264]: *** resource_request:  acquire   39
+Oct 17 18:29:49 Jolla lipstick[563]: [1;39m[W] QQuickShaderEffectCommon::updateMa...).[0m
+Oct 17 18:29:49 Jolla ohmd[264]: *** resource_request:  unregister   39
+Oct 17 18:29:49 Jolla lipstick[563]: [D] CoverActionModel::update:131 - voi...l
+Oct 17 18:29:49 Jolla mapplauncherd[5425]: Boosted process (pid=15347) was t...1
+Oct 17 18:29:49 Jolla invoker[16585]: [1;31merror: Can't send signal 11 to applic...ss[0m
+Oct 17 18:29:49 Jolla ohmd[264]: *** resource_request:  unregister   38
+Oct 17 18:29:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:29:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:29:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:29:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:21 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:23 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:30:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:30:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:21 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:23 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:31:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:31:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:32:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:32:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:32:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:32:03 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such fi...ry[0m
+Oct 17 18:32:04 Jolla mapplauncherd[16588]: [1;31mCouldn't open '/proc/self/oom_sc...g[0m
+Oct 17 18:32:04 Jolla [16588]: [1;39m[W] QQmlImportDatabase::registerPluginTypes:...s.[0m
+Oct 17 18:32:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:05 Jolla booster-silica-qt5[16678]: [D] QWaylandEglClientBuffer...
+Oct 17 18:32:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:06 Jolla mapplauncherd[16678]: SilicaBooster: Initiate asynchro....
+Oct 17 18:32:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:10 Jolla ohmd[264]: *** resource_request:  register   40
+Oct 17 18:32:10 Jolla [16588]: [D] QGstreamerVideoWindow::QGstreamerVideoWi...!
+Oct 17 18:32:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:11 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:32:11 Jolla lipstick[563]: [1;39m[W] JollaSystemInfo::adjustOOMScore:13...ng[0m
+Oct 17 18:32:11 Jolla lipstick[563]: [D] CoverActionModel::update:131 - voi...l
+Oct 17 18:32:11 Jolla invoker[632]: WARNING: An inactive plugin is misbehav...w!
+Oct 17 18:32:11 Jolla invoker[632]: WARNING: requestActivate() called for  ...t.
+Oct 17 18:32:12 Jolla lipstick[563]: [1;39m[W] WindowPixmapItem::updatePaintNode:.....[0m
+Oct 17 18:32:12 Jolla ohmd[264]: *** resource_request:  update   40
+Oct 17 18:32:12 Jolla [16588]: [1;39m[W] unknown:380 - file:///usr/share/jolla-ca...rl[0m
+Oct 17 18:32:12 Jolla ohmd[264]: *** resource_request:  acquire   40
+Oct 17 18:32:12 Jolla ohmd[264]: *** resource_request:  register   41
+Oct 17 18:32:12 Jolla ohmd[264]: *** resource_request:  acquire   41
+Oct 17 18:32:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:17 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:17 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:17 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:17 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:17 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:17 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:18 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:18 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:18 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:18 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:19 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:19 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:19 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:19 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:19 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:19 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:20 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:20 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:20 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:20 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:20 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:21 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:21 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:21 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:21 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:21 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:22 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:22 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:22 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:22 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:22 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:23 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:23 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:23 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:23 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:23 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:24 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:24 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:24 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:24 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:24 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:25 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:25 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:25 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:25 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:25 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:25 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:26 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:26 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:26 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:26 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:27 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:27 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:27 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:27 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:27 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:27 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:28 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:28 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:28 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:28 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:29 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:29 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:29 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:29 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:29 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:30 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:30 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:30 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:31 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:31 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:31 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:31 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:31 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:32 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:32 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:32 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:32 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:32 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:33 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:33 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:33 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:33 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:33 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:34 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:34 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:34 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:34 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:34 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:34 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:35 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:35 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:35 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:35 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:35 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:36 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:36 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:36 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:36 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:37 Jolla ohmd[264]: *** resource_request:  register   42
+Oct 17 18:32:37 Jolla [16588]: [D] QGstreamerVideoWindow::QGstreamerVideoWi...!
+Oct 17 18:32:37 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:37 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mut...te[0m
+Oct 17 18:32:37 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:37 Jolla ohmd[264]: *** resource_request:  audio   42
+Oct 17 18:32:37 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:37 Jolla ohmd[264]: *** resource_request:  video   42
+Oct 17 18:32:38 Jolla ohmd[264]: *** resource_request:  update   42
+Oct 17 18:32:38 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:38 Jolla dbus-daemon[385]: Activating via systemd: service name...'
+Oct 17 18:32:38 Jolla systemd[360]: Starting Transfer engine...
+Oct 17 18:32:38 Jolla mapplauncherd[15380]: [1;31mCouldn't open '/proc/self/oom_sc...g[0m
+Oct 17 18:32:38 Jolla dbus-daemon[385]: Successfully activated service 'org....'
+Oct 17 18:32:38 Jolla systemd[360]: Started Transfer engine.
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:39 Jolla ne[15380]: [D] TransferEnginePrivate::exitSafely:189 ...s
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:39 Jolla ne[15380]: [D] TransferEnginePrivate::exitSafely:189 ...s
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] unknown:43 - file:///usr/lib/qt5/qml/Sai...m*[0m
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:39 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:39 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:39 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:40 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:41 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:41 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:42 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:43 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:43 Jolla ne[15380]: [D] TransferEnginePrivate::delayedExitSafe...e
+Oct 17 18:32:43 Jolla mapplauncherd[384]: Boosted process (pid=15380) was te...5
+Oct 17 18:32:44 Jolla mapplauncherd[384]: [1;31mDaemon: Failed to kill 16720: No s...s[0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:44 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:44 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:45 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:45 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:46 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:47 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:47 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:48 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:49 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:49 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:50 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:51 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:51 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:52 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:53 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:53 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:54 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:55 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:55 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:56 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:57 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:57 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:58 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:32:59 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:32:59 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:00 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:01 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:01 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:02 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:03 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:03 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:04 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:05 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:05 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:06 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:07 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:07 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:08 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:08 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:08 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:08 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:08 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:08 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:09 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:09 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:10 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:11 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:11 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:12 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:13 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:13 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:14 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): ...nt[0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:15 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation no...d
+Oct 17 18:33:15 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:16 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m
+Oct 17 18:33:17 Jolla [16588]: [1;39m[W] CameraBinSession::processBusMessage:1027..." [0m

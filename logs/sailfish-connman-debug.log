@@ -1,0 +1,1735 @@
+> connmand[2638]: Connection Manager version 1.30
+connmand[2638]: src/dbus.c:__connman_dbus_init()
+connmand[2638]: src/inotify.c:__connman_inotify_init()
+connmand[2638]: src/storage.c:__connman_storage_init()
+connmand[2638]: src/storage.c:keyfile_init() Creating keyfile hash.
+connmand[2638]: src/main.c:parse_config() parsing main.conf
+connmand[2638]: src/technology.c:__connman_technology_init()
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Storing record for /var/lib/connman/settings into cache.
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce078 for /var/lib/connman/settings from cache.
+connmand[2638]: src/notifier.c:__connman_notifier_init()
+connmand[2638]: src/agent.c:__connman_agent_init()
+connmand[2638]: src/service.c:__connman_service_init()
+connmand[2638]: src/agent.c:connman_agent_driver_register() Registering driver 0xa3e58 name service
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:storage_dir_init() Initializing storage directories.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_463665749be2_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_7ac2ab264999_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_ba896d65db94_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_cab37e9fe39d_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_eadf7e254fa8_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_5619f13dd10c_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_9e4607fbec06_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/storage.c:storage_subdir_append() ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:debug_subdirs() Storage subdirs not initialized.
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman
+connmand[2638]: src/storage.c:storage_dir_init() Initialization done.
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Storing record for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings into cache.
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/peer_service.c:__connman_peer_service_init()
+connmand[2638]: src/peer.c:__connman_peer_init()
+connmand[2638]: src/provider.c:__connman_provider_init()
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa3e7c name provider
+connmand[2638]: src/network.c:__connman_network_init()
+connmand[2638]: src/config.c:__connman_config_init()
+connmand[2638]: src/config.c:read_configs()
+connmand[2638]: src/device.c:__connman_device_init()
+connmand[2638]: src/ippool.c:__connman_ippool_init()
+connmand[2638]: src/iptables.c:__connman_iptables_init()
+connmand[2638]: src/firewall.c:__connman_firewall_init()
+connmand[2638]: src/iptables.c:iptables_init() filter
+connmand[2638]: src/iptables.c:iptables_init() ip_tables module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_init() iptable_filter module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:__connman_iptables_commit() filter
+connmand[2638]: src/iptables.c:iptables_init() mangle
+connmand[2638]: src/iptables.c:iptables_init() ip_tables module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_init() iptable_mangle module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:__connman_iptables_commit() mangle
+connmand[2638]: src/iptables.c:iptables_init() nat
+connmand[2638]: src/iptables.c:iptables_init() ip_tables module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_init() iptable_nat module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:__connman_iptables_commit() nat
+connmand[2638]: src/nat.c:__connman_nat_init()
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa40f8 name nat
+connmand[2638]: src/tethering.c:__connman_tethering_init()
+connmand[2638]: src/counter.c:__connman_counter_init()
+connmand[2638]: src/manager.c:__connman_manager_init()
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa3e2c name manager
+connmand[2638]: src/clock.c:__connman_clock_init()
+connmand[2638]: src/timezone.c:__connman_timezone_init()
+connmand[2638]: src/timezone.c:__connman_timezone_lookup() sysconfig zone UTC
+connmand[2638]: src/timezone.c:__connman_timezone_lookup() localtime zone Europe/Helsinki
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce078 for /var/lib/connman/settings from cache.
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_init()
+connmand[2638]: src/rtnl.c:__connman_rtnl_init()
+connmand[2638]: src/task.c:__connman_task_init()
+connmand[2638]: src/proxy.c:__connman_proxy_init()
+connmand[2638]: src/detect.c:__connman_detect_init()
+connmand[2638]: src/rtnl.c:connman_rtnl_register() rtnl 0xa3ea8 name detect
+connmand[2638]: src/session.c:__connman_session_init()
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa3f74 name session
+connmand[2638]: src/firewall.c:firewall_enable_rule() mangle INPUT -j CONNMARK --restore-mark
+connmand[2638]: src/firewall.c:insert_managed_rule() table mangle add managed chain for INPUT
+connmand[2638]: src/iptables.c:__connman_iptables_new_chain() -t mangle -N connman-INPUT
+connmand[2638]: src/iptables.c:iptables_init() mangle
+connmand[2638]: src/iptables.c:iptables_init() ip_tables module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_init() iptable_mangle module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_add_chain() table mangle chain connman-INPUT
+connmand[2638]: src/iptables.c:__connman_iptables_insert() -t mangle -I INPUT -j connman-INPUT
+connmand[2638]: src/iptables.c:iptables_insert_rule() table mangle chain INPUT
+connmand[2638]: src/iptables.c:__connman_iptables_append() -t mangle -A connman-INPUT -j CONNMARK --restore-mark
+connmand[2638]: src/iptables.c:iptables_append_rule() table mangle chain connman-INPUT
+connmand[2638]: src/iptables.c:__connman_iptables_commit() mangle
+connmand[2638]: src/firewall.c:firewall_enable_rule() mangle POSTROUTING -j CONNMARK --save-mark
+connmand[2638]: src/firewall.c:insert_managed_rule() table mangle add managed chain for POSTROUTING
+connmand[2638]: src/iptables.c:__connman_iptables_new_chain() -t mangle -N connman-POSTROUTING
+connmand[2638]: src/iptables.c:iptables_init() mangle
+connmand[2638]: src/iptables.c:iptables_init() ip_tables module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_init() iptable_mangle module loading gives error but trying anyway
+connmand[2638]: src/iptables.c:iptables_add_chain() table mangle chain connman-POSTROUTING
+connmand[2638]: src/iptables.c:__connman_iptables_insert() -t mangle -I POSTROUTING -j connman-POSTROUTING
+connmand[2638]: src/iptables.c:iptables_insert_rule() table mangle chain POSTROUTING
+connmand[2638]: src/iptables.c:__connman_iptables_append() -t mangle -A connman-POSTROUTING -j CONNMARK --save-mark
+connmand[2638]: src/iptables.c:iptables_append_rule() table mangle chain connman-POSTROUTING
+connmand[2638]: src/iptables.c:__connman_iptables_commit() mangle
+connmand[2638]: src/timeserver.c:__connman_timeserver_init()
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa3ec8 name timeserver
+connmand[2638]: src/connection.c:__connman_connection_init()
+connmand[2638]: src/rtnl.c:connman_rtnl_register() rtnl 0xa3e14 name connection
+connmand[2638]: src/plugin.c:__connman_plugin_init()
+connmand[2638]: plugins/loopback.c:setup_loopback() Checking loopback interface settings
+connmand[2638]: plugins/loopback.c:setup_hostname() System hostname is Jolla
+connmand[2638]: src/utsname.c:connman_utsname_driver_register() driver 0xa2b34 name loopback
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa3bcc name pacrunner
+connmand[2638]: src/proxy.c:connman_proxy_driver_register() driver 0xa3bbc name pacrunnerproxy
+connmand[2638]: src/provider.c:connman_provider_driver_register() driver 0xa3b6c name VPN
+connmand[2638]: plugins/vpn.c:vpnd_created() connection 0xc78b8
+connmand[2638]: plugins/vpn.c:get_connections()
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_init()
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa3b20 name signalpoll
+connmand[2638]: plugins/jolla-usb.c:jolla_usb_init()
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering usb_tethering driver
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa3ad8 name network
+connmand[2638]: src/device.c:probe_driver() driver 0xa3ad8 name network
+connmand[2638]: plugins/logcontrol.c:logcontrol_init()
+connmand[2638]: src/network.c:connman_network_driver_register() driver 0xa3a58 name network
+connmand[2638]: src/network.c:probe_driver() driver 0xa3a58 name network
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa3a30 name dundee
+connmand[2638]: src/device.c:probe_driver() driver 0xa3a30 name dundee
+connmand[2638]: plugins/ofono.c:ofono_init()
+connmand[2638]: src/network.c:connman_network_driver_register() driver 0xa3094 name cellular
+connmand[2638]: src/network.c:probe_driver() driver 0xa3094 name cellular
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa306c name modem
+connmand[2638]: src/device.c:probe_driver() driver 0xa306c name modem
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering cellular driver
+connmand[2638]: plugins/jolla-rfkill.c:jolla_rfkill_init() Initializing dummy device for BT rfkill.
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa3000 name bluetooth_rfkill
+connmand[2638]: src/device.c:probe_driver() driver 0xa3000 name bluetooth_rfkill
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering bluetooth_rfkill driver
+connmand[2638]: src/device.c:connman_device_create() node bluetooth_rfkill type 3
+connmand[2638]: src/device.c:connman_device_create() device 0xd7048
+connmand[2638]: src/device.c:connman_device_register() device 0xd7048 name Bluetooth
+connmand[2638]: src/device.c:connman_device_register() driver 0xa3000 name bluetooth_rfkill
+connmand[2638]: plugins/jolla-rfkill.c:bluetooth_rfkill_device_probe() device 0xd7048
+connmand[2638]: plugins/jolla-rfkill.c:bluetooth_rfkill_device_probe() Cannot get BT info: No such device(19)
+connmand[2638]: src/device.c:connman_device_register() driver 0xa3a30 name dundee
+connmand[2638]: plugins/dundee.c:dundee_probe() device 0xd7048
+connmand[2638]: plugins/jolla_wakeup_timer.c:jolla_wakeup_timer_init()
+connmand[2638]: CLOCK_BOOTTIME not available: Invalid argument(22).
+connmand[2638]: plugins/jolla-gps.c:jolla_gps_init()
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering gps driver
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa2f2c name gps
+connmand[2638]: src/device.c:probe_driver() driver 0xa2f2c name gps
+connmand[2638]: src/device.c:connman_device_create() node gps type 5
+connmand[2638]: src/device.c:connman_device_create() device 0xd7350
+connmand[2638]: src/device.c:connman_device_register() device 0xd7350 name GPS
+connmand[2638]: src/device.c:connman_device_register() driver 0xa2f2c name gps
+connmand[2638]: plugins/jolla-gps.c:jolla_gps_probe()
+connmand[2638]: src/technology.c:__connman_technology_add_device() device 0xd7350 type Gps
+connmand[2638]: src/technology.c:technology_get() type 6
+connmand[2638]: src/technology.c:technology_find() type 6
+connmand[2638]: src/technology.c:technology_get() technology (nil) driver 0xa2f54
+connmand[2638]: src/technology.c:technology_load() technology 0xd7398
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce078 for /var/lib/connman/settings from cache.
+connmand[2638]: plugins/jolla-gps.c:jolla_gps_tech_probe()
+connmand[2638]: src/technology.c:technology_get() technology 0xd7398 Gps
+connmand[2638]: src/device.c:__connman_device_enable() device 0xd7350
+connmand[2638]: plugins/jolla-gps.c:jolla_gps_enable()
+connmand[2638]: src/device.c:connman_device_get_string() device 0xd7350 key Path
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xd7350 powered 1
+connmand[2638]: src/technology.c:technology_find() type 6
+connmand[2638]: src/technology.c:__connman_technology_enabled() technology 0xd7398 type Gps rfkill 0 enabled 0
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xd7350 powered 1
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering bluetooth driver
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa2ea4 name bluetooth
+connmand[2638]: src/device.c:probe_driver() driver 0xa2ea4 name bluetooth
+connmand[2638]: src/network.c:connman_network_driver_register() driver 0xa2ecc name bluetooth
+connmand[2638]: src/network.c:probe_driver() driver 0xa2ecc name bluetooth
+connmand[2638]: src/network.c:connman_network_driver_register() driver 0xa2c14 name wifi
+connmand[2638]: src/network.c:probe_driver() driver 0xa2c14 name wifi
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering wifi driver
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering ethernet driver
+connmand[2638]: src/network.c:connman_network_driver_register() driver 0xa2b8c name cable
+connmand[2638]: src/network.c:probe_driver() driver 0xa2b8c name cable
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa2ba8 name ethernet
+connmand[2638]: src/device.c:probe_driver() driver 0xa2ba8 name ethernet
+connmand[2638]: src/network.c:connman_network_driver_register() driver 0xa2e68 name bluetooth_legacy-pan
+connmand[2638]: src/network.c:probe_driver() driver 0xa2e68 name bluetooth_legacy-pan
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa2e1c name bluetooth_legacy
+connmand[2638]: src/device.c:probe_driver() driver 0xa2e1c name bluetooth_legacy
+connmand[2638]: plugins/bluetooth_legacy.c:bluetooth_probe() device 0xd7048
+connmand[2638]: src/technology.c:connman_technology_driver_register() Registering bluetooth_legacy driver
+connmand[2638]: src/resolver.c:__connman_resolver_init() dnsproxy 1
+connmand[2638]: src/dnsproxy.c:__connman_dnsproxy_init()
+connmand[2638]: src/dnsproxy.c:__connman_dnsproxy_add_listener() index 1
+connmand[2638]: src/dnsproxy.c:get_listener() family 2 protocol 17 index 1
+connmand[2638]: src/inet.c:__connman_inet_get_interface_address() index 1 interface lo
+connmand[2638]: src/dnsproxy.c:get_listener() family 10 protocol 17 index 1
+connmand[2638]: src/inet.c:__connman_inet_get_interface_address() index 1 interface lo
+connmand[2638]: src/dnsproxy.c:get_listener() family 2 protocol 6 index 1
+connmand[2638]: src/inet.c:__connman_inet_get_interface_address() index 1 interface lo
+connmand[2638]: src/dnsproxy.c:get_listener() family 10 protocol 6 index 1
+connmand[2638]: src/inet.c:__connman_inet_get_interface_address() index 1 interface lo
+connmand[2638]: src/resolver.c:__connman_resolvfile_append() index 1 server ::1
+connmand[2638]: src/resolver.c:__connman_resolvfile_append() index 1 server 127.0.0.1
+connmand[2638]: src/notifier.c:connman_notifier_register() notifier 0xa40cc name dnsproxy
+connmand[2638]: src/rtnl.c:__connman_rtnl_start()
+connmand[2638]: src/rtnl.c:send_getaddr()
+connmand[2638]: src/rtnl.c:send_getroute()
+connmand[2638]: src/dhcp.c:__connman_dhcp_init()
+connmand[2638]: src/dhcpv6.c:__connman_dhcpv6_init()
+connmand[2638]: src/wpad.c:__connman_wpad_init()
+connmand[2638]: src/wispr.c:__connman_wispr_init()
+connmand[2638]: src/rfkill.c:__connman_rfkill_init()
+connmand[2638]: src/rfkill.c:rfkill_process()
+connmand[2638]: src/rfkill.c:rfkill_process() idx 0 type 2 op 0 soft 1 hard 0
+connmand[2638]: src/technology.c:__connman_technology_add_rfkill() index 0 type 4 soft 1 hard 0
+connmand[2638]: src/technology.c:technology_get() type 4
+connmand[2638]: src/technology.c:technology_find() type 4
+connmand[2638]: src/technology.c:technology_get() technology (nil) driver 0xa2ee8
+connmand[2638]: src/technology.c:technology_get() technology (nil) driver 0xa2fdc
+connmand[2638]: src/technology.c:technology_get() technology (nil) driver 0xa2e44
+connmand[2638]: src/technology.c:technology_load() technology 0xda080
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce078 for /var/lib/connman/settings from cache.
+connmand[2638]: plugins/jolla-rfkill.c:bluetooth_rfkill_tech_probe() technology 0xda080
+connmand[2638]: src/rfkill.c:__connman_rfkill_block() type 4 block 1
+connmand[2638]: src/technology.c:technology_get() technology 0xda080 Bluetooth
+connmand[2638]: src/technology.c:technology_apply_rfkill_change() technology 0xda080 --> 1/0 vs 0/0
+connmand[2638]: src/rfkill.c:rfkill_process()
+connmand[2638]: src/rfkill.c:rfkill_process() idx 0 type 2 op 2 soft 1 hard 0
+connmand[2638]: src/technology.c:__connman_technology_update_rfkill() index 0 soft 1 hard 0
+connmand[2638]: src/rfkill.c:rfkill_process()
+connmand[2638]: src/machine.c:__connman_machine_init()
+connmand[2638]: src/storage.c:keyfile_inotify_cb() name /var/lib/connman/settings
+connmand[2638]: src/storage.c:debug_inotify_event() Event flags:
+connmand[2638]: src/storage.c:debug_inotify_event()     IN_IGNORED
+connmand[2638]: src/storage.c:keyfile_inotify_cb() File for record 0xce078 path /var/lib/connman/settings changed, dropping from cache.
+connmand[2638]: src/storage.c:keyfile_free() Freeing record 0xce078 for /var/lib/connman/settings
+connmand[2638]: src/timezone.c:inotify_data()
+connmand[2638]: src/timezone.c:inotify_data() bytes read 32
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() ifb0 {create} index 2 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() ifb0 {update} flags 32898 <DOWN>
+connmand[2638]: src/device.c:connman_device_create() node eadf7e254fa8 type 1
+connmand[2638]: src/device.c:connman_device_create() device 0xcbb80
+connmand[2638]: src/device.c:connman_device_set_string() device 0xcbb80 key Address value <MAC-REDACTED>
+connmand[2638]: src/device.c:connman_device_register() device 0xcbb80 name Ethernet
+connmand[2638]: src/device.c:connman_device_register() driver 0xa2ba8 name ethernet
+connmand[2638]: plugins/ethernet.c:eth_dev_probe() device 0xcbb80
+connmand[2638]: src/rtnl.c:connman_rtnl_add_newlink_watch() id 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 32898 change 0
+connmand[2638]: src/technology.c:__connman_technology_add_device() device 0xcbb80 type Wired
+connmand[2638]: src/technology.c:technology_get() type 2
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: src/technology.c:technology_get() technology (nil) driver 0xa2b68
+connmand[2638]: src/technology.c:technology_load() technology 0xcad18
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Storing record for /var/lib/connman/settings into cache.
+connmand[2638]: src/inotify.c:create_watch() Add directory watch for /var/lib/connman/settings
+connmand[2638]: src/technology.c:technology_get() technology 0xcad18 Wired
+connmand[2638]: src/device.c:__connman_device_enable() device 0xcbb80
+connmand[2638]: plugins/ethernet.c:eth_dev_enable() device 0xcbb80
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xcbb80 powered 1
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: src/technology.c:__connman_technology_enabled() technology 0xcad18 type Wired rfkill 0 enabled 0
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: src/technology.c:__connman_technology_enabled() technology 0xcad18 type Wired rfkill 0 enabled 1
+connmand[2638]: src/technology.c:__connman_technology_add_interface() Adding interface ifb0 [ ethernet ]
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: plugins/ethernet.c:eth_tech_add_interface() index 2 name ifb0 ident eadf7e254fa8
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 32898 change 0
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() ifb1 {create} index 3 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() ifb1 {update} flags 32898 <DOWN>
+connmand[2638]: src/device.c:connman_device_create() node 9e4607fbec06 type 1
+connmand[2638]: src/device.c:connman_device_create() device 0xdc168
+connmand[2638]: src/device.c:connman_device_set_string() device 0xdc168 key Address value <MAC-REDACTED>
+connmand[2638]: src/device.c:connman_device_register() device 0xdc168 name Ethernet
+connmand[2638]: src/device.c:connman_device_register() driver 0xa2ba8 name ethernet
+connmand[2638]: plugins/ethernet.c:eth_dev_probe() device 0xdc168
+connmand[2638]: src/rtnl.c:connman_rtnl_add_newlink_watch() id 2
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 32898 change 0
+connmand[2638]: src/technology.c:__connman_technology_add_device() device 0xdc168 type Wired
+connmand[2638]: src/technology.c:technology_get() type 2
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: src/device.c:__connman_device_enable() device 0xdc168
+connmand[2638]: plugins/ethernet.c:eth_dev_enable() device 0xdc168
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xdc168 powered 1
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: src/technology.c:__connman_technology_enabled() technology 0xcad18 type Wired rfkill 0 enabled 1
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: src/technology.c:__connman_technology_enabled() technology 0xcad18 type Wired rfkill 0 enabled 1
+connmand[2638]: src/technology.c:__connman_technology_add_interface() Adding interface ifb1 [ ethernet ]
+connmand[2638]: src/technology.c:technology_find() type 2
+connmand[2638]: plugins/ethernet.c:eth_tech_add_interface() index 3 name ifb1 ident 9e4607fbec06
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 32898 change 0
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() usb0 {create} index 4 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() usb0 {update} flags 69699 <UP,RUNNING,LOWER_UP>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() rmnet0 {create} index 8 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() rmnet0 {update} flags 4098 <DOWN>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() rmnet1 {create} index 9 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() rmnet1 {update} flags 4098 <DOWN>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() rmnet2 {create} index 10 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() rmnet2 {update} flags 4098 <DOWN>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() wlan0 {create} index 11 type 1 <ETHER>
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() wlan0 {update} flags 36866 <DOWN>
+connmand[2638]: wlan0 runs an unsupported 802.11 driver
+connmand[2638]: src/device.c:connman_device_create() node 38e7d88c4968 type 2
+connmand[2638]: src/device.c:connman_device_create() device 0xdce08
+connmand[2638]: src/device.c:connman_device_set_string() device 0xdce08 key Address value <MAC-REDACTED>
+connmand[2638]: src/device.c:connman_device_register() device 0xdce08 name Wireless
+connmand[2638]: src/technology.c:__connman_technology_add_interface() Adding interface wlan0 [ wifi ]
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 32898 change 0
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() ifb0 {update} flags 98499 <UP,RUNNING,LOWER_UP>
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 65
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() power on
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xcbb80 powered 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() carrier on
+connmand[2638]: src/network.c:connman_network_create() identifier carrier type 1
+connmand[2638]: src/network.c:connman_network_create() network 0xdcf08
+connmand[2638]: src/device.c:connman_device_add_network() device 0xcbb80 network 0xdcf08
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdcf08 name Wired ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xdcf08 name Wired
+connmand[2638]: src/network.c:network_probe() driver 0xa2b8c name cable
+connmand[2638]: plugins/ethernet.c:eth_network_probe() network 0xdcf08
+connmand[2638]: src/network.c:network_probe() network 0xdcf08 name Wired
+connmand[2638]: src/network.c:network_probe() driver 0xa2b8c name cable
+connmand[2638]: plugins/ethernet.c:eth_network_probe() network 0xdcf08
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xdcf08
+connmand[2638]: src/service.c:connman_service_create() service 0xdcfa0
+connmand[2638]: src/service.c:service_initialize() service 0xdcfa0
+connmand[2638]: src/service.c:service_get() service 0xdcfa0
+connmand[2638]: src/service.c:update_from_network() service 0xdcfa0 network 0xdcf08
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdcf08 name Wired ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 2
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xdd120
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 2
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xdd170 method auto
+connmand[2638]: src/service.c:service_register() service 0xdcfa0
+connmand[2638]: src/service.c:service_register() path /net/connman/service/ethernet_eadf7e254fa8_cable
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xdcfa0 type 2
+connmand[2638]: src/service.c:service_load() service ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/ethernet_eadf7e254fa8_cable/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/ethernet_eadf7e254fa8_cable/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/ethernet_eadf7e254fa8_cable/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xdcfa0
+connmand[2638]: src/service.c:__connman_service_connect() service 0xdcfa0 state idle connect reason none -> auto
+connmand[2638]: src/service.c:__connman_service_clear_error() service 0xdcfa0
+connmand[2638]: src/network.c:__connman_network_connect() network 0xdcf08
+connmand[2638]: src/device.c:__connman_device_disconnect() device 0xcbb80
+connmand[2638]: Skipping disconnect of carrier, network is connecting.
+connmand[2638]: plugins/ethernet.c:eth_network_connect() network 0xdcf08
+connmand[2638]: src/network.c:connman_network_set_connected() network 0xdcf08 connected 0/1 connecting 1 associating 0
+connmand[2638]: src/network.c:connman_network_set_associating() network 0xdcf08 associating 0
+connmand[2638]: src/network.c:set_connected() service 0xdcfa0 ipv4 0xdd120 ipv6 0xdd170
+connmand[2638]: src/network.c:set_configuration() network 0xdcf08
+connmand[2638]: src/service.c:__connman_service_ipconfig_indicate_state() service 0xdcfa0 (ethernet_eadf7e254fa8_cable) old state 1 (idle) new state 3 (configuration) type 1 (IPv4)
+connmand[2638]: src/service.c:service_indicate_state() service 0xdcfa0 old idle - new configuration/idle => configuration
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_service_state_changed() ethernet_eadf7e254fa8_cable 3
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_remove_poll_service() ethernet_eadf7e254fa8_cable (not found)
+connmand[2638]: src/session.c:service_state_changed() service 0xdcfa0 state 3
+connmand[2638]: src/notifier.c:notify_idle_state() idle 0
+connmand[2638]: src/manager.c:idle_state() idle 0
+connmand[2638]: src/service.c:allow_property_changed() no property updates for service 0xdcfa0
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/network.c:__connman_network_enable_ipconfig() ipv4 ipconfig method 4
+connmand[2638]: src/network.c:set_connected_dhcp() network 0xdcf08
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_enable() ipconfig 0xdd120
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_ref_debug() 0xdd120 ref 2 by src/ipconfig.c:1610:__connman_ipconfig_enable()
+connmand[2638]: src/service.c:service_up() ifb0 up
+connmand[2638]: src/service.c:allow_property_changed() no property updates for service 0xdcfa0
+connmand[2638]: src/service.c:service_lower_up() ifb0 lower up
+connmand[2638]: src/jolla-stats.c:__connman_stats_new() ethernet_eadf7e254fa8_cable 0
+connmand[2638]: src/jolla-stats.c:stats_file_read() /var/lib/connman/ethernet_eadf7e254fa8_cable/stats.home
+connmand[2638]: src/jolla-stats.c:stats_file_read() [RX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:stats_file_read() [TX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_eadf7e254fa8_cable/stats.home [RX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_eadf7e254fa8_cable/stats.home [TX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:stats_file_write() /var/lib/connman/ethernet_eadf7e254fa8_cable/stats.home
+connmand[2638]: src/dhcp.c:__connman_dhcp_start()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_ref_debug() 0xdd120 ref 3 by src/dhcp.c:636:__connman_dhcp_start()
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdcf08 name Wired ref 4 by src/dhcp.c:640:__connman_dhcp_start()
+connmand[2638]: src/dhcp.c:dhcp_initialize() dhcp 0xdd678
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname()
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname() driver 0xa2b34 name loopback
+connmand[2638]: src/network.c:set_configuration() network 0xdcf08
+connmand[2638]: src/service.c:__connman_service_ipconfig_indicate_state() service 0xdcfa0 (ethernet_eadf7e254fa8_cable) old state 1 (idle) new state 3 (configuration) type 2 (IPv6)
+connmand[2638]: src/service.c:service_indicate_state() service 0xdcfa0 old configuration - new configuration/configuration => configuration
+connmand[2638]: src/network.c:__connman_network_enable_ipconfig() ipv6 ipconfig method 5
+connmand[2638]: src/network.c:autoconf_ipv6_set() network 0xdcf08
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_enable() ipconfig 0xdd170
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_ref_debug() 0xdd170 ref 2 by src/ipconfig.c:1612:__connman_ipconfig_enable()
+connmand[2638]: src/ipconfig.c:enable_ipv6()
+connmand[2638]: src/service.c:service_up() ifb0 up
+connmand[2638]: src/service.c:allow_property_changed() no property updates for service 0xdcfa0
+connmand[2638]: src/service.c:service_lower_up() ifb0 lower up
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_eadf7e254fa8_cable/stats.home [RX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_eadf7e254fa8_cable/stats.home [TX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:stats_file_write() /var/lib/connman/ethernet_eadf7e254fa8_cable/stats.home
+connmand[2638]: src/ipconfig.c:enable_ipv6()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove() method 5
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset() method 5
+connmand[2638]: src/inet.c:connman_inet_clear_ipv6_address() index 2 address (null) prefix_len 0
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdcf08 name Wired ref 5 by src/network.c:578:autoconf_ipv6_set()
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 18
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/storage.c:storage_inotify_subdir_cb() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:debug_inotify_event() Event flags:
+connmand[2638]: src/storage.c:debug_inotify_event()     IN_MODIFY
+connmand[2638]: src/storage.c:debug_inotify_event() Event name: stats.home
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() index 2
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() ifb0 {add} route fe80:: gw :: scope 0 <UNIVERSE>
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/ethernet_eadf7e254fa8_cable
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 32898 change 0
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() ifb1 {update} flags 98499 <UP,RUNNING,LOWER_UP>
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 65
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() power on
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xdc168 powered 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() carrier on
+connmand[2638]: src/network.c:connman_network_create() identifier carrier type 1
+connmand[2638]: src/network.c:connman_network_create() network 0xdec08
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdc168 network 0xdec08
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdec08 name Wired ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xdec08 name Wired
+connmand[2638]: src/network.c:network_probe() driver 0xa2b8c name cable
+connmand[2638]: plugins/ethernet.c:eth_network_probe() network 0xdec08
+connmand[2638]: src/network.c:network_probe() network 0xdec08 name Wired
+connmand[2638]: src/network.c:network_probe() driver 0xa2b8c name cable
+connmand[2638]: plugins/ethernet.c:eth_network_probe() network 0xdec08
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xdec08
+connmand[2638]: src/service.c:connman_service_create() service 0xded50
+connmand[2638]: src/service.c:service_initialize() service 0xded50
+connmand[2638]: src/service.c:service_get() service 0xded50
+connmand[2638]: src/service.c:update_from_network() service 0xded50 network 0xdec08
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdec08 name Wired ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 3
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xdeeb8
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 3
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xdef08 method auto
+connmand[2638]: src/service.c:service_register() service 0xded50
+connmand[2638]: src/service.c:service_register() path /net/connman/service/ethernet_9e4607fbec06_cable
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xded50 type 2
+connmand[2638]: src/service.c:service_load() service ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/ethernet_9e4607fbec06_cable/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/ethernet_9e4607fbec06_cable/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/ethernet_9e4607fbec06_cable/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xded50
+connmand[2638]: src/service.c:__connman_service_connect() service 0xded50 state idle connect reason none -> auto
+connmand[2638]: src/service.c:__connman_service_clear_error() service 0xded50
+connmand[2638]: src/network.c:__connman_network_connect() network 0xdec08
+connmand[2638]: src/device.c:__connman_device_disconnect() device 0xdc168
+connmand[2638]: Skipping disconnect of carrier, network is connecting.
+connmand[2638]: plugins/ethernet.c:eth_network_connect() network 0xdec08
+connmand[2638]: src/network.c:connman_network_set_connected() network 0xdec08 connected 0/1 connecting 1 associating 0
+connmand[2638]: src/network.c:connman_network_set_associating() network 0xdec08 associating 0
+connmand[2638]: src/network.c:set_connected() service 0xded50 ipv4 0xdeeb8 ipv6 0xdef08
+connmand[2638]: src/network.c:set_configuration() network 0xdec08
+connmand[2638]: src/service.c:__connman_service_ipconfig_indicate_state() service 0xded50 (ethernet_9e4607fbec06_cable) old state 1 (idle) new state 3 (configuration) type 1 (IPv4)
+connmand[2638]: src/service.c:service_indicate_state() service 0xded50 old idle - new configuration/idle => configuration
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_service_state_changed() ethernet_9e4607fbec06_cable 3
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_remove_poll_service() ethernet_9e4607fbec06_cable (not found)
+connmand[2638]: src/session.c:service_state_changed() service 0xded50 state 3
+connmand[2638]: src/service.c:allow_property_changed() no property updates for service 0xded50
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/network.c:__connman_network_enable_ipconfig() ipv4 ipconfig method 4
+connmand[2638]: src/network.c:set_connected_dhcp() network 0xdec08
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_enable() ipconfig 0xdeeb8
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_ref_debug() 0xdeeb8 ref 2 by src/ipconfig.c:1610:__connman_ipconfig_enable()
+connmand[2638]: src/service.c:service_up() ifb1 up
+connmand[2638]: src/service.c:allow_property_changed() no property updates for service 0xded50
+connmand[2638]: src/service.c:service_lower_up() ifb1 lower up
+connmand[2638]: src/jolla-stats.c:__connman_stats_new() ethernet_9e4607fbec06_cable 0
+connmand[2638]: src/jolla-stats.c:stats_file_read() /var/lib/connman/ethernet_9e4607fbec06_cable/stats.home
+connmand[2638]: src/jolla-stats.c:stats_file_read() [RX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:stats_file_read() [TX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_9e4607fbec06_cable/stats.home [RX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_9e4607fbec06_cable/stats.home [TX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:stats_file_write() /var/lib/connman/ethernet_9e4607fbec06_cable/stats.home
+connmand[2638]: src/dhcp.c:__connman_dhcp_start()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_ref_debug() 0xdeeb8 ref 3 by src/dhcp.c:636:__connman_dhcp_start()
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdec08 name Wired ref 4 by src/dhcp.c:640:__connman_dhcp_start()
+connmand[2638]: src/dhcp.c:dhcp_initialize() dhcp 0xdf360
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname()
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname() driver 0xa2b34 name loopback
+connmand[2638]: src/network.c:set_configuration() network 0xdec08
+connmand[2638]: src/service.c:__connman_service_ipconfig_indicate_state() service 0xded50 (ethernet_9e4607fbec06_cable) old state 1 (idle) new state 3 (configuration) type 2 (IPv6)
+connmand[2638]: src/service.c:service_indicate_state() service 0xded50 old configuration - new configuration/configuration => configuration
+connmand[2638]: src/network.c:__connman_network_enable_ipconfig() ipv6 ipconfig method 5
+connmand[2638]: src/network.c:autoconf_ipv6_set() network 0xdec08
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_enable() ipconfig 0xdef08
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_ref_debug() 0xdef08 ref 2 by src/ipconfig.c:1612:__connman_ipconfig_enable()
+connmand[2638]: src/ipconfig.c:enable_ipv6()
+connmand[2638]: src/service.c:service_up() ifb1 up
+connmand[2638]: src/service.c:allow_property_changed() no property updates for service 0xded50
+connmand[2638]: src/service.c:service_lower_up() ifb1 lower up
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_9e4607fbec06_cable/stats.home [RX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:__connman_stats_rebase() ethernet_9e4607fbec06_cable/stats.home [TX] 0 packets 0 bytes
+connmand[2638]: src/jolla-stats.c:stats_file_write() /var/lib/connman/ethernet_9e4607fbec06_cable/stats.home
+connmand[2638]: src/ipconfig.c:enable_ipv6()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove() method 5
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset() method 5
+connmand[2638]: src/inet.c:connman_inet_clear_ipv6_address() index 3 address (null) prefix_len 0
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdec08 name Wired ref 5 by src/network.c:578:autoconf_ipv6_set()
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 20
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/storage.c:storage_inotify_subdir_cb() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:debug_inotify_event() Event flags:
+connmand[2638]: src/storage.c:debug_inotify_event()     IN_MODIFY
+connmand[2638]: src/storage.c:debug_inotify_event() Event name: stats.home
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() index 3
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() ifb1 {add} route fe80:: gw :: scope 0 <UNIVERSE>
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newaddr() index 1
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newaddr() index 4
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newaddr() usb0 {add} address 192.168.2.15/24 label usb0 family 2
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() index 4
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() usb0 {add} route 192.168.2.0 gw 0.0.0.0 scope 253 <LINK>
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:unregister_agent() conn 0xc78b8
+connmand[2638]: src/agent.c:connman_agent_unregister() sender :1.18 path /ConnectivityUserAgent
+connmand[2638]: src/manager.c:register_agent() conn 0xc78b8
+connmand[2638]: src/agent.c:connman_agent_register() sender :1.18 path /ConnectivityUserAgent
+connmand[2638]: src/agent.c:agent_ref_debug() 0xd9e10 ref 1 by src/agent.c:320:agent_create()
+connmand[2638]: src/agent.c:connman_agent_register() agent :1.18
+connmand[2638]: src/agent.c:set_default_agent() default agent set to :1.18 /ConnectivityUserAgent
+connmand[2638]: src/clock.c:set_property() conn 0xc78b8
+connmand[2638]: src/clock.c:set_property() conn 0xc78b8
+connmand[2638]: src/manager.c:set_property() conn 0xc78b8
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: src/manager.c:register_counter() conn 0xc78b8
+connmand[2638]: src/counter.c:__connman_counter_register() owner :1.36 path /ConnectivityCounter1797153110 interval 2
+connmand[2638]: src/service.c:__connman_service_counter_register() counter /ConnectivityCounter1797153110
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/manager.c:register_counter() conn 0xc78b8
+connmand[2638]: src/counter.c:__connman_counter_register() owner :1.36 path /ConnectivityCounter1745996239 interval 2
+connmand[2638]: src/service.c:__connman_service_counter_register() counter /ConnectivityCounter1745996239
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: plugins/vpn.c:get_connections_reply()
+connmand[2638]: The name net.connman.vpn was not provided by any .service files
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_display_status_reply() "on"
+connmand[2638]: plugins/ofono.c:ofono_connect()
+connmand[2638]: plugins/ofono.c:manager_get_modems()
+connmand[2638]: plugins/wifi.c:system_ready()
+connmand[2638]: src/device.c:connman_device_driver_register() driver 0xa2c64 name wifi
+connmand[2638]: src/device.c:probe_driver() driver 0xa2c64 name wifi
+connmand[2638]: plugins/wifi.c:wifi_probe() device 0xdce08
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 2 by plugins/wifi.c:786:wifi_probe()
+connmand[2638]: src/rtnl.c:connman_rtnl_add_newlink_watch() id 3
+connmand[2638]: src/technology.c:__connman_technology_add_device() device 0xdce08 type WiFi
+connmand[2638]: src/technology.c:technology_get() type 3
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:technology_get() technology (nil) driver 0xa2bf0
+connmand[2638]: src/technology.c:technology_load() technology 0xd8af8
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xdbc80 for /var/lib/connman/settings from cache.
+connmand[2638]: src/technology.c:technology_get() technology 0xd8af8 WiFi
+connmand[2638]: src/device.c:__connman_device_enable() device 0xdce08
+connmand[2638]: plugins/wifi.c:wifi_enable() device 0xdce08 0xc7df8
+connmand[2638]: src/machine.c:machine_property_changed() Property Hostname
+connmand[2638]: src/machine.c:machine_property_changed() Property StaticHostname
+connmand[2638]: src/machine.c:machine_property_changed() Property PrettyHostname
+connmand[2638]: src/machine.c:machine_property_changed() Property IconName
+connmand[2638]: src/machine.c:machine_property_changed() Property Chassis
+connmand[2638]: src/machine.c:machine_property_changed() Machine type set to
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xd8768
+connmand[2638]: src/service.c:service_initialize() service 0xd8768
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xd8768
+connmand[2638]: src/service.c:service_initialize() service 0xd8768
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xd8768
+connmand[2638]: src/service.c:service_initialize() service 0xd8768
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/ethernet_9e4607fbec06_cable
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() wlan0 {update} flags 102467 <UP,RUNNING,LOWER_UP>
+connmand[2638]: plugins/wifi.c:wifi_newlink() interface up
+connmand[2638]: plugins/wifi.c:wifi_newlink() carrier on
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newroute() wlan0 {add} route fe80:: gw :: scope 0 <UNIVERSE>
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8
+connmand[2638]: plugins/ofono.c:manager_get_modems_reply()
+connmand[2638]: plugins/ofono.c:add_modem() /ril_0
+connmand[2638]: plugins/ofono.c:add_modem() /ril_0 Online 0
+connmand[2638]: plugins/ofono.c:add_modem() /ril_0 Powered 0
+connmand[2638]: plugins/ofono.c:add_modem() /ril_0 Interfaces 0x00
+connmand[2638]: plugins/ofono.c:add_modem() /ril_0 Type hardware
+connmand[2638]: plugins/ofono.c:modem_set_powered() /ril_0 powered 1
+connmand[2638]: plugins/ofono.c:set_property() /ril_0 path /ril_0 org.ofono.Modem.Powered
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xcfd88
+connmand[2638]: src/service.c:service_initialize() service 0xcfd88
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xe0948
+connmand[2638]: src/service.c:service_initialize() service 0xe0948
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xcfc40
+connmand[2638]: src/service.c:service_initialize() service 0xcfc40
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/manager.c:get_technologies()
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/service.c:connman_service_create() service 0xd8768
+connmand[2638]: src/service.c:service_initialize() service 0xd8768
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_newlink() wlan0 {update} flags 102403 <UP,LOWER_UP>
+connmand[2638]: plugins/ofono.c:set_property_reply() /ril_0 path /ril_0 org.ofono.Modem.Powered
+connmand[2638]: plugins/ofono.c:modem_changed() /ril_0 Powered 1
+connmand[2638]: plugins/ofono.c:modem_changed() /ril_0 Interfaces 0x01
+connmand[2638]: plugins/ofono.c:modem_update_interfaces() /ril_0
+connmand[2638]: plugins/ofono.c:api_added() sim added
+connmand[2638]: plugins/wifi.c:interface_state() wifi (nil) interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi (nil) interface state 2
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_create_callback() result 0 ifname wlan0, wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:finalize_interface_creation() interface is ready wifi 0xc7df8 tethering 0
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xdce08 powered 1
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_enabled() technology 0xd8af8 type WiFi rfkill 0 enabled 0
+connmand[2638]: src/technology.c:technology_find() type 9
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+connmand[2638]: plugins/wifi.c:wifi_scan() max ssids 0
+connmand[2638]: plugins/wifi.c:reset_autoscan()
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 3 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: plugins/wifi.c:parse_autoscan_params() Emulating autoscan
+connmand[2638]: plugins/wifi.c:parse_autoscan_params() base 3 - limit 300
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1404:start_autoscan()
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 3
+connmand[2638]: plugins/wifi.c:interface_added() ifname wlan0 driver wext wifi 0xc7df8 tethering 0
+connmand[2638]: src/device.c:connman_device_set_powered() device 0xdce08 powered 1
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xdda58
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:check_dhcpv6() re-send router solicitation 3
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 21
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xdf708
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:check_dhcpv6() re-send router solicitation 3
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 18
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/technology.c:scan() technology 0xd8af8 request from :1.36
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+connmand[2638]: plugins/ofono.c:modem_changed() /ril_0 Serial 357779039774458
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_create() identifier 43555f4565634e_managed_psk type 2
+connmand[2638]: src/network.c:connman_network_create() network 0xd9050
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdce08 network 0xd9050
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd9050 name (null) ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xd9050 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd9050
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: src/network.c:network_probe() network 0xd9050 name CU_EecN
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd9050
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xd9050
+connmand[2638]: src/service.c:connman_service_create() service 0xd8768
+connmand[2638]: src/service.c:service_initialize() service 0xd8768
+connmand[2638]: src/service.c:service_get() service 0xd8768
+connmand[2638]: src/service.c:update_from_network() service 0xd8768 network 0xd9050
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd9050 name CU_EecN ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xc7b50
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 11
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xd8c18 method auto
+connmand[2638]: src/service.c:service_register() service 0xd8768
+connmand[2638]: src/service.c:service_register() path /net/connman/service/wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xd8768 type 3
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_load() ipconfig 0xc7b50 identifier wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_load() ipconfig 0xd8c18 identifier wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xd8768
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_create() identifier 5354425f4565634e_managed_psk type 2
+connmand[2638]: src/network.c:connman_network_create() network 0xd4f18
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdce08 network 0xd4f18
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd4f18 name (null) ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xd4f18 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd4f18
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: src/network.c:network_probe() network 0xd4f18 name STB_EecN
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd4f18
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xd4f18
+connmand[2638]: src/service.c:connman_service_create() service 0xdf708
+connmand[2638]: src/service.c:service_initialize() service 0xdf708
+connmand[2638]: src/service.c:service_get() service 0xdf708
+connmand[2638]: src/service.c:update_from_network() service 0xdf708 network 0xd4f18
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd4f18 name STB_EecN ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xd7c08
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 11
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xd7ff0 method auto
+connmand[2638]: src/service.c:service_register() service 0xdf708
+connmand[2638]: src/service.c:service_register() path /net/connman/service/wifi_38e7d88c4968_5354425f4565634e_managed_psk
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xdf708 type 3
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_5354425f4565634e_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_5354425f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/wifi_38e7d88c4968_5354425f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/wifi_38e7d88c4968_5354425f4565634e_managed_psk/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xdf708
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_create() identifier 54502d4c494e4b5f41313234_managed_psk type 2
+connmand[2638]: src/network.c:connman_network_create() network 0xdacd0
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdce08 network 0xdacd0
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdacd0 name (null) ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xdacd0 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xdacd0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: src/network.c:network_probe() network 0xdacd0 name TP-LINK_A124
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xdacd0
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xdacd0
+connmand[2638]: src/service.c:connman_service_create() service 0xcf468
+connmand[2638]: src/service.c:service_initialize() service 0xcf468
+connmand[2638]: src/service.c:service_get() service 0xcf468
+connmand[2638]: src/service.c:update_from_network() service 0xcf468 network 0xdacd0
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xdacd0 name TP-LINK_A124 ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xd6998
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 11
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xdb028 method auto
+connmand[2638]: src/service.c:service_register() service 0xcf468
+connmand[2638]: src/service.c:service_register() path /net/connman/service/wifi_38e7d88c4968_54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xcf468 type 3
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_54502d4c494e4b5f41313234_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/wifi_38e7d88c4968_54502d4c494e4b5f41313234_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/wifi_38e7d88c4968_54502d4c494e4b5f41313234_managed_psk/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xcf468
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_create() identifier 43555f63357954_managed_psk type 2
+connmand[2638]: src/network.c:connman_network_create() network 0xd5408
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdce08 network 0xd5408
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd5408 name (null) ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xd5408 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd5408
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: src/network.c:network_probe() network 0xd5408 name CU_c5yT
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd5408
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xd5408
+connmand[2638]: src/service.c:connman_service_create() service 0xd3ff8
+connmand[2638]: src/service.c:service_initialize() service 0xd3ff8
+connmand[2638]: src/service.c:service_get() service 0xd3ff8
+connmand[2638]: src/service.c:update_from_network() service 0xd3ff8 network 0xd5408
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd5408 name CU_c5yT ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xd3f58
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 11
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xd3fa8 method auto
+connmand[2638]: src/service.c:service_register() service 0xd3ff8
+connmand[2638]: src/service.c:service_register() path /net/connman/service/wifi_38e7d88c4968_43555f63357954_managed_psk
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xd3ff8 type 3
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f63357954_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f63357954_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/wifi_38e7d88c4968_43555f63357954_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/wifi_38e7d88c4968_43555f63357954_managed_psk/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xd3ff8
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/wifi_38e7d88c4968_5354425f4565634e_managed_psk
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/wifi_38e7d88c4968_54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/wifi_38e7d88c4968_43555f63357954_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/technology.c:reply_scan_pending() reply to :1.36
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: src/jolla-stats.c:stats_short_save_timeout() ethernet_eadf7e254fa8_cable/stats.home
+connmand[2638]: src/jolla-stats.c:stats_short_save_timeout() ethernet_9e4607fbec06_cable/stats.home
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xc6b90
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:check_dhcpv6() re-send router solicitation 2
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 20
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xdced0
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:check_dhcpv6() re-send router solicitation 2
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 21
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/service.c:run_auto_connect() paused 0
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd8768 CU_EecN
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xdf708 STB_EecN
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xcf468 TP-LINK_A124
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd3ff8 CU_c5yT
+connmand[2638]: src/service.c:auto_connect_service() preferred 1 sessions 0 reason auto
+connmand[2638]: src/service.c:auto_connect_service() preferred 0 sessions 0 reason auto
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xd8ef8
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:check_dhcpv6() re-send router solicitation 1
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 18
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xd75e8
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:check_dhcpv6() re-send router solicitation 1
+connmand[2638]: src/inet.c:__connman_inet_ipv6_send_rs() sock 20
+connmand[2638]: src/inet.c:ndisc_send_unspec()
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 0
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 9
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xc6b90
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:connman_network_unref_debug() 0xdcf08 name Wired ref 4 by src/network.c:437:check_dhcpv6()
+connmand[2638]: src/inet.c:rs_timeout_cb() user data 0xdced0
+connmand[2638]: src/network.c:check_dhcpv6() reply (nil)
+connmand[2638]: src/network.c:connman_network_unref_debug() 0xdec08 name Wired ref 4 by src/network.c:437:check_dhcpv6()
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_create() identifier 43555f34537844_managed_psk type 2
+connmand[2638]: src/network.c:connman_network_create() network 0xd5018
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdce08 network 0xd5018
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd5018 name (null) ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xd5018 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd5018
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: src/network.c:network_probe() network 0xd5018 name CU_4SxD
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd5018
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xd5018
+connmand[2638]: src/service.c:connman_service_create() service 0xd7d40
+connmand[2638]: src/service.c:service_initialize() service 0xd7d40
+connmand[2638]: src/service.c:service_get() service 0xd7d40
+connmand[2638]: src/service.c:update_from_network() service 0xd7d40 network 0xd5018
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd5018 name CU_4SxD ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xd0378
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 11
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xd3ec8 method auto
+connmand[2638]: src/service.c:service_register() service 0xd7d40
+connmand[2638]: src/service.c:service_register() path /net/connman/service/wifi_38e7d88c4968_43555f34537844_managed_psk
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xd7d40 type 3
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_43555f34537844_managed_psk
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f34537844_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/wifi_38e7d88c4968_43555f34537844_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/wifi_38e7d88c4968_43555f34537844_managed_psk/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xd7d40
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:network_changed() name STB_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name TP-LINK_A124
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name CU_c5yT
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/wifi_38e7d88c4968_43555f34537844_managed_psk
+connmand[2638]: src/service.c:run_auto_connect() paused 0
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd8768 CU_EecN
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xdf708 STB_EecN
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xcf468 TP-LINK_A124
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd3ff8 CU_c5yT
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd7d40 CU_4SxD
+connmand[2638]: src/service.c:auto_connect_service() preferred 1 sessions 0 reason auto
+connmand[2638]: src/service.c:auto_connect_service() preferred 0 sessions 0 reason auto
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/technology.c:scan() technology 0xd8af8 request from :1.165
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+connmand[2638]: plugins/wifi.c:wifi_scan() max ssids 0
+connmand[2638]: plugins/wifi.c:reset_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 2 by plugins/wifi.c:837:reset_autoscan()
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 3 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 0
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: plugins/wifi.c:network_added() hidden_managed_none
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: src/network.c:connman_network_create() identifier hidden_managed_none type 2
+connmand[2638]: src/network.c:connman_network_create() network 0xd9580
+connmand[2638]: src/device.c:connman_device_add_network() device 0xdce08 network 0xd9580
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd9580 name (null) ref 2 by src/device.c:851:connman_device_add_network()
+connmand[2638]: src/network.c:network_probe() network 0xd9580 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd9580
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 1
+connmand[2638]: src/network.c:network_probe() network 0xd9580 name (null)
+connmand[2638]: src/network.c:network_probe() driver 0xa2c14 name wifi
+connmand[2638]: plugins/wifi.c:network_probe() network 0xd9580
+connmand[2638]: src/service.c:__connman_service_create_from_network() network 0xd9580
+connmand[2638]: src/service.c:connman_service_create() service 0xdda58
+connmand[2638]: src/service.c:service_initialize() service 0xdda58
+connmand[2638]: src/service.c:service_get() service 0xdda58
+connmand[2638]: src/service.c:update_from_network() service 0xdda58 network 0xd9580
+connmand[2638]: src/network.c:connman_network_ref_debug() 0xd9580 name (null) ref 3 by src/service.c:7145:update_from_network()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() index 11
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_create() ipconfig 0xc7d30
+connmand[2638]: src/ipconfig.c:create_ipv6config() index 11
+connmand[2638]: src/ipconfig.c:create_ipv6config() ipconfig 0xce1f0 method auto
+connmand[2638]: src/service.c:service_register() service 0xdda58
+connmand[2638]: src/service.c:service_register() path /net/connman/service/wifi_38e7d88c4968_hidden_managed_none
+connmand[2638]: src/config.c:__connman_config_provision_service() service 0xdda58 type 3
+connmand[2638]: src/service.c:service_load() service wifi_38e7d88c4968_hidden_managed_none
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_hidden_managed_none/settings
+connmand[2638]: src/storage.c:storage_load() No keyfile in cache for /var/lib/connman/wifi_38e7d88c4968_hidden_managed_none/settings
+connmand[2638]: src/storage.c:storage_load() Unable to load /var/lib/connman/wifi_38e7d88c4968_hidden_managed_none/settings: No such file or directory
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/service.c:service_schedule_added() service 0xdda58
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:network_changed() name STB_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name CU_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name TP-LINK_A124
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name CU_c5yT
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: plugins/wifi.c:network_added() hidden_managed_none
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/technology.c:reply_scan_pending() reply to :1.165
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1404:start_autoscan()
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 3
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: src/service.c:service_append_added_foreach() new /net/connman/service/wifi_38e7d88c4968_hidden_managed_none
+connmand[2638]: src/service.c:run_auto_connect() paused 0
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xdf708 STB_EecN
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd8768 CU_EecN
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xcf468 TP-LINK_A124
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd3ff8 CU_c5yT
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xd7d40 CU_4SxD
+connmand[2638]: src/service.c:preferred_tech_add_by_type() type 3 service 0xdda58 (null)
+connmand[2638]: src/service.c:auto_connect_service() preferred 1 sessions 0 reason auto
+connmand[2638]: src/service.c:auto_connect_service() preferred 0 sessions 0 reason auto
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 0
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 9
+connmand[2638]: src/service.c:connect_service() service 0xd8768
+connmand[2638]: src/service.c:__connman_service_connect() service 0xd8768 state idle connect reason none -> user
+connmand[2638]: src/service.c:__connman_service_clear_error() service 0xd8768
+connmand[2638]: src/network.c:__connman_network_disconnect() network 0xd9050
+connmand[2638]: src/device.c:__connman_device_keep_network() (nil) -> (nil)
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+connmand[2638]: src/agent.c:connman_agent_queue_message() driver 0xa3e58
+connmand[2638]: src/service.c:connman_service_ref_debug() 0xd8768 ref 2 by src/service.c:7509:agent_context_ref()
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+connmand[2638]: src/device.c:__connman_device_keep_network() (nil) -> 0xd9050
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: plugins/wifi.c:network_changed() name
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:network_changed() name CU_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name TP-LINK_A124
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name CU_4SxD
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: plugins/wifi.c:network_added() hidden_managed_none
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 1
+connmand[2638]: plugins/wifi.c:network_added() hidden_managed_none
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: src/service.c:run_auto_connect() paused 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/technology.c:scan() technology 0xd8af8 request from :1.18
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+connmand[2638]: plugins/wifi.c:wifi_scan() max ssids 0
+connmand[2638]: plugins/wifi.c:reset_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 2 by plugins/wifi.c:837:reset_autoscan()
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 3 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 0
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:network_changed() name STB_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name CU_4SxD
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: plugins/wifi.c:network_added() hidden_managed_none
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/technology.c:reply_scan_pending() reply to :1.18
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1404:start_autoscan()
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 3
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: plugins/wifi.c:network_changed() name CU_c5yT
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/service.c:run_auto_connect() paused 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9580 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 0
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 9
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: plugins/wifi.c:network_removed() name
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier hidden_managed_none
+connmand[2638]: src/device.c:connman_device_remove_network() device 0xdce08 network 0xd9580
+connmand[2638]: src/device.c:free_network() network 0xd9580
+connmand[2638]: src/network.c:network_remove() network 0xd9580 name (null)
+connmand[2638]: src/service.c:__connman_service_remove_from_network() network 0xd9580 service 0xdda58
+connmand[2638]: src/connection.c:__connman_connection_gateway_remove() service 0xdda58 type 3
+connmand[2638]: src/service.c:connman_service_unref_debug() 0xdda58 ref 0 by src/service.c:7368:__connman_service_remove_from_network()
+connmand[2638]: src/service.c:service_disconnect() service 0xdda58
+connmand[2638]: src/wispr.c:__connman_wispr_stop() service 0xdda58
+connmand[2638]: src/agent.c:connman_agent_cancel() context 0xdda58
+connmand[2638]: src/network.c:__connman_network_disconnect() network 0xd9580
+connmand[2638]: src/service.c:service_free() service 0xdda58
+connmand[2638]: plugins/jolla-signalpoll.c:signalpoll_remove_poll_service() wifi_38e7d88c4968_hidden_managed_none (not found)
+connmand[2638]: src/service.c:service_schedule_removed() service 0xdda58 /net/connman/service/wifi_38e7d88c4968_hidden_managed_none
+connmand[2638]: src/wispr.c:__connman_wispr_stop() service 0xdda58
+connmand[2638]: src/agent.c:connman_agent_cancel() context 0xdda58
+connmand[2638]: src/connection.c:update_order()
+connmand[2638]: src/connection.c:__connman_connection_update_gateway() default (nil)
+connmand[2638]: src/network.c:__connman_network_disconnect() network 0xd9580
+connmand[2638]: src/network.c:connman_network_unref_debug() 0xd9580 name (null) ref 2 by src/service.c:4839:service_destroy()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_unref_debug() 0xc7d30 ref 0 by src/service.c:4849:service_destroy()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_disable() ipconfig 0xc7d30
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_unref_debug() 0xce1f0 ref 0 by src/service.c:4856:service_destroy()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_disable() ipconfig 0xce1f0
+connmand[2638]: plugins/wifi.c:network_remove() network 0xd9580
+connmand[2638]: src/network.c:connman_network_unref_debug() 0xd9580 name (null) ref 1 by src/device.c:389:free_network()
+connmand[2638]: src/network.c:connman_network_unref_debug() 0xd9580 name (null) ref 0 by plugins/wifi.c:2854:network_removed()
+connmand[2638]: src/network.c:network_destruct() network 0xd9580 name (null)
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:network_changed() name CU_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name STB_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name TP-LINK_A124
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: src/service.c:append_removed() removed /net/connman/service/wifi_38e7d88c4968_hidden_managed_none
+connmand[2638]: src/service.c:run_auto_connect() paused 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/dhcp.c:no_lease_cb() No lease available ipv4ll 0 client (nil)
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname()
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname() driver 0xa2b34 name loopback
+connmand[2638]: src/dhcp.c:dhcp_invalidate() dhcp 0xdd678 callback 0
+connmand[2638]: src/6to4.c:__connman_6to4_remove() tunnel ip address (null)
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_set_proxy_autoconfig() ipconfig 0xdd120
+connmand[2638]: src/dhcp.c:dhcp_invalidate() last address (null)
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove() method 4
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset() method 4
+connmand[2638]: src/inet.c:connman_inet_clear_address() index 2 address (null) prefix_len 0 peer (null) broadcast (null)
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_set_gateway()
+connmand[2638]: src/dhcp.c:no_lease_cb() No lease available ipv4ll 0 client (nil)
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname()
+connmand[2638]: src/utsname.c:connman_utsname_get_hostname() driver 0xa2b34 name loopback
+connmand[2638]: src/dhcp.c:dhcp_invalidate() dhcp 0xdf360 callback 0
+connmand[2638]: src/6to4.c:__connman_6to4_remove() tunnel ip address (null)
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_set_proxy_autoconfig() ipconfig 0xdeeb8
+connmand[2638]: src/dhcp.c:dhcp_invalidate() last address (null)
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_remove() method 4
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset()
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_address_unset() method 4
+connmand[2638]: src/inet.c:connman_inet_clear_address() index 3 address (null) prefix_len 0 peer (null) broadcast (null)
+connmand[2638]: src/ipconfig.c:__connman_ipconfig_set_gateway()
+connmand[2638]: src/jolla-stats.c:stats_long_save_timeout() ethernet_eadf7e254fa8_cable/stats.home
+connmand[2638]: src/jolla-stats.c:stats_long_save_timeout() ethernet_9e4607fbec06_cable/stats.home
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/wifi.c:throw_wifi_scan() device 0xdce08 0xd56b0
+connmand[2638]: src/device.c:connman_device_ref_debug() 0xdce08 ref 4 by plugins/wifi.c:1219:throw_wifi_scan()
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 1
+connmand[2638]: src/technology.c:__connman_technology_scan_started() device 0xdce08
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 0
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 0
+connmand[2638]: plugins/wifi.c:autoscan_timeout() interval 27
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 4
+connmand[2638]: plugins/wifi.c:scan_started()
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:interface_state() wifi 0xc7df8 interface state 3
+connmand[2638]: plugins/wifi.c:scan_finished()
+connmand[2638]: plugins/wifi.c:network_changed() name STB_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_added() 43555f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd9050 available 1
+connmand[2638]: plugins/wifi.c:network_added() 5354425f4565634e_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 5354425f4565634e_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd4f18 available 1
+connmand[2638]: plugins/wifi.c:network_added() 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xdacd0 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f63357954_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5408 available 1
+connmand[2638]: plugins/wifi.c:network_added() 43555f34537844_managed_psk
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f34537844_managed_psk
+connmand[2638]: src/network.c:connman_network_set_available() network 0xd5018 available 1
+connmand[2638]: plugins/wifi.c:scan_callback_hidden() result 0 wifi 0xc7df8
+connmand[2638]: plugins/wifi.c:get_hidden_connections_params() max ssids 1
+connmand[2638]: src/storage.c:connman_storage_get_services()
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_b2ed88d0d21c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name wifi_38e7d88c4968_43555f4565634e_managed_psk
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_9e4607fbec06_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_5619f13dd10c_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_eadf7e254fa8_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_cab37e9fe39d_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_ba896d65db94_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_7ac2ab264999_cable
+connmand[2638]: src/storage.c:is_service_dir_name() name ethernet_463665749be2_cable
+connmand[2638]: src/storage.c:storage_load() Loading /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings
+connmand[2638]: src/storage.c:storage_load() Found record 0xce628 for /var/lib/connman/wifi_38e7d88c4968_43555f4565634e_managed_psk/settings from cache.
+connmand[2638]: plugins/wifi.c:scan_callback() result 0 wifi 0xc7df8
+connmand[2638]: src/device.c:connman_device_set_scanning() device 0xdce08 scanning 0
+connmand[2638]: src/technology.c:technology_find() type 3
+connmand[2638]: src/technology.c:__connman_technology_scan_stopped() technology 0xd8af8 device 0xdce08
+connmand[2638]: src/technology.c:reply_scan_pending() technology 0xd8af8 err 0
+connmand[2638]: src/service.c:__connman_service_auto_connect()
+connmand[2638]: plugins/wifi.c:start_autoscan()
+connmand[2638]: src/device.c:connman_device_unref_debug() 0xdce08 ref 3 by plugins/wifi.c:1308:scan_callback()
+connmand[2638]: plugins/wifi.c:network_changed() name CU_EecN
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f4565634e_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name TP-LINK_A124
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 54502d4c494e4b5f41313234_managed_psk
+connmand[2638]: plugins/wifi.c:network_changed() name CU_c5yT
+connmand[2638]: src/device.c:connman_device_get_network() device 0xdce08 identifier 43555f63357954_managed_psk
+connmand[2638]: src/service.c:run_auto_connect() paused 1
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 2 flags 98499 change 0
+connmand[2638]: plugins/ethernet.c:ethernet_newlink() index 3 flags 98499 change 0
+connmand[2638]: src/manager.c:get_properties() conn 0xc78b8

@@ -1,0 +1,191 @@
+> > > > [/]
+captureCounterDate='2026-10-17'
+captureCounter=1
+cameraDevice='primary'
+captureMode='image'
+landscapeCaptureButtonLocation=4
+portraitCaptureButtonLocation=3
+saveLocationInfo=false
+
+[primary/image]
+resolutionText_16_9='camera_settings-me-16-9-6m'
+whiteBalance=0
+videoResolution='640x480'
+imageResolution='1024x768'
+meteringModeValues=[1, 2, 3]
+flash=1
+iso=0
+viewfinderResolution_16_9='640x480'
+timerValues=[0, 3, 10, 15]
+viewfinderGrid='none'
+whiteBalanceValues=[0, 3, 2, 6, 5]
+meteringMode=1
+flashValues=[1, 2, 4]
+focusDistanceValues=[4, 8, 2, 32]
+timer=0
+isoValues=[0, 100, 200, 400]
+viewfinderGridValues=['none', 'thirds', 'ambience']
+exposureMode=0
+focusDistance=4
+captureMode=1
+resolutionText_4_3='camera_settings-me-4-3-8m'
+imageResolution_4_3='1024x768'
+imageResolution_16_9='1024x768'
+exposureCompensation=0
+exposureModeValues=[0]
+viewfinderResolution='640x480'
+viewfinderResolution_4_3='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+
+[primary/video]
+whiteBalance=0
+videoResolution='640x480'
+imageResolution='640x480'
+meteringModeValues=[1, 2, 3]
+flash=2
+iso=0
+timerValues=[0, 3, 10, 15]
+viewfinderGridValues=['none', 'thirds', 'ambience']
+whiteBalanceValues=[0, 3, 2, 6, 5]
+meteringMode=1
+focusDistanceValues=[4, 8, 2, 32]
+timer=0
+isoValues=[0, 100, 200, 400]
+exposureMode=0
+focusDistance=4
+captureMode=2
+viewfinderGrid='none'
+exposureModeValues=[0]
+exposureCompensation=0
+flashValues=[2, 32]
+viewfinderResolution='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+
+[secondary/image]
+whiteBalance=0
+flash=2
+imageResolution='640x480'
+meteringModeValues=[1, 2, 3]
+videoResolution='640x480'
+iso=0
+imageResolution_4_3='640x480'
+timerValues=[0, 3, 10, 15]
+viewfinderGridValues=['none', 'thirds', 'ambience']
+whiteBalanceValues=[0]
+meteringMode=1
+resolutionText_4_3='4:3 (0.3 MPx)'
+focusDistanceValues=[4]
+timer=0
+exposureMode=0
+captureMode=1
+focusDistance=4
+viewfinderGrid='none'
+exposureModeValues=[0]
+exposureCompensation=0
+flashValues=[2]
+viewfinderResolution='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+viewfinderResolution_4_3='640x480'
+
+[secondary/video]
+whiteBalance=0
+flash=2
+imageResolution='640x480'
+meteringModeValues=[1, 2, 3]
+videoResolution='640x480'
+iso=0
+timerValues=[0, 3, 10, 15]
+viewfinderGridValues=['none', 'thirds', 'ambience']
+whiteBalanceValues=[0]
+meteringMode=1
+focusDistanceValues=[4]
+timer=0
+exposureMode=0
+captureMode=2
+focusDistance=4
+viewfinderGrid='none'
+exposureModeValues=[0]
+exposureCompensation=0
+flashValues=[2]
+viewfinderResolution='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+[sailfish/messages]
+access_contact_card_hint_count=0
+
+[sailfish/camera]
+camera_roll_hint_count=1
+
+[sailfish/gallery]
+split_view_back_hint_count=1
+
+--
+
+[desktop/lipstick-jolla-home]
+events_screen_shortcuts=['system_settings/connectivity/flight/enable_switch', 'system_settings/connectivity/wlan/enable_switch', 'system_settings/connectivity/bluetooth/enable_switch']
+dialog_orientation=1
+events_screen_actions=['/usr/share/lipstick/quickactions/com.jolla.internet.conf', '/usr/share/lipstick/quickactions/com.jolla.camera.conf', '/usr/share/lipstick/quickactions/com.jolla.clock.conf', '/usr/share/lipstick/quickactions/org.sailfishos.maps.conf', '/usr/share/lipstick/quickactions/org.sailfishos.browser.conf', '/usr/share/lipstick/quickactions/com.jolla.notes.conf']
+weather_banner_height=150.0
+auto_pin_request=true
+advertise_weather=false
+events_screen_actions_enabled=true
+--
+
+[jolla/sound]
+theme='jolla-ambient'
+
+[apps/jolla-camera]
+captureCounterDate='2026-10-17'
+captureCounter=1
+cameraDevice='primary'
+captureMode='image'
+landscapeCaptureButtonLocation=4
+portraitCaptureButtonLocation=3
+saveLocationInfo=false
+
+[apps/jolla-camera/primary/image]
+resolutionText_16_9='camera_settings-me-16-9-6m'
+whiteBalance=0
+videoResolution='640x480'
+imageResolution='1024x768'
+meteringModeValues=[1, 2, 3]
+--
+viewfinderGridValues=['none', 'thirds', 'ambience']
+exposureMode=0
+focusDistance=4
+captureMode=1
+resolutionText_4_3='camera_settings-me-4-3-8m'
+imageResolution_4_3='1024x768'
+imageResolution_16_9='1024x768'
+exposureCompensation=0
+exposureModeValues=[0]
+viewfinderResolution='640x480'
+viewfinderResolution_4_3='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+
+[apps/jolla-camera/primary/video]
+whiteBalance=0
+videoResolution='640x480'
+imageResolution='640x480'
+meteringModeValues=[1, 2, 3]
+--
+flashValues=[2, 32]
+viewfinderResolution='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+
+[apps/jolla-camera/secondary/image]
+whiteBalance=0
+flash=2
+imageResolution='640x480'
+meteringModeValues=[1, 2, 3]
+--
+viewfinderResolution='640x480'
+exposureCompensationValues=[4, 2, 0, -2, -4]
+viewfinderResolution_4_3='640x480'
+
+[apps/jolla-camera/secondary/video]
+whiteBalance=0
+flash=2
+imageResolution='640x480'
+meteringModeValues=[1, 2, 3]
+/home/nemo/.config/Jolla
+/home/nemo/.cache/ambienced/com/jolla

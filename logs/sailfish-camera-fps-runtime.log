@@ -1,0 +1,52 @@
+> > > > > > > > === camera ===
+root     15999  0.0  0.3   4624  1620 ?        Sl   18:29   0:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+media    19778  1.8  2.4  23392 10252 ?        Sl   18:56   0:04 /usr/libexec/droid-hybris/system/bin/minimediaservice
+nemo     20025  0.0  0.1   1956   556 ?        S    18:59   0:00 invoker -s --type=silica-qt5 /usr/bin/jolla-camera
+nemo     20042 25.3 10.9 306100 45192 ?        Ssl  18:59   0:08 /usr/bin/jolla-camera
+pid=20042
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 19:00:14 EEST. --
+Oct 17 18:59:46.186935 Jolla booster-silica-qt5[20042]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 18:59:46.889450 Jolla /usr/bin/jolla-camera[20042]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 18:59:47.772964 Jolla [20042]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:00:02.045578 Jolla [20042]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:00:03.961960 Jolla [20042]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+Oct 17 19:00:04.979782 Jolla [20042]: GLIB CRITICAL ** GStreamer - range start is not smaller than end for `GstFractionRange'
+Oct 17 19:00:05.484604 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:05.678482 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:05.941482 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:06.165573 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:06.376663 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:06.671219 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:06.870285 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:07.125198 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:07.352524 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:07.548324 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:07.775497 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:07.998886 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:08.259811 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:08.488144 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:08.698318 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:08.890243 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:09.100235 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:09.325088 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:09.588669 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:09.761825 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:09.994064 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:10.688278 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:10.916488 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:11.153915 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:11.455520 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:11.665939 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:11.927780 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:12.090347 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:12.403122 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:12.628921 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:12.869491 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:13.062485 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:13.253464 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:13.650406 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:13.986984 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 19:00:14.390610 Jolla [20042]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+2+0 records in
+2+0 records out
+3072000 bytes (3.1 MB) copied, 0.222015 s, 13.8 MB/s

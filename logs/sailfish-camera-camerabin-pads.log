@@ -1,0 +1,992 @@
+> > > > > > > 0:00:00.134033202 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbc070> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.134460448 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<GstGhostPad@0xbc070> activatemodefunc set to gst_ghost_pad_activate_mode_default
+0:00:00.134674071 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_proxy_pad_chain_default
+0:00:00.134765624 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':sink> chainlistfunc set to gst_proxy_pad_chain_list_default
+0:00:00.135192870 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbd110> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.135437010 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':proxypad0> getrangefunc set to gst_proxy_pad_getrange_default
+0:00:00.135681151 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<sink:proxypad0> activatemodefunc set to gst_ghost_pad_internal_activate_mode_default
+0:00:00.140075683 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.140258788 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.140472411 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.140533446 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.140777587 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.140869140 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.140930175 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.140991210 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.141296386 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.141387938 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.141448974 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.141540526 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.141723632 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.141784667 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.141845702 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.141906737 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.142242430 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.142333983 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.142395018 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.142456054 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.142639159 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.142730712 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.142791747 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.142852782 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.143768309 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.143920897 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.144012450 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.144073485 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.144287108 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.144378661 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.144439696 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.144500731 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.146820067 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.146972655 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.147064207 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.147125243 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.147308348 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.147369383 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.147460936 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.147521971 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.637908934 23351    0x8c360 WARN             droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new: failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:00.638153075 23351    0x8c360 INFO             droidcamsrc gstdroidcamsrcphotography.c:610:gst_droidcamsrc_photography_init:<GstDroidCamSrc@0xbd248> using configuration file //etc/gst-droid/gstdroidcamsrc-0.conf
+0:00:00.638793944 23351    0x8c360 WARN             droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load: failed to load iso-speed: Key file does not have group 'iso-speed'
+0:00:00.640594481 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':vfsrc> activatemodefunc set to 0x406f2fc9
+0:00:00.640747069 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':vfsrc> eventfunc for set to 0x406f2de1
+0:00:00.640838622 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':vfsrc> queryfunc set to 0x406f2b11
+0:00:00.641174315 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':imgsrc> activatemodefunc set to 0x406f2fc9
+0:00:00.641235350 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':imgsrc> eventfunc for set to 0x406f2de1
+0:00:00.641296386 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':imgsrc> queryfunc set to 0x406f2b11
+0:00:00.641662597 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':vidsrc> activatemodefunc set to 0x406f2fc9
+0:00:00.641754149 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':vidsrc> eventfunc for set to 0x406f2de1
+0:00:00.641815184 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':vidsrc> queryfunc set to 0x406f2b11
+0:00:00.642120360 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:2058:gst_camera_bin_set_camera_src:<cam> Setting camera source <droidcamsrc0>
+0:00:00.643493651 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1594:gst_pad_set_activate_function_full:<'':sink> activatefunc set to gst_base_sink_pad_activate
+0:00:00.643615721 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_sink_pad_activate_mode
+0:00:00.643676757 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_sink_sink_query
+0:00:00.643737792 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_sink_event
+0:00:00.643798827 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_sink_chain
+0:00:00.643859862 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':sink> chainlistfunc set to gst_base_sink_chain_list
+0:00:00.651550292 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbc340> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.651763915 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<GstGhostPad@0xbc340> activatemodefunc set to gst_ghost_pad_activate_mode_default
+0:00:00.651916503 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_proxy_pad_getrange_default
+0:00:00.652038573 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbd3c0> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.652191161 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':proxypad1> chainfunc set to gst_proxy_pad_chain_default
+0:00:00.652343749 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':proxypad1> chainlistfunc set to gst_proxy_pad_chain_list_default
+0:00:00.652404784 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<src:proxypad1> activatemodefunc set to gst_ghost_pad_internal_activate_mode_default
+0:00:00.652740477 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':src> activating pad from none
+0:00:00.652832030 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':src> setting pad into push mode, unset flushing
+0:00:00.652923583 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:375:gst_ghost_pad_activate_push_default:<'':src> activate push on '':src, proxy internal
+0:00:00.652984618 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<src:proxypad1> setting pad into push mode, unset flushing
+0:00:00.653045653 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:284:gst_ghost_pad_internal_activate_push_default:<src:proxypad1> activate push on src:proxypad1, we're ok
+0:00:00.653137206 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1184:gst_pad_activate_mode:<'':src> already activated in push mode
+0:00:00.653198241 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<src:proxypad1> activated in push mode
+0:00:00.653259276 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':src> activated in push mode
+0:00:00.654144286 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1594:gst_pad_set_activate_function_full:<'':sink> activatefunc set to gst_base_sink_pad_activate
+0:00:00.654266356 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_sink_pad_activate_mode
+0:00:00.654327391 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_sink_sink_query
+0:00:00.654388426 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_sink_event
+0:00:00.654449461 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_sink_chain
+0:00:00.654510497 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':sink> chainlistfunc set to gst_base_sink_chain_list
+0:00:00.659149169 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbc610> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.659332274 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<GstGhostPad@0xbc610> activatemodefunc set to gst_ghost_pad_activate_mode_default
+0:00:00.659484862 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_proxy_pad_getrange_default
+0:00:00.659606932 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbd518> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.659759520 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':proxypad2> chainfunc set to gst_proxy_pad_chain_default
+0:00:00.659851073 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':proxypad2> chainlistfunc set to gst_proxy_pad_chain_list_default
+0:00:00.659912108 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<src:proxypad2> activatemodefunc set to gst_ghost_pad_internal_activate_mode_default
+0:00:00.659973143 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':src> activating pad from none
+0:00:00.660095213 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':src> setting pad into push mode, unset flushing
+0:00:00.660156249 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:375:gst_ghost_pad_activate_push_default:<'':src> activate push on '':src, proxy internal
+0:00:00.660217284 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<src:proxypad2> setting pad into push mode, unset flushing
+0:00:00.660278319 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:284:gst_ghost_pad_internal_activate_push_default:<src:proxypad2> activate push on src:proxypad2, we're ok
+0:00:00.660369872 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1184:gst_pad_activate_mode:<'':src> already activated in push mode
+0:00:00.660430907 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<src:proxypad2> activated in push mode
+0:00:00.660491942 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':src> activated in push mode
+0:00:00.667205809 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1594:gst_pad_set_activate_function_full:<'':sink> activatefunc set to gst_base_sink_pad_activate
+0:00:00.667388914 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_sink_pad_activate_mode
+0:00:00.667449949 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_sink_sink_query
+0:00:00.667510984 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_sink_event
+0:00:00.667572019 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_sink_chain
+0:00:00.667633055 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':sink> chainlistfunc set to gst_base_sink_chain_list
+0:00:00.669097899 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.669281004 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.669342039 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.669403075 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.669738768 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.669830321 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.670166014 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.670959471 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: video-encodebin and videobin-filesink in same bin, no need for ghost pads
+0:00:00.671173094 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link video-encodebin:src and videobin-filesink:sink
+0:00:00.671264647 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked video-encodebin:src and videobin-filesink:sink, successful
+0:00:00.671356199 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<video-encodebin:src> default event handler for event reconfigure event: 0xd5aa0, time 99:99:99.999999999, seq-num 1, (NULL)
+0:00:00.671478270 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<video-encodebin:src> calling forward function on pad src:proxypad1
+0:00:00.671600340 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<src:proxypad1> Reffing and pushing event 0xd5aa0 (reconfigure) to src:proxypad1
+0:00:00.671691893 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4877:gst_pad_push_event_unchecked:<src:proxypad1> Dropping event reconfigure because pad is not linked
+0:00:00.671752928 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<video-encodebin:src> sent event, ret error
+0:00:00.671905516 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: image-encodebin and imagebin-filesink in same bin, no need for ghost pads
+0:00:00.672027586 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link image-encodebin:src and imagebin-filesink:sink
+0:00:00.672119139 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked image-encodebin:src and imagebin-filesink:sink, successful
+0:00:00.672180174 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<image-encodebin:src> default event handler for event reconfigure event: 0xd5ae8, time 99:99:99.999999999, seq-num 4, (NULL)
+0:00:00.672302244 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<image-encodebin:src> calling forward function on pad src:proxypad2
+0:00:00.672363279 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<src:proxypad2> Reffing and pushing event 0xd5ae8 (reconfigure) to src:proxypad2
+0:00:00.672424315 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4877:gst_pad_push_event_unchecked:<src:proxypad2> Dropping event reconfigure because pad is not linked
+0:00:00.672576902 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<image-encodebin:src> sent event, ret error
+0:00:00.672760008 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: viewfinderbin-queue and viewfinderbin-capsfilter in same bin, no need for ghost pads
+0:00:00.672882078 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link viewfinderbin-queue:src and viewfinderbin-capsfilter:sink
+0:00:00.673004149 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<viewfinderbin-queue:src> doing query 0xd3d20 (caps)
+0:00:00.673065184 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<viewfinderbin-queue:src> proxying caps query for viewfinderbin-queue:src
+0:00:00.673156736 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<viewfinderbin-queue:src> Making iterator
+0:00:00.673217772 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<viewfinderbin-queue:src> calling forward function on pad viewfinderbin-queue:sink
+0:00:00.673278807 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<viewfinderbin-queue:sink> peer query 0xd3d20 (caps)
+0:00:00.673339842 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<viewfinderbin-queue:sink> pad has no peer
+0:00:00.673431395 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<viewfinderbin-queue:src> not forwarding 0xd3d20 (caps) query
+0:00:00.673492430 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<viewfinderbin-queue:src> sent query 0xd3d20 (caps), result 1
+0:00:00.673583982 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<viewfinderbin-capsfilter:sink> doing query 0xd3d50 (caps)
+0:00:00.673675535 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<viewfinderbin-capsfilter:src> peer query 0xd3d80 (caps)
+0:00:00.673736570 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<viewfinderbin-capsfilter:src> pad has no peer
+0:00:00.673889158 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<viewfinderbin-capsfilter:sink> sent query 0xd3d50 (caps), result 1
+0:00:00.673980711 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked viewfinderbin-queue:src and viewfinderbin-capsfilter:sink, successful
+0:00:00.674194334 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: viewfinderbin-capsfilter and vf-bin in same bin, no need for ghost pads
+0:00:00.674316404 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link viewfinderbin-capsfilter:src and vf-bin:sink
+0:00:00.674407957 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<viewfinderbin-capsfilter:src> doing query 0xd3db0 (caps)
+0:00:00.674713133 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<viewfinderbin-capsfilter:sink> peer query 0xd3e00 (caps)
+0:00:00.674835203 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<viewfinderbin-queue:src> doing query 0xd3e00 (caps)
+0:00:00.674926756 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<viewfinderbin-queue:src> proxying caps query for viewfinderbin-queue:src
+0:00:00.674987791 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<viewfinderbin-queue:src> Making iterator
+0:00:00.675079344 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<viewfinderbin-queue:src> calling forward function on pad viewfinderbin-queue:sink
+0:00:00.675140379 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<viewfinderbin-queue:sink> peer query 0xd3e00 (caps)
+0:00:00.675201414 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<viewfinderbin-queue:sink> pad has no peer
+0:00:00.675292967 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<viewfinderbin-queue:src> not forwarding 0xd3e00 (caps) query
+0:00:00.675354002 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<viewfinderbin-queue:src> sent query 0xd3e00 (caps), result 1
+0:00:00.675476072 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<viewfinderbin-capsfilter:src> sent query 0xd3db0 (caps), result 1
+0:00:00.675567625 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<vf-bin:sink> doing query 0xd3e30 (caps)
+0:00:00.675628660 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<vf-bin:sink> proxying caps query for vf-bin:sink
+0:00:00.675720213 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<vf-bin:sink> calling forward function on pad sink:proxypad0
+0:00:00.675781248 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<sink:proxypad0> peer query 0xd3e30 (caps)
+0:00:00.675842283 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<sink:proxypad0> pad has no peer
+0:00:00.675933836 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<vf-bin:sink> not forwarding 0xd3e30 (caps) query
+0:00:00.675994871 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<vf-bin:sink> sent query 0xd3e30 (caps), result 1
+0:00:00.676086424 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked viewfinderbin-capsfilter:src and vf-bin:sink, successful
+0:00:00.676635740 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1711:gst_camera_bin_create_elements:<cam> Switching video-encodebin's profile
+0:00:00.682220457 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to 0x4265bb79
+0:00:00.682891844 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:835:gst_ghost_pad_set_target:<video-encodebin:src> set target muxer:src
+0:00:00.683319090 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:857:gst_ghost_pad_set_target:<video-encodebin:src> connecting internal pad to target <muxer:src>
+0:00:00.683502195 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link muxer:src and src:proxypad1
+0:00:00.683593748 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked muxer:src and src:proxypad1, successful
+0:00:00.688934324 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_video_encoder_chain
+0:00:00.691894529 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_video_encoder_sink_event
+0:00:00.691986082 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_video_encoder_sink_query
+0:00:00.692260740 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_video_encoder_src_query
+0:00:00.692352293 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_video_encoder_src_event
+0:00:00.693145750 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':video_147260228> chainfunc set to gst_collect_pads_chain
+0:00:00.693267820 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':video_147260228> eventfunc for set to gst_collect_pads_event
+0:00:00.693328855 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':video_147260228> queryfunc set to gst_collect_pads_query
+0:00:00.693511960 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1880:gst_pad_set_link_function_full:<'':video_147260228> linkfunc set to 0x4265bff9
+0:00:00.693908689 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.694000242 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.694061277 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.694122312 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.694488523 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.694580076 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.694641111 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.695068357 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link queue0:src and muxer:video_147260228
+0:00:00.695220945 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked queue0:src and muxer:video_147260228, successful
+0:00:00.698883054 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.699127195 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.699218748 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.699279783 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.699523923 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.699676511 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.699737546 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.699798582 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.700286863 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<capsfilter0:sink> We're flushing
+0:00:00.700561521 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter0 and queue0 in same bin, no need for ghost pads
+0:00:00.700714109 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter0:src and queue0:sink
+0:00:00.700805662 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter0:src and queue0:sink, successful
+0:00:00.702880857 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to 0x41aa1c0d
+0:00:00.703033445 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to 0x41aa1fd9
+0:00:00.703308103 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: streamcombiner0 and capsfilter0 in same bin, no need for ghost pads
+0:00:00.703460691 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamcombiner0:src and capsfilter0:sink
+0:00:00.703552243 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamcombiner0:src and capsfilter0:sink, successful
+0:00:00.704803464 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to 0x41aa2991
+0:00:00.704956052 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to 0x41aa22d5
+0:00:00.705047605 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to 0x41aa282d
+0:00:00.705596921 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.705688474 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.705780026 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.705841062 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.706146237 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.706207272 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.706268308 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.706665036 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: queue1 and streamsplitter0 in same bin, no need for ghost pads
+0:00:00.706817624 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link queue1:src and streamsplitter0:sink
+0:00:00.706909177 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked queue1:src and streamsplitter0:sink, successful
+0:00:00.707153317 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:695:gst_ghost_pad_new: name:video_0, target:queue1:sink
+0:00:00.707214352 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:666:gst_ghost_pad_new_no_target: name:video_0, direction:2
+0:00:00.707366940 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbc778> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.707458493 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<GstGhostPad@0xbc778> activatemodefunc set to gst_ghost_pad_activate_mode_default
+0:00:00.707580563 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':video_0> chainfunc set to gst_proxy_pad_chain_default
+0:00:00.707672116 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':video_0> chainlistfunc set to gst_proxy_pad_chain_list_default
+0:00:00.707763669 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbd670> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.707916257 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':proxypad3> getrangefunc set to gst_proxy_pad_getrange_default
+0:00:00.708007809 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<video_0:proxypad3> activatemodefunc set to gst_ghost_pad_internal_activate_mode_default
+0:00:00.708068845 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:835:gst_ghost_pad_set_target:<'':video_0> set target queue1:sink
+0:00:00.708129880 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:857:gst_ghost_pad_set_target:<'':video_0> connecting internal pad to target <queue1:sink>
+0:00:00.708190915 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link video_0:proxypad3 and queue1:sink
+0:00:00.708251950 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked video_0:proxypad3 and queue1:sink, successful
+0:00:00.708343503 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<video_0:proxypad3> default event handler for event reconfigure event: 0xd5b78, time 99:99:99.999999999, seq-num 28, (NULL)
+0:00:00.709411618 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<video_0:proxypad3> calling forward function on pad '':video_0
+0:00:00.709503171 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<'':video_0> Reffing and pushing event 0xd5b78 (reconfigure) to '':video_0
+0:00:00.709564206 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<'':video_0> We're flushing
+0:00:00.709655759 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<video_0:proxypad3> sent event, ret error
+0:00:00.710052487 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':passthroughsink> chainfunc set to 0x41aa1fad
+0:00:00.710174558 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':passthroughsink> eventfunc for set to 0x41aa1ead
+0:00:00.710235593 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':passthroughsink> queryfunc set to 0x41aa1c01
+0:00:00.710296628 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':passthroughsink> activating pad from none
+0:00:00.710357663 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':passthroughsink> setting pad into push mode, unset flushing
+0:00:00.710418698 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':passthroughsink> activated in push mode
+0:00:00.713500974 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':passthroughsrc> activating pad from none
+0:00:00.713714597 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':passthroughsrc> setting pad into push mode, unset flushing
+0:00:00.713775632 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':passthroughsrc> activated in push mode
+0:00:00.713928220 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamsplitter0:passthroughsrc and streamcombiner0:passthroughsink
+0:00:00.714019772 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamsplitter0:passthroughsrc and streamcombiner0:passthroughsink, successful
+0:00:00.714111325 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<streamsplitter0:passthroughsrc> default event handler for event reconfigure event: 0xd5b30, time 99:99:99.999999999, seq-num 30, (NULL)
+0:00:00.714202878 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<streamsplitter0:passthroughsrc> Making iterator
+0:00:00.714263913 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<streamsplitter0:passthroughsrc> calling forward function on pad streamsplitter0:sink
+0:00:00.714324948 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<streamsplitter0:sink> Reffing and pushing event 0xd5b30 (reconfigure) to streamsplitter0:sink
+0:00:00.714416501 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<streamsplitter0:sink> We're flushing
+0:00:00.714477536 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<streamsplitter0:passthroughsrc> sent event, ret error
+0:00:00.714904782 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':encodingsink> chainfunc set to 0x41aa1fad
+0:00:00.714996335 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':encodingsink> eventfunc for set to 0x41aa1ead
+0:00:00.715057370 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':encodingsink> queryfunc set to 0x41aa1c01
+0:00:00.715118405 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':encodingsink> activating pad from none
+0:00:00.715179440 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':encodingsink> setting pad into push mode, unset flushing
+0:00:00.715240475 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':encodingsink> activated in push mode
+0:00:00.715362546 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link theoraenc0:src and streamcombiner0:encodingsink
+0:00:00.715484616 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked theoraenc0:src and streamcombiner0:encodingsink, successful
+0:00:00.715789792 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.715911862 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.715972897 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.716033932 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.716247555 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.716308590 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.716369626 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.716491696 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.716796872 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter1 and theoraenc0 in same bin, no need for ghost pads
+0:00:00.716918942 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter1:src and theoraenc0:sink
+0:00:00.717010495 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter1:src and theoraenc0:sink, successful
+0:00:00.722534176 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.722747799 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.722808835 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.722900387 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.723114010 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.723175045 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.723236081 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.723297116 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.729003902 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.729156490 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.730621334 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.730712887 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.731048580 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.731140133 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.731201168 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.731262204 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.731719967 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.731811520 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.731872555 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.731933590 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.732208248 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.732269283 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.732330319 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.732391354 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.732879635 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videoconvert0 and videoscale0 in same bin, no need for ghost pads
+0:00:00.733062740 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videoconvert0:src and videoscale0:sink
+0:00:00.733154293 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videoconvert0:src and videoscale0:sink, successful
+0:00:00.733306881 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videoscale0 and videoconvert1 in same bin, no need for ghost pads
+0:00:00.733428951 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videoscale0:src and videoconvert1:sink
+0:00:00.733489987 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videoscale0:src and videoconvert1:sink, successful
+0:00:00.738525386 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.738983150 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.739074703 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.739196774 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.739440914 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.739562985 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.739654537 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.739715572 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.740173336 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videoconvert1 and videorate0 in same bin, no need for ghost pads
+0:00:00.740325924 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videoconvert1:src and videorate0:sink
+0:00:00.740417477 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videoconvert1:src and videorate0:sink, successful
+0:00:00.740600582 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videorate0 and capsfilter1 in same bin, no need for ghost pads
+0:00:00.740722652 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videorate0:src and capsfilter1:sink
+0:00:00.740814205 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videorate0:src and capsfilter1:sink, successful
+0:00:00.741271969 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':encodingsrc> activating pad from none
+0:00:00.741363521 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':encodingsrc> setting pad into push mode, unset flushing
+0:00:00.741424557 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':encodingsrc> activated in push mode
+0:00:00.741577145 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamsplitter0:encodingsrc and videoconvert0:sink
+0:00:00.741668697 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamsplitter0:encodingsrc and videoconvert0:sink, successful
+0:00:00.741729732 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<streamsplitter0:encodingsrc> default event handler for event reconfigure event: 0xdc778, time 99:99:99.999999999, seq-num 51, (NULL)
+0:00:00.741821285 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<streamsplitter0:encodingsrc> Making iterator
+0:00:00.741882320 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<streamsplitter0:encodingsrc> calling forward function on pad streamsplitter0:sink
+0:00:00.741943355 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<streamsplitter0:sink> Reffing and pushing event 0xdc778 (reconfigure) to streamsplitter0:sink
+0:00:00.742034908 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<streamsplitter0:sink> We're flushing
+0:00:00.742095943 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<streamsplitter0:encodingsrc> sent event, ret error
+0:00:00.742431637 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':video_0> activating pad from none
+0:00:00.742523189 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':video_0> setting pad into push mode, unset flushing
+0:00:00.742584224 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:375:gst_ghost_pad_activate_push_default:<'':video_0> activate push on '':video_0, proxy internal
+0:00:00.742645260 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<video_0:proxypad3> setting pad into push mode, unset flushing
+0:00:00.742706295 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:284:gst_ghost_pad_internal_activate_push_default:<video_0:proxypad3> activate push on video_0:proxypad3, we're ok
+0:00:00.742767330 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1184:gst_pad_activate_mode:<'':video_0> already activated in push mode
+0:00:00.742828365 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<video_0:proxypad3> activated in push mode
+0:00:00.747344966 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':video_0> activated in push mode
+0:00:00.753173824 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_audio_encoder_sink_event
+0:00:00.753356929 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_audio_encoder_sink_query
+0:00:00.753448482 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_audio_encoder_chain
+0:00:00.753509517 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_audio_encoder_sink_activate_mode
+0:00:00.753753658 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_audio_encoder_src_event
+0:00:00.753845210 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_audio_encoder_src_query
+0:00:00.754577632 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':audio_1771252795> chainfunc set to gst_collect_pads_chain
+0:00:00.754699703 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':audio_1771252795> eventfunc for set to gst_collect_pads_event
+0:00:00.754760738 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':audio_1771252795> queryfunc set to gst_collect_pads_query
+0:00:00.754913326 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1880:gst_pad_set_link_function_full:<'':audio_1771252795> linkfunc set to 0x4265bff9
+0:00:00.755310054 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.755401607 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.755462642 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.755493160 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.756134029 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.756256099 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.756317134 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.756805415 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link queue2:src and muxer:audio_1771252795
+0:00:00.756958003 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked queue2:src and muxer:audio_1771252795, successful
+0:00:00.757324214 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.757446284 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.757507320 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.757568355 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.757812495 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.757904048 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.757965083 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.758056636 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.758239741 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<capsfilter2:sink> We're flushing
+0:00:00.758483882 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter2 and queue2 in same bin, no need for ghost pads
+0:00:00.758636470 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter2:src and queue2:sink
+0:00:00.758728023 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter2:src and queue2:sink, successful
+0:00:00.759399409 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to 0x41aa1c0d
+0:00:00.759521480 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to 0x41aa1fd9
+0:00:00.764373774 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: streamcombiner1 and capsfilter2 in same bin, no need for ghost pads
+0:00:00.764617915 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamcombiner1:src and capsfilter2:sink
+0:00:00.764709468 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamcombiner1:src and capsfilter2:sink, successful
+0:00:00.765167231 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to 0x41aa2991
+0:00:00.765289302 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to 0x41aa22d5
+0:00:00.765350337 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to 0x41aa282d
+0:00:00.765899653 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.766021724 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.766082759 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.766143794 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.766448970 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.766510005 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.766571040 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.766998286 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: queue3 and streamsplitter1 in same bin, no need for ghost pads
+0:00:00.767150874 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link queue3:src and streamsplitter1:sink
+0:00:00.767242427 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked queue3:src and streamsplitter1:sink, successful
+0:00:00.767395015 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:695:gst_ghost_pad_new: name:audio_1, target:queue3:sink
+0:00:00.767486567 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:666:gst_ghost_pad_new_no_target: name:audio_1, direction:2
+0:00:00.767608638 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbc8e0> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.767669673 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<GstGhostPad@0xbc8e0> activatemodefunc set to gst_ghost_pad_activate_mode_default
+0:00:00.767822261 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':audio_1> chainfunc set to gst_proxy_pad_chain_default
+0:00:00.767913813 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':audio_1> chainlistfunc set to gst_proxy_pad_chain_list_default
+0:00:00.768005366 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbd7c8> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.768188472 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':proxypad4> getrangefunc set to gst_proxy_pad_getrange_default
+0:00:00.768585200 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<audio_1:proxypad4> activatemodefunc set to gst_ghost_pad_internal_activate_mode_default
+0:00:00.768646235 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:835:gst_ghost_pad_set_target:<'':audio_1> set target queue3:sink
+0:00:00.768737788 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:857:gst_ghost_pad_set_target:<'':audio_1> connecting internal pad to target <queue3:sink>
+0:00:00.768798823 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link audio_1:proxypad4 and queue3:sink
+0:00:00.768890376 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked audio_1:proxypad4 and queue3:sink, successful
+0:00:00.768981929 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<audio_1:proxypad4> default event handler for event reconfigure event: 0x10ea98, time 99:99:99.999999999, seq-num 66, (NULL)
+0:00:00.769073481 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<audio_1:proxypad4> calling forward function on pad '':audio_1
+0:00:00.769165034 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<'':audio_1> Reffing and pushing event 0x10ea98 (reconfigure) to '':audio_1
+0:00:00.769378657 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<'':audio_1> We're flushing
+0:00:00.769439692 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<audio_1:proxypad4> sent event, ret error
+0:00:00.769683833 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':passthroughsink> chainfunc set to 0x41aa1fad
+0:00:00.769775386 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':passthroughsink> eventfunc for set to 0x41aa1ead
+0:00:00.769836421 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':passthroughsink> queryfunc set to 0x41aa1c01
+0:00:00.769897456 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':passthroughsink> activating pad from none
+0:00:00.769927973 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':passthroughsink> setting pad into push mode, unset flushing
+0:00:00.769989009 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':passthroughsink> activated in push mode
+0:00:00.770324702 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':passthroughsrc> activating pad from none
+0:00:00.770416255 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':passthroughsrc> setting pad into push mode, unset flushing
+0:00:00.770477290 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':passthroughsrc> activated in push mode
+0:00:00.770629878 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamsplitter1:passthroughsrc and streamcombiner1:passthroughsink
+0:00:00.770721430 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamsplitter1:passthroughsrc and streamcombiner1:passthroughsink, successful
+0:00:00.770812983 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<streamsplitter1:passthroughsrc> default event handler for event reconfigure event: 0x10eae0, time 99:99:99.999999999, seq-num 68, (NULL)
+0:00:00.770904536 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<streamsplitter1:passthroughsrc> Making iterator
+0:00:00.770965571 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<streamsplitter1:passthroughsrc> calling forward function on pad streamsplitter1:sink
+0:00:00.771087641 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<streamsplitter1:sink> Reffing and pushing event 0x10eae0 (reconfigure) to streamsplitter1:sink
+0:00:00.771179194 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<streamsplitter1:sink> We're flushing
+0:00:00.771240229 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<streamsplitter1:passthroughsrc> sent event, ret error
+0:00:00.771697993 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':encodingsink> chainfunc set to 0x41aa1fad
+0:00:00.771820063 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':encodingsink> eventfunc for set to 0x41aa1ead
+0:00:00.771881098 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':encodingsink> queryfunc set to 0x41aa1c01
+0:00:00.771942134 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':encodingsink> activating pad from none
+0:00:00.771972651 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':encodingsink> setting pad into push mode, unset flushing
+0:00:00.772033686 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':encodingsink> activated in push mode
+0:00:00.772186274 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link vorbisenc0:src and streamcombiner1:encodingsink
+0:00:00.772277827 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked vorbisenc0:src and streamcombiner1:encodingsink, successful
+0:00:00.772888178 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.773040766 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.773101801 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.773162837 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.773376460 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.773468012 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.773529047 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.773590083 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.774200434 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter3 and vorbisenc0 in same bin, no need for ghost pads
+0:00:00.774383540 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter3:src and vorbisenc0:sink
+0:00:00.774505610 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter3:src and vorbisenc0:sink, successful
+0:00:00.779876703 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to 0x4294733d
+0:00:00.780090326 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to 0x4294630d
+0:00:00.780426020 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to 0x42946301
+0:00:00.783477778 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.783660883 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.783721918 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.783782953 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.783996576 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.784057611 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.784118647 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.784179682 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.784545893 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.784637445 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.784698481 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.784759516 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.784942621 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.785003656 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.785095209 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.785156244 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.802062982 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.802246087 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.802307122 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.802368158 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.802581781 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.802642816 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.802734368 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.802795404 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.802978509 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<(NULL):src> queryfunc set to 0x429791a1
+0:00:00.804016107 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: audiorate0 and audioconvert0 in same bin, no need for ghost pads
+0:00:00.804229730 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link audiorate0:src and audioconvert0:sink
+0:00:00.804351800 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked audiorate0:src and audioconvert0:sink, successful
+0:00:00.804504388 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: audioconvert0 and audioresample0 in same bin, no need for ghost pads
+0:00:00.804626458 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link audioconvert0:src and audioresample0:sink
+0:00:00.804687493 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked audioconvert0:src and audioresample0:sink, successful
+0:00:00.804840081 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: audioresample0 and audioconvert1 in same bin, no need for ghost pads
+0:00:00.804962152 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link audioresample0:src and audioconvert1:sink
+0:00:00.805023187 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked audioresample0:src and audioconvert1:sink, successful
+0:00:00.805175775 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: audioconvert1 and capsfilter3 in same bin, no need for ghost pads
+0:00:00.805297845 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link audioconvert1:src and capsfilter3:sink
+0:00:00.805358880 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked audioconvert1:src and capsfilter3:sink, successful
+0:00:00.805816644 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':encodingsrc> activating pad from none
+0:00:00.805877679 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':encodingsrc> setting pad into push mode, unset flushing
+0:00:00.805969232 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':encodingsrc> activated in push mode
+0:00:00.806091302 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamsplitter1:encodingsrc and audiorate0:sink
+0:00:00.806182855 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamsplitter1:encodingsrc and audiorate0:sink, successful
+0:00:00.806274407 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<streamsplitter1:encodingsrc> default event handler for event reconfigure event: 0x10eae0, time 99:99:99.999999999, seq-num 89, (NULL)
+0:00:00.806335442 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<streamsplitter1:encodingsrc> Making iterator
+0:00:00.806396478 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<streamsplitter1:encodingsrc> calling forward function on pad streamsplitter1:sink
+0:00:00.806457513 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<streamsplitter1:sink> Reffing and pushing event 0x10eae0 (reconfigure) to streamsplitter1:sink
+0:00:00.806549066 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<streamsplitter1:sink> We're flushing
+0:00:00.806610101 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<streamsplitter1:encodingsrc> sent event, ret error
+0:00:00.806945794 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':audio_1> activating pad from none
+0:00:00.807067864 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':audio_1> setting pad into push mode, unset flushing
+0:00:00.807128899 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:375:gst_ghost_pad_activate_push_default:<'':audio_1> activate push on '':audio_1, proxy internal
+0:00:00.807220452 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<audio_1:proxypad4> setting pad into push mode, unset flushing
+0:00:00.807281487 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:284:gst_ghost_pad_internal_activate_push_default:<audio_1:proxypad4> activate push on audio_1:proxypad4, we're ok
+0:00:00.807342523 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1184:gst_pad_activate_mode:<'':audio_1> already activated in push mode
+0:00:00.807403558 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<audio_1:proxypad4> activated in push mode
+0:00:00.807464593 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':audio_1> activated in push mode
+0:00:00.807891839 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1232:encodebin_find_pad:<cam> Looking at encodebin pads, searching for video pad
+0:00:00.808044427 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1243:encodebin_find_pad:<cam> Found video pad video_0
+0:00:00.808166497 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videobin-capsfilter:src and video-encodebin:video_0
+0:00:00.808258050 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videobin-capsfilter:src> doing query 0xd40c0 (caps)
+0:00:00.808349603 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videobin-capsfilter:sink> peer query 0xd40f0 (caps)
+0:00:00.808410638 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<videobin-capsfilter:sink> pad has no peer
+0:00:00.808502190 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videobin-capsfilter:src> sent query 0xd40c0 (caps), result 1
+0:00:00.808593743 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<video-encodebin:video_0> doing query 0xd4120 (caps)
+0:00:00.808685296 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<video-encodebin:video_0> proxying caps query for video-encodebin:video_0
+0:00:00.808776849 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<video-encodebin:video_0> calling forward function on pad video_0:proxypad3
+0:00:00.812561029 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<video_0:proxypad3> peer query 0xd4120 (caps)
+0:00:00.812744135 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue1:sink> doing query 0xd4120 (caps)
+0:00:00.812805170 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue1:sink> proxying caps query for queue1:sink
+0:00:00.812896722 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue1:sink> Making iterator
+0:00:00.812957758 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue1:sink> calling forward function on pad queue1:src
+0:00:00.813018793 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue1:src> peer query 0xd4120 (caps)
+0:00:00.813079828 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamsplitter0:sink> doing query 0xd4120 (caps)
+0:00:00.813171381 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter0:passthroughsrc> peer query 0xd4150 (caps)
+0:00:00.813262933 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner0:passthroughsink> doing query 0xd4150 (caps)
+0:00:00.813323969 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner0:src> peer query 0xd4150 (caps)
+0:00:00.813446039 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter0:sink> doing query 0xd4150 (caps)
+0:00:00.813537592 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter0:src> peer query 0xd4180 (caps)
+0:00:00.813629144 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue0:sink> doing query 0xd4180 (caps)
+0:00:00.813690179 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue0:sink> proxying caps query for queue0:sink
+0:00:00.813751215 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue0:sink> Making iterator
+0:00:00.813812250 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue0:sink> calling forward function on pad queue0:src
+0:00:00.813873285 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue0:src> peer query 0xd4180 (caps)
+0:00:00.813964838 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<muxer:video_147260228> doing query 0xd4180 (caps)
+0:00:00.814056390 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<muxer:video_147260228> not forwarding 0xd4180 (caps) query
+0:00:00.814147943 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<muxer:video_147260228> sent query 0xd4180 (caps), result 1
+0:00:00.814239496 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue0:sink> not forwarding 0xd4180 (caps) query
+0:00:00.814300531 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue0:sink> sent query 0xd4180 (caps), result 1
+0:00:00.814453119 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter0:sink> sent query 0xd4150 (caps), result 1
+0:00:00.814514154 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner0:passthroughsink> sent query 0xd4150 (caps), result 1
+0:00:00.814605707 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter0:encodingsrc> peer query 0xd41b0 (caps)
+0:00:00.814697259 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert0:sink> doing query 0xd41b0 (caps)
+0:00:00.814788812 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert0:src> peer query 0xd4200 (caps)
+0:00:00.814849847 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoscale0:sink> doing query 0xd4200 (caps)
+0:00:00.814941400 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoscale0:src> peer query 0xd4230 (caps)
+0:00:00.815002435 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert1:sink> doing query 0xd4230 (caps)
+0:00:00.815093988 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert1:src> peer query 0xd4260 (caps)
+0:00:00.815155023 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videorate0:sink> doing query 0xd4260 (caps)
+0:00:00.815246576 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videorate0:src> peer query 0xd4290 (caps)
+0:00:00.815307611 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter1:sink> doing query 0xd4290 (caps)
+0:00:00.815399164 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter1:src> peer query 0xd4150 (caps)
+0:00:00.815460199 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<theoraenc0:sink> doing query 0xd4150 (caps)
+0:00:00.845367427 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<theoraenc0:src> doing query 0xd40c0 (caps)
+0:00:00.845581050 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<theoraenc0:src> not forwarding 0xd40c0 (caps) query
+0:00:00.845672603 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<theoraenc0:src> sent query 0xd40c0 (caps), result 1
+0:00:00.845916743 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner0:encodingsink> doing query 0xd40f0 (caps)
+0:00:00.846038814 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner0:src> peer query 0xd40f0 (caps)
+0:00:00.846099849 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter0:sink> doing query 0xd40f0 (caps)
+0:00:00.846282954 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter0:src> peer query 0xd3e00 (caps)
+0:00:00.846343989 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue0:sink> doing query 0xd3e00 (caps)
+0:00:00.846435542 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue0:sink> proxying caps query for queue0:sink
+0:00:00.846496577 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue0:sink> Making iterator
+0:00:00.846557612 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue0:sink> calling forward function on pad queue0:src
+0:00:00.846649165 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue0:src> peer query 0xd3e00 (caps)
+0:00:00.846710200 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<muxer:video_147260228> doing query 0xd3e00 (caps)
+0:00:00.846862788 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<muxer:video_147260228> not forwarding 0xd3e00 (caps) query
+0:00:00.846954341 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<muxer:video_147260228> sent query 0xd3e00 (caps), result 1
+0:00:00.847137446 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue0:sink> not forwarding 0xd3e00 (caps) query
+0:00:00.847198481 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue0:sink> sent query 0xd3e00 (caps), result 1
+0:00:00.847686763 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter0:sink> sent query 0xd40f0 (caps), result 1
+0:00:00.847869868 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner0:encodingsink> sent query 0xd40f0 (caps), result 1
+0:00:00.848144526 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<theoraenc0:sink> sent query 0xd4150 (caps), result 1
+0:00:00.848266597 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter1:sink> sent query 0xd4290 (caps), result 1
+0:00:00.848785395 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videorate0:sink> sent query 0xd4260 (caps), result 1
+0:00:00.851379390 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert1:sink> sent query 0xd4230 (caps), result 1
+0:00:00.865539547 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoscale0:sink> sent query 0xd4200 (caps), result 1
+0:00:00.877807613 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert0:sink> sent query 0xd41b0 (caps), result 1
+0:00:00.881225583 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamsplitter0:sink> sent query 0xd4120 (caps), result 1
+0:00:00.881408688 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue1:sink> not forwarding 0xd4120 (caps) query
+0:00:00.881469723 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue1:sink> sent query 0xd4120 (caps), result 1
+0:00:00.881591794 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<video-encodebin:video_0> not forwarding 0xd4120 (caps) query
+0:00:00.881652829 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<video-encodebin:video_0> sent query 0xd4120 (caps), result 1
+0:00:00.882110593 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videobin-capsfilter:src and video-encodebin:video_0, successful
+0:00:00.882354733 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1726:gst_camera_bin_create_elements:<cam> Switching image-encodebin's profile
+0:00:00.886138913 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_video_encoder_chain
+0:00:00.886291501 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_video_encoder_sink_event
+0:00:00.886383053 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_video_encoder_sink_query
+0:00:00.886566159 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_video_encoder_src_query
+0:00:00.886657711 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_video_encoder_src_event
+0:00:00.887115475 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.887207028 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.887268063 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.887329098 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.887969967 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.888092038 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.888153073 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.888549801 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:835:gst_ghost_pad_set_target:<image-encodebin:src> set target queue4:src
+0:00:00.888641354 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:857:gst_ghost_pad_set_target:<image-encodebin:src> connecting internal pad to target <queue4:src>
+0:00:00.888763424 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link queue4:src and src:proxypad2
+0:00:00.888946531 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked queue4:src and src:proxypad2, successful
+0:00:00.891510007 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_jif_mux_chain
+0:00:00.891693112 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_jif_mux_sink_event
+0:00:00.892578122 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: jifmux0 and queue4 in same bin, no need for ghost pads
+0:00:00.892761228 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link jifmux0:src and queue4:sink
+0:00:00.892852780 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked jifmux0:src and queue4:sink, successful
+0:00:00.893188474 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.893280026 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.893371579 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.893493649 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.893707272 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.893798825 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.893859860 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.893920896 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.894104001 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<capsfilter4:sink> We're flushing
+0:00:00.894348142 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter4 and jifmux0 in same bin, no need for ghost pads
+0:00:00.894470212 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter4:src and jifmux0:sink
+0:00:00.894561765 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter4:src and jifmux0:sink, successful
+0:00:00.895080563 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to 0x41aa1c0d
+0:00:00.895172116 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to 0x41aa1fd9
+0:00:00.895446774 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: streamcombiner2 and capsfilter4 in same bin, no need for ghost pads
+0:00:00.895568845 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamcombiner2:src and capsfilter4:sink
+0:00:00.895660397 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamcombiner2:src and capsfilter4:sink, successful
+0:00:00.896362302 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to 0x41aa2991
+0:00:00.896484372 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to 0x41aa22d5
+0:00:00.896545407 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to 0x41aa282d
+0:00:00.897094723 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_queue_chain
+0:00:00.897186276 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to 0x406a408d
+0:00:00.897247311 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_queue_handle_sink_event
+0:00:00.897308347 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_queue_handle_sink_query
+0:00:00.897613522 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_queue_src_activate_mode
+0:00:00.897705075 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_queue_handle_src_event
+0:00:00.897766110 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_queue_handle_src_query
+0:00:00.898254391 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: queue5 and streamsplitter2 in same bin, no need for ghost pads
+0:00:00.898498532 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link queue5:src and streamsplitter2:sink
+0:00:00.898590085 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked queue5:src and streamsplitter2:sink, successful
+0:00:00.898773190 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:695:gst_ghost_pad_new: name:video_0, target:queue5:sink
+0:00:00.898864743 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:666:gst_ghost_pad_new_no_target: name:video_0, direction:2
+0:00:00.898986813 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbca48> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.899078366 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<GstGhostPad@0xbca48> activatemodefunc set to gst_ghost_pad_activate_mode_default
+0:00:00.899291990 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':video_0> chainfunc set to gst_proxy_pad_chain_default
+0:00:00.899414060 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1701:gst_pad_set_chain_list_function_full:<'':video_0> chainlistfunc set to gst_proxy_pad_chain_list_default
+0:00:00.899505613 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1837:gst_pad_set_iterate_internal_links_function_full:<GstProxyPad@0xbd920> internal link iterator set to gst_proxy_pad_iterate_internal_links_default
+0:00:00.899658201 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':proxypad5> getrangefunc set to gst_proxy_pad_getrange_default
+0:00:00.899749753 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<video_0:proxypad5> activatemodefunc set to gst_ghost_pad_internal_activate_mode_default
+0:00:00.899810789 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:835:gst_ghost_pad_set_target:<'':video_0> set target queue5:sink
+0:00:00.899871824 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:857:gst_ghost_pad_set_target:<'':video_0> connecting internal pad to target <queue5:sink>
+0:00:00.899932859 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link video_0:proxypad5 and queue5:sink
+0:00:00.900024412 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked video_0:proxypad5 and queue5:sink, successful
+0:00:00.900085447 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<video_0:proxypad5> default event handler for event reconfigure event: 0xdc6e8, time 99:99:99.999999999, seq-num 110, (NULL)
+0:00:00.900238035 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<video_0:proxypad5> calling forward function on pad '':video_0
+0:00:00.900299070 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<'':video_0> Reffing and pushing event 0xdc6e8 (reconfigure) to '':video_0
+0:00:00.900390623 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<'':video_0> We're flushing
+0:00:00.900451658 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<video_0:proxypad5> sent event, ret error
+0:00:00.900939939 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':passthroughsink> chainfunc set to 0x41aa1fad
+0:00:00.901062009 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':passthroughsink> eventfunc for set to 0x41aa1ead
+0:00:00.901123044 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':passthroughsink> queryfunc set to 0x41aa1c01
+0:00:00.901184080 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':passthroughsink> activating pad from none
+0:00:00.901275632 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':passthroughsink> setting pad into push mode, unset flushing
+0:00:00.901336667 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':passthroughsink> activated in push mode
+0:00:00.901702878 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':passthroughsrc> activating pad from none
+0:00:00.901763914 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':passthroughsrc> setting pad into push mode, unset flushing
+0:00:00.901824949 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':passthroughsrc> activated in push mode
+0:00:00.901977537 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamsplitter2:passthroughsrc and streamcombiner2:passthroughsink
+0:00:00.902069089 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamsplitter2:passthroughsrc and streamcombiner2:passthroughsink, successful
+0:00:00.902160642 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<streamsplitter2:passthroughsrc> default event handler for event reconfigure event: 0xdc6e8, time 99:99:99.999999999, seq-num 112, (NULL)
+0:00:00.902252195 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<streamsplitter2:passthroughsrc> Making iterator
+0:00:00.902313230 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<streamsplitter2:passthroughsrc> calling forward function on pad streamsplitter2:sink
+0:00:00.902374265 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<streamsplitter2:sink> Reffing and pushing event 0xdc6e8 (reconfigure) to streamsplitter2:sink
+0:00:00.902465818 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<streamsplitter2:sink> We're flushing
+0:00:00.902526853 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<streamsplitter2:passthroughsrc> sent event, ret error
+0:00:00.902954099 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':encodingsink> chainfunc set to 0x41aa1fad
+0:00:00.903045652 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':encodingsink> eventfunc for set to 0x41aa1ead
+0:00:00.903106687 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':encodingsink> queryfunc set to 0x41aa1c01
+0:00:00.903167722 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':encodingsink> activating pad from none
+0:00:00.903228757 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':encodingsink> setting pad into push mode, unset flushing
+0:00:00.903289792 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':encodingsink> activated in push mode
+0:00:00.903442380 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link jpegenc0:src and streamcombiner2:encodingsink
+0:00:00.903503415 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked jpegenc0:src and streamcombiner2:encodingsink, successful
+0:00:00.903839109 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.903961179 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.904022214 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.904083249 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.904327390 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.904418943 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.904479978 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.904541013 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.905090329 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter5 and jpegenc0 in same bin, no need for ghost pads
+0:00:00.905303952 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter5:src and jpegenc0:sink
+0:00:00.905395505 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter5:src and jpegenc0:sink, successful
+0:00:00.905792234 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.905883786 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.905944822 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.906005857 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.906219480 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.906280515 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.906372068 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.906402585 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.906707761 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.906799314 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.906860349 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.906921384 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.907104489 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.907196042 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.907257077 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.907318112 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.907714841 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':sink> eventfunc for set to gst_base_transform_sink_event
+0:00:00.907806394 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<'':sink> chainfunc set to gst_base_transform_chain
+0:00:00.907958982 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':sink> activatemodefunc set to gst_base_transform_sink_activate_mode
+0:00:00.908020017 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':sink> queryfunc set to gst_base_transform_query
+0:00:00.908233640 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<'':src> eventfunc for set to gst_base_transform_src_event
+0:00:00.908294675 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1737:gst_pad_set_getrange_function_full:<'':src> getrangefunc set to gst_base_transform_getrange
+0:00:00.908355710 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<'':src> activatemodefunc set to gst_base_transform_src_activate_mode
+0:00:00.908416745 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1803:gst_pad_set_query_function_full:<'':src> queryfunc set to gst_base_transform_query
+0:00:00.908966062 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videoconvert2 and videoscale1 in same bin, no need for ghost pads
+0:00:00.909149168 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videoconvert2:src and videoscale1:sink
+0:00:00.909240721 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videoconvert2:src and videoscale1:sink, successful
+0:00:00.909698484 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videoscale1 and videoconvert3 in same bin, no need for ghost pads
+0:00:00.909820555 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videoscale1:src and videoconvert3:sink
+0:00:00.909912107 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videoscale1:src and videoconvert3:sink, successful
+0:00:00.910064695 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: videoconvert3 and capsfilter5 in same bin, no need for ghost pads
+0:00:00.910186765 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link videoconvert3:src and capsfilter5:sink
+0:00:00.910247801 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked videoconvert3:src and capsfilter5:sink, successful
+0:00:00.910675047 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':encodingsrc> activating pad from none
+0:00:00.910766599 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':encodingsrc> setting pad into push mode, unset flushing
+0:00:00.910827635 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':encodingsrc> activated in push mode
+0:00:00.910980222 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link streamsplitter2:encodingsrc and videoconvert2:sink
+0:00:00.911041258 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked streamsplitter2:encodingsrc and videoconvert2:sink, successful
+0:00:00.911132810 23351    0x8c360 LOG                 GST_PADS gstpad.c:2875:gst_pad_event_default:<streamsplitter2:encodingsrc> default event handler for event reconfigure event: 0x10ea08, time 99:99:99.999999999, seq-num 130, (NULL)
+0:00:00.911224363 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<streamsplitter2:encodingsrc> Making iterator
+0:00:00.911285398 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<streamsplitter2:encodingsrc> calling forward function on pad streamsplitter2:sink
+0:00:00.911346433 23351    0x8c360 LOG                 GST_PADS gstpad.c:2840:event_forward_func:<streamsplitter2:sink> Reffing and pushing event 0x10ea08 (reconfigure) to streamsplitter2:sink
+0:00:00.911468504 23351    0x8c360 DEBUG               GST_PADS gstpad.c:4855:gst_pad_push_event_unchecked:<streamsplitter2:sink> We're flushing
+0:00:00.911560056 23351    0x8c360 DEBUG               GST_PADS gstpad.c:5150:gst_pad_send_event_unchecked:<streamsplitter2:encodingsrc> sent event, ret error
+0:00:00.911895750 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1015:gst_pad_set_active:<'':video_0> activating pad from none
+0:00:00.911987302 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<'':video_0> setting pad into push mode, unset flushing
+0:00:00.912048338 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:375:gst_ghost_pad_activate_push_default:<'':video_0> activate push on '':video_0, proxy internal
+0:00:00.912109373 23351    0x8c360 DEBUG               GST_PADS gstpad.c:931:pre_activate:<video_0:proxypad5> setting pad into push mode, unset flushing
+0:00:00.912170408 23351    0x8c360 LOG                 GST_PADS gstghostpad.c:284:gst_ghost_pad_internal_activate_push_default:<video_0:proxypad5> activate push on video_0:proxypad5, we're ok
+0:00:00.912231443 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1184:gst_pad_activate_mode:<'':video_0> already activated in push mode
+0:00:00.912292478 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<video_0:proxypad5> activated in push mode
+0:00:00.912353513 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1157:gst_pad_activate_mode:<'':video_0> activated in push mode
+0:00:00.912506101 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1232:encodebin_find_pad:<cam> Looking at encodebin pads, searching for video pad
+0:00:00.912597654 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1243:encodebin_find_pad:<cam> Found video pad video_0
+0:00:00.912719724 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link imagebin-capsfilter:src and image-encodebin:video_0
+0:00:00.912841795 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<imagebin-capsfilter:src> doing query 0xd4260 (caps)
+0:00:00.912933347 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<imagebin-capsfilter:sink> peer query 0x1311b0 (caps)
+0:00:00.912994383 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<imagebin-capsfilter:sink> pad has no peer
+0:00:00.913085935 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<imagebin-capsfilter:src> sent query 0xd4260 (caps), result 1
+0:00:00.913177488 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<image-encodebin:video_0> doing query 0x131120 (caps)
+0:00:00.913238523 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<image-encodebin:video_0> proxying caps query for image-encodebin:video_0
+0:00:00.913330076 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<image-encodebin:video_0> calling forward function on pad video_0:proxypad5
+0:00:00.913391111 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<video_0:proxypad5> peer query 0x131120 (caps)
+0:00:00.913757322 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue5:sink> doing query 0x131120 (caps)
+0:00:00.913818357 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue5:sink> proxying caps query for queue5:sink
+0:00:00.913909910 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue5:sink> Making iterator
+0:00:00.913970945 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue5:sink> calling forward function on pad queue5:src
+0:00:00.914062498 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue5:src> peer query 0x131120 (caps)
+0:00:00.914123533 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamsplitter2:sink> doing query 0x131120 (caps)
+0:00:00.914337156 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter2:passthroughsrc> peer query 0x131090 (caps)
+0:00:00.914428709 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner2:passthroughsink> doing query 0x131090 (caps)
+0:00:00.914520261 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner2:src> peer query 0x131090 (caps)
+0:00:00.914581296 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter4:sink> doing query 0x131090 (caps)
+0:00:00.914672849 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter4:src> peer query 0x131000 (caps)
+0:00:00.914733884 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jifmux0:sink> doing query 0x131000 (caps)
+0:00:00.914825437 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<jifmux0:sink> not forwarding 0x131000 (caps) query
+0:00:00.914886472 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jifmux0:sink> sent query 0x131000 (caps), result 1
+0:00:00.915008543 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter4:sink> sent query 0x131090 (caps), result 1
+0:00:00.915100095 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner2:passthroughsink> sent query 0x131090 (caps), result 1
+0:00:00.915191648 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter2:encodingsrc> peer query 0xd4260 (caps)
+0:00:00.915252683 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert2:sink> doing query 0xd4260 (caps)
+0:00:00.915344236 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert2:src> peer query 0x1311b0 (caps)
+0:00:00.915405271 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoscale1:sink> doing query 0x1311b0 (caps)
+0:00:00.915496824 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoscale1:src> peer query 0x131200 (caps)
+0:00:00.915588376 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert3:sink> doing query 0x131200 (caps)
+0:00:00.915679929 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert3:src> peer query 0xd3d20 (caps)
+0:00:00.915740964 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter5:sink> doing query 0xd3d20 (caps)
+0:00:00.915832517 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter5:src> peer query 0xd4290 (caps)
+0:00:00.915893552 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jpegenc0:sink> doing query 0xd4290 (caps)
+0:00:00.915985105 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jpegenc0:src> doing query 0xd3e00 (caps)
+0:00:00.916076658 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<jpegenc0:src> not forwarding 0xd3e00 (caps) query
+0:00:00.916137693 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jpegenc0:src> sent query 0xd3e00 (caps), result 1
+0:00:00.916229246 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner2:encodingsink> doing query 0x131180 (caps)
+0:00:00.916290281 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner2:src> peer query 0x131180 (caps)
+0:00:00.916381833 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter4:sink> doing query 0x131180 (caps)
+0:00:00.916503904 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter4:src> peer query 0xd41b0 (caps)
+0:00:00.916595457 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jifmux0:sink> doing query 0xd41b0 (caps)
+0:00:00.916717527 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<jifmux0:sink> not forwarding 0xd41b0 (caps) query
+0:00:00.916839597 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jifmux0:sink> sent query 0xd41b0 (caps), result 1
+0:00:00.917083738 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter4:sink> sent query 0x131180 (caps), result 1
+0:00:00.917175290 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner2:encodingsink> sent query 0x131180 (caps), result 1
+0:00:00.917419431 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jpegenc0:sink> sent query 0xd4290 (caps), result 1
+0:00:00.917541501 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter5:sink> sent query 0xd3d20 (caps), result 1
+0:00:00.920074461 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert3:sink> sent query 0x131200 (caps), result 1
+0:00:00.928070066 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoscale1:sink> sent query 0x1311b0 (caps), result 1
+0:00:00.944610594 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert2:sink> sent query 0xd4260 (caps), result 1
+0:00:00.948272703 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamsplitter2:sink> sent query 0x131120 (caps), result 1
+0:00:00.948425291 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue5:sink> not forwarding 0x131120 (caps) query
+0:00:00.948486326 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue5:sink> sent query 0x131120 (caps), result 1
+0:00:00.948608397 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<image-encodebin:video_0> not forwarding 0x131120 (caps) query
+0:00:00.948669432 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<image-encodebin:video_0> sent query 0x131120 (caps), result 1
+0:00:00.949279784 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked imagebin-capsfilter:src and image-encodebin:video_0, successful
+0:00:00.950775145 23351    0x8c360 INFO             droidcamsrc gstdroidcamsrc.c:306:gst_droidcamsrc_set_property:<droidcamsrc0> setting capture mode to: 1
+0:00:00.950866698 23351    0x8c360 INFO             droidcamsrc gstdroidcamsrc.c:309:gst_droidcamsrc_set_property:<droidcamsrc0> not resetting the same mode
+0:00:00.951049803 23351    0x8c360 INFO             droidcamsrc gstdroidcamsrcphotography.c:1297:gst_droidcamsrc_set_and_apply:<droidcamsrc0> setting zoom to 0
+0:00:00.951110839 23351    0x8c360 DEBUG            droidcamsrc gstdroidcamsrcphotography.c:1123:gst_droidcamsrc_set_zoom:<droidcamsrc0> zoom set to 0
+0:00:00.951263427 23351    0x8c360 DEBUG              camerabin gstcamerabin2.c:1370:gst_camera_bin_src_notify_zoom_cb:<cam> Zoom updated to 1
+0:00:00.951599120 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: droidcamsrc0 and viewfinderbin-queue in same bin, no need for ghost pads
+0:00:00.951751708 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link droidcamsrc0:vfsrc and viewfinderbin-queue:sink
+0:00:00.951873778 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<droidcamsrc0:vfsrc> doing query 0x1311b0 (caps)
+0:00:00.951965331 23351    0x8c360 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<droidcamsrc0> pad vfsrc caps query: 0x1311b0, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:00.952087401 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<droidcamsrc0:vfsrc> sent query 0x1311b0 (caps), result 1
+0:00:00.952178954 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<viewfinderbin-queue:sink> doing query 0x131180 (caps)
+0:00:00.952270507 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<viewfinderbin-queue:sink> proxying caps query for viewfinderbin-queue:sink
+0:00:00.952392577 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<viewfinderbin-queue:sink> Making iterator
+0:00:00.952453612 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<viewfinderbin-queue:sink> calling forward function on pad viewfinderbin-queue:src
+0:00:00.952514647 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<viewfinderbin-queue:src> peer query 0x131180 (caps)
+0:00:00.952575682 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<viewfinderbin-capsfilter:sink> doing query 0x131180 (caps)
+0:00:00.952667235 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<viewfinderbin-capsfilter:src> peer query 0x131200 (caps)
+0:00:00.952758788 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<vf-bin:sink> doing query 0x131200 (caps)
+0:00:00.952819823 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<vf-bin:sink> proxying caps query for vf-bin:sink
+0:00:00.952911376 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<vf-bin:sink> calling forward function on pad sink:proxypad0
+0:00:00.952972411 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<sink:proxypad0> peer query 0x131200 (caps)
+0:00:00.953033446 23351    0x8c360 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<sink:proxypad0> pad has no peer
+0:00:00.953369139 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<vf-bin:sink> not forwarding 0x131200 (caps) query
+0:00:00.953491210 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<vf-bin:sink> sent query 0x131200 (caps), result 1
+0:00:00.953613280 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<viewfinderbin-capsfilter:sink> sent query 0x131180 (caps), result 1
+0:00:00.953735350 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<viewfinderbin-queue:sink> not forwarding 0x131180 (caps) query
+0:00:00.953796385 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<viewfinderbin-queue:sink> sent query 0x131180 (caps), result 1
+0:00:00.953887938 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked droidcamsrc0:vfsrc and viewfinderbin-queue:sink, successful
+0:00:00.954101561 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: droidcamsrc0 and imagebin-capsfilter in same bin, no need for ghost pads
+0:00:00.954223631 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link droidcamsrc0:imgsrc and imagebin-capsfilter:sink
+0:00:00.954315184 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<droidcamsrc0:imgsrc> doing query 0x131120 (caps)
+0:00:00.954376219 23351    0x8c360 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<droidcamsrc0> pad imgsrc caps query: 0x131120, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:00.954498290 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<droidcamsrc0:imgsrc> sent query 0x131120 (caps), result 1
+0:00:00.954589842 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<imagebin-capsfilter:sink> doing query 0xd4260 (caps)
+0:00:00.954681395 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<imagebin-capsfilter:src> peer query 0x131380 (caps)
+0:00:00.954772948 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<image-encodebin:video_0> doing query 0x131380 (caps)
+0:00:00.954833983 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<image-encodebin:video_0> proxying caps query for image-encodebin:video_0
+0:00:00.954925536 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<image-encodebin:video_0> calling forward function on pad video_0:proxypad5
+0:00:00.955047606 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<video_0:proxypad5> peer query 0x131380 (caps)
+0:00:00.955108641 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue5:sink> doing query 0x131380 (caps)
+0:00:00.955169676 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue5:sink> proxying caps query for queue5:sink
+0:00:00.955261229 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue5:sink> Making iterator
+0:00:00.955322264 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue5:sink> calling forward function on pad queue5:src
+0:00:00.955383299 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue5:src> peer query 0x131380 (caps)
+0:00:00.955444334 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamsplitter2:sink> doing query 0x131380 (caps)
+0:00:00.955535887 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter2:passthroughsrc> peer query 0x131000 (caps)
+0:00:00.955627440 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner2:passthroughsink> doing query 0x131000 (caps)
+0:00:00.955688475 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner2:src> peer query 0x131000 (caps)
+0:00:00.955749510 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter4:sink> doing query 0x131000 (caps)
+0:00:00.955841063 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter4:src> peer query 0xd4290 (caps)
+0:00:00.955902098 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jifmux0:sink> doing query 0xd4290 (caps)
+0:00:00.955993651 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<jifmux0:sink> not forwarding 0xd4290 (caps) query
+0:00:00.956054686 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jifmux0:sink> sent query 0xd4290 (caps), result 1
+0:00:00.956176756 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter4:sink> sent query 0x131000 (caps), result 1
+0:00:00.956268309 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner2:passthroughsink> sent query 0x131000 (caps), result 1
+0:00:00.956359862 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter2:encodingsrc> peer query 0x1313b0 (caps)
+0:00:00.956420897 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert2:sink> doing query 0x1313b0 (caps)
+0:00:00.956512450 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert2:src> peer query 0xd4350 (caps)
+0:00:00.956573485 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoscale1:sink> doing query 0xd4350 (caps)
+0:00:00.956665038 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoscale1:src> peer query 0x131060 (caps)
+0:00:00.956726073 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert3:sink> doing query 0x131060 (caps)
+0:00:00.956817625 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert3:src> peer query 0xd4230 (caps)
+0:00:00.956878661 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter5:sink> doing query 0xd4230 (caps)
+0:00:00.956970213 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter5:src> peer query 0xd4120 (caps)
+0:00:00.957031248 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jpegenc0:sink> doing query 0xd4120 (caps)
+0:00:00.957122801 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jpegenc0:src> doing query 0x131030 (caps)
+0:00:00.957275389 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<jpegenc0:src> not forwarding 0x131030 (caps) query
+0:00:00.957580565 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jpegenc0:src> sent query 0x131030 (caps), result 1
+0:00:00.957733153 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner2:encodingsink> doing query 0xd41b0 (caps)
+0:00:00.957794188 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner2:src> peer query 0xd41b0 (caps)
+0:00:00.957855223 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter4:sink> doing query 0xd41b0 (caps)
+0:00:00.958038328 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter4:src> peer query 0x131150 (caps)
+0:00:00.958099364 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<jifmux0:sink> doing query 0x131150 (caps)
+0:00:00.958221434 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<jifmux0:sink> not forwarding 0x131150 (caps) query
+0:00:00.958282469 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jifmux0:sink> sent query 0x131150 (caps), result 1
+0:00:00.958526610 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter4:sink> sent query 0xd41b0 (caps), result 1
+0:00:00.958618162 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner2:encodingsink> sent query 0xd41b0 (caps), result 1
+0:00:00.958984374 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<jpegenc0:sink> sent query 0xd4120 (caps), result 1
+0:00:00.959136962 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter5:sink> sent query 0xd4230 (caps), result 1
+0:00:00.961486815 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert3:sink> sent query 0x131060 (caps), result 1
+0:00:00.970367431 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoscale1:sink> sent query 0xd4350 (caps), result 1
+0:00:00.987030028 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert2:sink> sent query 0x1313b0 (caps), result 1
+0:00:00.990844726 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamsplitter2:sink> sent query 0x131380 (caps), result 1
+0:00:00.991027831 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue5:sink> not forwarding 0x131380 (caps) query
+0:00:00.991119384 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue5:sink> sent query 0x131380 (caps), result 1
+0:00:00.991210937 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<image-encodebin:video_0> not forwarding 0x131380 (caps) query
+0:00:00.991271972 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<image-encodebin:video_0> sent query 0x131380 (caps), result 1
+0:00:00.991394042 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<imagebin-capsfilter:sink> sent query 0xd4260 (caps), result 1
+0:00:00.991790771 23351    0x8c360 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked droidcamsrc0:imgsrc and imagebin-capsfilter:sink, successful
+0:00:00.992034911 23351    0x8c360 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: droidcamsrc0 and videobin-capsfilter in same bin, no need for ghost pads
+0:00:00.992156982 23351    0x8c360 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link droidcamsrc0:vidsrc and videobin-capsfilter:sink
+0:00:00.992248535 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<droidcamsrc0:vidsrc> doing query 0x131380 (caps)
+0:00:00.992340087 23351    0x8c360 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<droidcamsrc0> pad vidsrc caps query: 0x131380, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:00.992523193 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<droidcamsrc0:vidsrc> sent query 0x131380 (caps), result 1
+0:00:00.992889404 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videobin-capsfilter:sink> doing query 0x1313b0 (caps)
+0:00:00.993011474 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videobin-capsfilter:src> peer query 0x131430 (caps)
+0:00:00.993072509 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<video-encodebin:video_0> doing query 0x131430 (caps)
+0:00:00.993133544 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<video-encodebin:video_0> proxying caps query for video-encodebin:video_0
+0:00:00.993255615 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<video-encodebin:video_0> calling forward function on pad video_0:proxypad3
+0:00:00.993316650 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<video_0:proxypad3> peer query 0x131430 (caps)
+0:00:00.993377685 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue1:sink> doing query 0x131430 (caps)
+0:00:00.993438720 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue1:sink> proxying caps query for queue1:sink
+0:00:00.993530273 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue1:sink> Making iterator
+0:00:00.993591308 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue1:sink> calling forward function on pad queue1:src
+0:00:00.993652343 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue1:src> peer query 0x131430 (caps)
+0:00:00.993713378 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamsplitter0:sink> doing query 0x131430 (caps)
+0:00:00.993804931 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter0:passthroughsrc> peer query 0x131180 (caps)
+0:00:00.993865966 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner0:passthroughsink> doing query 0x131180 (caps)
+0:00:00.993957519 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner0:src> peer query 0x131180 (caps)
+0:00:00.994018554 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter0:sink> doing query 0x131180 (caps)
+0:00:00.994110107 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter0:src> peer query 0x131060 (caps)
+0:00:00.994171142 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue0:sink> doing query 0x131060 (caps)
+0:00:00.994232177 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue0:sink> proxying caps query for queue0:sink
+0:00:00.994293212 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue0:sink> Making iterator
+0:00:00.994384765 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue0:sink> calling forward function on pad queue0:src
+0:00:00.994445800 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue0:src> peer query 0x131060 (caps)
+0:00:00.994506835 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<muxer:video_147260228> doing query 0x131060 (caps)
+0:00:00.994598388 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<muxer:video_147260228> not forwarding 0x131060 (caps) query
+0:00:00.994659423 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<muxer:video_147260228> sent query 0x131060 (caps), result 1
+0:00:00.994873046 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue0:sink> not forwarding 0x131060 (caps) query
+0:00:00.994995116 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue0:sink> sent query 0x131060 (caps), result 1
+0:00:00.995117187 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter0:sink> sent query 0x131180 (caps), result 1
+0:00:00.995208739 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner0:passthroughsink> sent query 0x131180 (caps), result 1
+0:00:00.995300292 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamsplitter0:encodingsrc> peer query 0x1311b0 (caps)
+0:00:00.995361327 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert0:sink> doing query 0x1311b0 (caps)
+0:00:00.995452880 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert0:src> peer query 0x1310c0 (caps)
+0:00:00.995513915 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoscale0:sink> doing query 0x1310c0 (caps)
+0:00:00.995605468 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoscale0:src> peer query 0x131320 (caps)
+0:00:00.995666503 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videoconvert1:sink> doing query 0x131320 (caps)
+0:00:00.995758056 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videoconvert1:src> peer query 0x131090 (caps)
+0:00:00.995819091 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<videorate0:sink> doing query 0x131090 (caps)
+0:00:00.995910644 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<videorate0:src> peer query 0xd3e00 (caps)
+0:00:00.995971679 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter1:sink> doing query 0xd3e00 (caps)
+0:00:00.996063232 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter1:src> peer query 0x1310f0 (caps)
+0:00:00.996154784 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<theoraenc0:sink> doing query 0x1310f0 (caps)
+0:00:01.021148681 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<theoraenc0:src> doing query 0x131120 (caps)
+0:00:01.021362304 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<theoraenc0:src> not forwarding 0x131120 (caps) query
+0:00:01.021453857 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<theoraenc0:src> sent query 0x131120 (caps), result 1
+0:00:01.021545410 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<streamcombiner0:encodingsink> doing query 0xd4290 (caps)
+0:00:01.021606445 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<streamcombiner0:src> peer query 0xd4290 (caps)
+0:00:01.021697998 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<capsfilter0:sink> doing query 0xd4290 (caps)
+0:00:01.021820068 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<capsfilter0:src> peer query 0x131260 (caps)
+0:00:01.021911621 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<queue0:sink> doing query 0x131260 (caps)
+0:00:01.021972656 23351    0x8c360 DEBUG               GST_PADS gstutils.c:2530:gst_pad_proxy_query_caps:<queue0:sink> proxying caps query for queue0:sink
+0:00:01.022064209 23351    0x8c360 DEBUG               GST_PADS gstpad.c:2685:gst_pad_iterate_internal_links_default:<queue0:sink> Making iterator
+0:00:01.022125244 23351    0x8c360 LOG                 GST_PADS gstpad.c:2795:gst_pad_forward:<queue0:sink> calling forward function on pad queue0:src
+0:00:01.022186279 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3689:gst_pad_peer_query:<queue0:src> peer query 0x131260 (caps)
+0:00:01.022247314 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3567:gst_pad_query:<muxer:video_147260228> doing query 0x131260 (caps)
+0:00:01.022369384 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<muxer:video_147260228> not forwarding 0x131260 (caps) query
+0:00:01.022521972 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<muxer:video_147260228> sent query 0x131260 (caps), result 1
+0:00:01.022644043 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue0:sink> not forwarding 0x131260 (caps) query
+0:00:01.023010253 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue0:sink> sent query 0x131260 (caps), result 1
+0:00:01.023223876 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter0:sink> sent query 0xd4290 (caps), result 1
+0:00:01.023315429 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamcombiner0:encodingsink> sent query 0xd4290 (caps), result 1
+0:00:01.023559570 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<theoraenc0:sink> sent query 0x1310f0 (caps), result 1
+0:00:01.023681640 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<capsfilter1:sink> sent query 0xd3e00 (caps), result 1
+0:00:01.024200439 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videorate0:sink> sent query 0x131090 (caps), result 1
+0:00:01.026458740 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert1:sink> sent query 0x131320 (caps), result 1
+0:00:01.041351318 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoscale0:sink> sent query 0x1310c0 (caps), result 1
+0:00:01.053619384 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videoconvert0:sink> sent query 0x1311b0 (caps), result 1
+0:00:01.057006835 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<streamsplitter0:sink> sent query 0x131430 (caps), result 1
+0:00:01.057159423 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<queue1:sink> not forwarding 0x131430 (caps) query
+0:00:01.057220458 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<queue1:sink> sent query 0x131430 (caps), result 1
+0:00:01.057312011 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3095:gst_pad_query_default:<video-encodebin:video_0> not forwarding 0x131430 (caps) query
+0:00:01.057403564 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<video-encodebin:video_0> sent query 0x131430 (caps), result 1
+0:00:01.057525634 23351    0x8c360 DEBUG               GST_PADS gstpad.c:3589:gst_pad_query:<videobin-capsfilter:sink> sent query 0x1313b0 (caps), result 1
+0:00:01.057861327 23351    0x8c360 INFO                GST_PADS gstpad.c:2242:gst_pad_link_prepare: caps are incompatible
+0:00:01.058044433 23351    0x8c360 ERROR              camerabin gstcamerabin2.c:1801:gst_camera_bin_create_elements:<cam> Failed to link camera source's vidsrc pad to video bin capsfilter
+0:00:16.070739746 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:484:gst_ghost_pad_dispose:<'':video_0> dispose
+0:00:16.070953369 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<'':video_0> clearing target
+0:00:16.071044922 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<video_0:proxypad5> activatemodefunc set to (NULL)
+0:00:16.074645996 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<image-encodebin:src> clearing target
+0:00:16.075134277 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:484:gst_ghost_pad_dispose:<'':src> dispose
+0:00:16.075225830 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<'':src> clearing target
+0:00:16.075286865 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<src:proxypad2> activatemodefunc set to (NULL)
+0:00:16.076660156 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<muxer:audio_1771252795> chainfunc set to (NULL)
+0:00:16.076843261 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<muxer:audio_1771252795> eventfunc for set to (NULL)
+0:00:16.076904296 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1026:gst_pad_set_active:<muxer:audio_1771252795> pad was inactive
+0:00:16.077545165 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:484:gst_ghost_pad_dispose:<'':audio_1> dispose
+0:00:16.077636718 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<'':audio_1> clearing target
+0:00:16.077728271 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<audio_1:proxypad4> activatemodefunc set to (NULL)
+0:00:16.082275390 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1664:gst_pad_set_chain_function_full:<muxer:video_147260228> chainfunc set to (NULL)
+0:00:16.082427978 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1770:gst_pad_set_event_function_full:<muxer:video_147260228> eventfunc for set to (NULL)
+0:00:16.082519531 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1026:gst_pad_set_active:<muxer:video_147260228> pad was inactive
+0:00:16.083160400 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:484:gst_ghost_pad_dispose:<'':video_0> dispose
+0:00:16.083251953 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<'':video_0> clearing target
+0:00:16.083343505 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<video_0:proxypad3> activatemodefunc set to (NULL)
+0:00:16.088439941 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<video-encodebin:src> clearing target
+0:00:16.089111328 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:484:gst_ghost_pad_dispose:<'':src> dispose
+0:00:16.089233398 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<'':src> clearing target
+0:00:16.089294433 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<src:proxypad1> activatemodefunc set to (NULL)
+0:00:16.090301513 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:484:gst_ghost_pad_dispose:<'':sink> dispose
+0:00:16.090393066 23351    0x8c360 DEBUG               GST_PADS gstghostpad.c:837:gst_ghost_pad_set_target:<'':sink> clearing target
+0:00:16.090454101 23351    0x8c360 DEBUG               GST_PADS gstpad.c:1629:gst_pad_set_activatemode_function_full:<sink:proxypad0> activatemodefunc set to (NULL)
+parse_pipeline=yes error=(nil)
+set_playing_result=0
+get_state_result=0 state=1 pending=4

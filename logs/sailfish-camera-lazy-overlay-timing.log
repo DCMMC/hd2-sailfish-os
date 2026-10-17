@@ -1,0 +1,21 @@
+tap_uptime=335.53
+1 uptime=336.29 pid=1527 fb=998a0e3e3373f56e5bac8b0e2455b0ed
+2 uptime=337.47 pid=1527 fb=97b0d54d379fc9576e0813706628ab83
+3 uptime=338.66 pid=1527 fb=b2e1c66ab15f355e7aaa7d10d89831a0
+4 uptime=339.89 pid=1527 fb=314dd97953e23074ccaada3f7473a34c
+5 uptime=341.06 pid=1527 fb=db53105ec45627b617f835c1dedbc6e4
+6 uptime=342.23 pid=1527 fb=8883d4c5f9285d902b5ed1dcaf28927f
+7 uptime=343.44 pid=1527 fb=7ff42abd1ea1fd5408aaa702c4c37b1c
+8 uptime=344.63 pid=1527 fb=f752d56b122373e1bc7d0a4f3d7c1129
+9 uptime=345.95 pid=1527 fb=ee724c38dc3c265259504b858a858915
+10 uptime=347.19 pid=1527 fb=e9c3d6909fdad127560ce103793dc61f
+11 uptime=348.36 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+12 uptime=349.53 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+13 uptime=350.65 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+14 uptime=351.76 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+15 uptime=352.87 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+16 uptime=354.01 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+17 uptime=355.21 pid=1527 fb=facda9c1cbcd7f0d859ff303b0eb1b8d
+18 uptime=356.44 pid=1527 fb=43481c82a23a40c40b41d2869eb5684c
+KERNEL
+[  358.885131] msm_open_common: open control0

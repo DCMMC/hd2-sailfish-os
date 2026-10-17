@@ -1,0 +1,17 @@
+> > > > > > > > > --- gst sinks ---
+--- qt media plugins ---
+/usr/lib/qt5/plugins/mediaservice/libgstmediaplayer.so
+-rwxr-xr-x 1 root root 76K Oct 16 20:33 /usr/lib/qt5/plugins/mediaservice/libgstmediaplayer.so
+/usr/lib/qt5/plugins/mediaservice/libgstcamerabin.so
+-rwxr-xr-x 1 root root 172K Oct 16 20:33 /usr/lib/qt5/plugins/mediaservice/libgstcamerabin.so
+/usr/lib/qt5/plugins/mediaservice/libgstmediacapture.so
+-rwxr-xr-x 1 root root 117K Oct 16 20:33 /usr/lib/qt5/plugins/mediaservice/libgstmediacapture.so
+--- camera plugin strings ---
+/usr/lib/qt5/plugins/mediaservice/libgstcamerabin.so
+/bin/sh: line 6: strings: command not found
+/usr/lib/qt5/plugins/mediaservice/libgstmediacapture.so
+/bin/sh: line 6: strings: command not found
+/usr/lib/qt5/plugins/mediaservice/libgstmediaplayer.so
+/bin/sh: line 6: strings: command not found
+--- gst droid strings ---
+/bin/sh: line 8: strings: command not found

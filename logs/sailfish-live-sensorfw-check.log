@@ -1,0 +1,30 @@
+===alssensor===
+method return sender=:1.8 -> dest=:1.233 reply_serial=2
+   variant       boolean true
+method return sender=:1.8 -> dest=:1.234 reply_serial=2
+   variant       string ""
+method return sender=:1.8 -> dest=:1.235 reply_serial=2
+   variant       struct {
+         uint64 0
+         uint32 160
+      }
+===orientationsensor===
+method return sender=:1.8 -> dest=:1.236 reply_serial=2
+   variant       boolean true
+method return sender=:1.8 -> dest=:1.237 reply_serial=2
+   variant       string ""
+method return sender=:1.8 -> dest=:1.238 reply_serial=2
+   variant       struct {
+         uint64 14815047
+         uint32 6
+      }
+===proximitysensor===
+method return sender=:1.8 -> dest=:1.239 reply_serial=2
+   variant       boolean true
+method return sender=:1.8 -> dest=:1.240 reply_serial=2
+   variant       string ""
+method return sender=:1.8 -> dest=:1.241 reply_serial=2
+   variant       struct {
+         uint64 0
+         uint32 0
+      }

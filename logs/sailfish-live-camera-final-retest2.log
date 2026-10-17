@@ -1,0 +1,6 @@
+> > > > > > > > MINISF:8676
+Max locked memory         unlimited            unlimited            bytes
+nemo      8611  5425 13 18:10 ?        00:00:14 /usr/bin/jolla-camera
+root      8676  8675  0 18:11 pts/0    00:00:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+media     8684   263  0 18:11 ?        00:00:00 /usr/libexec/droid-hybris/system/bin/minimediaservice
+nemo      8691     1  0 18:11 ?        00:00:00 invoker -s --type=silica-qt5 /usr/bin/jolla-camera

@@ -1,0 +1,102 @@
+> > > > > > > > > > > > > === plugin ===
+1a2c0296115649f7227ab592b9699f691a5b3a8caad09829d6421fc84756460a  /usr/lib/gstreamer-1.0/libgstdroid.so
+40b728cd154e5288c4b900296d9b66d9f8e87d73b0e66d27fb1f9bd9ff921e30  /usr/libexec/droid-hybris/system/lib/libgui.so
+ec16da8907b72e251e5f70cf16b3e323d9b313416a7eacc2c77eb86091056118  /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+a260b71ba571df3903032c9b4574b004a13c5c938da1c97e4a1dda0ffe4fb26b  /system/lib/hw/camera.qsd8k.so
+drwxr-x--- 19 nemo nemo       4096 Oct 17 17:43 /home/nemo
+drwxrwxrwt  8 nemo privileged  800 Oct 17 18:12 /tmp
+ls: cannot access /tmp/hd2-gst-camera.log: No such file or directory
+ls: cannot access /home/nemo/hd2-gst-camera.log: No such file or directory
+=== fds ===
+total 0
+lr-x------ 1 nemo privileged 64 Oct 17 18:53 0 -> /dev/null
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 1 -> socket:[7658]
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 10 -> pipe:[90831]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 11 -> socket:[90833]
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 12 -> /dev/log_main
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 13 -> /dev/log_radio
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 14 -> /dev/log_events
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 15 -> /dev/log_system
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 16 -> /dev/kgsl-3d0
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 17 -> anon_inode:[eventfd]
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 18 -> /run/user/100000/single-instance-locks/usr/bin/jolla-camera/instance.lock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 19 -> socket:[90872]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 2 -> socket:[7658]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 20 -> socket:[90876]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 21 -> socket:[90868]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 22 -> /home/nemo/.config/libaccounts-glib/accounts.db
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 23 -> socket:[90874]
+lr-x------ 1 nemo privileged 64 Oct 17 18:53 24 -> /home/nemo/.cache/tracker/meta.db
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 25 -> /dev/binder
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 26 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 27 -> /home/nemo/.cache/tracker/meta.db-wal
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 28 -> /home/nemo/.cache/tracker/meta.db-shm
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 29 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 3 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 30 -> /dev/pmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 31 -> socket:[90998]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 32 -> socket:[90999]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 33 -> socket:[91000]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 34 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 35 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 36 -> /dev/pmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 37 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 38 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 39 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 4 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 40 -> /dev/pmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 41 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 42 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 43 -> socket:[91020]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 44 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 45 -> /dev/pmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 46 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 47 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 48 -> /dev/pmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 49 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 5 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 50 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 51 -> socket:[91040]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 52 -> /dev/pmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 53 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 54 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 55 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 56 -> socket:[91041]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 57 -> socket:[91043]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 58 -> socket:[91044]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 59 -> /home/nemo/.config/libaccounts-glib/accounts.db-wal
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 6 -> socket:[90825]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 60 -> /home/nemo/.config/libaccounts-glib/accounts.db-shm
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 61 -> /dev/ashmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 62 -> anon_inode:genlock
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 63 -> /dev/log_main
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 64 -> /dev/log_radio
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 65 -> /dev/log_events
+l-wx------ 1 nemo privileged 64 Oct 17 18:53 66 -> /dev/log_system
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 67 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 68 -> /dev/ashmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 69 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 7 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 70 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 71 -> /dev/ashmem
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 72 -> anon_inode:genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 73 -> /dev/genlock
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 74 -> /home/nemo/.config/libaccounts-glib/accounts.db
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 75 -> /home/nemo/.config/libaccounts-glib/accounts.db-wal
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 76 -> anon_inode:[eventfd]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 77 -> /home/nemo/.config/libaccounts-glib/accounts.db
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 78 -> /home/nemo/.config/libaccounts-glib/accounts.db-wal
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 79 -> /home/nemo/.config/libaccounts-glib/accounts.db
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 8 -> /run/user/100000/weston-shared-zGoPmd (deleted)
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 80 -> /home/nemo/.config/libaccounts-glib/accounts.db-wal
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 81 -> /home/nemo/.config/libaccounts-glib/accounts.db
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 82 -> /home/nemo/.config/libaccounts-glib/accounts.db-wal
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 83 -> socket:[91521]
+lrwx------ 1 nemo privileged 64 Oct 17 18:53 84 -> socket:[91522]
+lr-x------ 1 nemo privileged 64 Oct 17 18:53 9 -> pipe:[90831]
+=== journal camera process ===
+Failed to parse relative boot ID number '_PID=18862'
+=== inspect droidcamsrc ===
+sh: gst-inspect-1.0: command not found
+=== inspect droideglsink ===
+sh: gst-inspect-1.0: command not found

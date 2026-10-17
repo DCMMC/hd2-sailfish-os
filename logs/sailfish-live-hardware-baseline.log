@@ -1,0 +1,316 @@
+> > > > > > > > > > > > > > > > > > Sat Oct 17 16:52:36 EEST 2026
+ 16:52:36 up 4 min,  0 users,  load average: 2.26, 2.80, 1.31
+             total       used       free     shared    buffers     cached
+Mem:           403        381         21          0          6        202
+-/+ buffers/cache:        173        229
+Swap:          100          0        100
+Filename                                Type            Size    Used    Priority
+/dev/zram0                              partition       103208  0       100
+connman.service - Connection service
+   Loaded: loaded (/lib/systemd/system/connman.service; disabled)
+   Active: [1;32mactive (running)[0m since Sat 2026-10-17 16:48:33 EEST; 4min 3s ago
+ Main PID: 300
+   CGroup: /system.slice/connman.service
+           └─300 /usr/sbin/connmand -n --nobacktrace --systemd
+
+Oct 17 16:48:30 Jolla connmand[300]: Connection Manager version 1.30
+Oct 17 16:48:33 Jolla connmand[300]: [1;39mCLOCK_BOOTTIME not available: Invalid argument(22).[0m
+Oct 17 16:48:33 Jolla connmand[300]: [1;39mSkipping disconnect of carrier, network is connecting.[0m
+Oct 17 16:48:33 Jolla connmand[300]: [1;39mSkipping disconnect of carrier, network is connecting.[0m
+Oct 17 16:48:33 Jolla connmand[300]: [1;31mThe name net.connman.vpn was not provided by any .service files[0m
+Oct 17 16:48:34 Jolla connmand[300]: [1;31mwlan0 runs an unsupported 802.11 driver[0m
+
+sensorfwd.service - Sensor daemon for sensor framework
+   Loaded: loaded (/lib/systemd/system/sensorfwd.service; disabled)
+   Active: [1;32mactive (running)[0m since Sat 2026-10-17 16:48:32 EEST; 4min 4s ago
+  Process: 291 ExecStart=/usr/sbin/sensorfwd -c=/etc/sensorfw/primaryuse.conf -d --log-level=warning --no-magnetometer-bg-calibration (code=exited, status=0/SUCCESS)
+ Main PID: 346
+   CGroup: /system.slice/sensorfwd.service
+           └─346 /usr/sbin/sensorfwd -c=/etc/sensorfw/primaryuse.conf -d --log-level=warning --no-magnetometer-bg-calibration
+
+
+bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; disabled)
+   Active: inactive (dead)
+           start condition failed at Sat 2026-10-17 16:48:33 EEST; 4min 3s ago
+           ConditionPathIsDirectory=/sys/kernel/debug/bluetooth was not met
+
+
+droid-hal-init.service - droid-hal-init
+   Loaded: loaded (/lib/systemd/system/droid-hal-init.service; disabled)
+   Active: [1;32mactive (running)[0m since Sat 2026-10-17 16:48:29 EEST; 4min 6s ago
+ Main PID: 263
+   CGroup: /system.slice/droid-hal-init.service
+           ├─263 /sbin/droid-hal-init
+           ├─268 /sbin/healthd
+           ├─269 /usr/libexec/droid-hybris/system/bin/servicemanager
+           ├─270 /usr/libexec/droid-hybris/system/bin/minimediaservice
+           ├─271 /usr/libexec/droid-hybris/system/bin/minisfservice
+           ├─272 /system/bin/debuggerd
+           ├─273 /system/bin/rild
+           ├─274 /system/bin/akmd
+           └─276 /system/bin/sh
+
+
+minimediaservice.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: inactive (dead)
+
+bluetooth.service                    loaded inactive dead    Bluetooth service
+connman.service                      loaded active   running Connection service
+hd2-wifi-load.service                loaded inactive dead    HD2 Wi-Fi module
+jolla-rfkill-hciwait.service         loaded inactive dead    Wait for Bluetooth HCI adapter
+sensord.service                      not-found inactive dead    sensord.service
+sensorfwd.service                    loaded active   running Sensor daemon for sensor framework
+<EMAIL-REDACTED>                       loaded inactive dead    OpenSSH per-connection server daemon
+wpa_supplicant.service               loaded active   running WPA Supplicant daemon
+0: bcm4329: Bluetooth
+        Soft blocked: yes
+        Hard blocked: no
+Module                  Size  Used by
+bcm4329               201164  0
+msm_rmnet               1982  0
+fuse                   52858  5
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN mode DEFAULT \    link/loopback <MAC-REDACTED> brd <MAC-REDACTED>
+2: ifb0: <BROADCAST,NOARP,DYNAMIC,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN mode DEFAULT qlen 32\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+3: ifb1: <BROADCAST,NOARP,DYNAMIC,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN mode DEFAULT qlen 32\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+4: usb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP mode DEFAULT qlen 1000\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+5: gre0: <NOARP> mtu 1476 qdisc noop state DOWN mode DEFAULT \    link/gre 0.0.0.0 brd 0.0.0.0
+6: sit0: <NOARP> mtu 1480 qdisc noop state DOWN mode DEFAULT \    link/sit 0.0.0.0 brd 0.0.0.0
+7: ip6tnl0: <NOARP> mtu 1460 qdisc noop state DOWN mode DEFAULT \    link/tunnel6 :: brd ::
+8: rmnet0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT qlen 1000\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+9: rmnet1: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT qlen 1000\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+10: rmnet2: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT qlen 1000\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+11: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,DYNAMIC,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state DORMANT mode DORMANT qlen 1000\    link/ether <MAC-REDACTED> brd <MAC-REDACTED>
+192.168.2.0/24 dev usb0  proto kernel  scope link  src 192.168.2.15
+/net/connman/technology/wifi
+  Name = WiFi
+  Type = wifi
+  Powered = True
+  Connected = False
+  Tethering = False
+/net/connman/technology/ethernet
+  Name = Wired
+  Type = ethernet
+  Powered = True
+  Connected = False
+  Tethering = False
+/net/connman/technology/bluetooth
+  Name = Bluetooth
+  Type = bluetooth
+  Powered = False
+  Connected = False
+  Tethering = False
+/net/connman/technology/gps
+  Name = Gps
+  Type = gps
+  Powered = True
+  Connected = False
+  Tethering = False
+  State = idle
+  OfflineMode = False
+  SessionMode = False
+Devices:
+ls: cannot access /dev/ttyS*: No such file or directory
+ls: cannot access /dev/video*: No such file or directory
+crw-rw-rw- 1 root      input      13, 64 Oct 17 16:48 /dev/input/event0
+crw-rw-rw- 1 root      input      13, 65 Oct 17 16:48 /dev/input/event1
+crw-rw-rw- 1 root      input      13, 66 Oct 17 16:48 /dev/input/event2
+crw-rw-rw- 1 root      input      13, 67 Oct 17 16:48 /dev/input/event3
+crw-rw-rw- 1 root      input      13, 68 Oct 17 16:48 /dev/input/event4
+crw-rw-rw- 1 root      input      13, 69 Oct 17 16:48 /dev/input/event5
+lrwxrwxrwx 1 root      root           10 Oct 17 16:48 /dev/msm_camera/config0 -> ../config0
+lrwxrwxrwx 1 root      root           23 Oct 17 16:48 /dev/msm_camera/config1 -> /dev/msm_camera/config0
+lrwxrwxrwx 1 root      root           11 Oct 17 16:48 /dev/msm_camera/control0 -> ../control0
+lrwxrwxrwx 1 root      root           24 Oct 17 16:48 /dev/msm_camera/control1 -> /dev/msm_camera/control0
+lrwxrwxrwx 1 root      root            9 Oct 17 16:48 /dev/msm_camera/frame0 -> ../frame0
+lrwxrwxrwx 1 root      root           22 Oct 17 16:48 /dev/msm_camera/frame1 -> /dev/msm_camera/frame0
+crw-rw-rw- 1 root      wifi       10, 63 Oct 17 16:48 /dev/rfkill
+crw------- 1 bluetooth bluetooth 250,  0 Oct 17 16:48 /dev/ttyHS0
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="htcleo-touchscreen"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input0
+U: Uniq=
+H: Handlers=event0
+B: EV=b
+B: KEY=400 0 4 0 0 0 0 0 0 0 0
+B: ABS=650000 11000003
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="proximity"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input1
+U: Uniq=
+H: Handlers=event1
+B: EV=9
+B: ABS=2000000
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="h2w headset"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input2
+U: Uniq=
+H: Handlers=kbd event2 keyreset
+B: EV=3
+B: KEY=84 0 38 0 e0800 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="htcleo-keypad"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input3
+U: Uniq=
+H: Handlers=kbd event3 keyreset
+B: EV=3
+B: KEY=80 0 0 40000800 c0840 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="compass"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input4
+U: Uniq=
+H: Handlers=event4
+B: EV=9
+B: ABS=307ff
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="lightsensor-level"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input5
+U: Uniq=
+H: Handlers=event5
+B: EV=9
+B: ABS=100 0
+
+-- Logs begin at Sat 2026-10-17 16:48:25 EEST, end at Sat 2026-10-17 16:52:36 EEST. --
+Oct 17 16:48:30 Jolla connmand[300]: Connection Manager version 1.30
+Oct 17 16:48:33 Jolla connmand[300]: [1;39mCLOCK_BOOTTIME not available: Invalid ...).[0m
+Oct 17 16:48:33 Jolla connmand[300]: [1;39mSkipping disconnect of carrier, networ...g.[0m
+Oct 17 16:48:33 Jolla connmand[300]: [1;39mSkipping disconnect of carrier, networ...g.[0m
+Oct 17 16:48:33 Jolla connmand[300]: [1;31mThe name net.connman.vpn was not provi...es[0m
+Oct 17 16:48:34 Jolla connmand[300]: [1;31mwlan0 runs an unsupported 802.11 driver[0m
+[    0.979248] Bluetooth: Core ver 2.15
+[    0.979461] Bluetooth: HCI device and connection manager initialized
+[    0.979492] Bluetooth: HCI socket layer initialized
+[    1.681793] htcleo_wifi_init: start
+[    1.687042] capella_cm3602_probe: probe
+[    1.691314] [HS_GPIO] (audiojack_probe) ++++++++++++++++++++
+[    1.691558] [HS_GPIO] (audiojack_probe) --------------------
+[    1.726959] spi_bma150_probe: G-sensor connect with microP: start initial, kvalue = 0x0
+[    1.760742] __spi_bma150_set_mode: BMA get into SLEEP mode!
+[    1.763732] Device WiFi MAC Address: macaddr=<MAC-REDACTED>
+[    1.764038] Device Bluetooth MAC Address: <MAC-REDACTED>
+[    2.801391] AKM8973 compass driver: init
+[    2.803222] s5k3e2fx_sensor_probe
+[    3.244628] Bluetooth: HCI UART driver ver 2.2
+[    3.244659] Bluetooth: HCI H4 protocol initialized
+[    3.244689] Bluetooth: HCILL protocol initialized
+[    3.255859] Bluetooth: L2CAP ver 2.14
+[    3.255889] Bluetooth: L2CAP socket layer initialized
+[    3.255920] Bluetooth: SCO (Voice Link) ver 0.6
+[    3.255950] Bluetooth: SCO socket layer initialized
+[    3.256225] Bluetooth: RFCOMM TTY layer initialized
+[    3.256286] Bluetooth: RFCOMM socket layer initialized
+[    3.256317] Bluetooth: RFCOMM ver 1.11
+[    3.256347] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    3.256378] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    3.256713] wifi_nvs_init
+[    3.257629] input: lightsensor-level as /devices/virtual/input/input5
+[    5.940673] <28>systemd[1]: sensorfwd.service has a D-Bus service name specified, but is not of type dbus. Ignoring.
+[   10.266326] init: starting 'akmd'
+[   10.812927] <30>systemd[1]: Starting Sensor daemon for sensor framework...
+[   10.823883] <30>systemd[1]: Starting Wait for Bluetooth HCI adapter...
+[   11.064239] <30>systemd[1]: Started Wait for Bluetooth HCI adapter.
+[   11.234161] wifi_set_power = 1
+[   11.234161] htcleo_wifi_power: 1
+[   12.020202] wifi_set_carddetect = 1
+[   12.020233] htcleo_wifi_set_carddetect: 1
+[   13.557678] <30>systemd[1]: Started Sensor daemon for sensor framework.
+[   14.140808] <30>systemd[1]: Started Bluetooth service.
+[   14.890716] __spi_bma150_set_mode: BMA get into NORMAL mode!
+[   14.941589] __spi_bma150_set_mode: BMA get into SLEEP mode!
+[   15.099395] Firmware version = wl0: Feb 11 2011 17:01:05 version 4.218.248.23
+[   15.200469] __spi_bma150_set_mode: BMA get into NORMAL mode!
+[   15.296936] wlan0: Broadcom Dongle Host Driver mac=<MAC-REDACTED>
+[   21.261901] kgsl kgsl-3d0: firmware: requesting yamato_pm4.fw
+[   21.329101] kgsl kgsl-3d0: firmware: requesting yamato_pfp.fw
+[   22.312469] Audio: voice: stop
+[   22.317291] Audio: SWITCH DEVICE 17306899, acdb 607
+[   22.317291] q6audio_init
+[   22.317352] audio: init: first run, init dummy control
+[   23.131103] Audio: htcleo_analog_init
+[   23.146118] misc msm_audio_ctl: firmware: requesting default.acdb
+[   23.161407] Audio: htcleo_get_rx_vol 600
+[   23.161743] Audio: htcleo_get_rx_vol 600
+[   23.162445] Audio: htcleo_get_rx_vol 600
+[   23.163208] audio_cb: s=1 e=0107605c status=20
+[   23.163360] Audio: htcleo_get_rx_vol 500
+[   23.164123] audio_cb: s=1 e=0107605c status=20
+[   23.164306] Audio: htcleo_get_rx_vol 500
+[   23.164581] Audio: htcleo_get_rx_vol 500
+[   23.164978] audio_cb: s=1 e=0107605c status=20
+[   23.165435] Audio: htcleo_get_rx_vol 500
+[   23.166168] audio_cb: s=1 e=0107605c status=20
+[   23.166412] Audio: htcleo_get_rx_vol 500
+[   23.166687] Audio: htcleo_get_rx_vol 500
+[   23.167083] audio_cb: s=1 e=0107605c status=20
+[   23.167510] Audio: htcleo_get_rx_vol 600
+[   23.167785] Audio: htcleo_get_rx_vol 600
+[   23.168182] audio_cb: s=1 e=0107605c status=20
+[   23.168609] Audio: htcleo_get_rx_vol 600
+[   23.168914] Audio: htcleo_get_rx_vol 500
+[   23.169952] audio_cb: s=1 e=0107605c status=20
+[   23.170043] Audio: htcleo_get_rx_vol 600
+[   23.170410] audio_cb: s=1 e=0107605c status=20
+[   23.170593] Audio: htcleo_get_rx_vol 400
+[   23.170867] Audio: htcleo_get_rx_vol 400
+[   23.171691] Audio: htcleo_get_rx_vol 400
+[   23.172271] Audio: htcleo_get_rx_vol 500
+[   23.172729] audio_cb: s=1 e=0107605c status=20
+[   23.172973] Audio: htcleo_get_rx_vol 500
+[   23.173248] audio_update_acdb (17306899, 607)
+[   23.173309] call audio_set_table
+[   23.173736] audio_cb: s=1 e=0107605c status=20
+[   23.174774] audio_cb: s=1 e=0107605c status=20
+[   23.175354] Audio: SWITCH DEVICE 17306898, acdb 0
+[   23.175720] audio_cb: s=1 e=0107605c status=20
+[   23.176849] audio_cb: s=1 e=0107605c status=20
+[   23.177551] audio_update_acdb (17306899, 607)
+[   23.177612] call audio_set_table
+[   23.177825] audio_cb: s=1 e=0107605c status=20
+[   23.178802] audio_cb: s=1 e=0107605c status=20
+[   23.179931] audio_cb: s=1 e=0107605c status=20
+[   23.180999] audio_cb: s=1 e=0107605c status=20
+[   23.187622] audio_cb: s=1 e=0107605c status=20
+[   23.190246] audio_cb: s=1 e=0107605c status=20
+[   23.197448] audio_out_open: 1000 44100 2
+[   23.269317] Audio: htcleo_speaker_enable 1
+[   23.323242] Audio: SWITCH DEVICE 17306899, acdb 607
+[   23.323272] Audio: SWITCH DEVICE 17306898, acdb 507
+[   23.323272] audio_update_acdb (17306898, 507)
+[   23.323364] call audio_set_table
+[   23.329132] Audio: htcleo_mic_enable 1
+[   23.393066] audio_update_acdb (17306898, 507)
+[   23.393157] call audio_set_table
+[   23.406738] audio_in_open: c00 44100 2
+[   23.409912] audio_cb: s=1 e=0107605f status=20
+[   25.840423] wlan0: no IPv6 routers present
+[   27.220489] Audio: htcleo_mic_enable 0
+[   27.221618] audio callback: unknown session 3
+[   27.221984] Audio: SWITCH DEVICE 17306899, acdb 607
+[   27.222015] Audio: SWITCH DEVICE 17306898, acdb 0
+[   27.222045] audio_update_acdb (17306898, 0)
+[   27.222137] call audio_set_table
+[   27.247741] audio callback: unknown session 3
+[   27.248138] audio callback: unknown session 3
+[   27.252471] audio callback: unknown session 3
+[   27.263366] Audio: htcleo_speaker_enable 0
+[   27.263946] audio_cb: s=2 e=01075c54 status=20
+[   27.297576] audio callback: unknown session 2
+[   94.139984] audio_update_acdb (17306899, 607)
+[   94.140045] call audio_set_table
+[   94.166809] audio_out_open: 1000 44100 2
+[   94.236663] Audio: htcleo_speaker_enable 1
+[   96.736206] Audio: htcleo_speaker_enable 0
+[   96.737121] audio_cb: s=2 e=01075c54 status=20
+[   96.769592] audio callback: unknown session 2

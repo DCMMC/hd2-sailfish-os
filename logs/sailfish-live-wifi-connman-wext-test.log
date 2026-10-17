@@ -1,0 +1,70 @@
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > connman_state=idle wait_seconds=35
+wlan_ipv4=no
+wlan_default_route=no
+internet_ping_rc=2
+wpa_state=INACTIVE
+address=<REDACTED>
+uuid=404fed6b-1afd-5464-9fa8-12135ae62ffb
+Error org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+Successfully initialized wpa_supplicant
+wlan0 runs an unsupported 802.11 driver
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+wlan0: CTRL-EVENT-TERMINATING
+Exit
+Successfully initialized wpa_supplicant
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+wlan0 runs an unsupported 802.11 driver
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+Exit
+Successfully initialized wpa_supplicant
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+wlan0 runs an unsupported 802.11 driver
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+Exit
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+wlan0 runs an unsupported 802.11 driver
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+Exit
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+wlan0 runs an unsupported 802.11 driver
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+Exit
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+wlan0 runs an unsupported 802.11 driver
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance

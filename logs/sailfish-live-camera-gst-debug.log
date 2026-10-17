@@ -1,0 +1,9 @@
+Oct 17 17:34:35 Jolla booster-silica-qt5[5440]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 17:35:09 Jolla [5440]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 17:35:22 Jolla [5440]: GLIB WARNING ** Tracker - Locale '0' is not set, defaulting to C locale
+Oct 17 17:35:24 Jolla [5440]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 17:35:24 Jolla [5440]: [W] QCameraFocusFakeFocusControl::setFocusMode:83 - Focus mode selection is not supported
+Oct 17 17:35:24 Jolla [5440]: [W] QCameraFocusFakeFocusControl::setFocusPointMode:87 - Focus points mode selection is not supported
+Oct 17 17:35:24 Jolla [5440]: [W] QCameraFocusFakeFocusControl::setFocusMode:83 - Focus mode selection is not supported
+Oct 17 17:35:24 Jolla [5440]: [W] QCameraFocusFakeFocusControl::setFocusPointMode:87 - Focus points mode selection is not supported
+Oct 17 17:35:27 Jolla [5440]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl

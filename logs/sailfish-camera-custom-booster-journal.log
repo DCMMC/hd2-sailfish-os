@@ -1,0 +1,7 @@
+> > Oct 17 22:07:13 Jolla mapplauncherd[6000]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 22:07:14 Jolla booster-camera-qt5[6083]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 22:07:15 Jolla [6083]: booster [camera-qt5][6083]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 22:07:24 Jolla [6000]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+Oct 17 22:07:49 Jolla mapplauncherd[5750]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 22:07:55 Jolla mapplauncherd[393]: Boosted process (pid=5750) was terminated due to signal 15
+Oct 17 22:07:55 Jolla mapplauncherd[393]: Daemon: Failed to kill 6162: No such process

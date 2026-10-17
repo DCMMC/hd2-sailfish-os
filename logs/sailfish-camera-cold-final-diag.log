@@ -1,0 +1,57 @@
+> > > > > > > > -- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:24:06 EEST. --
+[16512.901147] Jolla booster-silica-qt5[28964]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[16514.160485] Jolla /usr/bin/jolla-camera[28964]: Couldn't open '/proc/self/oom_score_adj' for writing
+[16515.189965] Jolla [28964]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+[16544.242638] Jolla [28964]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+--- kernel tail ---
+[11846.300201] msm_open_common: open control0
+[11846.460113] msm_open_common: open config0
+[11846.647918] msm_open_common: open frame0
+[11847.578369] msm_release_config: config0
+[11847.578399] release config atomic_set pmsm->opened as 0
+[11847.959106] msm_release_frame: frame0
+[11848.183746] release frame atomic_set pmsm->opened as 0
+[11856.539276] pmem: mmap unable to allocate memoryon pmem
+[11893.208862] pmem: mmap unable to allocate memoryon pmem
+[11907.880371] pmem: mmap unable to allocate memoryon pmem
+[12559.379791] android_usb gadget: high speed config #1: android
+[12569.976348] android_usb gadget: high speed config #1: android
+[12711.791595] android_usb gadget: high speed config #1: android
+[12719.762115] android_usb gadget: high speed config #1: android
+[13016.543395] android_usb gadget: high speed config #1: android
+[13024.000671] android_usb gadget: high speed config #1: android
+[14910.339721] android_usb gadget: high speed config #1: android
+[14916.640106] android_usb gadget: high speed config #1: android
+[15255.426452] pmem: mmap unable to allocate memoryon pmem
+[16201.690856] msm_open_common: open control0
+[16201.827850] msm_open_common: open config0
+[16201.913848] msm_open_common: open frame0
+[16217.279479] msm_release_config: config0
+[16217.279510] release config atomic_set pmsm->opened as 0
+[16218.428527] msm_release_frame: frame0
+[16218.643524] release frame atomic_set pmsm->opened as 0
+[16338.557006] msm_open_common: open control0
+[16338.727783] msm_open_common: open config0
+[16338.905700] msm_open_common: open frame0
+[16409.944000] msm_release_config: config0
+[16409.944030] release config atomic_set pmsm->opened as 0
+[16410.077728] msm_release_frame: frame0
+[16410.077758] release frame atomic_set pmsm->opened as 0
+[16421.116668] msm_open_common: open control0
+[16421.276824] msm_open_common: open config0
+[16421.514709] msm_open_common: open frame0
+[16425.081024] msm_release_config: config0
+[16425.081054] release config atomic_set pmsm->opened as 0
+[16425.441375] msm_release_frame: frame0
+[16425.664031] release frame atomic_set pmsm->opened as 0
+[16434.452239] msm_open_common: open control0
+[16434.599822] msm_open_common: open config0
+[16434.816101] msm_open_common: open frame0
+[16492.600555] msm_release_config: config0
+[16492.600585] release config atomic_set pmsm->opened as 0
+[16492.654785] msm_release_frame: frame0
+[16492.663330] release frame atomic_set pmsm->opened as 0
+[16545.475982] msm_open_common: open control0
+[16545.661346] msm_open_common: open config0
+[16545.847991] msm_open_common: open frame0
+--- capture ---

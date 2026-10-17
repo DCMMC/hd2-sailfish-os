@@ -1,0 +1,82 @@
+D/QualcommCameraHardware( 7502): requested preview size 768 x 432
+D/QualcommCameraHardware( 7502): requested preview size 640 x 480
+D/QualcommCameraHardware( 7502): requested preview size 640 x 480
+D/QualcommCameraHardware( 7502): startPreview E
+D/QualcommCameraHardware( 7502): initPreview E: preview size=640x480
+D/QualcommCameraHardware( 7502): initPreview E: preview size=640x480 videosize = 640 x 480
+D/QualcommCameraHardware( 7502): initPreview : preview size=640x480 videosize = 640 x 480
+D/QualcommCameraHardware( 7502): initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+D/QualcommCameraHardware( 7502): initPreview X: 1
+D/QualcommCameraHardware( 7502): frame_thread E
+D/QualcommCameraHardware( 7502): startPreview X
+D/memalloc( 7532): init_pmem_area: Initializing pmem area
+D/memalloc( 7532): init_pmem_area_locked: Opening master pmem FD
+D/memalloc( 7532): init_pmem_area_locked: Total pmem size: 33554432
+E/memalloc( 7532): /dev/pmem: Failed to map pmem master fd: Out of memory
+E/memalloc( 7532): /dev/pmem: failed to initialize pmem area
+W/memalloc( 7532): Falling back to ashmem
+E/memalloc( 7532): alloc mmap(fd=13, size=1228800, prot=3) failed (Try again)
+E/gralloc ( 7532): gralloc failed err=Try again
+E/        ( 7532): DroidMediaAllocator::createGraphicBuffer(w=640, h=480) failed (Try again), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7538): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7502): internal_handle_preview: ERROR dequeueing the buffer
+W/memalloc( 7532): Falling back to ashmem
+E/memalloc( 7532): alloc mmap(fd=13, size=1228800, prot=3) failed (Try again)
+E/gralloc ( 7532): gralloc failed err=Try again
+E/        ( 7532): DroidMediaAllocator::createGraphicBuffer(w=640, h=480) failed (Try again), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7538): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7502): internal_handle_preview: ERROR dequeueing the buffer
+W/memalloc( 7532): Falling back to ashmem
+E/memalloc( 7532): alloc mmap(fd=13, size=1228800, prot=3) failed (Try again)
+E/gralloc ( 7532): gralloc failed err=Try again
+E/        ( 7532): DroidMediaAllocator::createGraphicBuffer(w=640, h=480) failed (Try again), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7538): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7502): internal_handle_preview: ERROR dequeueing the buffer
+I/CameraClient( 7502): stopPreview: Disable picture related messages
+D/QualcommCameraHardware( 7502): stopPreview: E
+D/QualcommCameraHardware( 7502): stopPreviewInternal E: 1
+I/QualcommCameraHardware( 7502): deinitPreview E
+D/QualcommCameraHardware( 7502): launch_watchdog_thread:
+D/QualcommCameraHardware( 7502): watchdog_thread_id = 129488
+I/QualcommCameraHardware( 7502): deinitPreview X
+D/QualcommCameraHardware( 7502): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 7502): stopPreview: X
+D/QualcommCameraHardware( 7502): stopPreview: E
+D/QualcommCameraHardware( 7502): stopPreviewInternal E: 0
+D/QualcommCameraHardware( 7502): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 7502): stopPreview: X
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 0
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 1
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 2
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 3
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 4
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 5
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 6
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 7
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 8
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 9
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 10
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 11
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 12
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 13
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 14
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 15
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 16
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 17
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 18
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 19
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 20
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 21
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 22
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 23
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 24
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 25
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 26
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 27
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 28
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 29
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 30
+D/QualcommCameraHardware( 7502): void* watchdog(void*), frame_thread_released = 0, cnt = 31
+E/QualcommCameraHardware( 7502): void* watchdog(void*), state change no updated, die after 1 sec!!
+W/CameraBase( 7538): Camera service died!
+E/BufferQueue( 7538): [DroidMediaCameraBufferQueue] dequeueBuffer: BufferQueue has been abandoned!

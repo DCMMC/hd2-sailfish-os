@@ -333,7 +333,7 @@
 [    3.815307] batt: ds2784_notify: 0 1 at 2623031062 (1970-01-01 00:00:02.623000544 UTC)
 [    3.815368] batt: charger ON (SLOW) at 2623061579 (1970-01-01 00:00:02.623061579 UTC)
 [    3.815734] [D:BATT]Use 600 Kohm thermal resistance
-[    3.816467] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+[    3.816467] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: <EMAIL-REDACTED>
 [    3.816589] Bluetooth: HCI UART driver ver 2.2
 [    3.816619] Bluetooth: HCI H4 protocol initialized
 [    3.816650] Bluetooth: HCILL protocol initialized

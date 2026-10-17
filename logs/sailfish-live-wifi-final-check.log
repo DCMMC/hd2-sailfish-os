@@ -1,0 +1,18 @@
+> > > > > >   State = online
+  OfflineMode = False
+  SessionMode = False
+wlan_ipv4=yes
+wlan_default_route=yes
+internet_ping_rc=0
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+freq=0
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+id=0
+mode=station
+pairwise_cipher=CCMP
+group_cipher=CCMP
+key_mgmt=WPA2-PSK
+wpa_state=COMPLETED
+ip_address=192.168.1.3
+address=<REDACTED>
+uuid=404fed6b-1afd-5464-9fa8-12135ae62ffb

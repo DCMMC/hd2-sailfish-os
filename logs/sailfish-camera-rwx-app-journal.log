@@ -1,0 +1,20 @@
+> -- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 19:15:40 EEST. --
+Oct 17 19:12:45 Jolla booster-silica-qt5[21364]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:12:46 Jolla [21364]: booster [silica-qt5][21364]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 19:12:46 Jolla mapplauncherd[21364]: SilicaBooster: Preload compilation aborted.
+Oct 17 19:12:46 Jolla mapplauncherd[21364]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 19:13:13 Jolla [21364]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:13:16 Jolla [21364]: GLIB WARNING ** Tracker - Locale '0' is not set, defaulting to C locale
+Oct 17 19:13:17 Jolla [21364]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:13:17 Jolla [21364]: [W] QCameraFocusFakeFocusControl::setFocusMode:83 - Focus mode selection is not supported
+Oct 17 19:13:17 Jolla [21364]: [W] QCameraFocusFakeFocusControl::setFocusPointMode:87 - Focus points mode selection is not supported
+Oct 17 19:13:17 Jolla [21364]: [W] QCameraFocusFakeFocusControl::setFocusMode:83 - Focus mode selection is not supported
+Oct 17 19:13:17 Jolla [21364]: [W] QCameraFocusFakeFocusControl::setFocusPointMode:87 - Focus points mode selection is not supported
+Oct 17 19:13:19 Jolla [21364]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+Oct 17 19:14:40 Jolla [21364]: GLIB CRITICAL ** GStreamer - gst_pad_query_caps: assertion 'GST_IS_PAD (pad)' failed
+Oct 17 19:14:40 Jolla [21364]: GLIB CRITICAL ** GStreamer - gst_object_unref: assertion 'object != NULL' failed
+Oct 17 19:14:40 Jolla [21364]: GLIB CRITICAL ** GStreamer - gst_caps_can_intersect: assertion 'GST_IS_CAPS (caps2)' failed
+Oct 17 19:14:40 Jolla [21364]: GLIB CRITICAL ** GStreamer - gst_mini_object_unref: assertion 'mini_object != NULL' failed
+Oct 17 19:14:41 Jolla [21364]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data flow error."
+Oct 17 19:14:43 Jolla [21364]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:14:45 Jolla [21364]: [W] unknown:43 - file:///usr/lib/qt5/qml/Sailfish/Silica/PulleyAnimationHint.qml:43:25: Unable to assign [undefined] to QQuickItem*

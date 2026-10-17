@@ -1,0 +1,149 @@
+> > > > > > > > > > > > > > > > > > > > start_uptime=15482.62
+1 uptime=15482.64 pid=none
+2 uptime=15483.87 pid=25176
+3 uptime=15485.13 pid=25176
+4 uptime=15486.38 pid=25176
+5 uptime=15487.65 pid=25176
+6 uptime=15489.95 pid=25176
+7 uptime=15492.34 pid=25176
+8 uptime=15493.62 pid=25176
+9 uptime=15494.75 pid=25176
+10 uptime=15495.93 pid=25176
+11 uptime=15497.04 pid=25176
+12 uptime=15498.13 pid=25176
+13 uptime=15499.24 pid=25176
+14 uptime=15500.63 pid=25176
+15 uptime=15502.15 pid=25176
+16 uptime=15503.21 pid=25176
+17 uptime=15504.26 pid=25176
+18 uptime=15505.31 pid=25176
+19 uptime=15506.36 pid=25176
+20 uptime=15507.41 pid=25176
+21 uptime=15508.47 pid=25176
+22 uptime=15509.53 pid=25176
+23 uptime=15510.59 pid=25176
+24 uptime=15511.65 pid=25176
+25 uptime=15512.70 pid=25176
+--- camera markers ---
+Binary file /data/local/tmp/camera-startup.log matches
+--- kernel camera ---
+[ 7666.161010] release frame atomic_set pmsm->opened as 0
+[ 7671.829986] msm_open_common: open control0
+[ 7671.965240] msm_open_common: open config0
+[ 7672.058563] msm_open_common: open frame0
+[ 7672.473846] msm_release_config: config0
+[ 7672.473876] release config atomic_set pmsm->opened as 0
+[ 7672.473937] msm_release_frame: frame0
+[ 7672.691009] release frame atomic_set pmsm->opened as 0
+[ 7905.446166] msm_open_common: open control0
+[ 7905.627380] msm_open_common: open config0
+[ 7905.724731] msm_open_common: open frame0
+[ 7957.994171] msm_release_config: config0
+[ 7957.994201] release config atomic_set pmsm->opened as 0
+[ 7958.062927] msm_release_frame: frame0
+[ 7958.062988] release frame atomic_set pmsm->opened as 0
+[ 7964.049591] msm_open_common: open control0
+[ 7964.184844] msm_open_common: open config0
+[ 7964.268615] msm_open_common: open frame0
+[ 7964.655090] msm_release_config: config0
+[ 7964.655120] release config atomic_set pmsm->opened as 0
+[ 7964.655181] msm_release_frame: frame0
+[ 7964.870635] release frame atomic_set pmsm->opened as 0
+[ 8279.132415] msm_open_common: open control0
+[ 8279.818237] msm_open_common: open config0
+[ 8281.106445] msm_open_common: open frame0
+[ 8285.178497] msm_release_config: config0
+[ 8285.178527] release config atomic_set pmsm->opened as 0
+[ 8285.178588] msm_release_frame: frame0
+[ 8285.400573] release frame atomic_set pmsm->opened as 0
+[ 8405.960510] msm_open_common: open control0
+[ 8406.105255] msm_open_common: open config0
+[ 8406.202575] msm_open_common: open frame0
+[ 8406.620422] msm_release_config: config0
+[ 8406.620452] release config atomic_set pmsm->opened as 0
+[ 8406.620513] msm_release_frame: frame0
+[ 8406.841339] release frame atomic_set pmsm->opened as 0
+[ 8474.717498] msm_open_common: open control0
+[ 8474.855133] msm_open_common: open config0
+[ 8474.949005] msm_open_common: open frame0
+[ 8475.305541] msm_release_config: config0
+[ 8475.305603] release config atomic_set pmsm->opened as 0
+[ 8475.305633] msm_release_frame: frame0
+[ 8475.521362] release frame atomic_set pmsm->opened as 0
+[ 8590.405395] msm_open_common: open control0
+[ 8590.535095] msm_open_common: open config0
+[ 8590.636260] msm_open_common: open frame0
+[ 8605.907135] msm_release_config: config0
+[ 8605.907165] release config atomic_set pmsm->opened as 0
+[ 8605.930541] msm_release_frame: frame0
+[ 8605.930572] release frame atomic_set pmsm->opened as 0
+[ 8984.526428] msm_open_common: open control0
+[ 8984.666687] msm_open_common: open config0
+[ 8984.754974] msm_open_common: open frame0
+[ 8994.671813] msm_release_config: config0
+[ 8994.671844] release config atomic_set pmsm->opened as 0
+[ 8994.686187] msm_release_frame: frame0
+[ 8994.686218] release frame atomic_set pmsm->opened as 0
+[ 9562.726898] msm_open_common: open control0
+[ 9562.904113] msm_open_common: open config0
+[ 9563.075103] msm_open_common: open frame0
+[ 9563.815490] msm_release_config: config0
+[ 9563.815521] release config atomic_set pmsm->opened as 0
+[ 9563.872497] msm_release_frame: frame0
+[ 9563.872528] release frame atomic_set pmsm->opened as 0
+[ 9581.602966] msm_open_common: open control0
+[ 9581.761138] msm_open_common: open config0
+[ 9581.919647] msm_open_common: open frame0
+[ 9582.514038] msm_release_config: config0
+[ 9582.514068] release config atomic_set pmsm->opened as 0
+[ 9582.565673] msm_release_frame: frame0
+[ 9582.565704] release frame atomic_set pmsm->opened as 0
+[ 9670.682464] msm_open_common: open control0
+[ 9670.831176] msm_open_common: open config0
+[ 9671.010467] msm_open_common: open frame0
+[ 9671.636566] msm_release_config: config0
+[ 9671.636596] release config atomic_set pmsm->opened as 0
+[ 9671.690765] msm_release_frame: frame0
+[ 9671.690795] release frame atomic_set pmsm->opened as 0
+[10941.701721] msm_open_common: open control0
+[10941.832855] msm_open_common: open config0
+[10941.896514] msm_open_common: open frame0
+[10957.187286] msm_release_frame: frame0
+[10957.187316] release frame atomic_set pmsm->opened as 0
+[10957.196960] msm_release_config: config0
+[10957.196990] release config atomic_set pmsm->opened as 0
+[11443.313690] msm_open_common: open control0
+[11443.442871] msm_open_common: open config0
+[11443.662109] msm_open_common: open frame0
+[11445.326995] msm_release_config: config0
+[11445.327026] release config atomic_set pmsm->opened as 0
+[11445.327087] msm_release_frame: frame0
+[11445.548614] release frame atomic_set pmsm->opened as 0
+[11793.699554] msm_open_common: open control0
+[11793.857238] msm_open_common: open config0
+[11794.017700] msm_open_common: open frame0
+[11809.409271] android_usb gadget: high speed config #1: android
+[11811.086914] KPI PA: start sensor snapshot config: 3047
+[11811.403350] msm_release_frame: frame0
+[11811.403381] release frame atomic_set pmsm->opened as 0
+[11811.856842] msm_open_common: open frame0
+[11814.293579] msm_release_config: config0
+[11814.293609] release config atomic_set pmsm->opened as 0
+[11814.748291] msm_release_frame: frame0
+[11814.974487] release frame atomic_set pmsm->opened as 0
+[11819.378784] android_usb gadget: high speed config #1: android
+[11846.300201] msm_open_common: open control0
+[11846.460113] msm_open_common: open config0
+[11846.647918] msm_open_common: open frame0
+[11847.578369] msm_release_config: config0
+[11847.578399] release config atomic_set pmsm->opened as 0
+[11847.959106] msm_release_frame: frame0
+[11848.183746] release frame atomic_set pmsm->opened as 0
+[12559.379791] android_usb gadget: high speed config #1: android
+[12569.976348] android_usb gadget: high speed config #1: android
+[12711.791595] android_usb gadget: high speed config #1: android
+[12719.762115] android_usb gadget: high speed config #1: android
+[13016.543395] android_usb gadget: high speed config #1: android
+[13024.000671] android_usb gadget: high speed config #1: android
+[14910.339721] android_usb gadget: high speed config #1: android
+[14916.640106] android_usb gadget: high speed config #1: android

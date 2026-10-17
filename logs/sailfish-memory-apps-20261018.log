@@ -1,0 +1,49 @@
+> > > > > > > > > >              total       used       free     shared    buffers     cached
+Mem:           403        389         13          0          5        162
+-/+ buffers/cache:        220        182
+Swap:          100         19         81
+--- top rss ---
+  PID  PPID STAT   RSS    VSZ COMMAND         COMMAND
+21251   360 Ssl  62300 291772 lipstick        /usr/bin/lipstick -plugin evdevtouch:/dev/touchscreen -plugin evdevkeyboard:keymap=/usr/share/qt5/keymaps/droid.qmap --systemd
+28942 28892 Ssl  56600 293948 jolla-gallery   /usr/bin/jolla-gallery
+28964 28892 Ssl  44984 268920 jolla-camera    /usr/bin/jolla-camera
+28893 28892 Ssl  29616 170320 voicecall-ui    /usr/bin/voicecall-ui -prestart
+  127     1 Ss   22204 194212 systemd-journal /lib/systemd/systemd-journald
+28900 28892 Ssl  21700 138480 store-client    /usr/bin/store-client osupdate-check
+21290   384 Ssl  19252 263140 maliit-server   /usr/bin/maliit-server
+28973 28892 Ssl  17208 118396 booster [silica booster [silica-qt5]
+21344 21336 Ssl  14312 115212 booster [browse booster [browser]
+21289   360 Ssl  13924 106904 lipstick-blueto /usr/bin/lipstick-bluetooth-agent
+28934     1 Sl   11024  83456 packagekitd     /usr/libexec/packagekitd
+  553   384 Ssl   8540 138756 contactsd       /usr/bin/contactsd
+28927   360 Ssl   8128  61300 simkit          /usr/bin/simkit
+  677   360 SNsl  7584 168676 tracker-extract /usr/libexec/tracker-extract
+  454   384 Ssl   7288  74140 ambienced       /usr/bin/ambienced
+28892   360 Ss    6904  53556 booster-silica- /usr/libexec/mapplauncherd/booster-silica-qt5 --systemd
+  675   360 SNsl  6832  93448 tracker-miner-f /usr/libexec/tracker-miner-fs
+  552   384 Ssl   6688 101704 commhistoryd    /usr/bin/commhistoryd
+  556   360 Ssl   6240  99012 tracker-store   /usr/libexec/tracker-store
+  431   384 Ssl   5836  87784 msyncd          /usr/bin/msyncd
+21336   360 Ss    5792  53052 booster-browser /usr/libexec/mapplauncherd/booster-browser --systemd
+29331   263 Sl    5544  14716 minimediaservic /usr/libexec/droid-hybris/system/bin/minimediaservice
+20872   384 Ssl   5284  69252 jolla-signon-ui /usr/bin/jolla-signon-ui
+  452   384 Ss    5280  61768 voicecall-manag /usr/bin/voicecall-manager
+  472     1 S<l   5024 260040 pulseaudio      /usr/bin/pulseaudio --start -n --file=/etc/pulse/arm_droid_default.pa
+  212     1 Ssl   4324 189844 statefs         /usr/bin/statefs /run/state -f --system -o allow_other,default_permissions,gid=998,file_umask=0002
+  447   384 Ss    4264  53184 connectionagent /usr/bin/connectionagent
+ 3967   431 Sl    4096  56696 syncml-server   /usr/lib/buteo-plugins-qt5//oopp/syncml-server syncml syncml
+  407   360 Ssl   3732 101000 statefs         /usr/bin/statefs /run/user/100000/state -f -o allow_other,default_permissions,file_umask=0002
+  264     1 SLs   3672  11824 ohmd            /usr/sbin/ohmd --no-daemon
+  384   360 Ss    3644  45728 booster-qt5     /usr/libexec/mapplauncherd/booster-qt5 --systemd --boot-mode
+  446   360 Ssl   3624 286288 ngfd            /usr/bin/ngfd
+  375   360 Ss    3604  41068 timed-qt5       /usr/bin/timed-qt5 --systemd
+  346     1 Sl    3568  49028 sensorfwd       /usr/sbin/sensorfwd -c=/etc/sensorfw/primaryuse.conf -d --log-level=warning --no-magnetometer-bg-calibration
+--- vmstat ---
+procs -----------memory---------- ---swap-- -----io---- --system-- -----cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  1  20384  13940   5832 167276    1    2   279    26  799 1083 18  7 75  1  0
+ 2  1  20596  11260   5808 168784  296  276  6344   348 2156 4461 48 35  0 17  0
+ 0  2  20688  12460   5800 168200    0   96   936    96 1753 3975 38 20 13 29  0
+ 2  0  20852  12696   5740 166828  192  188  1204   188 1095 2585 76 21  0  3  0
+ 4  0  20852  12456   5748 166880    0    0     0    88 1078 2874 29 13 11 47  0
+--- psi/lowmemory ---

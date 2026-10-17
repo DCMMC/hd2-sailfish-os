@@ -1,0 +1,255 @@
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:32:31 EEST. --
+Oct 17 21:29:33.880190 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:35.882417 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:36.402590 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:29:37.880556 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:39.879823 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:41.399507 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:29:41.881380 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:43.882356 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:44.328737 Jolla systemd-logind[287]: New session c109 of user nemo.
+Oct 17 21:29:44.345583 Jolla su[30138]: pam_unix(su:session): session opened for user nemo by LOGIN(uid=0)
+Oct 17 21:29:44.407777 Jolla su[30138]: pam_unix(su:session): session closed for user nemo
+Oct 17 21:29:44.570558 Jolla systemd-logind[287]: Removed session c109.
+Oct 17 21:29:45.879091 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:46.406374 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:29:47.871797 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:49.880220 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:51.410188 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:29:51.885988 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:53.881380 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:55.881593 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:56.404787 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:29:57.876405 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:29:59.886110 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:01.405763 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:01.869936 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:03.881685 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:05.885713 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:06.412264 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:07.881349 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:09.883577 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:11.413057 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:11.881502 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:13.883669 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:15.875459 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:16.406099 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:17.883608 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:19.882936 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:21.415498 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:21.880037 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:23.881532 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:25.883791 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:26.410097 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:27.871584 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:29.885774 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:31.411012 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:31.872225 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:33.882875 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:35.870729 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:36.411958 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:37.885835 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:39.880007 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:41.411958 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:41.881258 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:43.879945 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:45.871401 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:46.411257 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:47.874513 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:49.881929 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:51.419069 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:51.888887 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:53.881349 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:55.881990 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:56.414400 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:30:57.881319 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:30:59.883394 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:01.414400 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:01.875948 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:03.881746 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:05.871523 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:06.420076 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:07.869844 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:08.358980 Jolla systemd-logind[287]: New session c110 of user nemo.
+Oct 17 21:31:08.376039 Jolla su[30184]: pam_unix(su:session): session opened for user nemo by LOGIN(uid=0)
+Oct 17 21:31:08.407961 Jolla systemd[360]: Reloading.
+Oct 17 21:31:08.760622 Jolla systemd[360]: [1;39mpulseaudio.service: Supervising process 472 which is not our child. We'll most likely not notice when it exits.[0m
+Oct 17 21:31:08.992952 Jolla systemd[360]: Stopping osupdate-check.timer.
+Oct 17 21:31:08.994631 Jolla systemd[360]: Stopped osupdate-check.timer.
+Oct 17 21:31:09.019655 Jolla su[30184]: pam_unix(su:session): session closed for user nemo
+Oct 17 21:31:09.050874 Jolla systemd-logind[287]: Removed session c110.
+Oct 17 21:31:09.186739 Jolla lipstick[21251]: [1;39m[W] QQuickShaderEffectCommon::updateMaterial:428 - ShaderEffect: Property 'source' is not assigned a valid texture provider (QQuickItem*).[0m
+Oct 17 21:31:09.215761 Jolla lipstick[21251]: [D] CoverActionModel::update:131 - void CoverActionModel::update() Clearing model
+Oct 17 21:31:09.228853 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mute-by-route[0m
+Oct 17 21:31:09.269380 Jolla mapplauncherd[28892]: Boosted process (pid=29439) was terminated due to signal 9
+Oct 17 21:31:09.283113 Jolla ohmd[264]: *** resource_request:  unregister   129
+Oct 17 21:31:09.333376 Jolla su[29618]: pam_unix(su:session): session closed for user nemo
+Oct 17 21:31:09.708864 Jolla systemd-logind[287]: New session c111 of user nemo.
+Oct 17 21:31:09.740419 Jolla su[30198]: pam_unix(su:session): session opened for user nemo by LOGIN(uid=0)
+Oct 17 21:31:09.804475 Jolla su[30198]: pam_unix(su:session): session closed for user nemo
+Oct 17 21:31:09.844148 Jolla systemd-logind[287]: Removed session c111.
+Oct 17 21:31:09.864137 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:11.415102 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:11.880464 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:13.881227 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:15.881288 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:16.418947 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:17.881838 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:19.884981 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:21.416292 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:21.870119 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:23.880342 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:25.881441 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:26.421053 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:27.887727 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:29.900026 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:31.423921 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:31.871309 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:33.881349 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:35.882021 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:36.424501 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:37.884828 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:39.870180 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:41.424104 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:41.872316 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:42.544527 Jolla systemd-logind[287]: New session c112 of user nemo.
+Oct 17 21:31:42.557253 Jolla su[30219]: pam_unix(su:session): session opened for user nemo by LOGIN(uid=0)
+Oct 17 21:31:42.597963 Jolla systemd[360]: Stopping simkit agent...
+Oct 17 21:31:42.621736 Jolla systemd[360]: Stopping Voicecall ui prestart...
+Oct 17 21:31:42.650026 Jolla mapplauncherd[28892]: Boosted process (pid=28893) was terminated due to signal 15
+Oct 17 21:31:42.693422 Jolla systemd[360]: Stopping Application launch booster for Silica on QtQuick2...
+Oct 17 21:31:42.786775 Jolla systemd[360]: Starting Application launch booster for Silica on QtQuick2...
+Oct 17 21:31:43.818483 Jolla systemd[360]: Started Application launch booster for Silica on QtQuick2.
+Oct 17 21:31:43.819856 Jolla systemd[360]: Started Run first time usage demo to user.
+Oct 17 21:31:43.835329 Jolla systemd[360]: Starting Voicecall ui prestart...
+Oct 17 21:31:43.845094 Jolla su[30219]: pam_unix(su:session): session closed for user nemo
+Oct 17 21:31:43.870210 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:43.886873 Jolla systemd-logind[287]: Removed session c112.
+Oct 17 21:31:44.043733 Jolla booster-silica-qt5[30226]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 21:31:44.366396 Jolla tart[30226]: [1;39m[W] main:59 - Could not open /sys/fs/cgroup/memory/noswapping/tasks for disabling caching [0m
+Oct 17 21:31:45.686586 Jolla booster-silica-qt5[30233]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 21:31:45.869783 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:46.248415 Jolla [30233]: booster [silica-qt5][30233]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 21:31:46.416200 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:46.933962 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:31:46.935182 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:31:47.140810 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:31:47.871431 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:47.909792 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:31:47.911379 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:31:49.870241 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:51.419954 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:51.893434 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:51.903200 Jolla systemd-logind[287]: New session c113 of user nemo.
+Oct 17 21:31:51.924715 Jolla su[30365]: pam_unix(su:session): session opened for user nemo by LOGIN(uid=0)
+Oct 17 21:31:52.141237 Jolla dbus-daemon[197]: dbus[197]: [system] Activating via systemd: service name='org.nemomobile.provisioning' unit='dbus-org.nemomobile.provisioning.service'
+Oct 17 21:31:52.142488 Jolla dbus[197]: [1;39m[system] Activating via systemd: service name='org.nemomobile.provisioning' unit='dbus-org.nemomobile.provisioning.service'[0m
+Oct 17 21:31:52.216554 Jolla systemd[360]: Started Voicecall ui prestart.
+Oct 17 21:31:52.247377 Jolla systemd[360]: Starting Store client...
+Oct 17 21:31:52.248872 Jolla tart[30226]: [D] SeasideCache::startRequest:1538 - Starting favorites query at 840 ms
+Oct 17 21:31:52.283571 Jolla systemd[360]: Starting Store client os update check...
+Oct 17 21:31:52.351564 Jolla systemd[360]: Started Store client os update check.
+Oct 17 21:31:52.355043 Jolla systemd[360]: Starting simkit agent...
+Oct 17 21:31:52.356325 Jolla systemd[360]: Started simkit agent.
+Oct 17 21:31:52.401186 Jolla tart[30226]: [D] SeasideCache::requestStateChanged:2747 - Favorites queried in 945 ms
+Oct 17 21:31:52.431368 Jolla tart[30226]: [D] SeasideCache::startRequest:1583 - Starting metadata query at 946 ms
+Oct 17 21:31:52.432771 Jolla tart[30226]: [D] SeasideCache::requestStateChanged:2755 - All queried in 968 ms
+Oct 17 21:31:52.451875 Jolla tart[30226]: [D] SeasideCache::startRequest:1593 - Starting online  query at 969 ms
+Oct 17 21:31:52.453493 Jolla tart[30226]: [D] SeasideCache::requestStateChanged:2762 - Online queried in 978 ms
+Oct 17 21:31:52.552858 Jolla mapplauncherd[30233]: SilicaBooster: Preload compilation aborted.
+Oct 17 21:31:52.555666 Jolla mapplauncherd[30233]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+Oct 17 21:31:52.556673 Jolla su[30365]: pam_unix(su:session): session closed for user nemo
+Oct 17 21:31:52.636415 Jolla dbus-daemon[197]: dbus[197]: [system] Successfully activated service 'org.nemomobile.provisioning'
+Oct 17 21:31:52.643068 Jolla dbus[197]: [1;39m[system] Successfully activated service 'org.nemomobile.provisioning'[0m
+Oct 17 21:31:52.686128 Jolla systemd-logind[287]: Removed session c113.
+Oct 17 21:31:53.222231 Jolla simkit[30370]: [D] AppManager::updateDesktop:47 - updating .desktop false
+Oct 17 21:31:53.260225 Jolla simkit[30370]: [D] StkApplication::initOfonoConnection:98 - initOfonoConnection
+Oct 17 21:31:53.286470 Jolla simkit[30370]: [D] StkApplication::mgrModemAdded:192 - mgrModemAdded:  "/ril_0"  variant map:  QMap(("Emergency", QVariant(bool, false) ) ( "Features" ,  QVariant(QStringList, ("sim") ) ) ( "Interfaces" ,  QVariant(QStringList, ("org.ofono.VoiceCallManager", "org.ofono.SimManager") ) ) ( "Lockdown" ,  QVariant(bool, false) ) ( "Online" ,  QVariant(bool, false) ) ( "Powered" ,  QVariant(bool, true) ) ( "Revision" ,  QVariant(QString, "15.42.50.11U_2.15.50.14") ) ( "Serial" ,  QVariant(QString, "357779039774458") ) ( "Type" ,  QVariant(QString, "hardware") ) )
+Oct 17 21:31:53.712099 Jolla systemd[360]: Started Store client.
+Oct 17 21:31:53.748384 Jolla dbus-daemon[197]: dbus[197]: [system] Activating service name='org.freedesktop.PackageKit' (using servicehelper)
+Oct 17 21:31:53.749666 Jolla dbus[197]: [1;39m[system] Activating service name='org.freedesktop.PackageKit' (using servicehelper)[0m
+Oct 17 21:31:53.904817 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:54.631410 Jolla dbus-daemon[197]: dbus[197]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Oct 17 21:31:54.634340 Jolla dbus[197]: [1;39m[system] Successfully activated service 'org.freedesktop.PackageKit'[0m
+Oct 17 21:31:54.752748 Jolla [30233]: [D] DiskCache::dumpStatistics:190 - Cache:  "/home/nemo/.cache/store-client/small-images"
+Oct 17 21:31:54.756227 Jolla [30233]: [D] DiskCache::dumpStatistics:191 - Usage:  0 / 2097152 bytes
+Oct 17 21:31:54.764375 Jolla [30233]: [D] DiskCache::dumpStatistics:192 - Size:   0 items
+Oct 17 21:31:54.765871 Jolla [30233]: [D] DiskCache::dumpStatistics:193 - Oldest: "-"
+Oct 17 21:31:54.781007 Jolla [30233]: [D] DiskCache::dumpStatistics:190 - Cache:  "/home/nemo/.cache/store-client/big-images"
+Oct 17 21:31:54.782411 Jolla [30233]: [D] DiskCache::dumpStatistics:191 - Usage:  0 / 10485760 bytes
+Oct 17 21:31:54.783632 Jolla [30233]: [D] DiskCache::dumpStatistics:192 - Size:   0 items
+Oct 17 21:31:54.796419 Jolla [30233]: [D] DiskCache::dumpStatistics:193 - Oldest: "-"
+Oct 17 21:31:54.838930 Jolla booster-silica-qt5[30372]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 21:31:55.175234 Jolla packagekitd[30378]: Setting target on init: /var/cache/zypp
+Oct 17 21:31:55.190065 Jolla [30233]: [1;39m[W] QDBusConnectionPrivate::serviceOwnerChangedNoLock:1280 - QDBusConnection: name 'org.freedesktop.PackageKit' had owner '' but we thought it was ':1.774'[0m
+Oct 17 21:31:55.869905 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:56.100313 Jolla packagekitd[30378]: [1;39mGLIB WARNING ** default - apps is not cached! Do a refresh[0m
+Oct 17 21:31:56.103975 Jolla packagekitd[30378]: [1;39mGLIB WARNING ** default - hotfixes is not cached! Do a refresh[0m
+Oct 17 21:31:56.105959 Jolla packagekitd[30378]: [1;39mGLIB WARNING ** default - jolla is not cached! Do a refresh[0m
+Oct 17 21:31:56.107668 Jolla packagekitd[30378]: [1;39mGLIB WARNING ** default - openrepos-basil is not cached! Do a refresh[0m
+Oct 17 21:31:56.420229 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:31:56.815859 Jolla [30372]: booster [silica-qt5][30372]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 21:31:56.826387 Jolla mapplauncherd[30372]: SilicaBooster: Preload compilation aborted.
+Oct 17 21:31:56.827944 Jolla mapplauncherd[30372]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+Oct 17 21:31:57.378572 Jolla invoker[30368]: invoker: Invoking execution: '/usr/bin/store-client'
+Oct 17 21:31:57.870119 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:58.258119 Jolla ate-check[30372]: [1;39m[W] DBusConnector::acquireService:317 - void DBusConnector::acquireService() Service name is already in use: "com.jolla.jollastore" [0m
+Oct 17 21:31:58.358309 Jolla [30233]: [1;39m[W] Store::StoreAccount::signIn:58 - void Store::StoreAccount::signIn() No valid jolla account! [0m
+Oct 17 21:31:58.359621 Jolla [30233]: [D] Store::StoreAccount::setState:38 - void Store::StoreAccount::setState(AccountState::State) 0 --> 1
+Oct 17 21:31:58.362062 Jolla [30233]: [D] JollaStore::changeConnectionState:150 - void JollaStore::changeConnectionState(JollaStore::ConnectionState) 0 --> 1
+Oct 17 21:31:59.138765 Jolla booster-silica-qt5[30389]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 21:31:59.870241 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:31:59.913027 Jolla [30389]: booster [silica-qt5][30389]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 21:32:01.419313 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:01.825472 Jolla invoker[30369]: invoker: Invoking execution: '/usr/bin/store-client'
+Oct 17 21:32:01.871462 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:02.839479 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:32:02.841097 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:32:02.870332 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:32:02.871828 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:32:03.052492 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:32:03.280855 Jolla mapplauncherd[30389]: SilicaBooster: Preload compilation aborted.
+Oct 17 21:32:03.289369 Jolla mapplauncherd[30389]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+Oct 17 21:32:03.880098 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:05.268587 Jolla booster-silica-qt5[30443]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 21:32:05.872377 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:06.419466 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:06.904421 Jolla [30443]: booster [silica-qt5][30443]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 21:32:07.873689 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:09.864382 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:11.419679 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:11.869997 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:13.871889 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:15.870027 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:16.419557 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:17.881502 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:19.870577 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:21.421694 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:21.870302 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:23.871187 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:25.870516 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:26.421724 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:27.871919 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:28.424135 Jolla tart[30226]: [1;39m[W] CommHistoryDatabase::open:303 - Opened commhistory database: "/home/nemo/.local/share/commhistory/commhistory.db" [0m
+Oct 17 21:32:28.840700 Jolla tart[30226]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-dialer" )
+Oct 17 21:32:28.842165 Jolla tart[30226]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-dialer" )
+Oct 17 21:32:28.910341 Jolla tart[30226]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-people" )
+Oct 17 21:32:28.911653 Jolla tart[30226]: [D] DeclarativeCoverActionList::disableActiveCovers:370 - void DeclarativeCoverActionList::disableActiveCovers() "disableActiveCovers, process: /usr/bin/voicecall-ui, winId: 0, action count: 2, enabled: 0"
+Oct 17 21:32:28.982515 Jolla tart[30226]: [D] DeclarativeCoverActionList::enableActiveCovers:341 - void DeclarativeCoverActionList::enableActiveCovers() "enableActiveCovers, process: /usr/bin/voicecall-ui, winId: 1, action count: 2, enabled: 0"
+Oct 17 21:32:28.983858 Jolla tart[30226]: [D] DeclarativeCoverActionList::enableActiveCovers:341 - void DeclarativeCoverActionList::enableActiveCovers() "enableActiveCovers, process: /usr/bin/voicecall-ui, winId: 1, action count: 1, enabled: 1"
+Oct 17 21:32:28.985353 Jolla tart[30226]: [D] DeclarativeCoverActionList::setWindowProperty:270 - void DeclarativeCoverActionList::setWindowProperty(QStringList, bool)
+Oct 17 21:32:28.988252 Jolla tart[30226]: [D] DeclarativeCoverActionList::setWindowProperty:280 - void DeclarativeCoverActionList::setWindowProperty(QStringList, bool) "CoverActionList::setWindowProperty: com.jolla.coveraction.pid30226.id1
+                                          trigger
+                                          0
+                                          image://theme/icon-cover-dialer
+                                          0"
+Oct 17 21:32:28.989626 Jolla tart[30226]: [D] DeclarativeCoverActionList::startDbusService:390 - void DeclarativeCoverActionList::startDbusService()
+Oct 17 21:32:28.995943 Jolla tart[30226]: [D] DeclarativeCoverActionList::startDbusService:400 - void DeclarativeCoverActionList::startDbusService() "dbus ready com.jolla.coveraction.pid30226.id1"
+Oct 17 21:32:29.111177 Jolla [30389]: [1;39m[W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.[0m
+Oct 17 21:32:29.162813 Jolla tart[30226]: [1;39m[W] unknown:201 - file:///usr/share/voicecall-ui-jolla/pages/CallLogPage.qml:201: TypeError: Cannot read property 'length' of undefined[0m
+Oct 17 21:32:29.165804 Jolla tart[30226]: [1;39m[W] unknown:197 - file:///usr/share/voicecall-ui-jolla/pages/CallLogPage.qml:197:25: Unable to assign [undefined] to int[0m
+Oct 17 21:32:29.170107 Jolla tart[30226]: [1;39m[W] unknown:196 - file:///usr/share/voicecall-ui-jolla/pages/CallLogPage.qml:196:19: Unable to assign [undefined] to QDateTime[0m
+Oct 17 21:32:29.171541 Jolla tart[30226]: [1;39m[W] unknown:198 - file:///usr/share/voicecall-ui-jolla/pages/CallLogPage.qml:198:25: Unable to assign [undefined] to bool[0m
+Oct 17 21:32:29.881380 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:32:31.422731 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:32:31.870058 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported

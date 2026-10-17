@@ -1,0 +1,3 @@
+> > > 10-17 16:13:12.347 21251 21251 D memalloc: init_pmem_area: Initializing pmem area
+10-17 16:13:12.347 21251 21251 D memalloc: init_pmem_area_locked: Opening master pmem FD
+10-17 16:13:12.347 21251 21251 D memalloc: init_pmem_area_locked: Total pmem size: 33554432

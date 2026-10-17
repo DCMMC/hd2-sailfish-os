@@ -1,0 +1,15 @@
+> > > > > > > > > > > > > > > Patch not found, continue anyway
+hci0:   Type: BR/EDR  Bus: UART
+        BD Address: <MAC-REDACTED>  ACL MTU: 0:0  SCO MTU: 0:0
+        DOWN
+        RX bytes:0 acl:0 sco:0 events:0 errors:0
+        TX bytes:0 acl:0 sco:0 commands:0 errors:0
+
+Can't init device hci0: Operation not possible due to RF-kill (132)
+hci0:   Type: BR/EDR  Bus: UART
+        BD Address: <MAC-REDACTED>  ACL MTU: 0:0  SCO MTU: 0:0
+        DOWN
+        RX bytes:0 acl:0 sco:0 events:0 errors:0
+        TX bytes:0 acl:0 sco:0 commands:0 errors:0
+
+Devices:

@@ -1,0 +1,58 @@
+> > > > > > > > > PID=4246
+State:  S (sleeping)
+VmRSS:     38360 kB
+Threads:        10
+-- Logs begin at Sat 2026-10-17 21:40:25 EEST, end at Sat 2026-10-17 22:00:55 EEST. --
+[ 1194.624587] Jolla mapplauncherd[4246]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+[ 1195.597457] Jolla [4246]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[ 1198.908339] Jolla [4246]: [1;39m[W] check_parent_thread:683 - QObject: Cannot create children for a parent that is in a different thread.[0m
+                             [1;39m(Parent is QApplication(0x26050), parent's thread is QThread(0x2d090), current thread is QThread(0x4e080)[0m
+[ 1198.917891] Jolla [4246]: [1;39m[W] QObject::installEventFilter:1940 - QObject::installEventFilter(): Cannot filter events for objects in a different thread.[0m
+[ 1198.982863] Jolla [4246]: [D] KoReportCurrentArch::create:46 - Legacy integer arithmetics implementation
+[ 1207.044051] Jolla [4246]: [1;39m[W] check_parent_thread:683 - QObject: Cannot create children for a parent that is in a different thread.[0m
+                             [1;39m(Parent is QApplication(0x26050), parent's thread is QThread(0x2d090), current thread is QThread(0x4e080)[0m
+[ 1207.054213] Jolla [4246]: [1;39m[W] QObject::installEventFilter:1940 - QObject::installEventFilter(): Cannot filter events for objects in a different thread.[0m
+RECENT
+[ 1121.469405] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1121.470687] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1122.043624] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1122.044906] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1125.857772] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1125.859542] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1126.038680] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1126.040389] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1126.064315] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1127.792159] Jolla booster-silica-qt5[5104]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[ 1128.424758] Jolla art[4815]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-alarm" )
+[ 1128.431350] Jolla art[4815]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "" )
+[ 1136.052840] Jolla [5104]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+[ 1151.727797] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1151.729049] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1151.932601] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1152.018966] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1152.020247] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1153.054824] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1153.056319] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1156.142684] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1156.143844] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1157.031997] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1157.033675] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1160.534011] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1160.536666] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1160.743056] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1161.807326] Jolla [5104]: [W] QQmlComponent_setQmlParent:1143 - QQmlComponent: Created graphical object was not placed in the graphics scene.
+[ 1162.671615] Jolla booster-silica-qt5[5395]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[ 1168.468032] Jolla [5395]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+[ 1185.190169] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1185.191512] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1185.397201] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1186.067855] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1186.069472] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1189.595046] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1189.596206] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1190.061507] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1190.062972] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1194.067702] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1194.068862] Jolla DSME[227]: IPHB: failed to open /dev/rtc0: No such file or directory
+[ 1195.597457] Jolla [4246]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+DMESG

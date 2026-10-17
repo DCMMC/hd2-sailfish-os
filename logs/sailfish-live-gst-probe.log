@@ -1,0 +1,9 @@
+> > > > > factory_droidcamsrc=yes
+factory_droideglsink=yes
+factory_camerabin=yes
+create_droidcamsrc=yes
+pad_vfsrc=yes
+pad_imgsrc=yes
+pad_vidsrc=yes
+state_ready_result=1
+state_paused_result=3

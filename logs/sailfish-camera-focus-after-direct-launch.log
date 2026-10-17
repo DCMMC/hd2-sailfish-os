@@ -1,0 +1,9 @@
+> > > > > > > start=15609.18 end=15629.67
+  PID STAT     ELAPSED   RSS CMD
+25755 Ssl        01:07 50652 /usr/bin/jolla-camera
+[12719.762115] android_usb gadget: high speed config #1: android
+[13016.543395] android_usb gadget: high speed config #1: android
+[13024.000671] android_usb gadget: high speed config #1: android
+[14910.339721] android_usb gadget: high speed config #1: android
+[14916.640106] android_usb gadget: high speed config #1: android
+[15255.426452] pmem: mmap unable to allocate memoryon pmem

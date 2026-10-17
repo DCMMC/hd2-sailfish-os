@@ -5,3 +5,5 @@ These files document the Sailfish OS port only. Earlier records can describe fai
 Network identifiers, credentials, raw framebuffer buffers, device backups, user data and keys are excluded. The phone clock was unset and reports 2014-05-20 in many logs; host capture names and monotonic times establish sequence.
 
 Post-alpha3 evidence covers Gallery pinch stability, camera startup, QDSP speaker gain and power-key handling. Alpha4 revision 3 packaging evidence is in `sailfish-alpha4-patch-manifest.json`, `sailfish-alpha4-verification.json`, `sailfish-alpha4-package-verification.json` and `sailfish-alpha4-r3-zip-test.log`. The clean image passed 67 critical-file read-backs and filesystem/ZIP checks; it has not had a separate clean-image cold boot.
+
+`WORKSPACE-AUDIT.json` inventories the public text records recovered during the final comparison with the original porting workspace. The recovered history covers application failures, Gallery, camera/GStreamer/BufferQueue work, Bluetooth, Wi-Fi/ConnMan, audio, sensors and memory measurements. Download logs, raw framebuffer data, transient UI dumps and shared SD-card repair history remain excluded.

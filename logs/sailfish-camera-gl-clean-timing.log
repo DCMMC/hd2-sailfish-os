@@ -1,0 +1,31 @@
+tap_uptime=274.64
+1 uptime=275.33 pid=1525 fb=816241bd9b94520bff504e288976de43
+2 uptime=276.48 pid=1525 fb=33c458c928bf9e34539255fb8b747de6
+3 uptime=277.63 pid=1525 fb=b8afbbfdc477d125966f759bc7b4e293
+4 uptime=278.79 pid=1525 fb=ca68af2d72702ada0f22d8b1761ffc91
+5 uptime=279.96 pid=1525 fb=45d0ad7e48b6214b14a5453afdeabc2f
+6 uptime=281.10 pid=1525 fb=bebf36b31ed4a49cf28e9586cf6c1379
+7 uptime=282.25 pid=1525 fb=a5aa680ad508644d63cfb25115b84527
+8 uptime=283.50 pid=1525 fb=18277866f1db146170d4f29d7860a383
+9 uptime=284.74 pid=1525 fb=3cefe53f1ee372527c3a1c7d2e9c0343
+10 uptime=285.96 pid=1525 fb=d569d02a33dc5369edd00e97e2fdb1cf
+11 uptime=287.31 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+12 uptime=288.50 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+13 uptime=289.67 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+14 uptime=290.87 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+15 uptime=292.04 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+16 uptime=293.22 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+17 uptime=294.42 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+18 uptime=295.63 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+19 uptime=296.85 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+20 uptime=298.00 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+21 uptime=299.11 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+22 uptime=300.22 pid=1525 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+KERNEL
+[  288.358795] msm_open_common: open control0
+[  288.524230] msm_open_common: open config0
+[  288.690948] msm_open_common: open frame0
+JOURNAL
+[  286.136794] Jolla [1525]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+[  294.279891] Jolla pulseaudio[518]: invalid (<null>) target sink for mute-by-route
+[  300.902236] Jolla mapplauncherd[439]: Boosted process (pid=1389) was terminated due to signal 15

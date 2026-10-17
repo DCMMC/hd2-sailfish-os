@@ -1,0 +1,58 @@
+> > > > > > > bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; disabled)
+   Active: [1;32mactive (running)[0m since Sat 2026-10-17 17:11:29 EEST; 4s ago
+ Main PID: 3276
+   CGroup: /system.slice/bluetooth.service
+           └─3276 /usr/sbin/bluetoothd -n
+
+Oct 17 17:11:30 Jolla bluetoothd[3276]: Endpoint registered: sender=:1.24 path=/MediaEndpoint/BlueZ4/HFPAG
+Oct 17 17:11:30 Jolla bluetoothd[3276]: Endpoint registered: sender=:1.24 path=/MediaEndpoint/BlueZ4/HFPHS
+Oct 17 17:11:30 Jolla bluetoothd[3276]: Endpoint registered: sender=:1.24 path=/MediaEndpoint/BlueZ4/A2DPSource
+Oct 17 17:11:30 Jolla bluetoothd[3276]: [1;31mInquiry Cancel Failed with status 0x12[0m
+Oct 17 17:11:30 Jolla bluetoothd[3276]: bluetoothd[3276]: open(/run/state/namespaces/Battery/ChargePercentage) failed: Invalid argument (22)
+Oct 17 17:11:30 Jolla bluetoothd[3276]: bluetoothd[3276]: Adapter /org/bluez/3276/hci0 has been enabled
+Oct 17 17:11:30 Jolla bluetoothd[3276]: bluetoothd[3276]: Endpoint registered: sender=:1.24 path=/MediaEndpoint/BlueZ4/HFPAG
+Oct 17 17:11:30 Jolla bluetoothd[3276]: bluetoothd[3276]: Endpoint registered: sender=:1.24 path=/MediaEndpoint/BlueZ4/HFPHS
+Oct 17 17:11:30 Jolla bluetoothd[3276]: bluetoothd[3276]: Endpoint registered: sender=:1.24 path=/MediaEndpoint/BlueZ4/A2DPSource
+Oct 17 17:11:30 Jolla bluetoothd[3276]: bluetoothd[3276]: Inquiry Cancel Failed with status 0x12
+hci0:   Type: BR/EDR  Bus: UART
+        BD Address: <MAC-REDACTED>  ACL MTU: 1021:7  SCO MTU: 64:1
+        UP RUNNING PSCAN
+        RX bytes:1846 acl:0 sco:0 events:40 errors:0
+        TX bytes:1909 acl:0 sco:0 commands:40 errors:0
+        Features: 0xff 0xff 0x8f 0xfe 0x9b 0xff 0x79 0x83
+        Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3
+        Link policy: RSWITCH HOLD SNIFF PARK
+        Link mode: SLAVE ACCEPT
+        Name: 'Jolla'
+        Class: 0x58020c
+        Service Classes: Capturing, Object Transfer, Telephony
+        Device Class: Phone, Smart phone
+        HCI Version: 2.1 (0x4)  Revision: 0x0
+        LMP Version: 2.1 (0x4)  Subversion: 0x4217
+        Manufacturer: Broadcom Corporation (15)
+
+/net/connman/technology/wifi
+  Name = WiFi
+  Type = wifi
+  Powered = True
+  Connected = True
+  Tethering = False
+/net/connman/technology/ethernet
+  Name = Wired
+  Type = ethernet
+  Powered = True
+  Connected = False
+  Tethering = False
+/net/connman/technology/bluetooth
+  Name = Bluetooth
+  Type = bluetooth
+  Powered = True
+  Connected = False
+  Tethering = False
+/net/connman/technology/gps
+  Name = Gps
+  Type = gps
+  Powered = True
+  Connected = False
+  Tethering = False

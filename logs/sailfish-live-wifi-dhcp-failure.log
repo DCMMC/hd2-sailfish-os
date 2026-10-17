@@ -1,0 +1,25 @@
+> > > > > hd2-busybox: applet not found
+connect: Network is unreachable
+192.168.2.0/24 dev usb0  proto kernel  scope link  src 192.168.2.15
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+Successfully initialized wpa_supplicant
+wlan0 runs an unsupported 802.11 driver
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+wlan0: CTRL-EVENT-TERMINATING
+Exit
+Successfully initialized wpa_supplicant
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+wlan0 runs an unsupported 802.11 driver
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance

@@ -1,0 +1,8 @@
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > wpa_state=COMPLETED wait_seconds=14
+dhcp_rc=1 ipv4_present=no
+internet_ping_rc=2
+Successfully initialized wpa_supplicant
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+wlan0: Associated with <MAC-REDACTED>
+wlan0: WPA: Key negotiation completed with <MAC-REDACTED> [PTK=CCMP GTK=CCMP]
+wlan0: CTRL-EVENT-CONNECTED - Connection to <MAC-REDACTED> completed [id=0 id_str=]

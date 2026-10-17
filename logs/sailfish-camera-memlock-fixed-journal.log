@@ -1,0 +1,14 @@
+> > > > > > -- Logs begin at Sat 2026-10-17 21:40:25 EEST, end at Sat 2026-10-17 21:43:10 EEST. --
+[   63.170485] Jolla booster-silica-qt5[614]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[   63.847121] Jolla [614]: booster [silica-qt5][614]: SilicaBooster: Initiate asynchronous preload.
+[  112.976760] Jolla mapplauncherd[614]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+[  113.562545] Jolla [614]: [1;39m[W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.[0m
+[  126.799758] Jolla [614]: [1;39m[W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl[0m
+[  157.063338] Jolla [614]: [1;39m[W] unknown:43 - file:///usr/lib/qt5/qml/Sailfish/Silica/PulleyAnimationHint.qml:43:25: Unable to assign [undefined] to QQuickItem*[0m
+PROC
+State:  S (sleeping)
+VmRSS:     55960 kB
+Threads:        21
+cat: /proc/614/io: No such file or directory
+MAPCOUNT
+1058 /proc/614/maps

@@ -1,0 +1,234 @@
+> > > > > > > > > > > > > root        12  0.0  0.0      0     0 ?        S    16:48   0:00 [bluetooth]
+root        20  0.0  0.0      0     0 ?        S    16:48   0:00 [p-sensor_microp]
+root       300  0.2  0.5   6312  2360 ?        Ss   16:48   0:00 /usr/sbin/connmand -n --nobacktrace --systemd
+root       346  0.3  0.9  48960  4096 ?        Sl   16:48   0:00 /usr/sbin/sensorfwd -c=/etc/sensorfw/primaryuse.conf -d --log-level=warning --no-magnetometer-bg-calibration
+root       354  0.0  0.5   5304  2312 ?        Ss   16:48   0:00 /usr/sbin/wpa_supplicant -u -c /etc/wpa_supplicant/wpa_supplicant.conf -O/var/run/wpa_supplicant -u -P /var/run/wpa_supplicant.pid
+nemo       635  0.7  3.7 106832 15512 ?        Ssl  16:49   0:01 /usr/bin/lipstick-bluetooth-agent
+wpa_supplicant.service - WPA Supplicant daemon
+   Loaded: loaded (/lib/systemd/system/wpa_supplicant.service; disabled)
+   Active: [1;32mactive (running)[0m since Sat 2026-10-17 16:48:34 EEST; 5min ago
+ Main PID: 354
+   CGroup: /system.slice/wpa_supplicant.service
+           └─354 /usr/sbin/wpa_supplicant -u -c /etc/wpa_supplicant/wpa_supplicant.conf -O/var/run/wpa_supplicant -u -P /var/run/wpa_supplicant.pid
+
+Oct 17 16:48:34 Jolla wpa_supplicant[354]: Successfully initialized wpa_supplicant
+Oct 17 16:48:34 Jolla wpa_supplicant[354]: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Oct 17 16:48:34 Jolla wpa_supplicant[354]: WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+Oct 17 16:48:34 Jolla wpa_supplicant[354]: WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+
+jolla-rfkill-hciwait.service - Wait for Bluetooth HCI adapter
+   Loaded: loaded (/lib/systemd/system/jolla-rfkill-hciwait.service; disabled)
+   Active: inactive (dead) since Sat 2026-10-17 16:48:30 EEST; 5min ago
+  Process: 292 ExecStart=/usr/sbin/jolla-rfkill-hciwait (code=exited, status=0/SUCCESS)
+ Main PID: 292 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/jolla-rfkill-hciwait.service
+
+Oct 17 16:48:30 Jolla jolla-rfkill-hciwait[292]: Not waiting for HCI events, ID='leo' not sbj
+
+bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; disabled)
+   Active: inactive (dead)
+           start condition failed at Sat 2026-10-17 16:48:33 EEST; 5min ago
+           ConditionPathIsDirectory=/sys/kernel/debug/bluetooth was not met
+
+
+hd2-wifi-load.service - HD2 Wi-Fi module
+   Loaded: loaded (/etc/systemd/system/hd2-wifi-load.service; enabled)
+   Active: inactive (dead) since Sat 2026-10-17 16:48:34 EEST; 5min ago
+  Process: 281 ExecStart=/sbin/modprobe bcm4329 (code=exited, status=0/SUCCESS)
+ Main PID: 281 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/hd2-wifi-load.service
+
+Unknown operation 'cat'.
+[General]
+
+FallbackTimeservers = 0.sailfishos.pool.ntp.org,1.sailfishos.pool.ntp.org,2.sailfishos.pool.ntp.org,3.sailfishos.pool.ntp.org
+NetworkInterfaceBlacklist = p2p,usb,rmnet,rev_rmnet
+SingleConnectedTechnology = false
+Ipv4StatusUrl = http://ipv4.jolla.com/return_204
+Ipv6StatusUrl = http://ipv6.jolla.com/return_204
+PreferredTechnologies = bluetooth,wifi,cellular
+PersistentTetheringMode = false
+AllowHostnameUpdates = false
+TetheringSubnetBlock = 172.28.172.0
+DontBringDownAtStartup = rndis
+InputRequestTimeout = 300
+
+wpa_state=INACTIVE
+address=<MAC-REDACTED>
+uuid=404fed6b-1afd-5464-9fa8-12135ae62ffb
+NONE IEEE8021X WPA-EAP WPA-PSK/bin/sh: line 6: iwconfig: command not found
+/bin/sh: line 7: ethtool: command not found
+CONFIG_BT=y
+CONFIG_BT_L2CAP=y
+CONFIG_BT_SCO=y
+CONFIG_BT_RFCOMM=y
+CONFIG_BT_RFCOMM_TTY=y
+CONFIG_BT_BNEP=y
+# CONFIG_BT_BNEP_MC_FILTER is not set
+# CONFIG_BT_BNEP_PROTO_FILTER is not set
+CONFIG_BT_HIDP=y
+# CONFIG_BT_HCIBTSDIO is not set
+CONFIG_BT_HCIUART=y
+CONFIG_BT_HCIUART_H4=y
+# CONFIG_BT_HCIUART_BCSP is not set
+# CONFIG_BT_HCIUART_ATH3K is not set
+CONFIG_BT_HCIUART_LL=y
+# CONFIG_BT_HCIVHCI is not set
+# CONFIG_BT_MRVL is not set
+CONFIG_RFKILL=y
+CONFIG_RFKILL_PM=y
+CONFIG_RFKILL_LEDS=y
+# CONFIG_RFKILL_INPUT is not set
+# CONFIG_BTPORT is not set
+CONFIG_BTRFS_FS=y
+CONFIG_BTRFS_FS_POSIX_ACL=y
+# CONFIG_DEBUG_FS is not set
+ls: cannot access /sys/kernel/debug: No such file or directory
+ls: cannot access /sys/kernel/debug/bluetooth: No such file or directory
+/system/bin/sensorservice
+/system/etc/permissions/android.hardware.sensor.light.xml
+/system/etc/permissions/android.hardware.sensor.compass.xml
+/system/etc/permissions/android.hardware.sensor.proximity.xml
+/system/etc/permissions/android.hardware.camera.flash-autofocus.xml
+/system/etc/permissions/android.hardware.sensor.accelerometer.xml
+/system/lib/hw/sensors.htcleo.so
+/system/lib/hw/camera.qsd8k.so
+/system/lib/hw/bluetooth.default.so
+/system/lib/libbluetooth_jni.so
+/system/lib/libbt-hci.so
+/system/lib/libcamera.so
+/system/lib/libcamera_client.so
+/system/lib/libcamera_metadata.so
+/system/lib/libcameraservice.so
+/system/lib/liboemcamera.so
+/system/lib/libsensorservice.so
+/usr/share/nemo-transferengine/plugins/BluetoothShare.qml
+/usr/share/jolla-contacts/pages/ContactBluetoothImport.qml
+/usr/share/sailfish-tutorial/graphics/tutorial-phone-camera-cover.png
+/usr/share/sailfish-tutorial/graphics/tutorial-tablet-camera-cover.png
+/usr/share/lipstick-bluetooth-agent/BluetoothRemorse.qml
+/usr/share/lipstick-bluetooth-agent/BluetoothPairingWindow.qml
+/usr/share/lipstick-bluetooth-agent/BluetoothAuthorizationWindow.qml
+/usr/share/applications/jolla-camera.desktop
+/usr/share/applications/jolla-camera-viewfinder.desktop
+/usr/share/lipstick-jolla-home-qt5/statusarea/BluetoothStatusIndicator.qml
+/usr/share/dbus-1/services/com.jolla.camera.service
+/usr/share/dbus-1/services/com.jolla.Bluetooth.service
+/usr/share/jolla-camera/pages/CameraPage.qml
+/usr/share/jolla-camera/camera.qml
+/usr/share/jolla-camera/cover/CameraCover.qml
+/usr/share/translations/jolla-camera-da.qm
+/usr/share/translations/jolla-camera-de.qm
+/usr/share/translations/jolla-camera-en_GB.qm
+/usr/share/translations/jolla-camera-en_US.qm
+/usr/share/translations/jolla-camera-es.qm
+/usr/share/translations/jolla-camera-fi.qm
+/usr/share/translations/jolla-camera-fr.qm
+/usr/share/translations/jolla-camera-it.qm
+/usr/share/translations/jolla-camera-nb.qm
+/usr/share/translations/jolla-camera-pl.qm
+/usr/share/translations/jolla-camera-pt.qm
+/usr/share/translations/jolla-camera-ru.qm
+/usr/share/translations/jolla-camera-sv.qm
+/usr/share/translations/jolla-camera-zh_CN.qm
+/usr/share/translations/jolla-camera-zh_HK.qm
+/usr/share/translations/jolla-camera_eng_en.qm
+/usr/share/translations/jolla-camera_settings-de.qm
+/usr/share/translations/jolla-camera_settings-it.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-da.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-de.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-en_GB.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-en_US.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-es.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-fi.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-fr.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-it.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-nb.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-pl.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-pt.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-ru.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-sv.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-zh_CN.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5-zh_HK.qm
+/usr/share/translations/sailfish_components_bluetooth_qt5_eng_en.qm
+/usr/share/translations/settings-bluetooth-da.qm
+/usr/share/translations/settings-bluetooth-de.qm
+/usr/share/translations/settings-bluetooth-en_GB.qm
+/usr/share/translations/settings-bluetooth-en_US.qm
+/usr/share/translations/settings-bluetooth-es.qm
+/usr/share/translations/settings-bluetooth-fi.qm
+/usr/share/translations/settings-bluetooth-fr.qm
+/usr/share/translations/settings-bluetooth-it.qm
+/usr/share/translations/settings-bluetooth-nb.qm
+/usr/share/translations/settings-bluetooth-pl.qm
+/usr/share/translations/settings-bluetooth-pt.qm
+/usr/share/translations/settings-bluetooth-ru.qm
+/usr/share/translations/settings-bluetooth-sv.qm
+/usr/share/translations/settings-bluetooth-zh_CN.qm
+/usr/share/translations/settings-bluetooth-zh_HK.qm
+/usr/share/translations/settings-bluetooth_eng_en.qm
+/usr/share/lipstick/quickactions/com.jolla.camera.conf
+/usr/share/lipstick/notificationcategories/x-jolla.lipstick.bluetoothenabled.conf
+/usr/share/lipstick/notificationcategories/x-jolla.bluetooth.pairing.conf
+/usr/share/jolla-settings/entries/jolla-camera.json
+/usr/share/jolla-settings/entries/bluetooth.json
+/usr/share/ngfd/events.d/camera_shutter.ini
+/usr/bin/hcitool
+/usr/bin/jolla-camera
+/usr/bin/lipstick-bluetooth-agent
+/usr/bin/test_sensors
+/usr/lib/dsme/thermalsensor_generic.so
+/usr/lib/gstreamer-1.0/libgstcamerabin2.so
+/usr/lib/libQt5Sensors.so.5.2.2
+/usr/lib/libbluetooth.so.3.13.0
+/usr/lib/libgstbasecamerabinsrc-1.0.so.0.405.0
+/usr/lib/libhybrissensorfw-qt5.so.1.0.0
+/usr/lib/libsensorclient-qt5.so.1.0.0
+/usr/lib/libsensordatatypes-qt5.so.1.0.0
+/usr/lib/libsensorfw-qt5.so.1.0.0
+/usr/lib/mce/modules/sensor-gestures.so
+/usr/lib/mce/modules/camera.so
+/usr/lib/mce/modules/bluetooth.so
+/usr/lib/nemo-transferengine/plugins/libbluetoothshareplugin.so
+/usr/lib/oneshot.d/enable-camera-hints
+/usr/lib/pulse-6.0/modules/module-bluetooth-discover.so
+/usr/lib/pulse-6.0/modules/module-bluetooth-policy.so
+/usr/lib/sensord-qt5/libgyroscopesensor-qt5.so
+/usr/lib/sensord-qt5/libaccelerometersensor-qt5.so
+/usr/lib/sensord-qt5/libalssensor-qt5.so
+/usr/lib/sensord-qt5/libproximitysensor-qt5.so
+/usr/lib/sensord-qt5/libtapsensor-qt5.so
+/usr/lib/sensord-qt5/libcompasssensor-qt5.so
+/usr/lib/sensord-qt5/librotationsensor-qt5.so
+/usr/lib/sensord-qt5/libmagnetometersensor-qt5.so
+/usr/lib/sensord-qt5/liborientationsensor-qt5.so
+/usr/lib/systemd/user/lipstick-bluetooth.service
+/usr/sbin/hciconfig
+/usr/sbin/jolla-rfkill-hciwait
+/usr/sbin/sensorfwd
+/usr/sbin/hciemu
+/usr/sbin/bluetoothd
+/usr/sbin/hciattach
+qt5-qtsensors-5.2.1+git12-1.10.1.armv7hl
+bluez-libs-4.101+git65-1.23.1.armv7hl
+qt5-plugin-bearer-connman-5.2.1+git30-1.26.5.armv7hl
+connman-configs-sailfish-0.7.3-10.55.1.jolla.noarch
+connman-qt5-1.0.98-1.32.1.armv7hl
+sensorfw-qt5-0.8.27-1.26.1.armv7hl
+statefs-provider-bluez-0.2.75-1.24.1.armv7hl
+qt5-qtmultimedia-plugin-mediaservice-gstcamerabin-5.5.0+git9-1.22.4.armv7hl
+bluez-configs-sailfish-0.7.3-10.55.1.jolla.noarch
+jolla-camera-0.2.22-10.44.1.jolla.armv7hl
+statefs-provider-connman-0.2.75-1.24.1.armv7hl
+hybris-libsensorfw-qt5-0.8.28-10.1.1.jolla.armv7hl
+jolla-camera-settings-0.2.22-10.44.1.jolla.armv7hl
+sailfish-components-bluetooth-qt5-0.0.79-10.27.1.jolla.armv7hl
+qt5-qtsensors-plugin-sensorfw-5.2.1+git12-1.10.1.armv7hl
+wpa_supplicant-2.5+git1-1.15.1.armv7hl
+connman-1.30+git3-1.21.1.armv7hl
+connman-qt5-declarative-1.0.98-1.32.1.armv7hl
+jolla-settings-bluetooth-0.0.57-10.24.1.jolla.armv7hl
+qt5-qtdeclarative-import-sensors-5.2.1+git12-1.10.1.armv7hl
+libbluez-qt5-0.1.25-1.14.5.armv7hl
+bluez-4.101+git65-1.23.1.armv7hl

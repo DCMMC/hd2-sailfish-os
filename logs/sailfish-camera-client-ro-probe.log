@@ -1,0 +1,283 @@
+> > > > > > > > > > > > > > > > > > > > > --- probe rc/log ---
+0:00:11.680419924 [332m20827[00m    0xdde40 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new:[00m failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:11.680755617 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:610:gst_droidcamsrc_photography_init:<GstDroidCamSrc@0x10d108>[00m using configuration file //etc/gst-droid/gstdroidcamsrc-0.conf
+0:00:11.681396487 [332m20827[00m    0xdde40 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load:[00m failed to load iso-speed: Key file does not have group 'iso-speed'
+0:00:11.690307620 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam>[00m pad vfsrc caps query: 0xe7690, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:11.690551760 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<cam>[00m replying to caps query: 0xe7690, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:11.691192629 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam>[00m pad vfsrc caps query: 0xe7750, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:11.691345217 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<cam>[00m replying to caps query: 0xe7750, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:11.695404056 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam>[00m pad vfsrc caps query: 0xe4460, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:11.696746829 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<cam>[00m replying to caps query: 0xe4460, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:11.699890139 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:433:gst_droidcamsrc_get_hw:<cam>[00m get hw
+0:00:11.701141360 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:419:gst_droidcamsrc_fill_info:<cam>[00m camera 0 is facing 0 with orientation 1
+0:00:11.807739262 [332m20827[00m    0xdde40 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrc.c:459:gst_droidcamsrc_get_hw:<cam>[00m cannot find front camera
+0:00:11.807922367 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcdev.c:522:gst_droidcamsrc_dev_new:[00m dev new
+0:00:11.809356693 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:531:gst_droidcamsrc_change_state:<cam>[00m using camera device 0
+0:00:11.809539799 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcdev.c:560:gst_droidcamsrc_dev_open:<cam>[00m dev open
+0:00:12.621063233 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcdev.c:638:gst_droidcamsrc_dev_init:[00m dev init
+0:00:12.622772218 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcparams.c:208:gst_droidcamsrc_params_new:[00m params new
+0:00:12.623077394 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcparams.c:164:gst_droidcamsrc_params_reload_locked:[00m params reload
+0:00:12.623138429 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param antibanding = auto
+0:00:12.623229982 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param antibanding-values = off,50hz,60hz,auto
+0:00:12.623321534 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param brightness = 3
+0:00:12.623382570 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param brightness-def = 3
+0:00:12.623443605 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param brightness-max = 6
+0:00:12.623809816 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param brightness-min = 0
+0:00:12.623901368 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param cam-mode = 0
+0:00:12.623962404 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param contrast = 5
+0:00:12.624053956 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param contrast-def = 5
+0:00:12.624114991 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param contrast-max = 10
+0:00:12.624176027 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param contrast-min = 0
+0:00:12.624237062 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param effect = none
+0:00:12.624328614 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param effect-values = none,mono,negative,solarize,sepia,posterize,aqua
+0:00:12.624389650 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param exposure-compensation = 0
+0:00:12.624450685 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param exposure-compensation-step = 0.5
+0:00:12.624542238 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param flash-mode = off
+0:00:12.624603273 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param flash-mode-values = off,auto,on,torch
+0:00:12.624694825 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param focal-length = 4.31
+0:00:12.624786378 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param focus-mode = auto
+0:00:12.624877931 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param focus-mode-values = auto,infinity
+0:00:12.624938966 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param front-camera-mode = mirror
+0:00:12.625000001 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param front-camera-mode-values = mirror,reverse
+0:00:12.625091554 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param horizontal-view-angle = 54.8
+0:00:12.625152589 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param iso = auto
+0:00:12.625213624 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param iso-values = auto,deblur,100,200,400,800,1250
+0:00:12.625305177 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param jpeg-quality = 100
+0:00:12.625366212 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param jpeg-thumbnail-height = 576
+0:00:12.625427247 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param jpeg-thumbnail-quality = 75
+0:00:12.625488282 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param jpeg-thumbnail-size-values = 768x576,640x480,512x384,0x0
+0:00:12.625579835 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param jpeg-thumbnail-width = 768
+0:00:12.625640870 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param max-exposure-compensation = 4
+0:00:12.625732423 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param max-zoom = 5
+0:00:12.625793458 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param meter-mode = meter-center
+0:00:12.625885011 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param meter-mode-values = meter-average,meter-center,meter-spot
+0:00:12.625946046 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param min-exposure-compensation = -4
+0:00:12.626007081 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param picture-format = jpeg
+0:00:12.626098634 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param picture-format-values = jpeg
+0:00:12.626159669 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param picture-size = 1024x768
+0:00:12.626220704 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param picture-size-values = 2592x1952,2592x1728,2592x1552,2560x1920,2560x1712,2048x1536,2048x1360,2048x1216,2016x1344,1600x1200,1584x1056,1280x960,1280x848,1280x768,1248x832,1024x768,640x480,640x416,640x384,624x416,512x384,400x400,272x272
+0:00:12.626342775 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preferred-preview-size-for-video = 640x480
+0:00:12.626403810 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-format = yuv420sp
+0:00:12.626464845 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-format-values = yuv420sp
+0:00:12.626556398 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-fps-range-values = (15,30)
+0:00:12.626617433 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-frame-rate = 15
+0:00:12.626678468 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-frame-rate-values = 15
+0:00:12.626770021 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-size = 768x432
+0:00:12.626831056 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param preview-size-values = 1280x720,800x480,768x432,720x480,640x480,576x432,480x320,400x240,384x288,352x288,320x240,272x272,240x240,240x160,176x144
+0:00:12.626922608 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param saturation = 5
+0:00:12.626983644 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param saturation-def = 5
+0:00:12.627044679 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param saturation-max = 10
+0:00:12.627136232 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param saturation-min = 1
+0:00:12.627197267 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param sharpness = 10
+0:00:12.627258302 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param sharpness-def = 10
+0:00:12.627319337 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param sharpness-max = 30
+0:00:12.627410890 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param sharpness-min = 0
+0:00:12.627471925 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param smart-contrast = off
+0:00:12.627532960 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param taking-picture-zoom = 0
+0:00:12.627624513 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param taking-picture-zoom-max = 20
+0:00:12.627685548 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param taking-picture-zoom-min = 0
+0:00:12.627777101 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param vertical-view-angle = 42.5
+0:00:12.627868653 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param video-frame-format = yuv420sp
+0:00:12.627960206 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param video-size = 640x480
+0:00:12.628051759 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param video-size-values = 1280x720,800x480,720x480,640x480,352x288,320x240,176x144
+0:00:12.654266360 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param whitebalance = auto
+0:00:12.654388430 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param whitebalance-values = auto,incandescent,fluorescent,daylight,cloudy-daylight
+0:00:12.654449465 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param zoom = 0
+0:00:12.654510500 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param zoom-ratios = 100,114,131,151,174,200
+0:00:12.654602053 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse:[00m param zoom-supported = true
+0:00:12.654724123 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrcparams.c:153:gst_droidcamsrc_params_fill_fps_range_arrays_locked:[00m parsed fps range: 15 - 30
+0:00:12.654907229 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:2022:gst_droidcamsrc_update_ev_compensation_bounds:<cam>[00m update ev compensation bounds
+0:00:12.655059817 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:2064:gst_droidcamsrc_update_ev_compensation_bounds:<cam>[00m updated ev compensation bounds to be from -2 to 2
+0:00:12.655242922 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:2091:gst_droidcamsrc_add_vfsrc_orientation_tag:<cam>[00m add vfsrc orientation tag
+0:00:12.655395510 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:2104:gst_droidcamsrc_add_vfsrc_orientation_tag:<cam>[00m added orientation tag event with orientation rotate-90
+0:00:12.655517580 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam>[00m activating pad vfsrc 1
+0:00:12.656097414 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam>[00m activating pad imgsrc 1
+0:00:12.656585695 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam>[00m activating pad vidsrc 1
+0:00:12.672119143 [332m20827[00m    0xe4550 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc>[00m loop
+0:00:12.672363284 [332m20827[00m    0xe4550 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam>[00m pad vfsrc uri query: 0xe24c0, GstQueryURI, uri=(string)NULL;
+0:00:12.673156741 [332m20827[00m    0xe4580 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc>[00m loop
+0:00:12.673400882 [332m20827[00m    0xe4580 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam>[00m pad vfsrc uri query: 0xfe580, GstQueryURI, uri=(string)NULL;
+0:00:12.673522952 [332m20827[00m    0xe4580 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1418:gst_droidcamsrc_pad_query:<cam>[00m discarding uri query: 0xfe580, GstQueryURI, uri=(string)NULL;
+0:00:12.675659182 [332m20827[00m    0xe45b0 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc>[00m loop
+0:00:12.676666262 [332m20827[00m    0xe4550 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1418:gst_droidcamsrc_pad_query:<cam>[00m discarding uri query: 0xe24c0, GstQueryURI, uri=(string)NULL;
+0:00:12.677124026 [332m20827[00m    0xe4580 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1037:gst_droidcamsrc_loop:<cam:imgsrc>[00m Pushing STREAM_START for pad
+0:00:12.677337649 [332m20827[00m    0xe4550 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1037:gst_droidcamsrc_loop:<cam:vfsrc>[00m Pushing STREAM_START for pad
+0:00:12.675903323 [332m20827[00m    0xe45b0 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam>[00m pad vfsrc uri query: 0x42302660, GstQueryURI, uri=(string)NULL;
+0:00:12.677764895 [332m20827[00m    0xe45b0 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:1418:gst_droidcamsrc_pad_query:<cam>[00m discarding uri query: 0x42302660, GstQueryURI, uri=(string)NULL;
+0:00:12.677917483 [332m20827[00m    0xe45b0 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1037:gst_droidcamsrc_loop:<cam:vidsrc>[00m Pushing STREAM_START for pad
+0:00:12.678497317 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:1384:gst_droidcamsrc_photography_set_flash_to_droid:<cam>[00m setting flash-mode to auto
+0:00:12.678649905 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param flash-mode to auto
+0:00:12.678741457 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param focus-mode to auto
+0:00:12.678833010 [332m20827[00m    0xdde40 [33;01mWARN   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:1406:gst_droidcamsrc_photography_set_iso_to_droid:<cam>[00m setting iso to 0 is not supported
+0:00:12.678894045 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:1423:gst_droidcamsrc_photography_set_zoom_to_droid:<cam>[00m zoom set to 0
+0:00:12.678955080 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param zoom to 0
+0:00:12.679016116 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:1450:gst_droidcamsrc_photography_set_ev_compensation_to_droid:<cam>[00m setting exposure-compensation to 0
+0:00:12.679077151 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param exposure-compensation to 0
+0:00:12.679168704 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:759:gst_droidcamsrc_photography_apply:<cam>[00m setting whitebalance to auto
+0:00:12.679229739 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param whitebalance to auto
+0:00:12.679718020 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:761:gst_droidcamsrc_photography_apply:<cam>[00m setting scene-mode to auto
+0:00:12.679809573 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param scene-mode to auto
+0:00:12.679870608 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:763:gst_droidcamsrc_photography_apply:<cam>[00m setting effect to none
+0:00:12.679931643 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param effect to none
+0:00:12.680053713 [332m20827[00m    0xdde40 [36mINFO   [00m [00m         droidcamsrc gstdroidcamsrcphotography.c:765:gst_droidcamsrc_photography_apply:<cam>[00m setting antibanding to auto
+0:00:12.680114748 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param antibanding to auto
+0:00:12.680206301 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1529:gst_droidcamsrc_imgsrc_negotiate:<cam>[00m imgsrc negotiate
+0:00:12.680419924 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2592, height=(int)1952, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.680664065 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2592, height=(int)1728, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.680877688 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2592, height=(int)1552, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.681091311 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2560, height=(int)1920, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.681274416 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2560, height=(int)1712, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.681457522 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2048, height=(int)1536, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.681671145 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2048, height=(int)1360, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.759857181 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2048, height=(int)1216, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.760406498 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.763641361 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.763977055 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.764465336 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1280, height=(int)960, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.765411381 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1280, height=(int)848, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.765625004 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1280, height=(int)768, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.765899662 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.766143803 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)1024, height=(int)768, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.862304691 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.862609867 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)640, height=(int)416, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.862854008 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)640, height=(int)384, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.863067631 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)624, height=(int)416, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.863281254 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)512, height=(int)384, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.863494877 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:12.863708500 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.019012450 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1532:gst_droidcamsrc_imgsrc_negotiate:<cam>[00m our caps image/jpeg, width=(int)2592, height=(int){ 1952, 1728, 1552 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2560, height=(int){ 1920, 1712 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2048, height=(int){ 1536, 1360, 1216 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1280, height=(int){ 960, 848 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 1280, 1024 }, height=(int)768, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 640, 624 }, height=(int)416, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 640, 512 }, height=(int)384, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.050170896 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1541:gst_droidcamsrc_imgsrc_negotiate:<cam>[00m peer caps image/jpeg, width=(int)2592, height=(int){ 1952, 1728, 1552 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2560, height=(int){ 1920, 1712 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2048, height=(int){ 1536, 1360, 1216 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1280, height=(int){ 960, 848 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 1280, 1024 }, height=(int)768, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 640, 624 }, height=(int)416, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 640, 512 }, height=(int)384, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.050994871 [332m20827[00m    0xdde40 [33;01mLOG    [00m [00m         droidcamsrc gstdroidcamsrc.c:2142:gst_droidcamsrc_pick_largest_resolution:<cam>[00m pick largest resolution from image/jpeg, width=(int)2592, height=(int){ 1952, 1728, 1552 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2560, height=(int){ 1920, 1712 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2048, height=(int){ 1536, 1360, 1216 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1280, height=(int){ 960, 848 }, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 1280, 1024 }, height=(int)768, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 640, 624 }, height=(int)416, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int){ 640, 512 }, height=(int)384, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)[ 15/1, 30/1 ]; image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.098907471 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1565:gst_droidcamsrc_imgsrc_negotiate:<cam>[00m pad imgsrc using caps image/jpeg, width=(int)2016, height=(int)1344, framerate=(int)30
+0:00:13.099151611 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked:[00m setting param picture-size to 2016x1344
+0:00:13.099273681 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrc.c:1436:gst_droidcamsrc_vfsrc_negotiate:<cam>[00m vfsrc negotiate
+0:00:13.099487305 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)1280, height=(int)720, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.099731445 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)800, height=(int)480, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.135406496 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)768, height=(int)432, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.135894777 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)720, height=(int)480, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.136138917 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)640, height=(int)480, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.136383058 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)576, height=(int)432, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.136627199 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)480, height=(int)320, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.136871339 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)400, height=(int)240, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.137115480 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)384, height=(int)288, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.137359620 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)352, height=(int)288, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.137603761 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)320, height=(int)240, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.137847902 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)272, height=(int)272, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.138092042 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)240, height=(int)240, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.138336183 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)240, height=(int)160, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.138580324 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)176, height=(int)144, format=(string)YV12, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.281494144 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)1280, height=(int)720, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.281860355 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)800, height=(int)480, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.282135013 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)768, height=(int)432, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.319549564 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)720, height=(int)480, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.319946293 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.320159916 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)576, height=(int)432, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.320404056 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)480, height=(int)320, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.320617679 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)400, height=(int)240, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.320831302 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)384, height=(int)288, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.321075443 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)352, height=(int)288, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.321289066 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)320, height=(int)240, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.321502689 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)272, height=(int)272, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.321746830 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)240, height=(int)240, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.382049563 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)240, height=(int)160, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+0:00:13.393676761 [332m20827[00m    0xdde40 [37mDEBUG  [00m [00m         droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked:[00m merging caps video/x-raw, width=(int)176, height=(int)144, format=(string)NV21, framerate=(fraction)[ 15/1, 30/1 ]
+--- android relevant ---
+10-17 16:06:18.407 20589 20589 D QualcommCameraHardware: createInstance: E
+10-17 16:06:18.407 20589 20589 D QualcommCameraHardware:  Storing the current target type as 1
+10-17 16:06:18.407 20589 20589 D QualcommCameraHardware: constructor EX
+10-17 16:06:18.407 20589 20589 D QualcommCameraHardware: startCamera E
+10-17 16:06:18.407 20589 20589 D QualcommCameraHardware: loading liboemcamera at 0x40990a48
+10-17 16:06:18.407 20589 20589 I QualcommCameraHardware: Set main cam
+10-17 16:06:19.077 20589 20589 I QualcommCameraHardware: Open Device node : /dev/msm_camera/control1
+10-17 16:06:19.157 20589 20589 I QualcommCameraHardware: startCamera: camsensor name s5k3e2fx, flash 1
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: startCamera X
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: initDefaultParameters E
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: product 4
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 1, length 32
+10-17 16:06:19.157 20589 20589 E QualcommCameraHardware: native_access_parm: error (No such file or directory): fd 13, type 1, length 32, status 0
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 64, length 4
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 65, length 4
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 66, length 4
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: requested preview size 768 x 432
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: requested picture size 1024 x 768
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 21, length 4
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 14, length 4
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: setFlash 0
+10-17 16:06:19.157 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 49, length 4
+10-17 16:06:19.167 20589 20589 I QualcommCameraHardware: Set zoom=0 20
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 2, length 4
+10-17 16:06:19.167 20589 20589 I QualcommCameraHardware: Setting Contrast is 5
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 6, length 4
+10-17 16:06:19.167 20589 20589 I QualcommCameraHardware: Setting Brightness is 3
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 7, length 4
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 12, length 4
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: not defined touch-focus yet, or AP without touch-focus function
+10-17 16:06:19.167 20589 20589 I QualcommCameraHardware: Before Setting coordinate x:384 y:216
+10-17 16:06:19.167 20589 20589 I QualcommCameraHardware: Setting coordinate x:2 y:2
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 60, length 28
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 26, length 4
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 62, length 4
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: native_access_parm: fd 13, type 8, length 4
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: initDefaultParameters X
+10-17 16:06:19.167 20589 20589 D QualcommCameraHardware: createInstance: X created hardware=0x12200
+10-17 16:06:20.157 20589 20591 D QualcommCameraHardware: requested preview size 640 x 480
+10-17 16:06:20.157 20589 20591 D QualcommCameraHardware: requested picture size 2016 x 1344
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 21, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 14, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: setFlash 1
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 49, length 4
+10-17 16:06:20.167 20589 20591 I QualcommCameraHardware: Set zoom=0 20
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 2, length 4
+10-17 16:06:20.167 20589 20591 I QualcommCameraHardware: Setting Contrast is 5
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 6, length 4
+10-17 16:06:20.167 20589 20591 I QualcommCameraHardware: Setting Brightness is 3
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 7, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 12, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: not defined touch-focus yet, or AP without touch-focus function
+10-17 16:06:20.167 20589 20591 I QualcommCameraHardware: Before Setting coordinate x:320 y:240
+10-17 16:06:20.167 20589 20591 I QualcommCameraHardware: Setting coordinate x:2 y:2
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 60, length 28
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 26, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 62, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: native_access_parm: fd 13, type 8, length 4
+10-17 16:06:20.167 20589 20591 D QualcommCameraHardware: virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: startPreview E
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initPreview E: preview size=640x480
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initPreview E: preview size=640x480 videosize = 640 x 480
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initPreview : preview size=640x480 videosize = 640 x 480
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: pmem pool /dev/pmem_adsp ioctl(fd = 23, PMEM_GET_SIZE) is 2097152
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: mBufferSize=460800, mAlignedBufferSize=524288
+10-17 16:06:20.357 20589 20836 E QualcommCameraHardware: num_buffers = 4
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 21, reg = 0 buffer = 0x4103e000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 21, reg = 0 buffer = 0x410be000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 21, reg = 0 buffer = 0x4113e000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 21, reg = 0 buffer = 0x411be000
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initREcord E
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: pmem pool /dev/pmem_adsp ioctl(fd = 26, PMEM_GET_SIZE) is 4194304
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: mBufferSize=460800, mAlignedBufferSize=524288
+10-17 16:06:20.357 20589 20836 E QualcommCameraHardware: num_buffers = 8
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x4123e000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x412be000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x4133e000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x413be000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x4143e000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x414be000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x4153e000
+10-17 16:06:20.357 20589 20836 I QualcommCameraHardware: register_buf: camfd = 24, reg = 0 buffer = 0x415be000
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1092870144 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1093394432 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1093918720 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1094967296 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1095491584 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1096015872 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initRecord :  record heap , video buffers  buffer=1096540160 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: initREcord X
+10-17 16:06:20.357 20589 20836 D QualcommCameraHardware: native_access_parm: fd 13, type 1, length 32
+10-17 16:06:20.367 20589 20836 D QualcommCameraHardware: initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+10-17 16:06:20.367 20589 20836 D QualcommCameraHardware: initPreview X: 1
+10-17 16:06:20.377 20589 20851 D QualcommCameraHardware: frame_thread E
+--- processes ---
+root     15999     1  0 18:29 ?        00:00:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+media    20589   263  0 19:01 ?        00:00:00 /usr/libexec/droid-hybris/system/bin/minimediaservice

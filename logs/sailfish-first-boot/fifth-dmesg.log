@@ -308,7 +308,7 @@
 [    3.135131] batt: ds2784_notify: 0 1 at 2623000545 (1970-01-01 00:00:02.622970028 UTC)
 [    3.135162] batt: charger ON (SLOW) at 2623061580 (1970-01-01 00:00:02.623031063 UTC)
 [    3.135528] [D:BATT]Use 600 Kohm thermal resistance
-[    3.136291] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: dm-devel@redhat.com
+[    3.136291] device-mapper: ioctl: 4.15.0-ioctl (2009-04-01) initialised: <EMAIL-REDACTED>
 [    3.136383] Bluetooth: HCI UART driver ver 2.2
 [    3.136413] Bluetooth: HCI H4 protocol initialized
 [    3.136444] Bluetooth: HCILL protocol initialized
@@ -510,7 +510,7 @@
 [   67.240295] <31>systemd[1]: Failed to load configuration for network-pre.target: No such file or directory
 [   67.244720] <28>systemd[1]: sensorfwd.service has a D-Bus service name specified, but is not of type dbus. Ignoring.
 [   67.246734] <31>systemd[1]: Failed to load configuration for factory-test.target: No such file or directory
-[   67.256622] <31>systemd[1]: Failed to load configuration for start-user-session@USER.service: No such file or directory
+[   67.256622] <31>systemd[1]: Failed to load configuration for <EMAIL-REDACTED>: No such file or directory
 [   67.261016] <31>systemd[1]: Failed to load configuration for plymouth-start.service: No such file or directory
 [   67.268127] <31>systemd[1]: Failed to load configuration for auditd.service: No such file or directory
 [   67.274688] <31>systemd[1]: Failed to load configuration for syslog.service: No such file or directory

@@ -1,0 +1,82 @@
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > PIDS
+23912
+[13016.461090] adb_open(hd2-adbd)
+[13016.543395] android_usb gadget: high speed config #1: android
+[13016.543609] ums: set state 1
+[13022.269317] [USB] suspend
+[13023.750488] [USB] reset
+[13023.750549] [USB] handle_notify_offline: notify offline
+[13023.751251] ums: set state 0
+[13023.751617] adb_release
+[13023.752746] [USB] portchange USB_SPEED_HIGH
+[13023.755126] adb_open(hd2-adbd)
+[13023.865203] [USB] reset
+[13023.867462] [USB] portchange USB_SPEED_HIGH
+[13024.000671] android_usb gadget: high speed config #1: android
+[13024.001800] ums: set state 1
+[13058.245910] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13108.249572] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(db) KADC=1000
+[13158.252471] [D:BATT] V=4201(6ba) I=0(0) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13208.257507] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13258.260559] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13308.263610] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13358.268218] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13408.272674] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13458.275970] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13508.280059] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13558.283172] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1229.0/1230(1113) id=4(b0) T=340(dc) KADC=1000
+[13608.287231] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13658.290313] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13708.293548] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13758.298553] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13808.302459] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13858.308593] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13908.312377] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[13958.315673] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14008.321258] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14058.325042] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(db) KADC=1000
+[14108.330108] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14158.333007] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14208.338073] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14258.342864] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14308.345916] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14358.351440] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14408.357940] [D:BATT] V=4201(6ba) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14458.361022] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14508.366149] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14558.358947] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14608.363189] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14658.368255] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14708.371185] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14758.374389] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14808.379180] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14858.384124] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14904.743774] [USB] suspend
+[14908.388458] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14910.253723] [USB] reset
+[14910.253784] [USB] handle_notify_offline: notify offline
+[14910.255676] ums: set state 0
+[14910.256011] [USB] portchange USB_SPEED_HIGH
+[14910.256103] adb_release
+[14910.260284] adb_open(hd2-adbd)
+[14910.339721] android_usb gadget: high speed config #1: android
+[14910.340423] ums: set state 1
+[14914.906158] [USB] suspend
+[14916.389648] [USB] reset
+[14916.389709] [USB] handle_notify_offline: notify offline
+[14916.390411] ums: set state 0
+[14916.390777] adb_release
+[14916.391906] [USB] portchange USB_SPEED_HIGH
+[14916.394927] adb_open(hd2-adbd)
+[14916.504425] [USB] reset
+[14916.506713] [USB] portchange USB_SPEED_HIGH
+[14916.640106] android_usb gadget: high speed config #1: android
+[14916.640472] ums: set state 1
+[14958.392303] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15008.397521] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15058.401916] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15099.781158] <30>systemd[1]: Starting Session c73 of user nemo.
+[15099.782379] <30>systemd[1]: Started Session c73 of user nemo.
+[15108.406768] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15158.412200] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15208.415222] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000

@@ -1,0 +1,373 @@
+> > > > > > > > > > > > > > > > > > > > > > > === date ===
+Sat Oct 17 18:53:20 EEST 2026
+=== processes ===
+root       263  0.0  0.0    484   340 ?        Ss   16:48   0:00 /sbin/droid-hal-init
+nemo       378  0.0  0.2   3472   856 ?        Ss   16:48   0:00 /usr/libexec/mapplauncherd/booster-generic --systemd
+nemo       384  0.0  0.8  45728  3708 ?        Ss   16:48   0:00 /usr/libexec/mapplauncherd/booster-qt5 --systemd --boot-mode
+nemo       386  0.0  0.1   3472   488 ?        Ss   16:48   0:00 booster [generic]
+nemo       472  0.0  1.3 325580  5636 ?        S<l  16:48   0:02 /usr/bin/pulseaudio --start -n --file=/etc/pulse/arm_droid_default.pa
+nemo       563  1.8 16.7 297152 69256 ?        Ssl  16:49   2:19 /usr/bin/lipstick -plugin evdevtouch:/dev/touchscreen -plugin evdevkeyboard:keymap=/usr/share/qt5/keymaps/droid.qmap --systemd
+nemo       635  0.0  3.0 106896 12612 ?        Ssl  16:49   0:03 /usr/bin/lipstick-bluetooth-agent
+nemo       739  0.0  1.1  53052  4908 ?        Ss   16:50   0:00 /usr/libexec/mapplauncherd/booster-browser --systemd
+system    4087  0.0  0.0    948   188 ?        S    17:28   0:00 /usr/libexec/droid-hybris/system/bin/servicemanager
+nemo      4304  0.1  3.6 115212 15168 ?        Ssl  17:31   0:06 booster [browser]
+root     15999  0.0  0.3   4624  1620 ?        Sl   18:29   0:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+media    18652 47.7  2.4  23372 10232 ?        Sl   18:51   1:00 /usr/libexec/droid-hybris/system/bin/minimediaservice
+nemo     18663  0.1  1.6  53556  6920 ?        Ss   18:51   0:00 /usr/libexec/mapplauncherd/booster-silica-qt5 --systemd
+nemo     18845  0.0  0.1   1956   556 ?        S    18:51   0:00 invoker -s --type=silica-qt5 /usr/bin/jolla-camera
+nemo     18862 17.8 12.3 314672 50872 ?        Ssl  18:51   0:19 /usr/bin/jolla-camera
+nemo     18889  0.4  2.4  96492 10148 ?        Ssl  18:51   0:00 booster [silica-qt5]
+nemo     18944  0.0  0.3  45728  1248 ?        Ss   18:52   0:00 booster [qt5]
+=== maps ===
+PID /proc/18663 /usr/libexec/mapplauncherd/booster-silica-qt5 --systemd
+QT_IM_MODULE=Maliit
+QT_QPA_PLATFORM=wayland
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+QT_WAYLAND_COMPOSITOR_NO_THROTTLE=1
+QT_WAYLAND_RESIZE_AFTER_SWAP=1
+QT_MESSAGE_PATTERN=[%{if-debug}D%{endif}%{if-warning}W%{endif}%{if-critical}C%{endif}%{if-fatal}F%{endif}] %{function}:%{line} - %{message}
+QT_DF_BASE=0.5
+QT_DF_BASEDEVIATION=0.025
+QT_DF_SCALEFORMAXDEV=0.37
+QT_DF_SCALEFORNODEV=0.6
+QT_DF_RANGE=0.08
+QT_WAYLAND_FORCE_DPI=96
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+HYBRIS_LD_LIBRARY_PATH=/usr/libexec/droid-hybris/system/lib:/vendor/lib:/system/lib:/system/lib/egl
+GST_DEBUG=3,droidcamsrc:6,droideglsink:6,camerabin:6
+GST_DEBUG_NO_COLOR=1
+GST_DEBUG_FILE=/tmp/hd2-gst-camera.log
+PID /proc/18845 invoker -s --type=silica-qt5 /usr/bin/jolla-camera
+QT_IM_MODULE=Maliit
+QT_QPA_PLATFORM=wayland
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+QT_WAYLAND_COMPOSITOR_NO_THROTTLE=1
+QT_WAYLAND_RESIZE_AFTER_SWAP=1
+QT_MESSAGE_PATTERN=[%{if-debug}D%{endif}%{if-warning}W%{endif}%{if-critical}C%{endif}%{if-fatal}F%{endif}] %{function}:%{line} - %{message}
+QT_DF_BASE=0.5
+QT_DF_BASEDEVIATION=0.025
+QT_DF_SCALEFORMAXDEV=0.37
+QT_DF_SCALEFORNODEV=0.6
+QT_DF_RANGE=0.08
+QT_WAYLAND_FORCE_DPI=96
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+HYBRIS_LD_LIBRARY_PATH=/usr/libexec/droid-hybris/system/lib:/vendor/lib:/system/lib:/system/lib/egl
+QT_QPA_EGLFS_PHYSICAL_WIDTH=56
+QT_QPA_EGLFS_PHYSICAL_HEIGHT=94
+QT_COMPOSITOR_NEGATE_INVERTED_Y=0
+PID /proc/18862 /usr/bin/jolla-camera
+4429f000-442a3000 r-xp 00000000 07:00 7942       /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+442a4000-442a5000 r--p 00004000 07:00 7942       /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+442a5000-442a6000 rw-p 00005000 07:00 7942       /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+442bd000-442f3000 r-xp 00000000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442f4000-442fd000 r--p 00036000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442fd000-442fe000 rw-p 0003f000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+48ef2000-48f1a000 r-xp 00000000 07:00 4561       /usr/lib/gstreamer-1.0/libgstdroid.so
+48f1a000-48f2a000 ---p 00028000 07:00 4561       /usr/lib/gstreamer-1.0/libgstdroid.so
+48f2a000-48f2b000 rw-p 00028000 07:00 4561       /usr/lib/gstreamer-1.0/libgstdroid.so
+48f2b000-48f31000 r-xp 00000000 07:00 5008       /usr/lib/libgstdroid-1.0.so.0.0.0
+48f31000-48f40000 ---p 00006000 07:00 5008       /usr/lib/libgstdroid-1.0.so.0.0.0
+48f40000-48f41000 rw-p 00005000 07:00 5008       /usr/lib/libgstdroid-1.0.so.0.0.0
+QT_IM_MODULE=Maliit
+QT_QPA_PLATFORM=wayland
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+QT_WAYLAND_COMPOSITOR_NO_THROTTLE=1
+QT_WAYLAND_RESIZE_AFTER_SWAP=1
+QT_MESSAGE_PATTERN=[%{if-debug}D%{endif}%{if-warning}W%{endif}%{if-critical}C%{endif}%{if-fatal}F%{endif}] %{function}:%{line} - %{message}
+QT_DF_BASE=0.5
+QT_DF_BASEDEVIATION=0.025
+QT_DF_SCALEFORMAXDEV=0.37
+QT_DF_SCALEFORNODEV=0.6
+QT_DF_RANGE=0.08
+QT_WAYLAND_FORCE_DPI=96
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+HYBRIS_LD_LIBRARY_PATH=/usr/libexec/droid-hybris/system/lib:/vendor/lib:/system/lib:/system/lib/egl
+GST_DEBUG=3,droidcamsrc:6,droideglsink:6,camerabin:6
+GST_DEBUG_NO_COLOR=1
+GST_DEBUG_FILE=/tmp/hd2-gst-camera.log
+PID /proc/18959 /bin/sh -c #!/bin/sh
+echo "=== date ==="
+date
+echo "=== processes ==="
+ps auxww | grep -E 'jolla-camera|booster|lipstick|minisf|minimedia|droid' | grep -v grep
+echo "=== maps ==="
+for d in /proc/[0-9]*; do
+  c=$(tr '\000' ' ' < "$d/cmdline" 2>/dev/null)
+  case "$c" in
+    *jolla-camera*|*booster-silica-qt5*)
+      echo "PID $d $c"
+      grep -E 'libgstdroid|libgui.so|libmemalloc|camera.qsd8k' "$d/maps" 2>/dev/null
+      tr '\000' '\n' < "$d/environ" 2>/dev/null | grep -E 'GST_|QT_|LD_' ;;
+  esac
+done
+echo "=== logs ==="
+journalctl -b -n 800 --no-pager | grep -Ei 'camera|gstreamer|droidcam|camerabin|videoSink|negotia|wrong format|stream error' | tail -n 250
+echo "=== android ==="
+export LD_LIBRARY_PATH=/usr/libexec/droid-hybris/lib-dev-alog:/usr/libexec/droid-hybris/system/lib:/system/lib:/system/lib/egl
+/usr/libexec/droid-hybris/system/bin/logcat -d -t 1000 -v threadtime | grep -Ei 'camera|bufferqueue|gralloc|mdp|preview|minisf' | tail -n 300
+echo "=== fb ==="
+dd if=/dev/graphics/fb0 of=/data/local/tmp/hd2-current-fb.raw bs=1536000 count=2
+chmod 0644 /data/local/tmp/hd2-current-fb.raw
+
+=== logs ===
+Oct 17 18:52:51 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:51 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:51 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:51 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:51 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:52 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:53 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:54 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:55 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:56 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:57 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:58 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:52:59 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:00 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:01 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:02 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:03 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:04 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:05 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:06 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:07 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:08 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:09 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:10 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:11 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:12 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:13 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:14 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:15 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:16 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:17 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:18 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:19 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:20 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:20 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:20 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:20 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:20 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:21 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:21 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:21 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:21 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:22 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:22 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:22 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+Oct 17 18:53:22 Jolla [18862]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data stream error."
+=== android ===
+=== fb ===
+2+0 records in
+2+0 records out
+3072000 bytes (3.1 MB) copied, 0.140289 s, 21.9 MB/s

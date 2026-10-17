@@ -1,0 +1,68 @@
+E/cutils-trace( 7485): Error opening trace file: No such file or directory (2)
+E/QualcommCameraHardware( 7458): native_access_parm: error (No such file or directory): fd 13, type 1, length 32, status 0
+E/cutils-trace( 7458): Error opening trace file: No such file or directory (2)
+D/QualcommCameraHardware( 7458): startPreview E
+D/QualcommCameraHardware( 7458): frame_thread E
+D/QualcommCameraHardware( 7458): startPreview X
+E/cutils-trace( 7482): Error opening trace file: No such file or directory (2)
+D/memalloc( 7482): init_pmem_area: Initializing pmem area
+D/memalloc( 7482): init_pmem_area_locked: Opening master pmem FD
+D/memalloc( 7482): init_pmem_area_locked: Total pmem size: 33554432
+E/memalloc( 7482): /dev/pmem: Failed to map pmem master fd: Out of memory
+E/memalloc( 7482): /dev/pmem: failed to initialize pmem area
+W/memalloc( 7482): Falling back to ashmem
+E/memalloc( 7482): alloc mmap(fd=13, size=3768320, prot=3) failed (Try again)
+E/gralloc ( 7482): gralloc failed err=Try again
+E/        ( 7482): DroidMediaAllocator::createGraphicBuffer(w=1280, h=720) failed (Try again), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7485): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7458): internal_handle_preview: ERROR dequeueing the buffer
+W/memalloc( 7482): Falling back to ashmem
+E/memalloc( 7482): alloc mmap(fd=13, size=3768320, prot=3) failed (Try again)
+E/gralloc ( 7482): gralloc failed err=Try again
+E/        ( 7482): DroidMediaAllocator::createGraphicBuffer(w=1280, h=720) failed (Try again), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7485): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7458): internal_handle_preview: ERROR dequeueing the buffer
+W/memalloc( 7482): Falling back to ashmem
+E/memalloc( 7482): alloc mmap(fd=13, size=3768320, prot=3) failed (Try again)
+E/gralloc ( 7482): gralloc failed err=Try again
+E/        ( 7482): DroidMediaAllocator::createGraphicBuffer(w=1280, h=720) failed (Try again), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7485): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7458): internal_handle_preview: ERROR dequeueing the buffer
+D/QualcommCameraHardware( 7458): launch_watchdog_thread:
+D/QualcommCameraHardware( 7458): watchdog_thread_id = 129272
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 0
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 1
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 2
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 3
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 4
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 5
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 6
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 7
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 8
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 9
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 10
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 11
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 12
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 13
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 14
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 15
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 16
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 17
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 18
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 19
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 20
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 21
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 22
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 23
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 24
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 25
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 26
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 27
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 28
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 29
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 30
+D/QualcommCameraHardware( 7458): void* watchdog(void*), frame_thread_released = 0, cnt = 31
+E/QualcommCameraHardware( 7458): void* watchdog(void*), state change no updated, die after 1 sec!!
+W/CameraBase( 7485): Camera service died!
+E/BufferQueue( 7485): [DroidMediaCameraBufferQueue] dequeueBuffer: BufferQueue has been abandoned!
+E/MediaPlayerFactory( 7502): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found

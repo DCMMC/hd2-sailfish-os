@@ -1,0 +1,20 @@
+> > > > > > > > > > > > > > > > > > > > > > > > > > > Scan completed for wifi
+service_count=5
+attempt_saved_service=no
+  State = idle
+  OfflineMode = False
+  SessionMode = False
+wpa_state=INACTIVE
+address=<REDACTED>
+uuid=404fed6b-1afd-5464-9fa8-12135ae62ffb
+192.168.2.0/24 dev usb0  proto kernel  scope link  src 192.168.2.15
+Connection Manager version 1.30
+CLOCK_BOOTTIME not available: Invalid argument(22).
+Skipping disconnect of carrier, network is connecting.
+Skipping disconnect of carrier, network is connecting.
+The name net.connman.vpn was not provided by any .service files
+Successfully initialized wpa_supplicant
+wlan0 runs an unsupported 802.11 driver
+nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance
+WPS: Converting push_button to virtual_push_button for WPS 2.0 compliance

@@ -1,0 +1,403 @@
+> --------- beginning of /dev/alog/main
+D/libEGL  (16678): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  (16678): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  (16678): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/Adreno200-EGL(16678): <qeglDrvAPI_eglInitialize:294>: EGL 1.4 QUALCOMM build: AU_LINUX_ANDROID_JB.04.01.01.00.036_msm8960_JB_CL2644550_release_AU (CL2644550)
+I/Adreno200-EGL(16678): Build Date: 07/31/12 Tue
+I/Adreno200-EGL(16678): Local Branch:
+I/Adreno200-EGL(16678): Remote Branch: quic/master
+I/Adreno200-EGL(16678): Local Patches: NONE
+I/Adreno200-EGL(16678): Reconstruct Branch: AU_LINUX_ANDROID_JB.04.01.01.00.036 +  NOTHING
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+E/cutils-trace(16588): Error opening trace file: 没有那个文件或目录 (2)
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera(15580): HAL_get_camera_info: loading libcamera at 0x409905b8
+I/CameraClient(15580): Opening camera 0
+D/QcomCamera(15580): camera_device_open:++
+D/QcomCamera(15580): camera_device_open: loaded libcamera at 0x409905b8
+D/QualcommCameraHardware(15580): createInstance: E
+D/QualcommCameraHardware(15580):  Storing the current target type as 1
+D/QualcommCameraHardware(15580): constructor EX
+D/QualcommCameraHardware(15580): startCamera E
+D/QualcommCameraHardware(15580): loading liboemcamera at 0x40990a48
+I/QualcommCameraHardware(15580): Set main cam
+I/mm-camera-mmap(15580): set sensor selection :0
+I/QualcommCameraHardware(15580): Open Device node : /dev/msm_camera/control1
+I/mm-camera-config(15580): cam_conf fd cfgctrl.camfd:0
+I/mm-camera-config(15580): Open config device node : /dev/msm_camera/config1
+I/        (15580): [AWB Calibration]:ctrlfd:14
+I/        (15580): [AWB Calibration] cfg.fuse_id_word1:0x0
+I/        (15580): [AWB Calibration] cfg.fuse_id_word2:0x0
+I/        (15580): [AWB Calibration] cfg.fuse_id_word3:0x15002
+I/        (15580): [AWB Calibration] cfg.fuse_id_word4:0x12a75e
+D/mm-camera-s5k3e2fx_u(15580): lcd type = 0
+I/        (15580): [AWB Calibration] rg_ratio_GS_table[0]:0.733340
+I/        (15580): [AWB Calibration] rg_ratio_GS_table[1]:0.733340
+I/        (15580): [AWB Calibration] rg_ratio_GS_table[2]:0.754883
+I/        (15580): [AWB Calibration] bg_ratio_GS_table[0]:0.601600
+I/        (15580): [AWB Calibration] bg_ratio_GS_table[1]:0.601600
+I/        (15580): [AWB Calibration] bg_ratio_GS_table[2]:0.598633
+I/        (15580): [AWB Calibration] sfuse.fuse_id_word1:0x0
+I/        (15580): [AWB Calibration] sfuse.fuse_id_word2:0x0
+I/        (15580): [AWB Calibration] sfuse.fuse_id_word3:0x15002
+I/        (15580): [AWB Calibration] sfuse.fuse_id_word4:0x12a75e
+I/        (15580): [AWB Calibration] fuse_id : 0x0, 0x0, 0x15002, 0x12a75e
+I/        (15580): [AWB Calibration] fail to read /data/awb_cal
+I/        (15580): [AWB Calibration] read from file OK: /sys/android_camera_awb_cal/awb_ca
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] read all 0 ,ok=1
+I/        (15580): [AWB Calibration] check sum=0, OK
+I/        (15580): [AWB Calibration] caBuff[0]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[1]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[2]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[3]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[4]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[5]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[6]:0x00000000
+I/        (15580): [AWB Calibration] caBuff[7]:0x00000000
+I/        (15580): [AWB Calibration] fuse_id_word1:0x00000000
+I/        (15580): [AWB Calibration] fuse_id_word2:0x00000000
+I/        (15580): [AWB Calibration] fuse_id_word3:0x00015002
+I/        (15580): [AWB Calibration] fuse_id_word4:0x0012a75e
+I/        (15580): [AWB Calibration] fuse ID not same,do nothing and leave
+I/mm-camera-aec(15580): Touch AEC  == numRegions:256
+I/mm-camera-aec(15580): Touch AEC aecCtrl->aec_state.aec_algo:1
+I/QualcommCameraHardware(15580): startCamera: camsensor name s5k3e2fx, flash 1
+D/QualcommCameraHardware(15580): startCamera X
+D/QualcommCameraHardware(15580): initDefaultParameters E
+D/QualcommCameraHardware(15580): product 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 1, length 32
+E/QualcommCameraHardware(15580): native_access_parm: error (No such file or directory): fd 13, type 1, length 32, status 0
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 64, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 65, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 66, length 4
+D/QualcommCameraHardware(15580): requested preview size 768 x 432
+D/QualcommCameraHardware(15580): requested picture size 1024 x 768
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 21, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 14, length 4
+D/QualcommCameraHardware(15580): setFlash 0
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 49, length 4
+D/mm-camera-ctrlcmd(15580): In config_proc_CAMERA_SET_PARM_LED_MODE: 0
+I/QualcommCameraHardware(15580): Set zoom=0 20
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 2, length 4
+I/QualcommCameraHardware(15580): Setting Contrast is 5
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 6, length 4
+I/QualcommCameraHardware(15580): Setting Brightness is 3
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 7, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 12, length 4
+I/mm-camera-ctrlcmd(15580): md.d.aec_mode.aec_mode:1
+I/mm-camera-aec(15580): Touch AEC  == numRegions:256
+I/mm-camera-aec(15580): Touch AEC aecCtrl->aec_state.aec_algo:1
+D/QualcommCameraHardware(15580): not defined touch-focus yet, or AP without touch-focus function
+I/QualcommCameraHardware(15580): Before Setting coordinate x:384 y:216
+I/QualcommCameraHardware(15580): Setting coordinate x:2 y:2
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 60, length 28
+I/mm-camera 8x vfe(15580): vfe_set_coordinate x:2 y:2
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 26, length 4
+D/mm-camera-ctrlcmd(15580): md.d.aec_iso_mode = 0
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 62, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 8, length 4
+D/QualcommCameraHardware(15580): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+D/QualcommCameraHardware(15580): initDefaultParameters X
+D/QualcommCameraHardware(15580): createInstance: X created hardware=0x12200
+D/QcomCamera(15580): camera_device_open:--
+E/cutils-trace(15580): Error opening trace file: No such file or directory (2)
+D/QualcommCameraHardware(15580): requested preview size 768 x 432
+D/QualcommCameraHardware(15580): requested picture size 1024 x 768
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 21, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 14, length 4
+D/QualcommCameraHardware(15580): setFlash 1
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 49, length 4
+D/mm-camera-ctrlcmd(15580): In config_proc_CAMERA_SET_PARM_LED_MODE: 1
+I/QualcommCameraHardware(15580): Set zoom=0 20
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 2, length 4
+E/QualcommCameraHardware(15580): Invalid focus mode value: continuous-picture
+E/QualcommCameraHardware(15580): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&): 2954, rc = -22
+I/QualcommCameraHardware(15580): Setting Contrast is 5
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 6, length 4
+I/QualcommCameraHardware(15580): Setting Brightness is 3
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 7, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 12, length 4
+I/mm-camera-ctrlcmd(15580): md.d.aec_mode.aec_mode:1
+I/mm-camera-aec(15580): Touch AEC  == numRegions:256
+I/mm-camera-aec(15580): Touch AEC aecCtrl->aec_state.aec_algo:1
+D/QualcommCameraHardware(15580): not defined touch-focus yet, or AP without touch-focus function
+I/QualcommCameraHardware(15580): Before Setting coordinate x:384 y:216
+I/QualcommCameraHardware(15580): Setting coordinate x:2 y:2
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 60, length 28
+I/mm-camera 8x vfe(15580): vfe_set_coordinate x:2 y:2
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 26, length 4
+D/mm-camera-ctrlcmd(15580): md.d.aec_iso_mode = 0
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 62, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 8, length 4
+D/QualcommCameraHardware(15580): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=-22
+D/QualcommCameraHardware(15580): requested preview size 768 x 432
+D/QualcommCameraHardware(15580): requested picture size 1024 x 768
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 21, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 14, length 4
+D/QualcommCameraHardware(15580): setFlash 1
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 49, length 4
+D/mm-camera-ctrlcmd(15580): In config_proc_CAMERA_SET_PARM_LED_MODE: 1
+I/QualcommCameraHardware(15580): Set zoom=0 20
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 2, length 4
+E/QualcommCameraHardware(15580): Invalid focus mode value: continuous-picture
+E/QualcommCameraHardware(15580): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&): 2954, rc = -22
+I/QualcommCameraHardware(15580): Setting Contrast is 5
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 6, length 4
+I/QualcommCameraHardware(15580): Setting Brightness is 3
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 7, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 12, length 4
+I/mm-camera-ctrlcmd(15580): md.d.aec_mode.aec_mode:1
+I/mm-camera-aec(15580): Touch AEC  == numRegions:256
+I/mm-camera-aec(15580): Touch AEC aecCtrl->aec_state.aec_algo:1
+D/QualcommCameraHardware(15580): not defined touch-focus yet, or AP without touch-focus function
+I/QualcommCameraHardware(15580): Before Setting coordinate x:384 y:216
+I/QualcommCameraHardware(15580): Setting coordinate x:2 y:2
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 60, length 28
+I/mm-camera 8x vfe(15580): vfe_set_coordinate x:2 y:2
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 26, length 4
+D/mm-camera-ctrlcmd(15580): md.d.aec_iso_mode = 0
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 62, length 4
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 8, length 4
+D/QualcommCameraHardware(15580): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=-22
+D/QualcommCameraHardware(15580): startPreview E
+D/QualcommCameraHardware(15580): initPreview E: preview size=768x432
+D/QualcommCameraHardware(15580): initPreview E: preview size=768x432 videosize = 768 x 432
+D/QualcommCameraHardware(15580): initPreview : preview size=768x432 videosize = 768 x 432
+I/QualcommCameraHardware(15580): pmem pool /dev/pmem_adsp ioctl(fd = 23, PMEM_GET_SIZE) is 2097152
+D/QualcommCameraHardware(15580): mBufferSize=497664, mAlignedBufferSize=524288
+E/QualcommCameraHardware(15580): num_buffers = 4
+I/QualcommCameraHardware(15580): register_buf: camfd = 21, reg = 0 buffer = 0x4103e000
+I/QualcommCameraHardware(15580): register_buf: camfd = 21, reg = 0 buffer = 0x410be000
+I/QualcommCameraHardware(15580): register_buf: camfd = 21, reg = 0 buffer = 0x4113e000
+I/QualcommCameraHardware(15580): register_buf: camfd = 21, reg = 0 buffer = 0x411be000
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+D/QualcommCameraHardware(15580): initREcord E
+I/QualcommCameraHardware(15580): pmem pool /dev/pmem_adsp ioctl(fd = 26, PMEM_GET_SIZE) is 4194304
+D/QualcommCameraHardware(15580): mBufferSize=497664, mAlignedBufferSize=524288
+E/QualcommCameraHardware(15580): num_buffers = 8
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x4123e000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x412be000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x4133e000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x413be000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x4143e000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x414be000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x4153e000
+I/QualcommCameraHardware(15580): register_buf: camfd = 24, reg = 0 buffer = 0x415be000
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+W/MemoryBase(15580): Using temporary compatibility workaround for usage of MemoryBase private API. Please fix your application!
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1092870144 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1093394432 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1093918720 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1094443008 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1094967296 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1095491584 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1096015872 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initRecord :  record heap , video buffers  buffer=1096540160 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initREcord X
+D/QualcommCameraHardware(15580): native_access_parm: fd 13, type 1, length 32
+D/QualcommCameraHardware(15580): initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware(15580): initPreview X: 1
+D/mm-camera 8x vfe(15580): vfe_enable_vfe: ctrl->state is 0
+D/mm-camera 8x vfe(15580): vfe_enable_vfe: set ctrl->state = CAMERA_STATE_VFE_ENABLED
+D/QualcommCameraHardware(15580): frame_thread E
+I/mm-camera(15580): Open Device node : /dev/msm_camera/frame1
+E/mm-camera 8x vfe(15580): vfe_util_updaterollofftbl: sensor doesn't support rolloff correction by VFE
+D/QualcommCameraHardware(15580): startPreview X
+E/cutils-trace(15999): Error opening trace file: No such file or directory (2)
+D/memalloc(15999): init_pmem_area: Initializing pmem area
+D/memalloc(15999): init_pmem_area_locked: Opening master pmem FD
+D/memalloc(15999): init_pmem_area_locked: Total pmem size: 33554432
+E/memalloc(15999): /dev/pmem: Failed to map pmem master fd: Out of memory
+E/memalloc(15999): /dev/pmem: failed to initialize pmem area
+W/memalloc(15999): Falling back to ashmem
+D/memalloc(15999): ashmem: Allocated buffer base:0x42464000 size:1376256 fd:12
+D/memalloc(16588): ashmem: Mapped buffer base:0x5214d000 size:1376256 fd:61
+D/memalloc(15580): ashmem: Mapped buffer base:0x4175b000 size:1376256 fd:30
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+D/memalloc(15999): ashmem: Freeing buffer base:0x42464000 size:1376256 fd:12
+D/memalloc(15999): ashmem: Unmapping buffer base: 0x42464000 size: 1376256
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+W/memalloc(15999): Falling back to ashmem
+D/memalloc(15999): ashmem: Allocated buffer base:0x40464000 size:1376256 fd:12
+D/memalloc(16588): ashmem: Mapped buffer base:0x54b73000 size:1376256 fd:68
+D/memalloc(15580): ashmem: Mapped buffer base:0x418ab000 size:1376256 fd:33
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+D/memalloc(15999): ashmem: Freeing buffer base:0x40464000 size:1376256 fd:12
+D/memalloc(15999): ashmem: Unmapping buffer base: 0x40464000 size: 1376256
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+W/memalloc(15999): Falling back to ashmem
+D/memalloc(15999): ashmem: Allocated buffer base:0x40464000 size:1376256 fd:12
+D/memalloc(16588): ashmem: Mapped buffer base:0x54cc3000 size:1376256 fd:71
+D/memalloc(15580): ashmem: Mapped buffer base:0x419fb000 size:1376256 fd:36
+D/memalloc(15999): ashmem: Freeing buffer base:0x40464000 size:1376256 fd:12
+D/memalloc(15999): ashmem: Unmapping buffer base: 0x40464000 size: 1376256
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument
+W/CameraClient(15580): lockIfMessageWanted(16): dropped unwanted message
+E/QcomCamera(15580): internal_hw_blit: MSMFB_BLIT failed = 22 Invalid argument

@@ -1,0 +1,35 @@
+> > 0:00:01.586212159 28224    0xc2020 WARN             droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new: failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:01.586456300 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:610:gst_droidcamsrc_photography_init:<GstDroidCamSrc@0xc5018> using configuration file //etc/gst-droid/gstdroidcamsrc-0.conf
+0:00:01.589172365 28224    0xc2020 WARN             droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load: failed to load iso-speed: Key file does not have group 'iso-speed'
+parse_pipeline=yes error=(nil)
+0:00:01.703643803 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:419:gst_droidcamsrc_fill_info:<cam> camera 0 is facing 0 with orientation 1
+0:00:01.710388188 28224    0xc2020 WARN             droidcamsrc gstdroidcamsrc.c:459:gst_droidcamsrc_get_hw:<cam> cannot find front camera
+0:00:02.049865723 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcparams.c:208:gst_droidcamsrc_params_new: params new
+0:00:02.050170898 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcparams.c:164:gst_droidcamsrc_params_reload_locked: params reload
+0:00:02.051361084 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:2064:gst_droidcamsrc_update_ev_compensation_bounds:<cam> updated ev compensation bounds to be from -2 to 2
+0:00:02.051666260 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:2104:gst_droidcamsrc_add_vfsrc_orientation_tag:<cam> added orientation tag event with orientation rotate-90
+0:00:02.051788330 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vfsrc 1
+0:00:02.052398681 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad imgsrc 1
+0:00:02.052856445 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vidsrc 1
+0:00:02.059295655 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:1384:gst_droidcamsrc_photography_set_flash_to_droid:<cam> setting flash-mode to auto
+0:00:02.059844971 28224    0xc2020 WARN             droidcamsrc gstdroidcamsrcphotography.c:1406:gst_droidcamsrc_photography_set_iso_to_droid:<cam> setting iso to 0 is not supported
+0:00:02.059967041 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:1450:gst_droidcamsrc_photography_set_ev_compensation_to_droid:<cam> setting exposure-compensation to 0
+0:00:02.060028077 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:759:gst_droidcamsrc_photography_apply:<cam> setting whitebalance to auto
+0:00:02.060119629 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:761:gst_droidcamsrc_photography_apply:<cam> setting scene-mode to auto
+0:00:02.060180664 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:763:gst_droidcamsrc_photography_apply:<cam> setting effect to none
+0:00:02.060272217 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:765:gst_droidcamsrc_photography_apply:<cam> setting antibanding to auto
+0:00:02.097564699 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcparams.c:164:gst_droidcamsrc_params_reload_locked: params reload
+0:00:02.099273684 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1950:gst_droidcamsrc_update_max_zoom:<cam> max zoom set to 6
+0:00:02.099456789 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcphotography.c:1384:gst_droidcamsrc_photography_set_flash_to_droid:<cam> setting flash-mode to auto
+0:00:02.099517824 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcquirks.c:281:gst_droidcamsrc_quirks_apply:<cam> quirk face-detection not known
+0:00:02.099823000 28224    0xc2020 ERROR            droidcamsrc gstdroidcamsrcdev.c:1047:gst_droidcamsrc_dev_enable_face_detection: error disabling face detection
+0:00:02.099914553 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcquirks.c:281:gst_droidcamsrc_quirks_apply:<cam> quirk image-noise-reduction not known
+0:00:02.099945070 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcquirks.c:281:gst_droidcamsrc_quirks_apply:<cam> quirk fast-capture not known
+0:00:02.101196291 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrcdev.c:731:gst_droidcamsrc_dev_start:<cam> Using raw data mode
+set_playing_result=2
+get_state_result=1 state=4 pending=0
+0:00:17.474456788 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:616:gst_droidcamsrc_change_state:<cam> pushing flush start
+0:00:17.475463868 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vfsrc 0
+0:00:17.478485109 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad imgsrc 0
+0:00:17.482818604 28224    0xc2020 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vidsrc 0
+0:00:17.488067628 28224    0xc2020 FIXME            droidcamsrc gstdroidcamsrcdev.c:431:gst_droidcamsrc_dev_buffers_released:0xd2000 Not sure what to do here really

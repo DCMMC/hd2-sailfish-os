@@ -1,0 +1,16 @@
+srwxrw-rw- 1 nemo privileged 0 Oct 17 21:33 /run/display/wayland-0
+launch_uptime=99.34
+1 uptime=99.58 pid=none fb=816241bd9b94520bff504e288976de43
+2 uptime=100.86 pid=858 fb=816241bd9b94520bff504e288976de43
+3 uptime=102.09 pid=858 fb=816241bd9b94520bff504e288976de43
+4 uptime=103.23 pid=858 fb=816241bd9b94520bff504e288976de43
+5 uptime=104.39 pid=858 fb=37507962979503dc0725388ecfb63f5e
+6 uptime=105.54 pid=858 fb=37507962979503dc0725388ecfb63f5e
+7 uptime=106.68 pid=858 fb=37507962979503dc0725388ecfb63f5e
+8 uptime=108.05 pid=858 fb=99fdbcd292d33aa122c9f0d7f7de93a1
+9 uptime=109.80 pid=858 fb=99fdbcd292d33aa122c9f0d7f7de93a1
+10 uptime=111.85 pid=858 fb=99fdbcd292d33aa122c9f0d7f7de93a1
+11 uptime=113.33 pid=858 fb=99fdbcd292d33aa122c9f0d7f7de93a1
+12 uptime=114.74 pid=858 fb=99fdbcd292d33aa122c9f0d7f7de93a1
+--- kernel ---
+--- app log ---

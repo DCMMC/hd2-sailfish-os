@@ -1,0 +1,14 @@
+> > > > > > > 0: bcm4329: Bluetooth
+        Soft blocked: no
+        Hard blocked: no
+2: hci0: Bluetooth
+        Soft blocked: no
+        Hard blocked: no
+Can't init device hci0: Connection timed out (110)
+hci0:   Type: BR/EDR  Bus: UART
+        BD Address: <MAC-REDACTED>  ACL MTU: 0:0  SCO MTU: 0:0
+        DOWN
+        RX bytes:0 acl:0 sco:0 events:0 errors:0
+        TX bytes:4 acl:0 sco:0 commands:1 errors:0
+
+Devices:

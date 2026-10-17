@@ -1,0 +1,56 @@
+> > [16510.014519] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16510.584374] Jolla /usr/bin/jolla-gallery[28942]: Couldn't open '/proc/self/oom_score_adj' for writing
+[16510.697777] Jolla invoker[28925]: invoker: Invoking execution: '/usr/bin/store-client'
+[16511.489831] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16511.808037] Jolla [28942]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+[16512.038110] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16512.901147] Jolla booster-silica-qt5[28964]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[16514.009423] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16514.160485] Jolla /usr/bin/jolla-camera[28964]: Couldn't open '/proc/self/oom_score_adj' for writing
+[16515.189965] Jolla [28964]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+[16516.014794] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16516.494317] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16516.594506] Jolla booster-silica-qt5[28973]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[16516.715691] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16516.723016] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16517.052514] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16517.057824] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16518.008568] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16518.047631] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16518.051964] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16519.317712] Jolla [28973]: booster [silica-qt5][28973]: SilicaBooster: Initiate asynchronous preload.
+[16520.014519] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16521.493737] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16522.012810] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16524.013238] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16524.117638] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16524.118798] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16524.325005] Jolla DSME[216]: IPHB: failed to open /dev/rtc0: No such file or directory
+[16524.586419] Jolla mapplauncherd[28973]: SilicaBooster: Preload compilation aborted.
+[16524.599206] Jolla lipstick[21251]: invoker: Invoking execution: '/usr/bin/jolla-camera'
+[16526.014001] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16526.492516] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16528.013329] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16530.014214] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16531.492882] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16532.014580] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16534.013238] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16536.013451] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16536.493249] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16538.015862] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16540.014916] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16541.494286] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument
+[16541.930779] Jolla ohmd[264]: *** resource_request:  register   125
+[16542.032555] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16543.208276] Jolla lipstick[21251]: [7B blob data]
+[16543.456475] Jolla lipstick[21251]: [W] JollaSystemInfo::adjustOOMScore:138 - Unable to open /proc/28964/oom_score_adj for reading
+[16543.464776] Jolla lipstick[21251]: [D] CoverActionModel::update:131 - void CoverActionModel::update() Clearing model
+[16543.856194] Jolla lipstick[21251]: [W] WindowPixmapItem::updatePaintNode:665 - WindowPixmapItem does not have a source texture, cover will be dropped..
+[16544.011864] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16544.119042] Jolla ohmd[264]: *** resource_request:  update   125
+[16544.200097] Jolla ohmd[264]: *** resource_request:  register   126
+[16544.242638] Jolla [28964]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+[16544.271020] Jolla ohmd[264]: *** resource_request:  acquire   125
+[16544.392205] Jolla ohmd[264]: *** resource_request:  acquire   126
+[16546.014031] Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+[16546.495812] Jolla mce[177]: modules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument

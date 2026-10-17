@@ -1,0 +1,1009 @@
+{
+  "scope": "public text diagnostics recovered from the original HD2 porting workspace",
+  "added": [
+    {
+      "path": "logs/sailfish-alpha4-r2-image.log",
+      "bytes": 353,
+      "sha256": "15e8cb2529e21ded28ed6ea971f940bf6fe8ff217320fb40c27ab84d9d0d5317",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-app-documents-diag.log",
+      "bytes": 5938,
+      "sha256": "fd7ff3b1eacb761b872465ed525367926b46b4331cff8c39d5c8dc6df431e884",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-app-failure-context-20261018.log",
+      "bytes": 9849,
+      "sha256": "b8a378d7bc4ba348e1313cb6a6ca5acb118b0488a0be97b33b2fe6994b79996d",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-app-failures-20261018.log",
+      "bytes": 4867,
+      "sha256": "a3a1714e73f0b25747cb35725c2e18d907e862d281d2b8eae7ada1ce08e57ef3",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-audio-pulse-debug.log",
+      "bytes": 388,
+      "sha256": "189113d78b1ec71915d60a60cb8dea7ae63971e485ce103be1a2bac3d31cea00",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-audio-pulseaudio-verbose.log",
+      "bytes": 86104,
+      "sha256": "7bf045a317bff3c07ed70ff8bb5c1f54bd2b402b8d39ecfe6cf9f9a017bf57e1",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-640-android.log",
+      "bytes": 29263,
+      "sha256": "48565508f235dece19497b7578aab48ebf078712ebbe6b11363215e3bd4e31fb",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-autodetect-debug.log",
+      "bytes": 3509,
+      "sha256": "aa62c15f32dfc3ff3e06ba5a4d4bbaaa21d65b69f9e97e2894b8a4d2ecb8cc57",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-binary-patches.json",
+      "bytes": 1777,
+      "sha256": "9dee9fe5089e0f824798f484cc285e6c1b26632f82a4c6d78e8dc23632219b7b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-black-after-reboot-full.log",
+      "bytes": 87635,
+      "sha256": "ca4b02c3297d03c182947ae2a43f2ee0ebb76d288d0c1392e35e6a410cf7d93e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-camerabin-capsfix.log",
+      "bytes": 4786,
+      "sha256": "185bbbc9366f179512e9a2c074525745e34b8fbdeb942f7c81b4c9271eb8378e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-camerabin-capsfix2.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-camerabin-full.log",
+      "bytes": 3066,
+      "sha256": "813112c639abd3691306ad7f72febb8feec9a04c660015687ce25f5e92a2c31e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-camerabin-pads.log",
+      "bytes": 158408,
+      "sha256": "a80f9fd87fcfb23898f4eac5c79e73a5aa401141bf7e2d9882cc6c860f8a8682",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-camerabin-probe.log",
+      "bytes": 6053,
+      "sha256": "6888839909d06c5f402cf42412ed8b04454d57fbfe459db0f1e80d719f3d7525",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-clean-cold-journal.log",
+      "bytes": 29932,
+      "sha256": "745b1e34944f07f0d51a2eeb16f1d66a84de0bf8786545bc53d3e4a7651cb204",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-clean-cold-timing.log",
+      "bytes": 1347,
+      "sha256": "f4e9b12fdb949ed7ad706315066d548da5b309fcbcb19bc1e5c6753ecc64b059",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-client-ro-probe-after.log",
+      "bytes": 37995,
+      "sha256": "77eddae6ec1265a6bdf085afc641225fc2e42632176c51cfc11b50caaeaf70bf",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-client-ro-probe.log",
+      "bytes": 54835,
+      "sha256": "659191eebe58e7beb0dfd05cc6d005e81311c712edab27bff10f08fbe531116c",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-cold-delay-journal.log",
+      "bytes": 5787,
+      "sha256": "84b293d90e4ac93a48560429b11ee1fe8d904f59e6af49068ec62744689fcf08",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-cold-final-diag.log",
+      "bytes": 3323,
+      "sha256": "6643de0fbf9df6cec1fbd7373e246612deaa9432d845a157a5b61781cee00b58",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-cold-icon-final.log",
+      "bytes": 1167,
+      "sha256": "e4250b941f54ed5abee58b11f40333a4e62be739c706fb604b1ae44390237838",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-current-diag.log",
+      "bytes": 5388,
+      "sha256": "71635b7b7acc96b9766cb5d8a1c68b7d7563a8df66eb53cc2376ba9bb6abe855",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-custom-booster-journal.log",
+      "bytes": 793,
+      "sha256": "394ca92dcae1eb8d3a74d348fcdc2e77e9139fdd60a62669b7c83a4151777e05",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-custom-booster-timing.log",
+      "bytes": 1235,
+      "sha256": "c1f672a38e1896190319e4968f05df05fff50d867330de35f657d93303e79bfe",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-direct-clean-timing.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-direct-health-after-app.log",
+      "bytes": 5323,
+      "sha256": "cb299aeed356efeb7d9ad870ae833e394c47f38a860d7e8df96f4f78c2a8bf8a",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-eglsink-probe.log",
+      "bytes": 83664,
+      "sha256": "533e4197e1db2cf42df5c21958a4211ff5bc3db3ace615d19da7c63532741ca3",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-exact-precompile-timing.log",
+      "bytes": 1784,
+      "sha256": "dcb0bf2883b0a4de1a53c9d85165fd9013691ce82c52f9ccad9e13318791a62f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-first-launch-profile.log",
+      "bytes": 137,
+      "sha256": "94919f94b6bfea891fbbc522dee598a1fe56d4c13e8263d7b182d1fe1fdd2ac2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-focus-after-direct-launch.log",
+      "bytes": 510,
+      "sha256": "5683a2a83ef9a5155eeefaa7bf4e03a26b9f27ec0b1cf1b2ec6be88772152e4c",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-fps-android.log",
+      "bytes": 59,
+      "sha256": "bcd5bd6195e9742e9baa031a385cf9aa8c67edd1b6b12355d4a9ebe5142f2ebc",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-fps-runtime.log",
+      "bytes": 6291,
+      "sha256": "42aa9e67768b90114db265c81f230cdf57a9080e8f9c7ba7750b5e353b943bd2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gl-clean-timing.log",
+      "bytes": 1866,
+      "sha256": "427ed9b8b6314bb1f7084f57a37e495fe45b56be2314f30276684b4ffbb5aef3",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-inspect-runtime.log",
+      "bytes": 7144,
+      "sha256": "bc269cab4ba8329401cad2c86b4c2933007d369c74b17737e43427f0d1ac9e28",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-more-runtime.log",
+      "bytes": 67572,
+      "sha256": "1dcdb5da9d100148b76618b0e507f5dc9f6d0b62cda52be7154d3f22fba7fbe6",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-sinks.log",
+      "bytes": 907,
+      "sha256": "d9c5f828fb45e517b5d63457acd331d8aae77d09725c30d5e4fec35f780136af",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-trace-global.log",
+      "bytes": 172,
+      "sha256": "7bd954c1ce47408ea9b3b3ba1e626f035f544167c57eed1069992dc812e52399",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-trace-old.log",
+      "bytes": 3351,
+      "sha256": "62e5657158aaf7ef1bad2d6c715b76906c45661526fbeba7c5cc3959db7981fd",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-trace-pad.log",
+      "bytes": 566,
+      "sha256": "bd2bb72eaa6f10257ab423e2da60a5a02e8c243e36e6220e737e49a731ffa926",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-gst-trace.log",
+      "bytes": 3349,
+      "sha256": "3c860aeb3e5999ba87885d3d6c77dcfa19b1ddd9998a7bef95ecf194b531d35d",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-hd2fps-android-full.log",
+      "bytes": 73824,
+      "sha256": "6de113ea534f63805d7161b20a3c928a9d6cc63a4724f7c1f2160fdb29acefd9",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-hd2fps-pipeline-probe.log",
+      "bytes": 80747,
+      "sha256": "f4f1c38d548883dfbb9b89205d0336b14dfe4124199b391b1d0f100bd98c3a2d",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-icon-clean-journal.log",
+      "bytes": 2162,
+      "sha256": "4346a12046ed70e95df66fd01f11c0f77c1dfce8c2205289b17366ad7e9ee884",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-icon-clean-timing.log",
+      "bytes": 946,
+      "sha256": "b694067d655bece26f9862e6bfb44219ac53756ed2087ca51ac4cc392524bc08",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-lazy-overlay-timing.log",
+      "bytes": 1178,
+      "sha256": "de7fd88ca93a580c3b92e5e7d38582c0b3655eb4a1c41da06f90b577a930040f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-memlock-fixed-journal.log",
+      "bytes": 1140,
+      "sha256": "bddeb00f9764c08ddccd2bfec5dfe1f41e6d017fee86ba939cd4f77bec5843d7",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-memlock-fixed-timing.log",
+      "bytes": 2000,
+      "sha256": "dc12d6851885c2357954c5c8928036641a1e4e36f354f662f95935a31bffd2ba",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-native-app.log",
+      "bytes": 1700,
+      "sha256": "cb60f3acf9257538b12c53925e867f8e703ddf5b3c964bc757c3191c1d0fdae2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-native-later.log",
+      "bytes": 3978,
+      "sha256": "48a4800b59b7b6dd85dc66c27df4f793edb6aa4168c018e5021e694042272fcb",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-postboot-clean-timing.log",
+      "bytes": 841,
+      "sha256": "bf10a2dad9c322a76c65cf9ceb92730559a850a2b89021db2c24987f2123e8fe",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-precompiled-timing.log",
+      "bytes": 1999,
+      "sha256": "da7fa940577751e60ed1e018208da301390c3c1ecd3a1a29d86b74b315ee810b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-qgst-gl.log",
+      "bytes": 5010,
+      "sha256": "6418842dccaf388c534703f6871931a9797672c4117b75c8a07aaa960e755126",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rawmode-android.log",
+      "bytes": 27135,
+      "sha256": "fb2d6b6307d316e40228b6aca5221cb373dfe556f6ec346d93afd6b0a3c11626",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rawmode-gst-debug.log",
+      "bytes": 2,
+      "sha256": "60394cf8a46980d6199d0a3a71692ecb6689151f46a7085d31faab90b9d1f5d7",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rawmode-journal.log",
+      "bytes": 25391,
+      "sha256": "e800ee625ff16f863ce6111d88ed3c252a62e4c6f80e4518a9ba89dfb395fa9b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rawmode-pipeline-probe.log",
+      "bytes": 127234,
+      "sha256": "660056b71c9e7baa82c2c59ccea5b2d7321464a9e0d84009e7a1a7cc0bade534",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rawmode-runtime.log",
+      "bytes": 37958,
+      "sha256": "138395663643bf73ecfca1fc4765f9c72b656735b97153055ca68c581b9fcaae",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-real-icon-launch-fixed-device.log",
+      "bytes": 1345,
+      "sha256": "f620fe62979b2c9777f758c719859cafb7b7496c046e030c88a8e9e365aa98b0",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-reboot-clean-timing.log",
+      "bytes": 1289,
+      "sha256": "f4373ace95ae58b780849304ee201c637717dca1b3dda3f848b3e871d7ec9d9e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-app-diag.log",
+      "bytes": 14113,
+      "sha256": "64a9a4d2bdfb461a36e7e8ede14b1f04d60af2705c1a26037c718d5520749515",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-app-journal.log",
+      "bytes": 2484,
+      "sha256": "083f69200870123ae00c3b1dea3c7e0868d08db3ef8d6832d3284e4b61155910",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-booster-current.log",
+      "bytes": 7449,
+      "sha256": "237538aa633f9da6d920cfb4cbff77b891329c21280471ba43872d6b6e7524c3",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-booster-debug.log",
+      "bytes": 564,
+      "sha256": "f2b57ea9aa4f836ced029df0f300f9af671062cdedf91ee45d4107bd66a926fe",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-direct.log",
+      "bytes": 100,
+      "sha256": "85fe9344ac22945561b24d3b069aed9ad486e812aeebd378e121b910639306f6",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-jolla-app.log",
+      "bytes": 527,
+      "sha256": "06bd982501a946ff0d5e294890c8e12d03a5ae8507811d7ee131885cf0c39e0e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-probe-after.log",
+      "bytes": 52996,
+      "sha256": "a5c618f948f95385a2e8f23d721c763b5e1345ef5ac3cf0e045ca7d61d3b4faa",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-probe-start.log",
+      "bytes": 250954,
+      "sha256": "f4352cc7f43248a0c320f1b7b3bfdc8d609b6ebae99b66c23563fd4e44496785",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-rwx-unlocked.log",
+      "bytes": 269,
+      "sha256": "a0d1f43bab30001bc80456ef51fdf133cb3a62f008d58b7ed7309f55d6ec8ae2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-scaling-fix-android.log",
+      "bytes": 1193,
+      "sha256": "4796aa6c233c89812d5432e43e5fd05f5146d1e23c270a9783ef29fcbc353164",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-settings.log",
+      "bytes": 4865,
+      "sha256": "054f98f6d6f16e6c29d3c39b82ddf5ddf74b8537137009bcf860d5f663e0cf54",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-forceactive-device.log",
+      "bytes": 1514,
+      "sha256": "a8388797dfa8706556d4e49e1493ea8582042402d7da901c35414d04a492e3b2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-lipstick-launch.log",
+      "bytes": 1389,
+      "sha256": "d36e473ed51e18a1c08b34c27fb134b1bacf5dae0f2fb75b2b96467a661e9b8f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-notify-launch.log",
+      "bytes": 1518,
+      "sha256": "aabf67661be893897428b8297cae038f49a5b6bcfbdde6a6d7feccd747e8a2bc",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-notify-launch2.log",
+      "bytes": 1683,
+      "sha256": "745bcbee8ca63e960a59f6f8f1af3fe88d261a495e19097a71c66ab9288a0e38",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-real-icon-tap-qmlfix.log",
+      "bytes": 1477,
+      "sha256": "26478a6b905639dd8c79db68fa2707d9e26087d03ca04de958c5ca1c73bfabfd",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-timing-1.log",
+      "bytes": 6894,
+      "sha256": "b307faa5ee1747c21d78ab512f1ac14e4d6a529439ba5f48ff072590b14d5a06",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-timing-2.log",
+      "bytes": 6826,
+      "sha256": "980ebefb383b930f69f32bbeebd55aabfa4eaf6a4ad560c58d503f4b7d0cc36e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-timing-appactive-device.log",
+      "bytes": 1254,
+      "sha256": "7f5295fa0357576af2ca9286ebd9d0d52aa405e6c592c35a315beca3cd8d4c7b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-startup-timing-clean-device.log",
+      "bytes": 11546,
+      "sha256": "a34668e07f8ff9494ba5c7b9e33e917ea1a4a9787d6736edf89912a84c81b3af",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-camera-startup-timing-qmlfix-device.log",
+      "bytes": 1709,
+      "sha256": "f3aca5689b5298968d9ac7530f868bc59d162a8b90d8b2cbfabd8c10490f9d84",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-system-ro-probe-after.log",
+      "bytes": 38981,
+      "sha256": "8bb5836a472b9be6778c71479b2e60d1dfd90e93090fe8931e267cde9c85b42c",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-system-ro-probe-start.log",
+      "bytes": 81147,
+      "sha256": "61311ede23780cee3a2b07df780a8d4178c9419393b0887b156cbb27bca4edab",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-system-ro2-probe-after.log",
+      "bytes": 37507,
+      "sha256": "9d303c6ac944ddc3dafc87a39905396f3d1ea5046c7a6c1ed2337dfeac826189",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-system-ro2-probe-start.log",
+      "bytes": 79487,
+      "sha256": "3dee555c1299c44099c4429443bd69571e7135ca8758a7dc1d7a0925dbe9b814",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-ui-final-android.log",
+      "bytes": 19132,
+      "sha256": "b665214cc71217568b99a7402aff38016a76022580f48d4e1e5e1335fa7f50ec",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera-ui-final-journal.log",
+      "bytes": 29457,
+      "sha256": "66070633287af5351102ca2cc87417b8e14b642c992e3379679eaa68cde999c7",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera3-card-android.log",
+      "bytes": 19645,
+      "sha256": "589f2fdbb55fb7c55176ab195cb0bd25ba7ecb1e924876c1ff33e0c144e8774e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera4-card-result-android.log",
+      "bytes": 30232,
+      "sha256": "a319e5fcc42075a230da86c21d16e4d2b79acd0d70e2a24b9784ae0a84c77867",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera4-card-result-journal.log",
+      "bytes": 53470,
+      "sha256": "44dc1f6d4bcfe95839b5dee3c253be3e048894248adda6ff9b3ca56815bc9210",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera4-cat.log",
+      "bytes": 49522,
+      "sha256": "6a747e184cbff09ae2bbed0a5ed2e8a35bfa439586693d5df9ce56895d7ee2bd",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera4-gst-debug.log",
+      "bytes": 58,
+      "sha256": "78c267f7168758168a7753854e2d835e5825cde2eb79287eeb6637dcab95dff4",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-camera4-result-android.log",
+      "bytes": 1193,
+      "sha256": "b9d0f08c379c47a7245f1306e03f25b43c804e0e4f00c2b253474d5bbd89451c",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-connman-debug.log",
+      "bytes": 145718,
+      "sha256": "5d09f0c8f2e63db4a31ac2b2a90d3338804fb1733035a30eb68e3007673e2604",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-gallery-after-crash.log",
+      "bytes": 12371,
+      "sha256": "e188f4c18c3bc031d3276d8753a42ff2d0e45a38257b031cf5f3cd6e83b051a4",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-crash-initial.log",
+      "bytes": 11032,
+      "sha256": "c57baee68b9c1186d5cebd8eab23cfacc6327703fa5c451951bd2adb977e9c5d",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-crash-journal-full.log",
+      "bytes": 2980,
+      "sha256": "d6550e03460f59daf11fc5371478af3f8ab170656415d2ebb630ad1a2af67b8f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-final-pinch-regression.log",
+      "bytes": 311,
+      "sha256": "9c4af5487ff91eac5bc7d2d8d3af311c71cf90338994942014682e1b030d90b2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-patched-launch.log",
+      "bytes": 401,
+      "sha256": "6f2e6874c8e25f150cb39be83ebfbd515856870b2936981650d1ff0fa410f348",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-patched-repro.log",
+      "bytes": 4238,
+      "sha256": "4b786f12660229ecc865647cbb7d813385a47592baf6401940a4b77e5a388ea6",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-pinch-crash.log",
+      "bytes": 107776,
+      "sha256": "b22f6e3b731bc15532c33551e4865cd94c98244e6134536dcb99cf48b4d7ee4a",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-pinch-patched-repro.log",
+      "bytes": 10,
+      "sha256": "e66f159f5cd3b936e4165c7a49ca38cc7876c8fb9fbea144532e64a8343b9b80",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-process-detail.log",
+      "bytes": 60089,
+      "sha256": "4be29dc6624afa01ff34f435087d483121033c2d272de4f0b085c5ad9bfb057c",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-quicktap-repro.log",
+      "bytes": 1997,
+      "sha256": "cb4f1448a40b84c15f1fea62fb68067d2ce6dca210520996ee7ac3ba6eb7c60f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-gallery-repro.log",
+      "bytes": 5900,
+      "sha256": "f3288846c226352d62f1b98e88ad753b59a5b33a57957898d15327d026bbaa5e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-input-info.log",
+      "bytes": 2961,
+      "sha256": "7c166e92650fea9e43b036ab163fd3144215eaba6eda8d2e3b25ea85c427f60f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-lipstick-introspect.log",
+      "bytes": 3351,
+      "sha256": "d21d1008059bea8be8e83f5b5c520ef4102ef926a91825aad72ad3c9de8342ad",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-lipstick-introspect2.log",
+      "bytes": 2920,
+      "sha256": "09d773ed3759b14477266bf8a783a076b16fe8e9dbec98a83f889e98118e426f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-lipstick-introspect3.log",
+      "bytes": 5483,
+      "sha256": "2246a4d52cabc2d3105282a5e5b1fd7752839f8d39745444549ca9cfe0e13b84",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-115200-test.log",
+      "bytes": 768,
+      "sha256": "6877d3d72fd65ca72f46f72be77435ec8db79a0274bf341e99ecf8731ec7c7cd",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-bdaddr-test.log",
+      "bytes": 941,
+      "sha256": "36d5f1e689a54e3811870dd6f000b71470563e47f1f4c884d4d9d4248c6646df",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-bluez-test.log",
+      "bytes": 2642,
+      "sha256": "21b7413e434bc1c5f4850fc4f81e905cc8b7050dcc6050e785e3d5a9c102df53",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-final-check.log",
+      "bytes": 2218,
+      "sha256": "3d30741fb3c455a52b19aac6208689236ba971e8826be8412859fadbba194475",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-fw-long.log",
+      "bytes": 87,
+      "sha256": "b7415ed5dc2b3e56e8d027d634f4cd3d7cead34ffd4ab858b0e96f110e837a07",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-fw115-retry.log",
+      "bytes": 77,
+      "sha256": "5a1c012cec8f73a31db075d5a194b737a4b4fb3e86a313c97e7a4ee84506de73",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-fw115-test.log",
+      "bytes": 3093,
+      "sha256": "aad736edfe276bf20bc391e3181175964e6a510087c3588c876a385ed857f394",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-hciattach-test.log",
+      "bytes": 336,
+      "sha256": "133398b0a69582fe2573efc79c51ca5020187fd0dc32755321c8ed1949bd0f6a",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-hciattach-test2.log",
+      "bytes": 558,
+      "sha256": "5e1c7a5fcea33a166550fb737d265769dd573fb77b949e60e3037993dfdb5d2b",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-hciattach-test3.log",
+      "bytes": 169,
+      "sha256": "37899e277825c3c95dec9f67fcab9f185de5a9cc6dfec3127d426b5c0054599e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-rom-restore.log",
+      "bytes": 519,
+      "sha256": "3f2f4b207c6495812c4088268f79bb4a2524b8e8aceac1b1486123a84b98fcc1",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-bluetooth-up-test.log",
+      "bytes": 424,
+      "sha256": "0264fe289ae83415020f40062d8e3144d0c20c8ac9b07971fda75e60b9835611",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-camera-640-android.log",
+      "bytes": 6463,
+      "sha256": "c4d704435f105044109814dab32b39523294e454bbcda91f4377e55ee5c78e37",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-640-memlock-probe.log",
+      "bytes": 1433,
+      "sha256": "d9c5d3033753401375a2a77acb1bba63c273a089be9f0b2f968f8861a5fbd8f3",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-640-probe.log",
+      "bytes": 1283,
+      "sha256": "748add05ff9942601960d2279d7abb49963f7e4fb829218a741588799d743faa",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-640-root-minisf-android.log",
+      "bytes": 5523,
+      "sha256": "10a31ab48cf5f913fb837e71bca23fcccb60b4f206e3fa7fa91376a1607591d5",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-640-root-minisf-probe.log",
+      "bytes": 1565,
+      "sha256": "fd8d58084b0a956b4e2d1d6b4932cd5a43b8145c679fe4f671fe64ec383b5f05",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-ashmem-android.log",
+      "bytes": 19112,
+      "sha256": "c789af3ae2da3674bfb1360bfcf92299ad9e0e1f1722d70abea8936c0435fc4d",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-ashmem-gpu-android.log",
+      "bytes": 5714,
+      "sha256": "03f9499759ef25f6ac8ad2bbcf69434cd114091ebe1f66d107e6ba613d641ca7",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-ashmem-gpu-probe.log",
+      "bytes": 1512,
+      "sha256": "e8bfd04255beec4eb8da4885ae43761cdd7490fa3e8f690220ae5ffc488b078c",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-ashmem-probe.log",
+      "bytes": 1613,
+      "sha256": "e3187f8466f700458f2c9a575b56cab72d7120155780b094679b800efdc750c5",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-bufferqueue-active.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-bufferqueue-patch.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-android.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-direct-android.log",
+      "bytes": 27909,
+      "sha256": "187d30e6d1d01a89de2af8a46f192768f6ec69722765a04398ce2d2f309dea83",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-direct-probe.log",
+      "bytes": 1476,
+      "sha256": "f9666c2eb8d715197f0f1864b6cd390453920331ba9db651a647e9d8a27808ae",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-patch-install.log",
+      "bytes": 489,
+      "sha256": "c65d661c9e8088fa96c443dc95824597fbc91418abc14258ca1819ed3b6b587e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-retest.log",
+      "bytes": 586,
+      "sha256": "b4b5e3ee0e15326185eb00f4e3bb3e2bced337647c1daf8c2cbd926c00452e0a",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-retest2.log",
+      "bytes": 472,
+      "sha256": "4deed44767ff6cc5853e6779552b4662abc63fa48f39330a68fff8894488108e",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final-retest3.log",
+      "bytes": 382,
+      "sha256": "984da52345557272d520444af61650388458497fb25a3cf009e54acc8a906458",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-final2-android.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-camera-gst-debug.log",
+      "bytes": 1225,
+      "sha256": "9f762312e1045e860bdafbe42f25094e43a4f845d0b985cc921f7cc784d8a1d5",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-connman-reseed.log",
+      "bytes": 799,
+      "sha256": "e6817e6e80d074a6eaaaca9c3c15bc4c77e45dadcf3d06a637af2401b659999d",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-gst-pipeline-android.log",
+      "bytes": 18707,
+      "sha256": "1ce5d6fbf14e71adea561aa4d7d6cb65dd1f629d6d5e154be55488c027d59757",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-gst-pipeline-probe.log",
+      "bytes": 1510,
+      "sha256": "27d2f4b3e1b7628f703f3b00d68d75fe402a1c1b7417461f0d04f75f7dd12b0a",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-gst-probe-android.log",
+      "bytes": 6747,
+      "sha256": "5911466160c5672be86ea05fddba40b0e66b9f43cc944ae12ddc46879a9e7e18",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-gst-probe.log",
+      "bytes": 191,
+      "sha256": "ea4272d5867e59049655766de6392a80fee2bf818f7f5c2d57c60793ccf21730",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-hardware-baseline.log",
+      "bytes": 15434,
+      "sha256": "31907eeea600d42c92af4db973ffd77d71f23f1171decfd4bfebb4ee133334eb",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-hardware-detail.log",
+      "bytes": 11181,
+      "sha256": "face2d44b805c498bdb798bb9e25d0ab6dcac9c3182de6b94fe2635a411f2934",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-radio-detail.log",
+      "bytes": 2887,
+      "sha256": "81b1a0df8337962cf700b0e1484b51e1f724aa1f175a39188dde630188933202",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-sensorfw-check.log",
+      "bytes": 956,
+      "sha256": "ff254277fa085b766e3b8fb9e34976995168bace02b83c94e6dc9448c35dbca2",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-wifi-connman-fixed.log",
+      "bytes": 4203,
+      "sha256": "73826ef255d87d217d4308a34dd94eec96cb49742c010b00de80988693cb2f8f",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-wifi-connman-test.log",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-wifi-connman-test2.log",
+      "bytes": 3153,
+      "sha256": "94aa8e17b4f3b1aec446f0ef0b0e3254ec453e085b3a8889f4a30445508138fc",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-wifi-connman-wext-test.log",
+      "bytes": 3595,
+      "sha256": "15b64206102f302eab8bfeac77309b30b60c2ebfa416b14705c667d557b3bbe1",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-wifi-dhcp-failure.log",
+      "bytes": 1247,
+      "sha256": "685fa0e903644655a9eb83f83e3dd98960e7a8f6c6ff280cf356b2cf6122c3fd",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-live-wifi-direct-test.log",
+      "bytes": 455,
+      "sha256": "3e70d29d4139ee25986227e403d6c63c7a4bd6ff585e5110dae729aae9325e7b",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-wifi-direct-test2.log",
+      "bytes": 455,
+      "sha256": "55fb08d81322504b4be80ba7de349ac13ee15e5e0958e445fe92a352f5dc1f3c",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-wifi-final-check.log",
+      "bytes": 467,
+      "sha256": "6351ee2a53c6fc9c17dc0e3f97f5c7d46207afd9e4ba543d032977716ee1c724",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-live-wifi-test.log",
+      "bytes": 862,
+      "sha256": "9fa5b92d63c7a0d87c1e1ca03aa33f9d40ca9fbaaa64ce9ea5a3ec16713aa350",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-logcat-access.log",
+      "bytes": 17792,
+      "sha256": "46057725d18ca02dae6d016dda21aca6e1e6a77ea1df459e8fbb5fb62640bb17",
+      "redacted": false
+    },
+    {
+      "path": "logs/sailfish-memory-apps-20261018.log",
+      "bytes": 3862,
+      "sha256": "8416b83c92a0f1d970eaa647e18506b1b5d955d9883577a74bfa9d8ef9eee8cd",
+      "redacted": false
+    }
+  ],
+  "refreshed": [
+    {
+      "path": "logs/sailfish-first-boot/fifth-dmesg.log",
+      "bytes": 197138,
+      "sha256": "ed2280a071c37e583b40f2c31bb6853a884421fb0e5ce0d6fba989323a310863",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-first-boot/fourth-last_kmsg.txt",
+      "bytes": 28876,
+      "sha256": "af4499d43583cc25af9e09667cd3eb915360fc10ee9993560e4799558d41c6ae",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-first-boot/last_kmsg.txt",
+      "bytes": 25200,
+      "sha256": "db20231233618db9aeeef1ef36fc0f7a33ed35ef829442d4cc31a00cfda6e58b",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-first-boot/seventh-after-udev.log",
+      "bytes": 1010800,
+      "sha256": "71a0f3bb21bd3323e31e51b1e5356f70aae0172d5fd5e31662ffae93868c9394",
+      "redacted": true
+    },
+    {
+      "path": "logs/sailfish-first-boot/third-last_kmsg.txt",
+      "bytes": 29755,
+      "sha256": "8adc41af09f12c55e868b2578fd780a322b1eaccb2dfe48d84fbed2aa30233fd",
+      "redacted": true
+    }
+  ],
+  "excluded": [
+    "donor ROMs, generated root filesystems and proprietary binary work trees",
+    "raw framebuffer dumps, transient UI XML and unselected intermediate screenshots",
+    "download-transfer logs and host release-publishing state",
+    "shared SD-card, Recovery and iOS partition repair records outside this OS port"
+  ]
+}

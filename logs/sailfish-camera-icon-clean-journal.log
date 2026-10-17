@@ -1,0 +1,30 @@
+PID=1088
+-- Logs begin at Sat 2026-10-17 21:33:02 EEST, end at Sat 2026-10-17 21:35:41 EEST. --
+Oct 17 21:34:56.388244 Jolla booster-silica-qt5[1088]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 21:34:58.020965 Jolla [1088]: booster [silica-qt5][1088]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 21:35:09.249053 Jolla mapplauncherd[1088]: SilicaBooster: Preload compilation aborted.
+Oct 17 21:35:09.262390 Jolla mapplauncherd[1088]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+Oct 17 21:35:39.453826 Jolla [1088]: [1;39m[W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.[0m
+MAPS
+442bd000-442f3000 r-xp 00000000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442f4000-442fd000 r--p 00036000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442fd000-442fe000 rw-p 0003f000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+4782e000-47856000 r-xp 00000000 07:00 6337       /usr/lib/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+47856000-47865000 ---p 00028000 07:00 6337       /usr/lib/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+47865000-47867000 rw-p 00027000 07:00 6337       /usr/lib/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+FDS
+lrwx------ 1 nemo privileged 64 Oct 17 21:35 16 -> /dev/kgsl-3d0
+l-wx------ 1 nemo privileged 64 Oct 17 21:35 18 -> /run/user/100000/single-instance-locks/usr/bin/jolla-camera/instance.lock
+ENV
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_CAMERABIN_VIDEOSRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+STATUS
+State:	S (sleeping)
+VmRSS:	   20400 kB
+Threads:	5
+RECENT
+Oct 17 21:33:57.892150 Jolla /usr/bin/jolla-camera[442]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 21:33:59.234375 Jolla jolla-camera[442]: Failed to create display (No such file or directory)
+Oct 17 21:35:05.260742 Jolla /usr/libexec/mapplauncherd/booster-silica-qt5[779]: Boosted process (pid=858) was terminated due to signal 9

@@ -1,0 +1,33 @@
+tap_uptime=889.60
+1 uptime=890.34 pid=3138 fb=816241bd9b94520bff504e288976de43
+2 uptime=891.55 pid=3138 fb=2723135c475c1db8ad14fc7ad0a5c45b
+3 uptime=892.81 pid=3138 fb=78e06ffcbf9177709456a55dd777ea95
+4 uptime=893.99 pid=3138 fb=3484a6e6781d3060aea03c5061b258ac
+5 uptime=895.12 pid=3138 fb=abf34b24a1fd5091965326c966033ce5
+6 uptime=896.53 pid=3138 fb=520837988c32ba1e529885dc19f2d2b8
+7 uptime=897.98 pid=3138 fb=6879c3e03ea577b75946a92c03b0cb4c
+8 uptime=899.39 pid=3138 fb=83f770f4ff015adb2326579ce8aafb61
+9 uptime=900.74 pid=3138 fb=6c488c6d323cbf79705b584c48330f7d
+10 uptime=902.07 pid=3138 fb=9110aec0a36820e93b5b47efda224786
+11 uptime=903.37 pid=3138 fb=6bf70e431347cd6df9508ddf409467d6
+12 uptime=904.65 pid=3138 fb=3bfdf958baa99aedb13e81d12e21a257
+13 uptime=905.92 pid=3138 fb=284d3b4a97c07d1e2f06e0fd603793e0
+14 uptime=907.22 pid=3138 fb=1f5ee0f0f93c00ea435e5c4f41521e1e
+KERNEL
+[  896.127166] msm_open_common: open control0
+[  896.300201] msm_open_common: open config0
+[  896.307586] msm_enqueue: queue control new max is 1
+[  896.490692] msm_open_common: open frame0
+> > > > > > > > > > NOW
+919.14
+CAMERA
+3138
+JOURNAL
+[  816.266738] Jolla [3125]: booster [silica-qt5][3125]: SilicaBooster: Initiate asynchronous preload.
+[  820.322738] Jolla mapplauncherd[3125]: SilicaBooster: Preload compilation aborted.
+[  825.503005] Jolla [3138]: booster [silica-qt5][3138]: SilicaBooster: Initiate asynchronous preload.
+[  893.552657] Jolla [3472]: booster [silica-qt5][3472]: SilicaBooster: Initiate asynchronous preload.
+[  899.847579] Jolla [3138]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+KERNEL
+[  896.307586] msm_enqueue: queue control new max is 1
+[  896.490692] msm_open_common: open frame0

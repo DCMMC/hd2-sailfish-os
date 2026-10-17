@@ -1,0 +1,73 @@
+> > > > > PID=22003
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 19:19:58.518685 Jolla booster-silica-qt5[22003]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:19:59.274147 Jolla [22003]: booster [silica-qt5][22003]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 19:27:32.482142 Jolla mapplauncherd[22003]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 19:27:32.565180 Jolla [22003]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:27:39.248927 Jolla [22003]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:27:41.917414 Jolla [22003]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+PID=22182
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 19:27:33.852229 Jolla booster-silica-qt5[22182]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:27:34.610072 Jolla [22182]: booster [silica-qt5][22182]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 19:27:44.326960 Jolla mapplauncherd[22182]: SilicaBooster: Preload compilation aborted.
+Oct 17 19:27:44.335108 Jolla mapplauncherd[22182]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 19:27:51.364069 Jolla [22182]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:27:57.926081 Jolla [22182]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:28:00.294764 Jolla [22182]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+PID=22218
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 19:27:45.776179 Jolla booster-silica-qt5[22218]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:27:46.407557 Jolla mapplauncherd[22218]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 19:29:20.779261 Jolla mapplauncherd[22218]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 19:29:20.834620 Jolla [22218]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:29:27.164088 Jolla [22218]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:29:29.414729 Jolla [22218]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+PID=23217
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 19:49:09.950326 Jolla booster-silica-qt5[23217]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:49:10.666756 Jolla [23217]: booster [silica-qt5][23217]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 20:04:42.313171 Jolla mapplauncherd[23217]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 20:04:42.454712 Jolla [23217]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 20:04:52.259796 Jolla [23217]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+Oct 17 20:05:17.152038 Jolla [23217]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+PID=23664
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 20:04:43.783600 Jolla booster-silica-qt5[23664]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 20:04:44.513092 Jolla [23664]: booster [silica-qt5][23664]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 20:05:32.372070 Jolla mapplauncherd[23664]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 20:05:32.421356 Jolla [23664]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 20:05:41.261383 Jolla [23664]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+Oct 17 20:05:55.569977 Jolla [23664]: [W] unknown:43 - file:///usr/lib/qt5/qml/Sailfish/Silica/PulleyAnimationHint.qml:43:25: Unable to assign [undefined] to QQuickItem*
+Oct 17 20:05:55.860840 Jolla [23664]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+PID=23743
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 20:05:33.748687 Jolla booster-silica-qt5[23743]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 20:05:34.580444 Jolla mapplauncherd[23743]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 20:05:37.850189 Jolla mapplauncherd[23743]: SilicaBooster: Preload compilation aborted.
+Oct 17 20:05:37.865417 Jolla mapplauncherd[23743]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 20:06:03.632934 Jolla [23743]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 20:06:19.109558 Jolla [23743]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-camera" )
+Oct 17 20:06:19.126465 Jolla [23743]: [D] DeclarativeCoverActionList::enableActiveCovers:341 - void DeclarativeCoverActionList::enableActiveCovers() "enableActiveCovers, process: /usr/bin/jolla-gallery, winId: 0, action count: 1, enabled: 1"
+Oct 17 20:06:19.147247 Jolla [23743]: [D] DeclarativeCoverActionList::disableActiveCovers:370 - void DeclarativeCoverActionList::disableActiveCovers() "disableActiveCovers, process: /usr/bin/jolla-gallery, winId: 0, action count: 1, enabled: 0"
+Oct 17 20:06:32.528808 Jolla [23743]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+PID=23821
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 20:05:58.975921 Jolla booster-silica-qt5[23821]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 20:05:59.931976 Jolla mapplauncherd[23821]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 20:06:14.963165 Jolla mapplauncherd[23821]: SilicaBooster: Preload compilation aborted.
+Oct 17 20:06:33.683532 Jolla mapplauncherd[23821]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 20:06:34.017944 Jolla [23821]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 20:06:39.687469 Jolla [23821]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-camera" )
+Oct 17 20:06:39.695617 Jolla [23821]: [D] DeclarativeCoverActionList::enableActiveCovers:341 - void DeclarativeCoverActionList::enableActiveCovers() "enableActiveCovers, process: /usr/bin/jolla-gallery, winId: 0, action count: 1, enabled: 1"
+Oct 17 20:06:39.703125 Jolla [23821]: [D] DeclarativeCoverActionList::disableActiveCovers:370 - void DeclarativeCoverActionList::disableActiveCovers() "disableActiveCovers, process: /usr/bin/jolla-gallery, winId: 0, action count: 1, enabled: 0"
+Oct 17 20:06:47.200531 Jolla [23821]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+PID=23912
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:05:17 EEST. --
+Oct 17 20:06:35.206268 Jolla booster-silica-qt5[23912]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 20:06:49.460724 Jolla mapplauncherd[23912]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 20:06:50.010498 Jolla [23912]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 20:07:08.393890 Jolla [23912]: [D] DeclarativeCoverActionList::appendActions:143 - static void DeclarativeCoverActionList::appendActions(QQmlListProperty<DeclarativeCoverAction>*, DeclarativeCoverAction*)  QUrl( "image://theme/icon-cover-camera" )
+Oct 17 20:07:08.402038 Jolla [23912]: [D] DeclarativeCoverActionList::enableActiveCovers:341 - void DeclarativeCoverActionList::enableActiveCovers() "enableActiveCovers, process: /usr/bin/jolla-gallery, winId: 0, action count: 1, enabled: 1"
+Oct 17 20:07:08.408355 Jolla [23912]: [D] DeclarativeCoverActionList::disableActiveCovers:370 - void DeclarativeCoverActionList::disableActiveCovers() "disableActiveCovers, process: /usr/bin/jolla-gallery, winId: 0, action count: 1, enabled: 0"
+Oct 17 21:02:34.769931 Jolla [23912]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000

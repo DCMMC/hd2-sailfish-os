@@ -1,0 +1,249 @@
+D/QcomCamera( 7155): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera( 7155): HAL_get_camera_info: loading libcamera at 0x409905b8
+E/cutils-trace( 7440): Error opening trace file: No such file or directory (2)
+D/QcomCamera( 7155): HAL_get_camera_info: loading libcamera at 0x409905b8
+D/QcomCamera( 7155): HAL_get_camera_info: loading libcamera at 0x409905b8
+I/CameraClient( 7155): Opening camera 0
+D/QcomCamera( 7155): camera_device_open:++
+D/QcomCamera( 7155): camera_device_open: loaded libcamera at 0x409905b8
+D/QualcommCameraHardware( 7155): createInstance: E
+D/QualcommCameraHardware( 7155):  Storing the current target type as 1
+D/QualcommCameraHardware( 7155): constructor EX
+D/QualcommCameraHardware( 7155): startCamera E
+D/QualcommCameraHardware( 7155): loading liboemcamera at 0x40990a48
+I/QualcommCameraHardware( 7155): Set main cam
+I/mm-camera-mmap( 7155): set sensor selection :0
+I/QualcommCameraHardware( 7155): Open Device node : /dev/msm_camera/control1
+I/mm-camera-config( 7155): cam_conf fd cfgctrl.camfd:0
+I/mm-camera-config( 7155): Open config device node : /dev/msm_camera/config1
+D/mm-camera-s5k3e2fx_u( 7155): lcd type = 0
+I/        ( 7155): [AWB Calibration] read from file OK: /sys/android_camera_awb_cal/awb_ca
+I/mm-camera-aec( 7155): Touch AEC  == numRegions:256
+I/mm-camera-aec( 7155): Touch AEC aecCtrl->aec_state.aec_algo:1
+I/QualcommCameraHardware( 7155): startCamera: camsensor name s5k3e2fx, flash 1
+D/QualcommCameraHardware( 7155): startCamera X
+D/QualcommCameraHardware( 7155): initDefaultParameters E
+D/QualcommCameraHardware( 7155): product 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 1, length 32
+E/QualcommCameraHardware( 7155): native_access_parm: error (No such file or directory): fd 13, type 1, length 32, status 0
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 64, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 65, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 66, length 4
+D/QualcommCameraHardware( 7155): requested preview size 768 x 432
+D/QualcommCameraHardware( 7155): requested picture size 1024 x 768
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 21, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 14, length 4
+D/QualcommCameraHardware( 7155): setFlash 0
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 49, length 4
+D/mm-camera-ctrlcmd( 7155): In config_proc_CAMERA_SET_PARM_LED_MODE: 0
+I/QualcommCameraHardware( 7155): Set zoom=0 20
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 2, length 4
+I/QualcommCameraHardware( 7155): Setting Contrast is 5
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 6, length 4
+I/QualcommCameraHardware( 7155): Setting Brightness is 3
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 7, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 12, length 4
+I/mm-camera-ctrlcmd( 7155): md.d.aec_mode.aec_mode:1
+I/mm-camera-aec( 7155): Touch AEC  == numRegions:256
+I/mm-camera-aec( 7155): Touch AEC aecCtrl->aec_state.aec_algo:1
+D/QualcommCameraHardware( 7155): not defined touch-focus yet, or AP without touch-focus function
+I/QualcommCameraHardware( 7155): Before Setting coordinate x:384 y:216
+I/QualcommCameraHardware( 7155): Setting coordinate x:2 y:2
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 60, length 28
+I/mm-camera 8x vfe( 7155): vfe_set_coordinate x:2 y:2
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 26, length 4
+D/mm-camera-ctrlcmd( 7155): md.d.aec_iso_mode = 0
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 62, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 8, length 4
+D/QualcommCameraHardware( 7155): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=0
+D/QualcommCameraHardware( 7155): initDefaultParameters X
+D/QualcommCameraHardware( 7155): createInstance: X created hardware=0x12200
+D/QcomCamera( 7155): camera_device_open:--
+E/cutils-trace( 7155): Error opening trace file: No such file or directory (2)
+D/QualcommCameraHardware( 7155): requested preview size 1280 x 720
+D/QualcommCameraHardware( 7155): change preview resolution to 768X432 since recording is in 720p
+D/QualcommCameraHardware( 7155): requested picture size 2016 x 1344
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 21, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 14, length 4
+D/QualcommCameraHardware( 7155): setFlash 1
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 49, length 4
+D/mm-camera-ctrlcmd( 7155): In config_proc_CAMERA_SET_PARM_LED_MODE: 1
+I/QualcommCameraHardware( 7155): Set zoom=0 20
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 2, length 4
+E/QualcommCameraHardware( 7155): Invalid focus mode value: continuous-picture
+E/QualcommCameraHardware( 7155): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&): 2954, rc = -22
+I/QualcommCameraHardware( 7155): Setting Contrast is 5
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 6, length 4
+I/QualcommCameraHardware( 7155): Setting Brightness is 3
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 7, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 12, length 4
+I/mm-camera-ctrlcmd( 7155): md.d.aec_mode.aec_mode:1
+I/mm-camera-aec( 7155): Touch AEC  == numRegions:256
+I/mm-camera-aec( 7155): Touch AEC aecCtrl->aec_state.aec_algo:1
+D/QualcommCameraHardware( 7155): not defined touch-focus yet, or AP without touch-focus function
+I/QualcommCameraHardware( 7155): Before Setting coordinate x:384 y:216
+I/QualcommCameraHardware( 7155): Setting coordinate x:2 y:2
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 60, length 28
+I/mm-camera 8x vfe( 7155): vfe_set_coordinate x:2 y:2
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 26, length 4
+D/mm-camera-ctrlcmd( 7155): md.d.aec_iso_mode = 0
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 62, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 8, length 4
+D/QualcommCameraHardware( 7155): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=-22
+D/QualcommCameraHardware( 7155): requested preview size 1280 x 720
+D/QualcommCameraHardware( 7155): change preview resolution to 768X432 since recording is in 720p
+D/QualcommCameraHardware( 7155): requested picture size 2016 x 1344
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 21, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 14, length 4
+D/QualcommCameraHardware( 7155): setFlash 1
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 49, length 4
+D/mm-camera-ctrlcmd( 7155): In config_proc_CAMERA_SET_PARM_LED_MODE: 1
+I/QualcommCameraHardware( 7155): Set zoom=0 20
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 2, length 4
+E/QualcommCameraHardware( 7155): Invalid focus mode value: continuous-picture
+E/QualcommCameraHardware( 7155): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&): 2954, rc = -22
+I/QualcommCameraHardware( 7155): Setting Contrast is 5
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 6, length 4
+I/QualcommCameraHardware( 7155): Setting Brightness is 3
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 7, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 12, length 4
+I/mm-camera-ctrlcmd( 7155): md.d.aec_mode.aec_mode:1
+I/mm-camera-aec( 7155): Touch AEC  == numRegions:256
+I/mm-camera-aec( 7155): Touch AEC aecCtrl->aec_state.aec_algo:1
+D/QualcommCameraHardware( 7155): not defined touch-focus yet, or AP without touch-focus function
+I/QualcommCameraHardware( 7155): Before Setting coordinate x:384 y:216
+I/QualcommCameraHardware( 7155): Setting coordinate x:2 y:2
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 60, length 28
+I/mm-camera 8x vfe( 7155): vfe_set_coordinate x:2 y:2
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 26, length 4
+D/mm-camera-ctrlcmd( 7155): md.d.aec_iso_mode = 0
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 62, length 4
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 8, length 4
+D/QualcommCameraHardware( 7155): virtual android::status_t android::QualcommCameraHardware::setParameters(const android::CameraParameters&), final_rc=-22
+D/QualcommCameraHardware( 7155): startPreview E
+D/QualcommCameraHardware( 7155): initPreview E: preview size=1280x720
+D/QualcommCameraHardware( 7155): initPreview E: preview size=1280x720 videosize = 1280 x 720
+D/QualcommCameraHardware( 7155): initPreview : preview size=768x432 videosize = 1280 x 720
+I/QualcommCameraHardware( 7155): pmem pool /dev/pmem_adsp ioctl(fd = 23, PMEM_GET_SIZE) is 2097152
+D/QualcommCameraHardware( 7155): mBufferSize=497664, mAlignedBufferSize=524288
+E/QualcommCameraHardware( 7155): num_buffers = 4
+I/QualcommCameraHardware( 7155): register_buf: camfd = 21, reg = 0 buffer = 0x4103e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 21, reg = 0 buffer = 0x410be000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 21, reg = 0 buffer = 0x4113e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 21, reg = 0 buffer = 0x411be000
+D/QualcommCameraHardware( 7155): initREcord E
+I/QualcommCameraHardware( 7155): pmem pool /dev/pmem_adsp ioctl(fd = 26, PMEM_GET_SIZE) is 16777216
+D/QualcommCameraHardware( 7155): mBufferSize=1382400, mAlignedBufferSize=2097152
+E/QualcommCameraHardware( 7155): num_buffers = 8
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x4123e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x4143e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x4163e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x4183e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x41a3e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x41c3e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x41e3e000
+I/QualcommCameraHardware( 7155): register_buf: camfd = 24, reg = 0 buffer = 0x4203e000
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1092870144 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1094967296 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1097064448 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1099161600 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1101258752 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1103355904 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1105453056 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initRecord :  record heap , video buffers  buffer=1107550208 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initREcord X
+D/QualcommCameraHardware( 7155): native_access_parm: fd 13, type 1, length 32
+D/QualcommCameraHardware( 7155): initpreview before cam_frame thread carete , video frame  buffer=1099161600 fd=26 y_off=0 cbcr_off=921600
+D/QualcommCameraHardware( 7155): initPreview X: 1
+D/mm-camera 8x vfe( 7155): vfe_enable_vfe: ctrl->state is 0
+D/mm-camera 8x vfe( 7155): vfe_enable_vfe: set ctrl->state = CAMERA_STATE_VFE_ENABLED
+D/QualcommCameraHardware( 7155): frame_thread E
+I/mm-camera( 7155): Open Device node : /dev/msm_camera/frame1
+E/mm-camera 8x vfe( 7155): vfe_util_updaterollofftbl: sensor doesn't support rolloff correction by VFE
+D/QualcommCameraHardware( 7155): startPreview X
+E/cutils-trace( 7434): Error opening trace file: No such file or directory (2)
+D/memalloc( 7434): init_pmem_area: Initializing pmem area
+D/memalloc( 7434): init_pmem_area_locked: Opening master pmem FD
+D/memalloc( 7434): init_pmem_area_locked: Total pmem size: 33554432
+E/memalloc( 7434): /dev/pmem: Failed to map pmem master fd: Out of memory
+E/memalloc( 7434): /dev/pmem: failed to initialize pmem area
+E/gralloc ( 7434): gralloc failed err=Out of memory
+W/GraphicBufferAllocator( 7434): alloc(1280, 720, 2, 00000103, ...) failed -12 (Out of memory)
+E/        ( 7434): DroidMediaAllocator::createGraphicBuffer(w=1280, h=720) failed (Out of memory), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7440): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7155): internal_handle_preview: ERROR dequeueing the buffer
+W/CameraClient( 7155): lockIfMessageWanted(16): dropped unwanted message
+E/gralloc ( 7434): gralloc failed err=Out of memory
+W/GraphicBufferAllocator( 7434): alloc(1280, 720, 2, 00000103, ...) failed -12 (Out of memory)
+E/        ( 7434): DroidMediaAllocator::createGraphicBuffer(w=1280, h=720) failed (Out of memory), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7440): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7155): internal_handle_preview: ERROR dequeueing the buffer
+W/CameraClient( 7155): lockIfMessageWanted(16): dropped unwanted message
+E/gralloc ( 7434): gralloc failed err=Out of memory
+W/GraphicBufferAllocator( 7434): alloc(1280, 720, 2, 00000103, ...) failed -12 (Out of memory)
+E/        ( 7434): DroidMediaAllocator::createGraphicBuffer(w=1280, h=720) failed (Out of memory), handle=0x0, format=0x2, usage=0x103, size=0
+E/BufferQueue( 7440): [DroidMediaCameraBufferQueue] dequeueBuffer: SurfaceComposer::createGraphicBuffer failed
+E/QcomCamera( 7155): internal_handle_preview: ERROR dequeueing the buffer
+W/CameraClient( 7155): lockIfMessageWanted(16): dropped unwanted message
+I/CameraClient( 7155): stopPreview: Disable picture related messages
+D/QualcommCameraHardware( 7155): stopPreview: E
+D/QualcommCameraHardware( 7155): stopPreviewInternal E: 1
+D/QualcommCameraHardware( 7155): cancelAutoFocusInternal E
+D/QualcommCameraHardware( 7155): cancelAutoFocusInternal X: 0
+I/QualcommCameraHardware( 7155): deinitPreview E
+D/QualcommCameraHardware( 7155): launch_watchdog_thread:
+D/QualcommCameraHardware( 7155): watchdog_thread_id = 129272
+I/QualcommCameraHardware( 7155): deinitPreview X
+D/QualcommCameraHardware( 7155): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 7155): stopPreview: X
+D/QualcommCameraHardware( 7155): stopPreview: E
+D/QualcommCameraHardware( 7155): stopPreviewInternal E: 0
+D/QualcommCameraHardware( 7155): stopPreviewInternal X: 0
+D/QualcommCameraHardware( 7155): stopPreview: X
+D/QualcommCameraHardware( 7155): release E
+D/QualcommCameraHardware( 7155): deinitRaw E
+D/QualcommCameraHardware( 7155): deinitRaw X
+D/mm-camera-ctrlcmd( 7155): config_proc_CAMERA_STOP_SNAPSHOT: received CAMERA_STOP_SNAPSHOT!, ctrl->state = 25
+D/mm-camera-ctrlcmd( 7155): config_proc_CAMERA_STOP_SNAPSHOT: invalid state 25
+D/QualcommCameraHardware( 7155): dlclose(libqcamera)
+D/QualcommCameraHardware( 7155): release X
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 0
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 1
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 2
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 3
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 4
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 5
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 6
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 7
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 8
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 9
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 10
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 11
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 12
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 13
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 14
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 15
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 16
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 17
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 18
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 19
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 20
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 21
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 22
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 23
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 24
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 25
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 26
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 27
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 28
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 29
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 30
+D/QualcommCameraHardware( 7155): void* watchdog(void*), frame_thread_released = 0, cnt = 31
+E/QualcommCameraHardware( 7155): void* watchdog(void*), state change no updated, die after 1 sec!!
+I/ServiceManager( 4087): service 'media.camera' died
+W/CameraBase( 7440): Camera service died!
+E/BufferQueue( 7440): [DroidMediaCameraBufferQueue] dequeueBuffer: BufferQueue has been abandoned!
+E/MediaPlayerFactory( 7458): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found
+I/CameraService( 7458): CameraService started (pid=7458)
+I/CameraService( 7458): Loaded "Jellybean Camera Hal" camera module
+D/QcomCamera( 7458): HAL_get_number_of_cameras: loading libcamera at 0x409905b8

@@ -1,0 +1,131 @@
+> > > > > I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="htcleo-touchscreen"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input0
+U: Uniq=
+H: Handlers=event0
+B: EV=b
+B: KEY=400 0 4 0 0 0 0 0 0 0 0
+B: ABS=650000 11000003
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="proximity"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input1
+U: Uniq=
+H: Handlers=event1
+B: EV=9
+B: ABS=2000000
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="h2w headset"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input2
+U: Uniq=
+H: Handlers=kbd event2 keyreset
+B: EV=3
+B: KEY=84 0 38 0 e0800 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="htcleo-keypad"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input3
+U: Uniq=
+H: Handlers=kbd event3 keyreset
+B: EV=3
+B: KEY=80 0 0 40000800 c0840 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="compass"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input4
+U: Uniq=
+H: Handlers=event4
+B: EV=9
+B: ABS=307ff
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="lightsensor-level"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input5
+U: Uniq=
+H: Handlers=event5
+B: EV=9
+B: ABS=100 0
+
+===/dev/input/event0
+P: /devices/virtual/input/input0/event0
+N: input/event0
+S: touchscreen
+E: DEVLINKS=/dev/touchscreen
+E: DEVNAME=/dev/input/event0
+E: DEVPATH=/devices/virtual/input/input0/event0
+E: ID_INPUT=1
+E: ID_INPUT_TOUCHSCREEN=1
+E: MAJOR=13
+E: MINOR=64
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=55898
+
+===/dev/input/event1
+P: /devices/virtual/input/input1/event1
+N: input/event1
+E: DEVNAME=/dev/input/event1
+E: DEVPATH=/devices/virtual/input/input1/event1
+E: ID_INPUT=1
+E: MAJOR=13
+E: MINOR=65
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=61696
+
+===/dev/input/event2
+P: /devices/virtual/input/input2/event2
+N: input/event2
+E: DEVNAME=/dev/input/event2
+E: DEVPATH=/devices/virtual/input/input2/event2
+E: ID_INPUT=1
+E: ID_INPUT_KEY=1
+E: MAJOR=13
+E: MINOR=66
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=71462
+
+===/dev/input/event3
+P: /devices/virtual/input/input3/event3
+N: input/event3
+E: DEVNAME=/dev/input/event3
+E: DEVPATH=/devices/virtual/input/input3/event3
+E: ID_INPUT=1
+E: ID_INPUT_KEY=1
+E: MAJOR=13
+E: MINOR=67
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=77382
+
+===/dev/input/event4
+P: /devices/virtual/input/input4/event4
+N: input/event4
+E: DEVNAME=/dev/input/event4
+E: DEVPATH=/devices/virtual/input/input4/event4
+E: ID_INPUT=1
+E: ID_INPUT_ACCELEROMETER=1
+E: ID_INPUT_ACCELEROMETER_ORIENTATION=undefined
+E: MAJOR=13
+E: MINOR=68
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=83394
+
+===/dev/input/event5
+P: /devices/virtual/input/input5/event5
+N: input/event5
+E: DEVNAME=/dev/input/event5
+E: DEVPATH=/devices/virtual/input/input5/event5
+E: ID_INPUT=1
+E: MAJOR=13
+E: MINOR=69
+E: SUBSYSTEM=input
+E: USEC_INITIALIZED=6649
+
+lrwxrwxrwx 1 root shell   7 Oct 16 20:38 /system/bin/getevent -> toolbox
+-rwxr-xr-x 1 root shell 201 Oct 16 20:22 /system/bin/input
+lrwxrwxrwx 1 root shell   7 Oct 16 20:38 /system/bin/sendevent -> toolbox

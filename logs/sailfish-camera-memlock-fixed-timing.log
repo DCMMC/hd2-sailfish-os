@@ -1,0 +1,37 @@
+tap_uptime=112.51
+1 uptime=113.27 pid=614 fb=816241bd9b94520bff504e288976de43
+2 uptime=114.44 pid=614 fb=bf6324c92b99517e95fcb7a000db19e7
+3 uptime=115.61 pid=614 fb=ef800bcc89c080b1f782ebd3991646c3
+4 uptime=116.78 pid=614 fb=d2bddc1963b0f973c309d8e038d4ee70
+5 uptime=117.98 pid=614 fb=6f4f00997a345c2dd3a4cea0ecc0bc9b
+6 uptime=119.18 pid=614 fb=0682cd972ee3165915b141e6698ec3c0
+7 uptime=120.34 pid=614 fb=6871e0e446c6a1a3b82126cf984f25dc
+8 uptime=121.52 pid=614 fb=ae6d74cecf5e055933f462e44400ee6a
+9 uptime=122.76 pid=614 fb=6563230f605459acff8a4a80688a47b4
+10 uptime=124.06 pid=614 fb=b24a623c499e0ad399f3c921fa03c676
+11 uptime=125.33 pid=614 fb=305db7cabc62addfbe60207ab43a3693
+12 uptime=126.58 pid=614 fb=3402e8e6cfafd6bd799f52d464b0500a
+13 uptime=127.98 pid=614 fb=0b2c6557d592ede2cb9cbf4a4cf0798a
+14 uptime=129.21 pid=614 fb=5cfaa700bc271f5e85ebd9bec6b4efe2
+15 uptime=130.51 pid=614 fb=6fd308e83d546dca77c198d6f1e5d4c3
+16 uptime=131.78 pid=614 fb=0cc90ea54a45a411f82db6e85eb86d84
+17 uptime=133.10 pid=614 fb=d314ad62b3ff4b2e664ae3eb8abee603
+18 uptime=134.35 pid=614 fb=a4569ed39ea4527da57ad94c2740ff20
+19 uptime=135.63 pid=614 fb=4ae70f3bd04c556691cfcd01dd052e36
+20 uptime=136.92 pid=614 fb=a817640f2e49a74da81fa9ca9be89330
+21 uptime=138.24 pid=614 fb=baab3932122d57a947ee62c0b20d3c5a
+22 uptime=139.52 pid=614 fb=724401a5e22d210d9bc0ad852d3b6355
+KERNEL
+[  129.119323] msm_open_common: open control0
+[  129.360778] msm_open_common: open config0
+[  129.387084] msm_enqueue: queue event new max is 1
+[  129.387115] msm_enqueue: queue control new max is 1
+[  129.519866] msm_open_common: open frame0
+[  129.682708] msm_enqueue: queue frame new max is 1
+[  129.682739] msm_enqueue: queue event new max is 2
+[  129.705444] pmem: mmap unable to allocate memoryon pmem
+MEM
+             total       used       free     shared    buffers     cached
+Mem:        412856     400956      11900          0       8620     216096
+-/+ buffers/cache:     176240     236616
+Swap:       103208          0     103208

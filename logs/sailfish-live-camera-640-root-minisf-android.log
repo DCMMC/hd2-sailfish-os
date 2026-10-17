@@ -1,0 +1,68 @@
+E/cutils-trace( 7693): Error opening trace file: No such file or directory (2)
+E/QualcommCameraHardware( 7673): native_access_parm: error (No such file or directory): fd 13, type 1, length 32, status 0
+D/QualcommCameraHardware( 7673): requested preview size 768 x 432
+E/cutils-trace( 7673): Error opening trace file: No such file or directory (2)
+D/QualcommCameraHardware( 7673): requested preview size 640 x 480
+D/QualcommCameraHardware( 7673): requested preview size 640 x 480
+D/QualcommCameraHardware( 7673): startPreview E
+D/QualcommCameraHardware( 7673): initPreview E: preview size=640x480
+D/QualcommCameraHardware( 7673): initPreview E: preview size=640x480 videosize = 640 x 480
+D/QualcommCameraHardware( 7673): initPreview : preview size=640x480 videosize = 640 x 480
+D/QualcommCameraHardware( 7673): initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+D/QualcommCameraHardware( 7673): initPreview X: 1
+D/QualcommCameraHardware( 7673): frame_thread E
+D/QualcommCameraHardware( 7673): startPreview X
+E/cutils-trace( 7684): Error opening trace file: No such file or directory (2)
+D/memalloc( 7684): init_pmem_area: Initializing pmem area
+D/memalloc( 7684): init_pmem_area_locked: Opening master pmem FD
+D/memalloc( 7684): init_pmem_area_locked: Total pmem size: 33554432
+E/memalloc( 7684): /dev/pmem: Failed to map pmem master fd: Out of memory
+E/memalloc( 7684): /dev/pmem: failed to initialize pmem area
+W/memalloc( 7684): Falling back to ashmem
+D/memalloc( 7684): ashmem: Allocated buffer base:0x42464000 size:1228800 fd:12
+E/memalloc( 7693): ashmem: Failed to map memory in the client: Operation not permitted
+D/memalloc( 7684): ashmem: Freeing buffer base:0x42464000 size:1228800 fd:12
+D/memalloc( 7684): ashmem: Unmapping buffer base: 0x42464000 size: 1228800
+I/DEBUG   (  272):     #00  pc 00002f3a  /system/lib/hw/camera.qsd8k.so (android::internal_handle_preview(android::sp<android::IMemory> const&, preview_stream_ops*, camera_memory* (*)(int, unsigned int, unsigned int, void*), int, int)+133)
+I/DEBUG   (  272):     #02  pc 0000c80b  /system/lib/libcamera.so (android::QualcommCameraHardware::receivePreviewFrame(msm_frame*)+206)
+I/DEBUG   (  272):     #06  pc 0000fde7  /system/lib/libcamera.so (android::frame_thread(void*)+38)
+I/DEBUG   (  272):          4173b9ec  40af8f07  /system/lib/hw/camera.qsd8k.so (android::internal_handle_preview(android::sp<android::IMemory> const&, preview_stream_ops*, camera_memory* (*)(int, unsigned int, unsigned int, void*), int, int)+82)
+I/DEBUG   (  272):          4173ba2c  a790fdc1  /system/lib/libcamera.so (android::frame_thread(void*))
+I/DEBUG   (  272):          4173ba8c  a790c80d  /system/lib/libcamera.so (android::QualcommCameraHardware::receivePreviewFrame(msm_frame*)+208)
+W/CameraBase( 7693): Camera service died!
+E/MediaPlayerFactory( 7703): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found
+E/cutils-trace( 7609): Error opening trace file: 没有那个文件或目录 (2)
+E/QualcommCameraHardware( 7703): native_access_parm: error (No such file or directory): fd 13, type 1, length 32, status 0
+D/QualcommCameraHardware( 7703): requested preview size 768 x 432
+E/cutils-trace( 7703): Error opening trace file: No such file or directory (2)
+D/QualcommCameraHardware( 7703): requested preview size 768 x 432
+D/QualcommCameraHardware( 7703): requested preview size 768 x 432
+D/QualcommCameraHardware( 7703): startPreview E
+D/QualcommCameraHardware( 7703): initPreview E: preview size=768x432
+D/QualcommCameraHardware( 7703): initPreview E: preview size=768x432 videosize = 768 x 432
+D/QualcommCameraHardware( 7703): initPreview : preview size=768x432 videosize = 768 x 432
+D/QualcommCameraHardware( 7703): initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=331776
+D/QualcommCameraHardware( 7703): initPreview X: 1
+D/QualcommCameraHardware( 7703): frame_thread E
+D/QualcommCameraHardware( 7703): startPreview X
+W/memalloc( 7684): Falling back to ashmem
+D/memalloc( 7684): ashmem: Allocated buffer base:0x40464000 size:1376256 fd:12
+D/memalloc( 7609): ashmem: Mapped buffer base:0x51cc9000 size:1376256 fd:61
+D/memalloc( 7684): ashmem: Freeing buffer base:0x40464000 size:1376256 fd:12
+D/memalloc( 7684): ashmem: Unmapping buffer base: 0x40464000 size: 1376256
+D/memalloc( 7703): ashmem: Mapped buffer base:0x4175b000 size:1376256 fd:30
+E/Surface ( 7703): queueBuffer: error queuing buffer to SurfaceTexture, -22
+W/memalloc( 7684): Falling back to ashmem
+D/memalloc( 7684): ashmem: Allocated buffer base:0x40464000 size:1376256 fd:12
+D/memalloc( 7609): ashmem: Mapped buffer base:0x51e19000 size:1376256 fd:68
+D/memalloc( 7703): ashmem: Mapped buffer base:0x418ab000 size:1376256 fd:33
+D/memalloc( 7684): ashmem: Freeing buffer base:0x40464000 size:1376256 fd:12
+D/memalloc( 7684): ashmem: Unmapping buffer base: 0x40464000 size: 1376256
+E/Surface ( 7703): queueBuffer: error queuing buffer to SurfaceTexture, -22
+W/memalloc( 7684): Falling back to ashmem
+D/memalloc( 7684): ashmem: Allocated buffer base:0x40464000 size:1376256 fd:12
+D/memalloc( 7609): ashmem: Mapped buffer base:0x547b3000 size:1376256 fd:71
+D/memalloc( 7703): ashmem: Mapped buffer base:0x419fb000 size:1376256 fd:36
+D/memalloc( 7684): ashmem: Freeing buffer base:0x40464000 size:1376256 fd:12
+D/memalloc( 7684): ashmem: Unmapping buffer base: 0x40464000 size: 1376256
+E/Surface ( 7703): queueBuffer: error queuing buffer to SurfaceTexture, -22

@@ -1,0 +1,818 @@
+> > > > > > > > > > > > > > > > > > > > > > > > > > > Server String: /run/user/100000/pulse/native
+Library Protocol Version: 30
+Server Protocol Version: 30
+Is Local: yes
+Client Index: 2
+Tile Size: 65496
+User Name: nemo
+Host Name: Jolla
+Server Name: pulseaudio
+Server Version: 6.0-rebootstrapped
+Default Sample Specification: s16le 2ch 44100Hz
+Default Channel Map: front-left,front-right
+Default Sink: sink.primary
+Default Source: source.primary
+Cookie: bde7:eefa
+/bin/sh: line 18:  7366 Terminated              as_nemo paplay --device=sink.primary --volume=65536 /usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav > /tmp/hd2-debug-paplay.out 2>&1
+[debug log]
+(   0.140|   0.000) D: [pulseaudio] droid-util.c: config: New module: a2dp
+(   0.140|   0.000) D: [pulseaudio] droid-util.c: config: a2dp: New output: a2dp
+(   0.140|   0.000) D: [pulseaudio] droid-util.c: config: New module: usb
+(   0.140|   0.000) D: [pulseaudio] droid-util.c: config: usb: New output: usb_accessory
+(   0.140|   0.000) D: [pulseaudio] droid-util.c: config: usb: New output: usb_device
+(   0.140|   0.000) I: [pulseaudio] droid-util.c: Parsed config file (/system/etc/audio_policy.conf): 3 modules.
+(   0.990|   0.849) I: [pulseaudio] droid-util.c: Loaded hw module anzu: primary (HAL 4.4.4)
+(   1.004|   0.014) D: [pulseaudio] droid-util.c: New profile: primary-primary
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output mapping primary
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-earpiece
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-speaker
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-wired_headset
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-wired_headphone
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-bluetooth_sco
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-sco_headset
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-sco_carkit
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-aux_digital
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-fm
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-fm_tx
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-speaker+wired_headphone
+(   1.005|   0.000) D: [pulseaudio] droid-util.c:   New output port output-parking
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input mapping primary
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-builtin_mic
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-bluetooth_sco_headset
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-wired_headset
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-aux_digital
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-voice_call
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-default
+(   1.006|   0.000) D: [pulseaudio] droid-util.c:   New input port input-parking
+(   1.006|   0.000) D: [pulseaudio] module-droid-card.c: Card profile primary-primary
+(   1.007|   0.000) D: [pulseaudio] droid-util.c: Ports for card output: primary
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-earpiece
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-speaker
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-wired_headset
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-wired_headphone
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-bluetooth_sco
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-sco_headset
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-sco_carkit
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-aux_digital
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-fm
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-fm_tx
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-speaker+wired_headphone
+(   1.007|   0.000) D: [pulseaudio] droid-util.c:   New port output-parking
+(   1.008|   0.000) D: [pulseaudio] droid-util.c: Ports for card input: primary
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-builtin_mic
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-bluetooth_sco_headset
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-wired_headset
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-aux_digital
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-voice_call
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-default
+(   1.008|   0.000) D: [pulseaudio] droid-util.c:   New port input-parking
+(   1.008|   0.000) D: [pulseaudio] module-droid-card.c: New virtual profile: voicecall
+(   1.008|   0.000) D: [pulseaudio] module-droid-card.c: New virtual profile: voicecall-record
+(   1.008|   0.000) D: [pulseaudio] module-droid-card.c: New virtual profile: communication
+(   1.008|   0.000) D: [pulseaudio] module-droid-card.c: New virtual profile: ringtone
+(   1.008|   0.000) I: [pulseaudio] card.c: Created 0 "droid_card.primary"
+(   1.009|   0.000) D: [pulseaudio] module-droid-card.c: Init profile.
+(   1.009|   0.000) D: [pulseaudio] droid-util.c: Set initial output device to 0x00000002
+(   1.009|   0.000) I: [pulseaudio] droid-util.c: Opened droid output stream 0x958d0 with device: 2 flags: 2 sample rate: 44100 channels: 2 (3) format: 3 (1) buffer size: 3072 (17414 usec)
+(   1.009|   0.000) D: [pulseaudio] droid-sink.c: Mute playback when routing is changing, 24576 before and 3072 after.
+(   1.009|   0.000) D: [pulseaudio] memblockq.c: memblockq requested: maxlength=3072, tlength=3072, base=4, prebuf=1, minreq=0 maxrewind=0
+(   1.009|   0.000) D: [pulseaudio] memblockq.c: memblockq sanitized: maxlength=3072, tlength=3072, base=4, prebuf=4, minreq=4 maxrewind=0
+(   1.009|   0.000) D: [pulseaudio] droid-util.c: Ports for output: primary
+(   1.009|   0.000) D: [pulseaudio] droid-util.c:   Port output-earpiece from cache
+(   1.009|   0.000) D: [pulseaudio] droid-util.c:   Port output-speaker from cache
+(   1.009|   0.000) D: [pulseaudio] droid-util.c:   Port output-wired_headset from cache
+(   1.009|   0.000) D: [pulseaudio] droid-util.c:   Port output-wired_headphone from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-bluetooth_sco from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-sco_headset from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-sco_carkit from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-aux_digital from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-fm from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-fm_tx from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-speaker+wired_headphone from cache
+(   1.010|   0.000) D: [pulseaudio] droid-util.c:   Port output-parking from cache
+(   1.010|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.010|   0.000) I: [pulseaudio] sink.c: Created sink 1 "sink.primary" with sample spec s16le 2ch 44100Hz and channel map front-left,front-right
+(   1.010|   0.000) I: [pulseaudio] sink.c:     device.description = "Droid sink primary"
+(   1.010|   0.000) I: [pulseaudio] sink.c:     device.class = "sound"
+(   1.010|   0.000) I: [pulseaudio] sink.c:     device.api = "droid-hal"
+(   1.010|   0.000) I: [pulseaudio] sink.c:     droid.flags = "AUDIO_OUTPUT_FLAG_PRIMARY"
+(   1.010|   0.000) I: [pulseaudio] sink.c:     droid.hw_module = "primary"
+(   1.010|   0.000) I: [pulseaudio] sink.c:     device.icon_name = "audio-card"
+(   1.011|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.011|   0.000) I: [pulseaudio] source.c: Created source 1 "sink.primary.monitor" with sample spec s16le 2ch 44100Hz and channel map front-left,front-right
+(   1.011|   0.000) I: [pulseaudio] source.c:     device.description = "Monitor of Droid sink primary"
+(   1.011|   0.000) I: [pulseaudio] source.c:     device.class = "monitor"
+(   1.011|   0.000) I: [pulseaudio] source.c:     droid.hw_module = "primary"
+(   1.011|   0.000) I: [pulseaudio] source.c:     device.icon_name = "audio-card"
+(   1.012|   0.000) D: [pulseaudio] droid-sink.c: Set fixed latency 69000 usec
+(   1.012|   0.000) D: [pulseaudio] droid-sink.c: Sink set port 2
+(   1.012|   0.000) D: [pulseaudio] droid-util.c: output stream 0x958d0 set_parameters(routing=2;) 0x00000002
+(   1.013|   0.000) D: [droid-sink-primary] droid-sink.c: Thread starting up.
+(   1.013|   0.000) D: [droid-sink-primary] core-util.c: SCHED_RR|SCHED_RESET_ON_FORK worked.
+(   1.013|   0.000) I: [droid-sink-primary] core-util.c: Successfully enabled SCHED_RR scheduling for thread, with priority 5.
+(   1.022|   0.009) D: [pulseaudio] droid-sink.c: Probe hw volume support for sink.primary
+(   1.170|   0.147) I: [pulseaudio] droid-source.c: FIXME: Setting AUDIO_DEVICE_IN_BUILTIN_MIC as initial device.
+(   1.170|   0.000) D: [pulseaudio] droid-util.c: input stream 0x99020 set_parameters(routing=2147483652;input_source=0) 0x80000004 ; 0000000000
+(   1.170|   0.000) I: [pulseaudio] droid-util.c: Opened droid input stream 0x99020 with device: 2147483652 flags: 0 sample rate: 44100 channels: 2 (12) format: 3 (1) buffer size: 3072 (17414 usec)
+(   1.170|   0.000) D: [pulseaudio] droid-util.c: Ports for input: primary
+(   1.170|   0.000) D: [pulseaudio] droid-util.c:   Port input-builtin_mic from cache
+(   1.170|   0.000) D: [pulseaudio] droid-util.c:   Port input-bluetooth_sco_headset from cache
+(   1.171|   0.000) D: [pulseaudio] droid-util.c:   Port input-wired_headset from cache
+(   1.171|   0.000) D: [pulseaudio] droid-util.c:   Port input-aux_digital from cache
+(   1.171|   0.000) D: [pulseaudio] droid-util.c:   Port input-voice_call from cache
+(   1.171|   0.000) D: [pulseaudio] droid-util.c:   Port input-default from cache
+(   1.171|   0.000) D: [pulseaudio] droid-util.c:   Port input-parking from cache
+(   1.171|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.171|   0.000) I: [pulseaudio] source.c: Created source 2 "source.primary" with sample spec s16le 2ch 44100Hz and channel map front-left,front-right
+(   1.171|   0.000) I: [pulseaudio] source.c:     device.description = "Droid source primary"
+(   1.171|   0.000) I: [pulseaudio] source.c:     droid.hw_module = "primary"
+(   1.171|   0.000) I: [pulseaudio] source.c:     device.icon_name = "audio-card"
+(   1.171|   0.000) I: [pulseaudio] droid-source.c: Using hardware mute control for source.primary
+(   1.172|   0.000) D: [pulseaudio] droid-source.c: Set fixed latency 17414 usec
+(   1.172|   0.000) D: [pulseaudio] droid-source.c: Source set port 2147483652
+(   1.172|   0.000) D: [pulseaudio] droid-util.c: input stream 0x99020 set_parameters(routing=2147483652;input_source=0) 0x80000004 ; 0000000000
+(   1.173|   0.001) D: [droid-source-primary] droid-source.c: Thread starting up.
+(   1.174|   0.000) D: [droid-source-primary] core-util.c: SCHED_RR|SCHED_RESET_ON_FORK worked.
+(   1.174|   0.000) I: [droid-source-primary] core-util.c: Successfully enabled SCHED_RR scheduling for thread, with priority 5.
+(   1.175|   0.000) I: [pulseaudio] module.c: Loaded "module-droid-card" (index: #7; argument: "rate=44100 mute_routing_before=24576 mute_routing_after=4096").
+(   1.240|   0.065) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.240|   0.000) I: [pulseaudio] sink.c: Created sink 2 "sink.fake.sco" with sample spec s16le 1ch 8000Hz and channel map mono
+(   1.240|   0.000) I: [pulseaudio] sink.c:     device.description = "空输出"
+(   1.240|   0.000) I: [pulseaudio] sink.c:     device.class = "abstract"
+(   1.240|   0.000) I: [pulseaudio] sink.c:     device.icon_name = "audio-card"
+(   1.240|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.240|   0.000) I: [pulseaudio] source.c: Created source 3 "sink.fake.sco.monitor" with sample spec s16le 1ch 8000Hz and channel map mono
+(   1.240|   0.000) I: [pulseaudio] source.c:     device.description = "Monitor of 空输出"
+(   1.240|   0.000) I: [pulseaudio] source.c:     device.class = "monitor"
+(   1.240|   0.000) I: [pulseaudio] source.c:     device.icon_name = "audio-input-microphone"
+(   1.245|   0.004) D: [null-sink] module-null-sink.c: Thread starting up
+(   1.246|   0.000) I: [pulseaudio] module.c: Loaded "module-null-sink" (index: #8; argument: "sink_name=sink.fake.sco rate=8000 channels=1").
+(   1.248|   0.002) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.249|   0.000) I: [pulseaudio] source.c: Created source 4 "source.fake.sco" with sample spec s16le 1ch 8000Hz and channel map mono
+(   1.249|   0.000) I: [pulseaudio] source.c:     device.description = "Null Input"
+(   1.249|   0.000) I: [pulseaudio] source.c:     device.class = "abstract"
+(   1.249|   0.000) I: [pulseaudio] source.c:     device.icon_name = "audio-input-microphone"
+(   1.250|   0.001) D: [null-source] module-null-source.c: Thread starting up
+(   1.250|   0.000) I: [pulseaudio] module.c: Loaded "module-null-source" (index: #9; argument: "source_name=source.fake.sco rate=8000 channels=1").
+(   1.269|   0.018) I: [pulseaudio] module.c: Loaded "module-bluez4-discover" (index: #10; argument: "sco_sink=sink.fake.sco sco_source=source.fake.sco").
+(   1.287|   0.017) I: [pulseaudio] dbusif.c: subscribed policy signals on com.nokia.policy
+(   1.287|   0.000) I: [pulseaudio] dbusif.c: registering to policy daemon: name='org.freedesktop.ohm' path='/com/nokia/policy' if='com.nokia.policy'
+(   1.288|   0.000) D: [pulseaudio] policy-group.c: Set default sink to 'sink.primary' (idx=1)
+(   1.288|   0.000) I: [pulseaudio] config-file.c: parsing config file '/etc/pulse/xpolicy.conf'
+(   1.293|   0.004) I: [pulseaudio] policy-group.c: created group (idle|100|<null>|0x0000)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (background|100|<null>|0x0018)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (systemsound|100|<null>|0x0059)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (btnotify|100|<null>|0x0059)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (feedbacksound|100|<null>|0x005c)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (inputsound|100|<null>|0x0059)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (event|100|<null>|0x0059)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (alarm|100|<null>|0x0019)
+(   1.293|   0.000) I: [pulseaudio] policy-group.c: created group (flash|100|<null>|0x0018)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (player|100|<null>|0x001c)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (game|100|<null>|0x001c)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (voiceui|100|<null>|0x0019)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (ringtone|100|<null>|0x0078)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (camera|100|<null>|0x001b)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (videoeditor|100|<null>|0x001c)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (ipcall|100|<null>|0x001b)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (call|100|<null>|0x0003)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (navigator|100|<null>|0x0003)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (cstone|100|<null>|0x000e)
+(   1.294|   0.000) I: [pulseaudio] policy-group.c: created group (alwayson|100|<null>|0x0019)
+(   1.295|   0.000) I: [pulseaudio] policy-group.c: created group (nonsilent|100|<null>|0x0019)
+(   1.295|   0.000) I: [pulseaudio] policy-group.c: created group (internal|100|<null>|0x0000)
+(   1.295|   0.000) I: [pulseaudio] policy-group.c: created group (outgoing|100|<null>|0x0004)
+(   1.295|   0.000) I: [pulseaudio] policy-group.c: created group (incoming|100|<null>|0x0004)
+(   1.295|   0.000) I: [pulseaudio] policy-group.c: created group (alien|100|<null>|0x001c)
+(   1.295|   0.000) I: [pulseaudio] policy-group.c: created group (aliencall|100|<null>|0x001c)
+(   1.295|   0.000) I: [pulseaudio] classify.c: card 'tvoutandbta2dp' added (startswidth|bluez_card|a2dp|0x0001)
+(   1.295|   0.000) I: [pulseaudio] classify.c: card 'bta2dp' added (startswidth|bluez_card|a2dp|0x0000)
+(   1.295|   0.000) I: [pulseaudio] classify.c:   :: added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.295|   0.000) I: [pulseaudio] classify.c: card 'bta2dpforalien' added (startswidth|bluez_card|a2dp|0x0000)
+(   1.295|   0.000) I: [pulseaudio] classify.c:   :: added (equals|droid_card.primary|communication|0x0000)
+(   1.295|   0.000) I: [pulseaudio] classify.c: card 'tvoutandbthsp' added (startswidth|bluez_card|hsp|0x0001)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'ihfandbthsp' added (startswidth|bluez_card|hsp|0x0001)
+(   1.296|   0.000) I: [pulseaudio] classify.c:   :: added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'bthsp' added (startswidth|bluez_card|hsp|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c:   :: added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'bthspforcall' added (startswidth|bluez_card|hsp|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c:   :: added (equals|droid_card.primary|voicecall|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'bthspforalien' added (startswidth|bluez_card|hsp|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c:   :: added (equals|droid_card.primary|communication|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'ihfandheadset' added (equals|droid_card.primary|ringtone|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'ihfandheadphone' added (equals|droid_card.primary|ringtone|0x0000)
+(   1.296|   0.000) I: [pulseaudio] classify.c: card 'headset' added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'headsetforcall' added (equals|droid_card.primary|voicecall|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'headsetforalien' added (equals|droid_card.primary|communication|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'headphone' added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'headphoneforcall' added (equals|droid_card.primary|voicecall|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'headphoneforalien' added (equals|droid_card.primary|communication|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'ihfandtvout' added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'earpiece' added (equals|droid_card.primary|voicecall|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'earpieceforalien' added (equals|droid_card.primary|communication|0x0000)
+(   1.297|   0.000) I: [pulseaudio] classify.c: card 'ihfforcall' added (equals|droid_card.primary|voicecall|0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: card 'ihf' added (equals|droid_card.primary|primary-primary|0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: card 'ihfforalien' added (equals|droid_card.primary|communication|0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: device 'tvoutandbta2dp' added (name|startswidth|bluez_sink||0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: device 'tvoutandbthsp' added (name|equals|sink.primary||0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: device 'tvoutandbthsp' added (name|equals|source.primary||0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: device 'ihfandbthsp' added (name|equals|sink.primary|sink.primary:output-speaker|0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: device 'ihfandheadset' added (name|equals|sink.primary|sink.primary:output-speaker+wired_headphone|0x0000)
+(   1.298|   0.000) I: [pulseaudio] classify.c: device 'ihfandheadset' added (name|equals|source.primary|source.primary:input-wired_headset|0x0000)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'ihfandheadphone' added (name|equals|sink.primary|sink.primary:output-speaker+wired_headphone|0x0000)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bta2dp' added (name|startswidth|bluez_sink|sink.primary:output-speaker|0x0001)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bta2dpforalien' added (name|startswidth|bluez_sink|sink.primary:output-speaker|0x0001)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bthsp' added (name|equals|sink.primary|sink.primary:output-bluetooth_sco|0x0009)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bthsp' added (name|equals|source.primary|source.primary:input-bluetooth_sco_headset|0x0009)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bthspforcall' added (name|equals|sink.primary|sink.primary:output-bluetooth_sco|0x0019)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bthspforcall' added (name|equals|source.primary|source.primary:input-bluetooth_sco_headset|0x0009)
+(   1.299|   0.000) I: [pulseaudio] classify.c: device 'bthspforalien' added (name|equals|sink.primary|sink.primary:output-bluetooth_sco|0x0019)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'bthspforalien' added (name|equals|source.primary|source.primary:input-bluetooth_sco_headset|0x0009)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'headset' added (name|equals|source.primary|source.primary:input-wired_headset|0x0009)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'headset' added (name|equals|sink.primary|sink.primary:output-wired_headset|0x0009)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'headsetforcall' added (name|equals|sink.primary|sink.primary:output-wired_headset|0x0008)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'headsetforcall' added (name|equals|source.primary|source.primary:input-wired_headset|0x0000)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'headsetforalien' added (name|equals|sink.primary|sink.primary:output-wired_headset|0x0008)
+(   1.300|   0.000) I: [pulseaudio] classify.c: device 'headsetforalien' added (name|equals|source.primary|source.primary:input-wired_headset|0x0000)
+(   1.301|   0.000) I: [pulseaudio] classify.c: device 'headphone' added (name|equals|sink.primary|sink.primary:output-wired_headphone|0x0009)
+(   1.301|   0.000) I: [pulseaudio] classify.c: device 'headphoneforcall' added (name|equals|sink.primary|sink.primary:output-wired_headphone|0x0008)
+(   1.301|   0.000) I: [pulseaudio] classify.c: device 'headphoneforalien' added (name|equals|sink.primary|sink.primary:output-wired_headphone|0x0008)
+(   1.301|   0.000) I: [pulseaudio] classify.c: device 'ihfandtvout' added (name|equals|sink.primary|sink.primary:output-wired_headset|0x0000)
+(   1.302|   0.000) I: [pulseaudio] classify.c: device 'tvout' added (name|equals|sink.primary|sink.primary:output-wired_headset|0x0000)
+(   1.302|   0.000) I: [pulseaudio] classify.c: device 'earpieceandtvout' added (name|equals|sink.primary|sink.primary:output-earpiece|0x0000)
+(   1.302|   0.000) I: [pulseaudio] classify.c: device 'earpiece' added (name|equals|sink.primary|sink.primary:output-earpiece|0x0000)
+(   1.302|   0.000) I: [pulseaudio] classify.c: device 'earpieceforalien' added (name|equals|sink.primary|sink.primary:output-earpiece|0x0008)
+(   1.302|   0.000) I: [pulseaudio] classify.c: device 'microphone' added (name|equals|source.primary|source.primary:input-builtin_mic|0x0000)
+(   1.302|   0.000) I: [pulseaudio] classify.c: device 'backmicrophone' added (name|equals|source.primary|source.primary:input-back_mic|0x0000)
+(   1.303|   0.000) I: [pulseaudio] classify.c: device 'ihf' added (name|equals|sink.primary|sink.primary:output-speaker|0x0008)
+(   1.303|   0.000) I: [pulseaudio] classify.c: device 'ihfforcall' added (name|equals|sink.primary|sink.primary:output-speaker|0x0008)
+(   1.303|   0.000) I: [pulseaudio] classify.c: device 'ihfforalien' added (name|equals|sink.primary|sink.primary:output-speaker|0x0008)
+(   1.303|   0.000) I: [pulseaudio] classify.c: device 'null' added (name|equals|sink.null||0x0000)
+(   1.303|   0.000) D: [pulseaudio] classify.c: stream added (-1|gst-launch-0.10|<null>|<no-property-check>|-1)
+(   1.303|   0.000) D: [pulseaudio] classify.c: stream added (-1|gst-launch-1.0|<null>|<no-property-check>|-1)
+(   1.303|   0.000) D: [pulseaudio] classify.c: stream added (-1|pacat|<null>|<no-property-check>|-1)
+(   1.303|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:pulsesink probe|-1)
+(   1.303|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:system-event|0)
+(   1.303|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|event.id equals:alarm-clock-elapsed|0)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|event.id equals:message-new-email|0)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:battery-event|0)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|application.process.arg0 equals:/usr/bin/maliit-server|-1)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|event.id equals:phone-incoming-call|-1)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|event.id equals:alarm-clock-elapsed|-1)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|event.id equals:message-new-email|-1)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|event.id equals:event-in-call|-1)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:event-in-call|-1)
+(   1.304|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:camera-event|-1)
+(   1.305|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:feedback-event|-1)
+(   1.305|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:system-event|-1)
+(   1.305|   0.000) D: [pulseaudio] classify.c: stream added (-1|ngfd|<null>|media.name equals:battery-event|-1)
+(   1.305|   0.000) D: [pulseaudio] classify.c: stream added (-1|telepathy-stream-engine|<null>|<no-property-check>|-1)
+(   1.305|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|application.process.arg0 equals:/usr/lib/telepathy/telepathy-stream-engine|-1)
+(   1.305|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:indtone|-1)
+(   1.306|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:dtmf|-1)
+(   1.306|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:notiftone|-1)
+(   1.306|   0.000) D: [pulseaudio] classify.c: stream added (-1|qmafw-dbus-wrapper|<null>|<no-property-check>|-1)
+(   1.306|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:Virtual Stream for MainVolume Volume Control|-1)
+(   1.306|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:output of sink.primary|-1)
+(   1.307|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name equals:input of source.primary|-1)
+(   1.307|   0.000) D: [pulseaudio] classify.c: stream added (-1|<null>|<null>|media.name startswith:Simultaneous output on|-1)
+(   1.307|   0.000) D: [pulseaudio] context.c: created context variable 'mode'
+(   1.307|   0.000) D: [pulseaudio] context.c: created context variable 'call'
+(   1.307|   0.000) D: [pulseaudio] context.c: created context variable 'media_state'
+(   1.308|   0.000) D: [pulseaudio] context.c: created context activity variable 'bthsp'
+(   1.309|   0.000) D: [pulseaudio] context.c: created context variable 'bluetooth_override'
+(   1.309|   0.000) I: [pulseaudio] config-file.c: policy config directory is '/etc/pulse/xpolicy.conf.d'
+(   1.309|   0.000) I: [pulseaudio] config-file.c: Can't find config directory '/etc/pulse/xpolicy.conf.d'
+(   1.309|   0.000) D: [pulseaudio] module-policy-enforcement.c: default group 'othermedia' not defined, generating default group.
+(   1.309|   0.000) I: [pulseaudio] policy-group.c: group 'othermedia' preemption is off
+(   1.309|   0.000) I: [pulseaudio] policy-group.c: created group (othermedia|100|sink.primary|0x0018)
+(   1.310|   0.000) D: [pulseaudio] sink-ext.c: new sink 'sink.null' (idx=0) will be used to mute-by-route
+(   1.310|   0.000) D: [pulseaudio] sink-ext.c: new sink 'sink.null' (idx=0) (type null)
+(   1.310|   0.000) D: [pulseaudio] policy-group.c: Register sink 'sink.null' (idx=0)
+(   1.310|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.null' as default for group 'idle'
+(   1.310|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.null' as default for group 'incoming'
+(   1.310|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.null' as default for group 'internal'
+(   1.310|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.primary' (line 625 in config file)
+(   1.310|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.primary' (line 630 in config file)
+(   1.310|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.primary' (line 635 in config file)
+(   1.310|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.primary' (line 640 in config file)
+(   1.310|   0.000) D: [pulseaudio] sink-ext.c: new sink 'sink.primary' (idx=1) (type tvoutandbthsp ihfandbthsp ihfandheadset ihfandheadphone bthsp bthspforcall bthspforalien headset headsetforcall headsetforalien headphone headphoneforcall headphoneforalien ihfandtvout tvout earpieceandtvout earpiece earpieceforalien ihf ihfforcall ihfforalien)
+(   1.311|   0.000) D: [pulseaudio] policy-group.c: Register sink 'sink.primary' (idx=1)
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'voiceui'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'alarm'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'cstone'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'alien'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'flash'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'outgoing'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'alwayson'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'navigator'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'aliencall'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'nonsilent'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'event'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'background'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'call'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'inputsound'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'systemsound'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'camera'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'player'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'videoeditor'
+(   1.311|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'game'
+(   1.312|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'ringtone'
+(   1.312|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'ipcall'
+(   1.312|   0.000) D: [pulseaudio] policy-group.c:   set sink 'sink.primary' as default for group 'feedbacksound'
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 668 in config file)
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 673 in config file)
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 678 in config file)
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 651 in config file)
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 657 in config file)
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 645 in config file)
+(   1.312|   0.000) D: [pulseaudio] context.c: registering context-rule for sink 'sink.fake.sco' (line 646 in config file)
+(   1.312|   0.000) D: [pulseaudio] sink-ext.c: new sink 'sink.fake.sco' (idx=2) (type )
+(   1.312|   0.000) D: [pulseaudio] policy-group.c: Register sink 'sink.fake.sco' (idx=2)
+(   1.312|   0.000) D: [pulseaudio] source-ext.c: new source 'sink.null.monitor' (idx=0 type )
+(   1.312|   0.000) D: [pulseaudio] policy-group.c: Register source 'sink.null.monitor' (idx=0)
+(   1.312|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'voiceui'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'alarm'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'cstone'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'btnotify'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'outgoing'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'alwayson'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'navigator'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'nonsilent'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'event'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'idle'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'inputsound'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'systemsound'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'sink.null.monitor' as default for group 'feedbacksound'
+(   1.313|   0.000) D: [pulseaudio] source-ext.c: new source 'sink.primary.monitor' (idx=1 type )
+(   1.313|   0.000) D: [pulseaudio] policy-group.c: Register source 'sink.primary.monitor' (idx=1)
+(   1.313|   0.000) D: [pulseaudio] source-ext.c: new source 'source.primary' (idx=2 type tvoutandbthsp ihfandheadset bthsp bthspforcall bthspforalien headset headsetforcall headsetforalien microphone backmicrophone)
+(   1.313|   0.000) D: [pulseaudio] policy-group.c: Register source 'source.primary' (idx=2)
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'alien'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'flash'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'aliencall'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'background'
+(   1.313|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'incoming'
+(   1.314|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'call'
+(   1.314|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'camera'
+(   1.314|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'player'
+(   1.314|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'videoeditor'
+(   1.314|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'game'
+(   1.314|   0.000) D: [pulseaudio] policy-group.c:   set source 'source.primary' as default for group 'ipcall'
+(   1.314|   0.000) D: [pulseaudio] source-ext.c: new source 'sink.fake.sco.monitor' (idx=3 type )
+(   1.314|   0.000) D: [pulseaudio] policy-group.c: Register source 'sink.fake.sco.monitor' (idx=3)
+(   1.314|   0.000) D: [pulseaudio] source-ext.c: new source 'source.fake.sco' (idx=4 type )
+(   1.315|   0.000) D: [pulseaudio] policy-group.c: Register source 'source.fake.sco' (idx=4)
+(   1.315|   0.000) D: [pulseaudio] card-ext.c: new card 'droid_card.primary' (idx=0) (type bta2dp bta2dpforalien ihfandbthsp bthsp bthspforcall bthspforalien ihfandheadset ihfandheadphone headset headsetforcall headsetforalien headphone headphoneforcall headphoneforalien ihfandtvout earpiece earpieceforalien ihfforcall ihf ihfforalien)
+(   1.315|   0.000) I: [pulseaudio] module.c: Loaded "module-policy-enforcement" (index: #11; argument: "").
+(   1.317|   0.002) I: [pulseaudio] module.c: Loaded "module-role-ducking" (index: #12; argument: "trigger_roles=alarm,notification,warning ducking_roles=x-maemo volume=-200dB").
+(   1.318|   0.000) D: [pulseaudio] module.c: Checking for existence of '/usr/lib/pulse-6.0/modules/module-esound-protocol-unix.so': failure
+(   1.321|   0.003) I: [pulseaudio] module.c: Loaded "module-native-protocol-unix" (index: #13; argument: "").
+(   1.322|   0.000) D: [pulseaudio] module.c: Checking for existence of '/usr/lib/pulse-6.0/modules/module-gconf.so': failure
+(   1.324|   0.002) I: [pulseaudio] module.c: Loaded "module-always-sink" (index: #14; argument: "").
+(   1.327|   0.003) I: [pulseaudio] module.c: Loaded "module-intended-roles" (index: #15; argument: "").
+(   1.330|   0.002) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.null becomes idle, timeout in 1 seconds.
+(   1.330|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary becomes idle, timeout in 1 seconds.
+(   1.330|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.fake.sco becomes idle, timeout in 1 seconds.
+(   1.330|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Source source.primary becomes idle, timeout in 1 seconds.
+(   1.330|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Source source.fake.sco becomes idle, timeout in 1 seconds.
+(   1.330|   0.000) I: [pulseaudio] module.c: Loaded "module-suspend-on-idle" (index: #16; argument: "timeout=1").
+(   1.330|   0.000) D: [pulseaudio] module.c: Checking for existence of '/usr/lib/pulse-6.0/modules/module-console-kit.so': success
+(   1.333|   0.002) I: [pulseaudio] module.c: Loaded "module-console-kit" (index: #17; argument: "").
+(   1.333|   0.000) D: [pulseaudio] module.c: Checking for existence of '/usr/lib/pulse-6.0/modules/module-systemd-login.so': success
+(   1.337|   0.004) I: [pulseaudio] client.c: Created 0 "Login Session c1"
+(   1.338|   0.000) D: [pulseaudio] module-systemd-login.c: Added new session c1
+(   1.338|   0.000) I: [pulseaudio] module.c: Loaded "module-systemd-login" (index: #18; argument: "").
+(   1.338|   0.000) D: [pulseaudio] module.c: Checking for existence of '/usr/lib/pulse-6.0/modules/module-dbus-protocol.so': success
+(   1.346|   0.008) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Memstats added for object /org/pulseaudio/core1/memstats
+(   1.347|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.CardProfile added for object /org/pulseaudio/core1/card0/profile0
+(   1.347|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.CardProfile added for object /org/pulseaudio/core1/card0/profile1
+(   1.347|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.CardProfile added for object /org/pulseaudio/core1/card0/profile2
+(   1.347|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.CardProfile added for object /org/pulseaudio/core1/card0/profile3
+(   1.347|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.CardProfile added for object /org/pulseaudio/core1/card0/profile4
+(   1.348|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.CardProfile added for object /org/pulseaudio/core1/card0/profile5
+(   1.348|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Card added for object /org/pulseaudio/core1/card0
+(   1.349|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/sink0
+(   1.349|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Sink added for object /org/pulseaudio/core1/sink0
+(   1.349|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port0
+(   1.350|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port1
+(   1.350|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port2
+(   1.350|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port3
+(   1.350|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port4
+(   1.350|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port5
+(   1.351|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port6
+(   1.351|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port7
+(   1.351|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port8
+(   1.351|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port9
+(   1.351|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port10
+(   1.351|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/sink1/port11
+(   1.352|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/sink1
+(   1.352|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Sink added for object /org/pulseaudio/core1/sink1
+(   1.353|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/sink2
+(   1.354|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Sink added for object /org/pulseaudio/core1/sink2
+(   1.354|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/source0
+(   1.354|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Source added for object /org/pulseaudio/core1/source0
+(   1.355|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/source1
+(   1.355|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Source added for object /org/pulseaudio/core1/source1
+(   1.355|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port0
+(   1.356|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port1
+(   1.356|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port2
+(   1.356|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port3
+(   1.356|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port4
+(   1.357|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port5
+(   1.357|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.DevicePort added for object /org/pulseaudio/core1/source2/port6
+(   1.358|   0.001) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/source2
+(   1.359|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Source added for object /org/pulseaudio/core1/source2
+(   1.359|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/source3
+(   1.359|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Source added for object /org/pulseaudio/core1/source3
+(   1.360|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Device added for object /org/pulseaudio/core1/source4
+(   1.360|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Source added for object /org/pulseaudio/core1/source4
+(   1.360|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module0
+(   1.361|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module1
+(   1.361|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module2
+(   1.361|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module3
+(   1.362|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module4
+(   1.362|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module5
+(   1.362|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module6
+(   1.363|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module7
+(   1.363|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module8
+(   1.363|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module9
+(   1.364|   0.001) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module10
+(   1.365|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module11
+(   1.365|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module12
+(   1.365|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module13
+(   1.365|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module14
+(   1.366|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module15
+(   1.366|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module16
+(   1.366|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module17
+(   1.367|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module18
+(   1.367|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module19
+(   1.368|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client0
+(   1.369|   0.001) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1 added for object /org/pulseaudio/core1
+(   1.369|   0.000) I: [pulseaudio] module.c: Loaded "module-dbus-protocol" (index: #19; argument: "").
+(   1.371|   0.002) I: [pulseaudio] module.c: Loaded "module-switch-on-port-available" (index: #20; argument: "").
+(   1.372|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Module added for object /org/pulseaudio/core1/module20
+(   1.372|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.372|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.381|   0.008) D: [pulseaudio] dbus-util.c: Successfully connected to D-Bus session bus 97cd6da7cf47a4d71f871a626ad3c123 as :1.152
+(   1.387|   0.005) D: [pulseaudio] main.c: Got org.PulseAudio1!
+(   1.393|   0.005) D: [pulseaudio] main.c: Got org.pulseaudio.Server!
+(   1.395|   1.395) I: [pulseaudio] main.c: Daemon startup successful.
+(   1.411|   0.018) I: [pulseaudio] main.c: Daemon startup complete.
+(   1.411|   0.000) D: [pulseaudio] module-ext.c: new module #12  'module-role-ducking'
+(   1.411|   0.000) D: [pulseaudio] module-ext.c: new module #13  'module-native-protocol-unix'
+(   1.411|   0.000) D: [pulseaudio] module-ext.c: new module #14  'module-always-sink'
+(   1.411|   0.000) D: [pulseaudio] module-ext.c: new module #15  'module-intended-roles'
+(   1.411|   0.000) D: [pulseaudio] module-ext.c: new module #16  'module-suspend-on-idle'
+(   1.411|   0.000) D: [pulseaudio] module-ext.c: new module #17  'module-console-kit'
+(   1.411|   0.000) D: [pulseaudio] client-ext.c: no pid property for client 0, skip it
+(   1.412|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=0) (Login Session c1|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   1.412|   0.000) D: [pulseaudio] module-ext.c: new module #18  'module-systemd-login'
+(   1.412|   0.000) D: [pulseaudio] module-ext.c: new module #19  'module-dbus-protocol'
+(   1.412|   0.000) D: [pulseaudio] module-ext.c: new module #20  'module-switch-on-port-available'
+(   1.412|   0.000) D: [pulseaudio] bluez4-util.c: dbus: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=NameAcquired
+(   1.412|   0.000) D: [pulseaudio] bluez4-util.c: dbus: interface=(null), path=(null), member=(null)
+(   1.412|   0.000) I: [pulseaudio] keepalive.c: Start keepalive heartbeat with interval 55 seconds.
+(   1.432|   0.019) I: [pulseaudio] dbusif.c: got reply to registration
+(   1.433|   0.000) D: [pulseaudio] bluez4-util.c: dbus: interface=(null), path=(null), member=(null)
+(   1.481|   0.048) D: [pulseaudio] bluez4-util.c: dbus: interface=com.nokia.policy, path=/com/nokia/policy/decision, member=audio_actions
+(   1.481|   0.000) D: [pulseaudio] dbusif.c: got policy actions
+(   1.481|   0.000) D: [pulseaudio] dbusif.c: got actions (txid:0)
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (usbaudio|0)
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (tvoutandbthsp|0)
+(   1.482|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'tvoutandbthsp' is already unmuted
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (bthsp|0)
+(   1.482|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'bthsp' is already unmuted
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (bthspforalien|0)
+(   1.482|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'bthspforalien' is already unmuted
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (bthspforcall|0)
+(   1.482|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'bthspforcall' is already unmuted
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (headset|0)
+(   1.482|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'headset' is already unmuted
+(   1.482|   0.000) D: [pulseaudio] dbusif.c: mute device (headsetforalien|0)
+(   1.482|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'headsetforalien' is already unmuted
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: mute device (headsetforcall|0)
+(   1.483|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'headsetforcall' is already unmuted
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: mute device (headmike|0)
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: mute device (backmicrophone|0)
+(   1.483|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'backmicrophone' is already unmuted
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: mute device (microphone|0)
+(   1.483|   0.000) D: [pulseaudio] source-ext.c: pa_source_ext_set_mute() source 'source.primary' type 'microphone' is already unmuted
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: cork stream (alwayson|0)
+(   1.483|   0.000) D: [pulseaudio] policy-group.c: group 'alwayson' is already uncorked
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: cork stream (nonsilent|0)
+(   1.483|   0.000) D: [pulseaudio] policy-group.c: group 'nonsilent' is already uncorked
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: cork stream (btnotify|0)
+(   1.483|   0.000) D: [pulseaudio] policy-group.c: group 'btnotify' is already uncorked
+(   1.483|   0.000) D: [pulseaudio] dbusif.c: cork stream (alien|0)
+(   1.483|   0.000) D: [pulseaudio] policy-group.c: group 'alien' is already uncorked
+(   1.484|   0.000) D: [pulseaudio] dbusif.c: cork stream (cstone|0)
+(   1.484|   0.000) D: [pulseaudio] dbusif.c: cork stream (navigator|0)
+(   1.484|   0.000) D: [pulseaudio] dbusif.c: cork stream (aliencall|0)
+(   1.484|   0.000) D: [pulseaudio] policy-group.c: group 'aliencall' is already uncorked
+(   1.484|   0.000) D: [pulseaudio] dbusif.c: cork stream (call|0)
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (videoeditor|0)
+(   1.485|   0.000) D: [pulseaudio] policy-group.c: group 'videoeditor' is already uncorked
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (camera|0)
+(   1.485|   0.000) D: [pulseaudio] policy-group.c: group 'camera' is already uncorked
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (ringtone|0)
+(   1.485|   0.000) D: [pulseaudio] policy-group.c: group 'ringtone' is already uncorked
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (game|0)
+(   1.485|   0.000) D: [pulseaudio] policy-group.c: group 'game' is already uncorked
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (player|0)
+(   1.485|   0.000) D: [pulseaudio] policy-group.c: group 'player' is already uncorked
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (flash|0)
+(   1.485|   0.000) D: [pulseaudio] policy-group.c: group 'flash' is already uncorked
+(   1.485|   0.000) D: [pulseaudio] dbusif.c: cork stream (othermedia|1)
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (alarm|0)
+(   1.486|   0.000) D: [pulseaudio] policy-group.c: group 'alarm' is already uncorked
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (event|0)
+(   1.486|   0.000) D: [pulseaudio] policy-group.c: group 'event' is already uncorked
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (inputsound|0)
+(   1.486|   0.000) D: [pulseaudio] policy-group.c: group 'inputsound' is already uncorked
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (feedbacksound|0)
+(   1.486|   0.000) D: [pulseaudio] policy-group.c: group 'feedbacksound' is already uncorked
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (systemsound|0)
+(   1.486|   0.000) D: [pulseaudio] policy-group.c: group 'systemsound' is already uncorked
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (background|0)
+(   1.486|   0.000) D: [pulseaudio] policy-group.c: group 'background' is already uncorked
+(   1.486|   0.000) D: [pulseaudio] dbusif.c: cork stream (idle|0)
+(   1.487|   0.000) D: [pulseaudio] dbusif.c: route sink to ihf (ihf|)
+(   1.487|   0.000) D: [pulseaudio] dbusif.c: Sink route has changed
+(   1.487|   0.000) D: [pulseaudio] dbusif.c: route source to microphone (|)
+(   1.487|   0.000) D: [pulseaudio] dbusif.c: Source route has changed
+(   1.487|   0.000) D: [pulseaudio] dbusif.c: Policy groups moving: 9
+(   1.487|   0.000) D: [pulseaudio] sink-ext.c: refresh sink 'sink.primary' port to 'output-speaker'
+(   1.487|   0.000) D: [pulseaudio] droid-sink.c: Sink set port 2
+(   1.489|   0.001) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'cstone' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'alien' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'outgoing' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'aliencall' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'player' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'videoeditor' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'game' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) D: [pulseaudio] policy-group.c: group 'feedbacksound' is aready routed to sink 'sink.primary'
+(   1.490|   0.000) I: [pulseaudio] policy-group.c: Broadcast mode 'ihf' to sink 'sink.primary'
+(   1.491|   0.000) D: [pulseaudio] shared-data.c: New shared item with key 'x-maemo.accessory_hwid'
+(   1.491|   0.000) D: [pulseaudio] shared-data.c: Shared item 'x-maemo.accessory_hwid' changes to str value ''
+(   1.491|   0.000) D: [pulseaudio] shared-data.c: Shared item 'x-maemo.mode' changes to str value 'ihf'
+(   1.491|   0.000) D: [pulseaudio] classify.c: stream group btnotify changes to inactive state
+(   1.491|   0.000) D: [pulseaudio] classify.c: stream group btnotify changes to inactive state
+(   1.491|   0.000) D: [pulseaudio] classify.c: stream group btnotify changes to inactive state
+(   1.491|   0.000) D: [pulseaudio] classify.c: stream group btnotify changes to inactive state
+(   1.491|   0.000) D: [pulseaudio] dbusif.c: Moved 9 sink groups to ihf.
+(   1.491|   0.000) D: [pulseaudio] policy-group.c: group 'alien' is aready routed to source 'source.primary'
+(   1.491|   0.000) D: [pulseaudio] policy-group.c: group 'aliencall' is aready routed to source 'source.primary'
+(   1.491|   0.000) D: [pulseaudio] policy-group.c: group 'incoming' is aready routed to source 'source.primary'
+(   1.492|   0.000) D: [pulseaudio] policy-group.c: group 'player' is aready routed to source 'source.primary'
+(   1.492|   0.000) D: [pulseaudio] policy-group.c: group 'videoeditor' is aready routed to source 'source.primary'
+(   1.492|   0.000) D: [pulseaudio] policy-group.c: group 'game' is aready routed to source 'source.primary'
+(   1.492|   0.000) D: [pulseaudio] dbusif.c: Moved 9 source groups to microphone.
+(   1.492|   0.000) D: [pulseaudio] dbusif.c: volume limit (alwayson|100)
+(   1.492|   0.000) D: [pulseaudio] policy-group.c: group 'alwayson' volume limit is already 100
+(   1.492|   0.000) D: [pulseaudio] dbusif.c: volume limit (nonsilent|100)
+(   1.492|   0.000) D: [pulseaudio] policy-group.c: group 'nonsilent' volume limit is already 100
+(   1.492|   0.000) D: [pulseaudio] dbusif.c: volume limit (btnotify|100)
+(   1.492|   0.000) E: [pulseaudio] policy-group.c: invalid (<null>) target sink for mute-by-route
+(   1.493|   0.000) D: [pulseaudio] policy-group.c: group 'btnotify' volume limit is already 100
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (alien|100)
+(   1.493|   0.000) D: [pulseaudio] policy-group.c: group 'alien' volume limit is already 100
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (cstone|100)
+(   1.493|   0.000) D: [pulseaudio] policy-group.c: group 'cstone' volume limit is already 100
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (navigator|100)
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (aliencall|100)
+(   1.493|   0.000) D: [pulseaudio] policy-group.c: group 'aliencall' volume limit is already 100
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (call|100)
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (videoeditor|100)
+(   1.493|   0.000) D: [pulseaudio] policy-group.c: group 'videoeditor' volume limit is already 100
+(   1.493|   0.000) D: [pulseaudio] dbusif.c: volume limit (camera|100)
+(   1.493|   0.000) D: [pulseaudio] policy-group.c: group 'camera' volume limit is already 100
+(   1.494|   0.000) D: [pulseaudio] dbusif.c: volume limit (ringtone|100)
+(   1.494|   0.000) D: [pulseaudio] policy-group.c: group 'ringtone' is already routed to 'sink.primary' by mute-by-route (mute is off)
+(   1.494|   0.000) D: [pulseaudio] policy-group.c: group 'ringtone' volume limit is already 100
+(   1.494|   0.000) D: [pulseaudio] dbusif.c: volume limit (alarm|100)
+(   1.494|   0.000) D: [pulseaudio] policy-group.c: group 'alarm' volume limit is already 100
+(   1.494|   0.000) D: [pulseaudio] dbusif.c: volume limit (game|100)
+(   1.494|   0.000) D: [pulseaudio] policy-group.c: group 'game' volume limit is already 100
+(   1.494|   0.000) D: [pulseaudio] dbusif.c: volume limit (player|100)
+(   1.494|   0.000) D: [pulseaudio] policy-group.c: group 'player' volume limit is already 100
+(   1.494|   0.000) D: [pulseaudio] dbusif.c: volume limit (flash|100)
+(   1.494|   0.000) D: [pulseaudio] policy-group.c: group 'flash' volume limit is already 100
+(   1.495|   0.000) D: [pulseaudio] dbusif.c: volume limit (othermedia|0)
+(   1.495|   0.000) D: [pulseaudio] dbusif.c: volume limit (event|100)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'event' is already routed to 'sink.primary' by mute-by-route (mute is off)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'event' volume limit is already 100
+(   1.495|   0.000) D: [pulseaudio] dbusif.c: volume limit (feedbacksound|100)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'feedbacksound' is already routed to 'sink.primary' by mute-by-route (mute is off)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'feedbacksound' volume limit is already 100
+(   1.495|   0.000) D: [pulseaudio] dbusif.c: volume limit (systemsound|100)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'systemsound' is already routed to 'sink.primary' by mute-by-route (mute is off)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'systemsound' volume limit is already 100
+(   1.495|   0.000) D: [pulseaudio] dbusif.c: volume limit (inputsound|100)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'inputsound' is already routed to 'sink.primary' by mute-by-route (mute is off)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'inputsound' volume limit is already 100
+(   1.495|   0.000) D: [pulseaudio] dbusif.c: volume limit (background|100)
+(   1.495|   0.000) D: [pulseaudio] policy-group.c: group 'background' volume limit is already 100
+(   1.496|   0.000) D: [pulseaudio] dbusif.c: volume limit (idle|100)
+(   1.496|   0.000) D: [pulseaudio] dbusif.c: context (media_state|foreground)
+(   1.496|   0.000) D: [pulseaudio] dbusif.c: context (bluetooth_override|disabled)
+(   1.496|   0.000) D: [pulseaudio] dbusif.c: context (call|inactive)
+(   1.496|   0.000) D: [pulseaudio] context.c: setting sink 'sink.fake.sco' property 'bluetooth.prefer.hsp' to 'false'
+(   1.496|   0.000) D: [pulseaudio] shared-data.c: New shared item with key 'bluetooth.prefer.hsp'
+(   1.496|   0.000) D: [pulseaudio] shared-data.c: Shared item 'bluetooth.prefer.hsp' changes to str value 'false'
+(   1.496|   0.000) D: [pulseaudio] context.c: setting activity group bthsp default state to -1
+(   1.497|   0.000) D: [pulseaudio] context.c: setting sink 'sink.fake.sco' property 'bluetooth.hsp.prevent.suspend.transport' to 'true'
+(   1.497|   0.000) D: [pulseaudio] shared-data.c: New shared item with key 'bluetooth.hsp.prevent.suspend.transport'
+(   1.497|   0.000) D: [pulseaudio] shared-data.c: Shared item 'bluetooth.hsp.prevent.suspend.transport' changes to str value 'true'
+(   1.497|   0.000) D: [pulseaudio] context.c: setting sink 'sink.primary' property 'x-nemo.voicecall.status' to 'inactive'
+(   1.497|   0.000) D: [pulseaudio] shared-data.c: Shared item 'x-nemo.voicecall.status' changes to str value 'inactive'
+(   1.497|   0.000) D: [pulseaudio] module-meego-mainvolume.c: call is inactive (media step 12 call step 1)
+(   1.500|   0.002) D: [pulseaudio] module-meego-mainvolume.c: Signal NotifyHighVolume. Safe step: 0
+(   1.500|   0.000) D: [pulseaudio] module-meego-mainvolume.c: Signal CallStateChanged. State: inactive
+(   1.500|   0.000) D: [pulseaudio] context.c: setting sink 'sink.primary' property 'x-nemo.media.state' to 'foreground'
+(   1.501|   0.000) D: [pulseaudio] shared-data.c: Shared item 'x-nemo.media.state' changes to str value 'foreground'
+(   1.501|   0.000) D: [pulseaudio] module-meego-mainvolume.c: Signal MediaStateChanged. State: foreground (1)
+(   1.501|   0.000) D: [pulseaudio] dbusif.c: Not sending status message since transaction ID is 0
+(   1.659|   0.157) D: [droid-sink-primary] droid-util.c: output stream 0x958d0 set_parameters(routing=2;) 0x00000002
+(   1.786|   0.126) D: [pulseaudio] conf-parser.c: Parsing configuration file '/etc/pulse/client.conf'
+(   2.330|   0.544) I: [pulseaudio] module-suspend-on-idle.c: Sink sink.fake.sco idle for too long, suspending ...
+(   2.330|   0.000) D: [pulseaudio] sink.c: Suspend cause of sink sink.fake.sco is 0x0004, suspending
+(   2.332|   0.001) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(   2.335|   0.003) I: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary idle for too long, suspending ...
+(   2.335|   0.000) D: [pulseaudio] sink.c: Suspend cause of sink sink.primary is 0x0004, suspending
+(   2.350|   0.015) I: [droid-sink-primary] droid-sink.c: Device suspended.
+(   2.350|   0.000) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(   2.353|   0.002) I: [pulseaudio] module-suspend-on-idle.c: Sink sink.null idle for too long, suspending ...
+(   2.353|   0.000) D: [pulseaudio] sink.c: Suspend cause of sink sink.null is 0x0004, suspending
+(   2.354|   0.000) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(   2.357|   0.002) I: [pulseaudio] module-suspend-on-idle.c: Source source.fake.sco idle for too long, suspending ...
+(   2.357|   0.000) D: [pulseaudio] source.c: Suspend cause of source source.fake.sco is 0x0004, suspending
+(   2.358|   0.000) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(   2.361|   0.003) I: [pulseaudio] module-suspend-on-idle.c: Source source.primary idle for too long, suspending ...
+(   2.361|   0.000) D: [pulseaudio] source.c: Suspend cause of source source.primary is 0x0004, suspending
+(   2.402|   0.041) I: [droid-source-primary] droid-source.c: Device suspended.
+(   2.402|   0.000) D: [pulseaudio] keepalive.c: Stopping keepalive.
+(   2.403|   0.000) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(   2.408|   0.005) D: [pulseaudio] bluez4-util.c: dbus: interface=(null), path=(null), member=(null)
+(   3.784|   1.376) I: [pulseaudio] client.c: Created 1 "D-Bus client"
+(   3.785|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client1
+(   3.786|   0.001) D: [pulseaudio] client-ext.c: no pid property for client 1, skip it
+(   3.786|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=1) (D-Bus client|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   3.796|   0.010) D: [pulseaudio] protocol-dbus.c: Received message: destination = /org/pulseaudio/core1, interface = org.PulseAudio.Core1, member = ListenForSignal
+(   3.799|   0.002) D: [pulseaudio] protocol-dbus.c: Received message: destination = /org/pulseaudio/core1, interface = org.PulseAudio.Core1, member = ListenForSignal
+(   3.799|   0.000) D: [pulseaudio] protocol-dbus.c: Received message: destination = /org/pulseaudio/stream_restore1, interface = org.PulseAudio.Ext.StreamRestore1, member = GetEntryByName
+(   3.801|   0.001) D: [pulseaudio] protocol-dbus.c: Received message: destination = /org/pulseaudio/core1, interface = org.PulseAudio.Core1, member = ListenForSignal
+(   4.517|   0.716) I: [pulseaudio] client.c: Created 2 "Native client (UNIX socket client)"
+(   4.518|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client2
+(   4.518|   0.000) D: [pulseaudio] client-ext.c: no pid property for client 2, skip it
+(   4.519|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=2) (Native client (UNIX socket client)|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   4.526|   0.007) D: [pulseaudio] protocol-native.c: Protocol version: remote 30, local 30
+(   4.526|   0.000) I: [pulseaudio] protocol-native.c: Got credentials: uid=100000 gid=100000 success=1
+(   4.526|   0.000) D: [pulseaudio] protocol-native.c: SHM possible: yes
+(   4.526|   0.000) D: [pulseaudio] protocol-native.c: Negotiated SHM: yes
+(   4.527|   0.000) D: [pulseaudio] srbchannel.c: SHM block is 65496 bytes, ringbuffer capacity is 2 * 32724 bytes
+(   4.527|   0.000) D: [pulseaudio] protocol-native.c: Enabling srbchannel...
+(   4.532|   0.004) D: [pulseaudio] module-augment-properties.c: Looking for .desktop file for pactl
+(   4.533|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=2) (pactl|<noid>|7365|0|pactl|<noarg>|<noargs>)
+(   4.534|   0.001) D: [pulseaudio] protocol-native.c: Client enabled srbchannel.
+(   4.538|   0.003) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client removed from object /org/pulseaudio/core1/client2
+(   4.538|   0.000) I: [pulseaudio] client.c: Freed 2 "pactl"
+(   4.538|   0.000) I: [pulseaudio] protocol-native.c: Connection died.
+(   4.539|   0.000) D: [pulseaudio] client-ext.c: client removed (idx=2)
+(   4.676|   0.137) I: [pulseaudio] client.c: Created 3 "Native client (UNIX socket client)"
+(   4.676|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client3
+(   4.677|   0.000) D: [pulseaudio] client-ext.c: no pid property for client 3, skip it
+(   4.677|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=3) (Native client (UNIX socket client)|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   4.679|   0.002) D: [pulseaudio] protocol-native.c: Protocol version: remote 30, local 30
+(   4.680|   0.000) I: [pulseaudio] protocol-native.c: Got credentials: uid=100000 gid=100000 success=1
+(   4.680|   0.000) D: [pulseaudio] protocol-native.c: SHM possible: yes
+(   4.680|   0.000) D: [pulseaudio] protocol-native.c: Negotiated SHM: yes
+(   4.680|   0.000) D: [pulseaudio] srbchannel.c: SHM block is 65496 bytes, ringbuffer capacity is 2 * 32724 bytes
+(   4.680|   0.000) D: [pulseaudio] protocol-native.c: Enabling srbchannel...
+(   4.684|   0.004) D: [pulseaudio] module-augment-properties.c: Looking for .desktop file for pacat
+(   4.686|   0.001) D: [pulseaudio] client-ext.c: new/modified client (idx=3) (paplay|<noid>|7369|0|pacat|<noarg>|<noargs>)
+(   4.687|   0.001) D: [pulseaudio] protocol-native.c: Client enabled srbchannel.
+(   4.688|   0.001) D: [pulseaudio] classify.c: find_group_for_client (paplay|7369|0|pacat) => player,0x0
+(   4.689|   0.000) D: [pulseaudio] sink-input-ext.c: force stream 'player'/'/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav' to sink 'sink.primary'
+(   4.689|   0.000) D: [pulseaudio] module-intended-roles.c: Not setting device for stream /usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav, because already set.
+(   4.689|   0.000) D: [pulseaudio] sink-input.c: Negotiated format: pcm, format.sample_format = "\"s16le\""  format.rate = "48000"  format.channels = "2"  format.channel_map = "\"front-left,front-right\""
+(   4.690|   0.000) I: [pulseaudio] sink-input.c: Trying to change sample rate
+(   4.690|   0.000) D: [pulseaudio] module-match.c: Matching with paplay
+(   4.690|   0.000) D: [pulseaudio] module-match.c: updating proplist of sink input 'paplay'
+(   4.690|   0.000) D: [pulseaudio] module-stream-restore-nemo.c: Not restoring volume for sink input sink-input-by-media-role:x-maemo, because already set.
+(   4.690|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary becomes busy, resuming.
+(   4.690|   0.000) D: [pulseaudio] sink.c: Suspend cause of sink sink.primary is 0x0000, resuming
+(   4.690|   0.000) I: [droid-sink-primary] droid-sink.c: Resuming...
+(   4.691|   0.000) I: [pulseaudio] keepalive.c: Start keepalive heartbeat with interval 55 seconds.
+(   4.691|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary becomes idle, timeout in 1 seconds.
+(   4.837|   0.145) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary becomes idle, timeout in 1 seconds.
+(   4.837|   0.000) D: [pulseaudio] resampler.c: Resampler:
+(   4.837|   0.000) D: [pulseaudio] resampler.c:   rate 48000 -> 44100 (method speex-fixed-2)
+(   4.837|   0.000) D: [pulseaudio] resampler.c:   format s16le -> s16le (intermediate s16le)
+(   4.838|   0.001) D: [pulseaudio] resampler.c:   channels 2 -> 2 (resampling 2)
+(   4.839|   0.000) I: [pulseaudio] speex.c: Choosing speex quality setting 2.
+(   4.839|   0.000) D: [pulseaudio] memblockq.c: memblockq requested: maxlength=33554432, tlength=0, base=4, prebuf=0, minreq=1 maxrewind=0
+(   4.839|   0.000) D: [pulseaudio] memblockq.c: memblockq sanitized: maxlength=33554432, tlength=33554432, base=4, prebuf=0, minreq=4 maxrewind=0
+(   4.840|   0.000) I: [pulseaudio] sink-input.c: Created input 0 "/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav" on sink.primary with sample spec s16le 2ch 48000Hz and channel map front-left,front-right
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     media.format = "WAV (Microsoft)"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.name = "paplay"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     media.name = "/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     native-protocol.peer = "UNIX socket client"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     native-protocol.version = "30"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.process.id = "7369"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.process.user = "nemo"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.process.host = "Jolla"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.process.binary = "pacat"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.language = "C"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.process.machine_id = "ec80fef4556d41908b123a826ba2fb1d"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     application.process.arg0 = "paplay"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     policy.group = "player"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     policy.stream_flags = hex:00000000
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     media.role = "x-maemo"
+(   4.840|   0.000) I: [pulseaudio] sink-input.c:     module-stream-restore.id = "sink-input-by-media-role:x-maemo"
+(   4.841|   0.001) I: [pulseaudio] protocol-native.c: Requested tlength=2000.00 ms, minreq=20.00 ms
+(   4.841|   0.000) D: [pulseaudio] protocol-native.c: Traditional mode enabled, modifying sink usec only for compat with minreq.
+(   4.843|   0.002) D: [pulseaudio] protocol-native.c: Requested latency=1960.00 ms, Received latency=69.00 ms
+(   4.843|   0.000) D: [pulseaudio] memblockq.c: memblockq requested: maxlength=4194304, tlength=384000, base=4, prebuf=380164, minreq=3840 maxrewind=0
+(   4.844|   0.000) D: [pulseaudio] memblockq.c: memblockq sanitized: maxlength=4194304, tlength=384000, base=4, prebuf=380164, minreq=3840 maxrewind=0
+(   4.844|   0.000) I: [pulseaudio] protocol-native.c: Final latency 2069.00 ms = 1960.00 ms + 2*20.00 ms + 69.00 ms
+(   4.845|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Stream added for object /org/pulseaudio/core1/playback_stream0
+(   4.845|   0.000) D: [pulseaudio] policy-group.c: move stream 'player'/'/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav' to sink 'sink.primary'
+(   4.845|   0.000) D: [pulseaudio] sink-input-ext.c: sink input cork state before: user: 0 policy: 0, request uncork
+(   4.845|   0.000) D: [pulseaudio] sink-input-ext.c: sink input cork state  after: user: 0 policy: 0, no change to corking
+(   4.845|   0.000) D: [pulseaudio] policy-group.c: set volume limit 100 for sink input '/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav'
+(   4.845|   0.000) D: [pulseaudio] sink-input-ext.c: sink input mute state before: user: 0 policy: 0, request unmute
+(   4.845|   0.000) D: [pulseaudio] sink-input-ext.c: sink input mute state  after: user: 0 policy: 0, no change to muting
+(   4.845|   0.000) D: [pulseaudio] policy-group.c: sink input '/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav' added to group 'player'
+(   4.845|   0.000) D: [pulseaudio] sink-input-ext.c: new sink_input /usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav (idx=0) (group=player)
+(   4.846|   0.000) D: [pulseaudio] core-subscribe.c: Dropped redundant event due to change event.
+(   4.847|   0.000) D: [pulseaudio] bluez4-util.c: dbus: interface=(null), path=(null), member=(null)
+(   4.859|   0.012) D: [droid-sink-primary] protocol-native.c: Requesting rewind due to end of underrun.
+(   6.708|   1.848) I: [pulseaudio] client.c: Created 4 "Native client (UNIX socket client)"
+(   6.708|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client4
+(   6.709|   0.000) D: [pulseaudio] client-ext.c: no pid property for client 4, skip it
+(   6.709|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=4) (Native client (UNIX socket client)|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   6.718|   0.009) D: [pulseaudio] protocol-native.c: Protocol version: remote 30, local 30
+(   6.718|   0.000) I: [pulseaudio] protocol-native.c: Got credentials: uid=100000 gid=100000 success=1
+(   6.720|   0.001) D: [pulseaudio] protocol-native.c: SHM possible: yes
+(   6.720|   0.000) D: [pulseaudio] protocol-native.c: Negotiated SHM: yes
+(   6.720|   0.000) D: [pulseaudio] srbchannel.c: SHM block is 65496 bytes, ringbuffer capacity is 2 * 32724 bytes
+(   6.720|   0.000) D: [pulseaudio] protocol-native.c: Enabling srbchannel...
+(   6.723|   0.002) D: [pulseaudio] module-augment-properties.c: Looking for .desktop file for pactl
+(   6.724|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=4) (pactl|<noid>|7374|0|pactl|<noarg>|<noargs>)
+(   6.725|   0.001) D: [pulseaudio] protocol-native.c: Client enabled srbchannel.
+(   6.741|   0.015) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client removed from object /org/pulseaudio/core1/client4
+(   6.741|   0.000) I: [pulseaudio] client.c: Freed 4 "pactl"
+(   6.741|   0.000) I: [pulseaudio] protocol-native.c: Connection died.
+(   6.741|   0.000) D: [pulseaudio] client-ext.c: client removed (idx=4)
+(   6.885|   0.143) I: [pulseaudio] client.c: Created 5 "Native client (UNIX socket client)"
+(   6.885|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client5
+(   6.886|   0.000) D: [pulseaudio] client-ext.c: no pid property for client 5, skip it
+(   6.886|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=5) (Native client (UNIX socket client)|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   6.896|   0.009) D: [pulseaudio] protocol-native.c: Protocol version: remote 30, local 30
+(   6.896|   0.000) I: [pulseaudio] protocol-native.c: Got credentials: uid=100000 gid=100000 success=1
+(   6.896|   0.000) D: [pulseaudio] protocol-native.c: SHM possible: yes
+(   6.896|   0.000) D: [pulseaudio] protocol-native.c: Negotiated SHM: yes
+(   6.897|   0.000) D: [pulseaudio] srbchannel.c: SHM block is 65496 bytes, ringbuffer capacity is 2 * 32724 bytes
+(   6.897|   0.000) D: [pulseaudio] protocol-native.c: Enabling srbchannel...
+(   6.899|   0.002) D: [pulseaudio] module-augment-properties.c: Looking for .desktop file for pactl
+(   6.899|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=5) (pactl|<noid>|7376|0|pactl|<noarg>|<noargs>)
+(   6.901|   0.001) D: [pulseaudio] protocol-native.c: Client enabled srbchannel.
+(   6.911|   0.010) D: [pulseaudio] protocol-native.c: Client pactl changes volume of sink input /usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav.
+(   6.913|   0.001) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client removed from object /org/pulseaudio/core1/client5
+(   6.913|   0.000) I: [pulseaudio] client.c: Freed 5 "pactl"
+(   6.913|   0.000) I: [pulseaudio] protocol-native.c: Connection died.
+(   6.913|   0.000) D: [pulseaudio] client-ext.c: client removed (idx=5)
+(   9.760|   2.846) I: [pulseaudio] client.c: Created 6 "Native client (UNIX socket client)"
+(   9.760|   0.000) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client added for object /org/pulseaudio/core1/client6
+(   9.761|   0.000) D: [pulseaudio] client-ext.c: no pid property for client 6, skip it
+(   9.761|   0.000) D: [pulseaudio] client-ext.c: new/modified client (idx=6) (Native client (UNIX socket client)|<noid>|0|0|<noexe>|<noarg>|<noargs>)
+(   9.762|   0.001) D: [pulseaudio] protocol-native.c: Protocol version: remote 30, local 30
+(   9.762|   0.000) I: [pulseaudio] protocol-native.c: Got credentials: uid=100000 gid=100000 success=1
+(   9.762|   0.000) D: [pulseaudio] protocol-native.c: SHM possible: yes
+(   9.762|   0.000) D: [pulseaudio] protocol-native.c: Negotiated SHM: yes
+(   9.762|   0.000) D: [pulseaudio] srbchannel.c: SHM block is 65496 bytes, ringbuffer capacity is 2 * 32724 bytes
+(   9.762|   0.000) D: [pulseaudio] protocol-native.c: Enabling srbchannel...
+(   9.771|   0.008) D: [pulseaudio] module-augment-properties.c: Looking for .desktop file for ngfd
+(   9.772|   0.001) D: [pulseaudio] client-ext.c: new/modified client (idx=6) (ngf-tonegen-plugin|<noid>|465|0|ngfd|<noarg>|<noargs>)
+(   9.773|   0.001) D: [pulseaudio] protocol-native.c: Client enabled srbchannel.
+(  10.104|   0.330) I: [pulseaudio] module-stream-restore-nemo.c: Synced.
+(  11.976|   1.871) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Stream removed from object /org/pulseaudio/core1/playback_stream0
+(  11.976|   0.000) D: [pulseaudio] policy-group.c: sink input (idx=0) removed from group 'player'
+(  11.977|   0.000) D: [pulseaudio] sink-input-ext.c: removed sink_input '/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav' (idx=0) (group=player)
+(  11.977|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary becomes idle, timeout in 1 seconds.
+(  11.977|   0.000) D: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary becomes idle, timeout in 1 seconds.
+(  11.977|   0.000) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(  11.981|   0.003) I: [pulseaudio] sink-input.c: Freeing input 0 "/usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav"
+(  11.983|   0.001) D: [pulseaudio] protocol-dbus.c: Interface org.PulseAudio.Core1.Client removed from object /org/pulseaudio/core1/client3
+(  11.983|   0.000) I: [pulseaudio] client.c: Freed 3 "paplay"
+(  11.983|   0.000) I: [pulseaudio] protocol-native.c: Connection died.
+(  11.984|   0.000) D: [pulseaudio] client-ext.c: client removed (idx=3)
+(  12.978|   0.994) I: [pulseaudio] module-suspend-on-idle.c: Sink sink.primary idle for too long, suspending ...
+(  12.978|   0.000) D: [pulseaudio] sink.c: Suspend cause of sink sink.primary is 0x0004, suspending
+(  12.991|   0.013) I: [droid-sink-primary] droid-sink.c: Device suspended.
+(  12.992|   0.000) D: [pulseaudio] keepalive.c: Stopping keepalive.
+(  12.994|   0.002) D: [pulseaudio] core.c: Hmm, no streams around, trying to vacuum.
+(  12.999|   0.004) D: [pulseaudio] bluez4-util.c: dbus: interface=(null), path=(null), member=(null)
+[paplay]

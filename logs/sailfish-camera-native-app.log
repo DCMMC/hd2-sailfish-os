@@ -1,0 +1,17 @@
+> > > > > > > > > > > > > > > > > > > > > > --- processes ---
+nemo     22413   360  0 19:34 ?        00:00:00 /usr/libexec/mapplauncherd/booster-silica-qt5 --systemd
+nemo     22421 22413 27 19:34 ?        00:00:08 /usr/bin/jolla-camera
+--- app journal ---
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 19:34:39 EEST. --
+Oct 17 19:34:10 Jolla booster-silica-qt5[22421]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:34:10 Jolla [22421]: booster [silica-qt5][22421]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 19:34:13 Jolla mapplauncherd[22421]: SilicaBooster: Preload compilation aborted.
+Oct 17 19:34:13 Jolla mapplauncherd[22421]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 19:34:32 Jolla [22421]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:34:39 Jolla [22421]: GLIB WARNING ** Tracker - Locale '0' is not set, defaulting to C locale
+--- android failures ---
+10-17 16:27:43.117 21182 21185 W CameraService: Disconnecting camera client 0x1e9c8 since the binder for it died (this pid 21182)
+10-17 16:28:01.817 21182 22252 E QcomCamera: internal_handle_preview: ERROR dequeueing the buffer
+10-17 16:28:01.817 21182 21212 W CameraService: Disconnecting camera client 0x17c80 since the binder for it died (this pid 21182)
+10-17 16:29:30.937 21182 22307 E QcomCamera: internal_handle_preview: ERROR dequeueing the buffer
+10-17 16:29:30.937 21182 21182 W CameraService: Disconnecting camera client 0x222d0 since the binder for it died (this pid 21182)

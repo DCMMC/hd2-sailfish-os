@@ -1,0 +1,37 @@
+> > > > > > > > > > > > > PIDS
+
+MEM
+             total       used       free     shared    buffers     cached
+Mem:           403        369         33          0         15        183
+-/+ buffers/cache:        170        232
+Swap:          100          4         95
+[14908.388458] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[14910.253723] [USB] reset
+[14910.253784] [USB] handle_notify_offline: notify offline
+[14910.255676] ums: set state 0
+[14910.256011] [USB] portchange USB_SPEED_HIGH
+[14910.256103] adb_release
+[14910.260284] adb_open(hd2-adbd)
+[14910.339721] android_usb gadget: high speed config #1: android
+[14910.340423] ums: set state 1
+[14914.906158] [USB] suspend
+[14916.389648] [USB] reset
+[14916.389709] [USB] handle_notify_offline: notify offline
+[14916.390411] ums: set state 0
+[14916.390777] adb_release
+[14916.391906] [USB] portchange USB_SPEED_HIGH
+[14916.394927] adb_open(hd2-adbd)
+[14916.504425] [USB] reset
+[14916.506713] [USB] portchange USB_SPEED_HIGH
+[14916.640106] android_usb gadget: high speed config #1: android
+[14916.640472] ums: set state 1
+[14958.392303] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15008.397521] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15058.401916] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15099.781158] <30>systemd[1]: Starting Session c73 of user nemo.
+[15099.782379] <30>systemd[1]: Started Session c73 of user nemo.
+[15108.406768] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15158.412200] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15208.415222] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000
+[15255.426452] pmem: mmap unable to allocate memoryon pmem
+[15258.419494] [D:BATT] V=4199(6b9) I=0(ffffffff) C=1228.0/1230(1112) id=4(b0) T=340(dc) KADC=1000

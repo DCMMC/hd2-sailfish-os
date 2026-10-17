@@ -1,0 +1,761 @@
+> > > > > > > > > > > > probe_rc=0
+0:00:00.000701905 19767    0x1c400 INFO                GST_INIT gst.c:499:init_pre: Initializing GStreamer Core Library version 1.4.5
+0:00:00.001251221 19767    0x1c400 INFO                GST_INIT gst.c:500:init_pre: Using library installed in /usr/lib
+0:00:00.001342774 19767    0x1c400 INFO                GST_INIT gst.c:511:init_pre: Linux Jolla 2.6.32_tytung_jellybean_r2 #4 PREEMPT Sat Oct 17 04:16:20 CST 2026 armv7l
+0:00:00.003967285 19767    0x1c400 INFO                GST_INIT gstmessage.c:119:_priv_gst_message_initialize: init messages
+0:00:00.010986329 19767    0x1c400 INFO                GST_INIT gstcontext.c:77:_priv_gst_context_initialize: init contexts
+0:00:00.012512207 19767    0x1c400 INFO      GST_PLUGIN_LOADING gstplugin.c:317:_priv_gst_plugin_initialize: registering 0 static plugins
+0:00:00.013458252 19767    0x1c400 INFO      GST_PLUGIN_LOADING gstplugin.c:225:gst_plugin_register_static: registered static plugin "staticelements"
+0:00:00.013549805 19767    0x1c400 INFO      GST_PLUGIN_LOADING gstplugin.c:227:gst_plugin_register_static: added static plugin "staticelements", result: 1
+0:00:00.013946534 19767    0x1c400 INFO            GST_REGISTRY gstregistry.c:1722:ensure_current_registry: reading registry cache: /home/nemo/.cache/gstreamer-1.0/registry.armv7hl.bin
+0:00:00.093048097 19767    0x1c400 INFO            GST_REGISTRY gstregistrybinary.c:619:priv_gst_registry_binary_read_cache: loaded /home/nemo/.cache/gstreamer-1.0/registry.armv7hl.bin in 0.078949 seconds
+0:00:00.093292237 19767    0x1c400 INFO            GST_REGISTRY gstregistry.c:1578:scan_and_update_registry: Validating plugins from registry cache: /home/nemo/.cache/gstreamer-1.0/registry.armv7hl.bin
+0:00:00.109405518 19767    0x1c400 INFO            GST_REGISTRY gstregistry.c:1680:scan_and_update_registry: Registry cache has not changed
+0:00:00.109497071 19767    0x1c400 INFO            GST_REGISTRY gstregistry.c:1757:ensure_current_registry: registry reading and updating done, result = 1
+0:00:00.109588624 19767    0x1c400 INFO                GST_INIT gst.c:709:init_post: GLib runtime version: 2.38.2
+0:00:00.109619141 19767    0x1c400 INFO                GST_INIT gst.c:711:init_post: GLib headers version: 2.38.2
+0:00:00.109680176 19767    0x1c400 INFO                GST_INIT gst.c:348:gst_init_check: initialized GStreamer successfully
+0:00:00.109710694 19767    0x1c400 INFO            GST_PIPELINE gstparse.c:323:gst_parse_launch_full: parsing pipeline description 'droidcamsrc name=cam cam.vfsrc ! video/x-raw,width=640,height=480 ! fakesink sync=false'
+0:00:01.276367185 19767    0x1c400 INFO      GST_PLUGIN_LOADING gstplugin.c:833:gst_plugin_load_file: plugin "/usr/lib/gstreamer-1.0/libgstdroid.so" loaded
+0:00:01.276489256 19767    0x1c400 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:364:gst_element_factory_create: creating element "droidcamsrc"
+0:00:01.281677244 19767    0x1c400 WARN             droidcamsrc gstdroidcamsrcquirks.c:238:gst_droidcamsrc_quirks_new: failed to load configuration file /etc/gst-droid/gstdroidcamsrcquirks.conf: No such file or directory
+0:00:01.281890867 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:610:gst_droidcamsrc_photography_init:<GstDroidCamSrc@0xc5018> using configuration file //etc/gst-droid/gstdroidcamsrc-0.conf
+0:00:01.283172605 19767    0x1c400 WARN             droidcamsrc gstdroidcamsrcphotography.c:786:gst_droidcamsrc_photography_load: failed to load iso-speed: Key file does not have group 'iso-speed'
+0:00:01.283935545 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:643:gst_element_add_pad:<GstDroidCamSrc@0xc5018> adding pad 'vfsrc'
+0:00:01.284301756 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:643:gst_element_add_pad:<GstDroidCamSrc@0xc5018> adding pad 'imgsrc'
+0:00:01.284606931 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:643:gst_element_add_pad:<GstDroidCamSrc@0xc5018> adding pad 'vidsrc'
+0:00:01.288482663 19767    0x1c400 INFO      GST_PLUGIN_LOADING gstplugin.c:833:gst_plugin_load_file: plugin "/usr/lib/gstreamer-1.0/libgstcoreelements.so" loaded
+0:00:01.288635251 19767    0x1c400 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:364:gst_element_factory_create: creating element "fakesink"
+0:00:01.289794919 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:643:gst_element_add_pad:<GstBaseSink@0xcc2a8> adding pad 'sink'
+0:00:01.290191648 19767    0x1c400 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:364:gst_element_factory_create: creating element "pipeline"
+0:00:01.291168211 19767    0x1c400 INFO           GST_PARENTAGE gstbin.c:4148:gst_bin_get_by_name: [pipeline0]: looking up child element cam
+0:00:01.291381834 19767    0x1c400 INFO            GST_PIPELINE ./grammar.y:570:gst_parse_perform_link: linking cam:cam to fakesink0:(any) (1/0) with caps "video/x-raw, width=(int)640, height=(int)480"
+0:00:01.291534421 19767    0x1c400 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:364:gst_element_factory_create: creating element "capsfilter"
+0:00:01.292358396 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:643:gst_element_add_pad:<GstBaseTransform@0xd0090> adding pad 'sink'
+0:00:01.292602537 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:643:gst_element_add_pad:<GstBaseTransform@0xd0090> adding pad 'src'
+0:00:01.292755124 19767    0x1c400 INFO              GST_STATES gstbin.c:1829:gst_bin_get_state_func:<pipeline0> getting state
+0:00:01.292938230 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<capsfilter0> completed state change to NULL
+0:00:01.293029783 19767    0x1c400 INFO               GST_EVENT gstevent.c:1373:gst_event_new_reconfigure: creating reconfigure event
+0:00:01.293151853 19767    0x1c400 INFO        GST_ELEMENT_PADS gstutils.c:1545:gst_element_link_pads_full: trying to link element cam:vfsrc to element capsfilter0:sink
+0:00:01.293212888 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:895:gst_element_get_static_pad: found pad cam:vfsrc
+0:00:01.293273923 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:895:gst_element_get_static_pad: found pad capsfilter0:sink
+0:00:01.293334958 19767    0x1c400 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: cam and capsfilter0 in same bin, no need for ghost pads
+0:00:01.293457029 19767    0x1c400 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link cam:vfsrc and capsfilter0:sink
+0:00:01.293579099 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam> pad vfsrc caps query: 0xc1290, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:01.293670652 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<cam> replying to caps query: 0xc1290, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:01.294006345 19767    0x1c400 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<capsfilter0:src> pad has no peer
+0:00:01.294158933 19767    0x1c400 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked cam:vfsrc and capsfilter0:sink, successful
+0:00:01.294219968 19767    0x1c400 INFO               GST_EVENT gstevent.c:1373:gst_event_new_reconfigure: creating reconfigure event
+0:00:01.294281003 19767    0x1c400 INFO               GST_EVENT gstpad.c:5182:gst_pad_send_event_unchecked:<cam:vfsrc> Received event on flushing pad. Discarding
+0:00:01.294403074 19767    0x1c400 INFO        GST_ELEMENT_PADS gstutils.c:1545:gst_element_link_pads_full: trying to link element capsfilter0:src to element fakesink0:(any)
+0:00:01.294464109 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:895:gst_element_get_static_pad: found pad capsfilter0:src
+0:00:01.294586179 19767    0x1c400 INFO                GST_PADS gstutils.c:937:gst_pad_check_link: trying to link capsfilter0:src and fakesink0:sink
+0:00:01.294708249 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam> pad vfsrc caps query: 0xc1350, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:01.294799802 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<cam> replying to caps query: 0xc1350, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:01.295532224 19767    0x1c400 INFO                GST_PADS gstutils.c:1445:prepare_link_maybe_ghosting: capsfilter0 and fakesink0 in same bin, no need for ghost pads
+0:00:01.295684812 19767    0x1c400 INFO                GST_PADS gstpad.c:2186:gst_pad_link_prepare: trying to link capsfilter0:src and fakesink0:sink
+0:00:01.295806882 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam> pad vfsrc caps query: 0xc1460, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"NULL";
+0:00:01.295898435 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrc.c:1416:gst_droidcamsrc_pad_query:<cam> replying to caps query: 0xc1460, GstQueryCaps, filter=(GstCaps)"NULL", caps=(GstCaps)"video/x-raw\(memory:DroidMediaBuffer\)\,\ format\=\(string\)\{\ YV12\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]\,\ metadata\=\(boolean\)\{\ false\,\ true\ \}\;\ video/x-raw\,\ format\=\(string\)\{\ NV21\ \}\,\ width\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ height\=\(int\)\[\ 1\,\ 2147483647\ \]\,\ framerate\=\(fraction\)\[\ 0/1\,\ 2147483647/1\ \]";
+0:00:01.296325681 19767    0x1c400 INFO                GST_PADS gstpad.c:2388:gst_pad_link_full: linked capsfilter0:src and fakesink0:sink, successful
+0:00:01.296386716 19767    0x1c400 INFO               GST_EVENT gstevent.c:1373:gst_event_new_reconfigure: creating reconfigure event
+0:00:01.296447751 19767    0x1c400 INFO               GST_EVENT gstpad.c:5182:gst_pad_send_event_unchecked:<capsfilter0:src> Received event on flushing pad. Discarding
+0:00:01.296844480 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<fakesink0> current NULL pending VOID_PENDING, desired next READY
+0:00:01.296966550 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<fakesink0> completed state change to READY
+0:00:01.296997067 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<fakesink0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:01.297149655 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'fakesink0' changed state to 2(READY) successfully
+0:00:01.297271726 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<capsfilter0> current NULL pending VOID_PENDING, desired next READY
+0:00:01.297332761 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<capsfilter0> completed state change to READY
+0:00:01.297393796 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:01.297485349 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 2(READY) successfully
+0:00:01.297576901 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<cam> current NULL pending VOID_PENDING, desired next READY
+0:00:01.297668454 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:433:gst_droidcamsrc_get_hw:<cam> get hw
+0:00:01.298522946 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:419:gst_droidcamsrc_fill_info:<cam> camera 0 is facing 0 with orientation 1
+0:00:01.299072263 19767    0x1c400 WARN             droidcamsrc gstdroidcamsrc.c:459:gst_droidcamsrc_get_hw:<cam> cannot find front camera
+0:00:01.299163815 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:522:gst_droidcamsrc_dev_new: dev new
+0:00:01.300292966 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<cam> completed state change to READY
+0:00:01.300384518 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<cam> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:01.300598142 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'cam' changed state to 2(READY) successfully
+0:00:01.300689695 19767    0x1c400 INFO              GST_STATES gstelement.c:2303:gst_element_continue_state:<pipeline0> committing state from NULL to READY, pending PLAYING, next PAUSED
+0:00:01.300750730 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed NULL to READY (PLAYING pending)
+0:00:01.300842282 19767    0x1c400 INFO              GST_STATES gstelement.c:2310:gst_element_continue_state:<pipeline0> continue state change READY to PAUSED, final PLAYING
+0:00:01.301055905 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<fakesink0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.301239011 19767    0x1c400 INFO              GST_STATES gstbin.c:2679:gst_bin_change_state_func:<pipeline0> child 'fakesink0' is changing state asynchronously to PAUSED
+0:00:01.301330564 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<capsfilter0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.301483152 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<capsfilter0> completed state change to PAUSED
+0:00:01.301544187 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.301635739 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 3(PAUSED) successfully
+0:00:01.301727292 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<cam> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.301788327 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:531:gst_droidcamsrc_change_state:<cam> using camera device 0
+0:00:01.301849362 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:560:gst_droidcamsrc_dev_open:<cam> dev open
+0:00:01.507293701 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:638:gst_droidcamsrc_dev_init: dev init
+0:00:01.508880615 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcparams.c:208:gst_droidcamsrc_params_new: params new
+0:00:01.509094238 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcparams.c:164:gst_droidcamsrc_params_reload_locked: params reload
+0:00:01.509155273 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param antibanding = auto
+0:00:01.509216308 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param antibanding-values = off,50hz,60hz,auto
+0:00:01.509277344 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness = 3
+0:00:01.509338379 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness-def = 3
+0:00:01.509429931 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness-max = 6
+0:00:01.509460449 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness-min = 0
+0:00:01.509552002 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param cam-mode = 0
+0:00:01.509582519 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast = 5
+0:00:01.509643554 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast-def = 5
+0:00:01.509704590 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast-max = 10
+0:00:01.509765625 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast-min = 0
+0:00:01.509826660 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param effect = none
+0:00:01.509857178 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param effect-values = none,mono,negative,solarize,sepia,posterize,aqua
+0:00:01.509918213 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param exposure-compensation = 0
+0:00:01.509979248 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param exposure-compensation-step = 0.5
+0:00:01.510040283 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param flash-mode = off
+0:00:01.510101318 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param flash-mode-values = off,auto,on,torch
+0:00:01.510131836 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param focal-length = 4.31
+0:00:01.510192871 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param focus-mode = auto
+0:00:01.510253906 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param focus-mode-values = auto,infinity
+0:00:01.510314941 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param front-camera-mode = mirror
+0:00:01.510375976 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param front-camera-mode-values = mirror,reverse
+0:00:01.510406494 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param horizontal-view-angle = 54.8
+0:00:01.510467529 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param iso = auto
+0:00:01.510955811 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param iso-values = auto,deblur,100,200,400,800,1250
+0:00:01.511047364 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-quality = 100
+0:00:01.511108399 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-height = 576
+0:00:01.511169434 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-quality = 75
+0:00:01.511230469 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-size-values = 768x576,640x480,512x384,0x0
+0:00:01.511566163 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-width = 768
+0:00:01.511657715 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param max-exposure-compensation = 4
+0:00:01.511840821 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param max-zoom = 5
+0:00:01.511932373 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param meter-mode = meter-center
+0:00:01.511993409 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param meter-mode-values = meter-average,meter-center,meter-spot
+0:00:01.512054444 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param min-exposure-compensation = -4
+0:00:01.512115479 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-format = jpeg
+0:00:01.512207032 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-format-values = jpeg
+0:00:01.512268067 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-size = 1024x768
+0:00:01.512329102 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-size-values = 2592x1952,2592x1728,2592x1552,2560x1920,2560x1712,2048x1536,2048x1360,2048x1216,2016x1344,1600x1200,1584x1056,1280x960,1280x848,1280x768,1248x832,1024x768,640x480,640x416,640x384,624x416,512x384,400x400,272x272
+0:00:01.512451172 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preferred-preview-size-for-video = 640x480
+0:00:01.512512207 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-format = yuv420sp
+0:00:01.512573243 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-format-values = yuv420sp
+0:00:01.512634278 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-fps-range-values = (15,30)
+0:00:01.512725830 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-frame-rate = 15
+0:00:01.512786866 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-frame-rate-values = 15
+0:00:01.512847901 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-size = 768x432
+0:00:01.512908936 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-size-values = 1280x720,800x480,768x432,720x480,640x480,576x432,480x320,400x240,384x288,352x288,320x240,272x272,240x240,240x160,176x144
+0:00:01.513000489 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation = 5
+0:00:01.513061524 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation-def = 5
+0:00:01.513122559 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation-max = 10
+0:00:01.513183594 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation-min = 1
+0:00:01.513244629 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness = 10
+0:00:01.513336182 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness-def = 10
+0:00:01.513397217 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness-max = 30
+0:00:01.513458252 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness-min = 0
+0:00:01.513519287 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param smart-contrast = off
+0:00:01.513610840 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param taking-picture-zoom = 0
+0:00:01.513671875 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param taking-picture-zoom-max = 20
+0:00:01.513732910 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param taking-picture-zoom-min = 0
+0:00:01.513824463 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param vertical-view-angle = 42.5
+0:00:01.513885498 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param video-frame-format = yuv420sp
+0:00:01.513977051 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param video-size = 640x480
+0:00:01.514068604 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param video-size-values = 1280x720,800x480,720x480,640x480,352x288,320x240,176x144
+0:00:01.514129639 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param whitebalance = auto
+0:00:01.514190674 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param whitebalance-values = auto,incandescent,fluorescent,daylight,cloudy-daylight
+0:00:01.514282227 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param zoom = 0
+0:00:01.514343262 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param zoom-ratios = 100,114,131,151,174,200
+0:00:01.514404297 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param zoom-supported = true
+0:00:01.514526367 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:153:gst_droidcamsrc_params_fill_fps_range_arrays_locked: parsed fps range: 15 - 30
+0:00:01.514709473 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:2022:gst_droidcamsrc_update_ev_compensation_bounds:<cam> update ev compensation bounds
+0:00:01.514831543 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:2064:gst_droidcamsrc_update_ev_compensation_bounds:<cam> updated ev compensation bounds to be from -2 to 2
+0:00:01.515014649 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:2091:gst_droidcamsrc_add_vfsrc_orientation_tag:<cam> add vfsrc orientation tag
+0:00:01.515167237 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:2104:gst_droidcamsrc_add_vfsrc_orientation_tag:<cam> added orientation tag event with orientation rotate-90
+0:00:01.515258789 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vfsrc 1
+0:00:01.515441895 19767    0x1c400 INFO                    task gsttask.c:431:gst_task_set_lock: setting stream lock 0xc90cc on task 0xc8220
+0:00:01.515838623 19767    0x1c400 INFO                GST_PADS gstpad.c:5515:gst_pad_start_task:<cam:vfsrc> created task 0xc8220
+0:00:01.516357422 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad imgsrc 1
+0:00:01.516571045 19767    0x1c400 INFO                    task gsttask.c:431:gst_task_set_lock: setting stream lock 0xc9214 on task 0xc82c8
+0:00:01.516662598 19767    0x1c400 INFO                GST_PADS gstpad.c:5515:gst_pad_start_task:<cam:imgsrc> created task 0xc82c8
+0:00:01.516967774 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vidsrc 1
+0:00:01.517150879 19767    0x1c400 INFO                    task gsttask.c:431:gst_task_set_lock: setting stream lock 0xc935c on task 0xc8370
+0:00:01.517242432 19767    0x1c400 INFO                GST_PADS gstpad.c:5515:gst_pad_start_task:<cam:vidsrc> created task 0xc8370
+0:00:01.517608643 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<cam> completed state change to PAUSED
+0:00:01.517669678 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<cam> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.517822266 19767    0x1c400 INFO              GST_STATES gstbin.c:2716:gst_bin_change_state_func:<pipeline0> child 'cam' changed state to 3(PAUSED) successfully without preroll
+0:00:01.517944336 19767    0x1c400 INFO              GST_STATES gstelement.c:2303:gst_element_continue_state:<pipeline0> committing state from READY to PAUSED, pending PLAYING, next PLAYING
+0:00:01.518035889 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed READY to PAUSED (PLAYING pending)
+0:00:01.518218994 19767    0x1c400 INFO              GST_STATES gstelement.c:2310:gst_element_continue_state:<pipeline0> continue state change PAUSED to PLAYING, final PLAYING
+0:00:01.519104004 19767    0x1c400 INFO               GST_EVENT gstevent.c:1244:gst_event_new_latency: creating latency event 0:00:00.000000000
+0:00:01.519439697 19767    0x1c400 INFO                     bin gstbin.c:2502:gst_bin_do_latency_func:<pipeline0> configured latency of 0:00:00.000000000
+0:00:01.519653320 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<fakesink0> current READY pending PAUSED, desired next PLAYING
+0:00:01.521209717 19767    0x1c400 INFO              GST_STATES gstbin.c:2679:gst_bin_change_state_func:<pipeline0> child 'fakesink0' is changing state asynchronously to PLAYING
+0:00:01.521331788 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<capsfilter0> current PAUSED pending VOID_PENDING, desired next PLAYING
+0:00:01.521453858 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<capsfilter0> completed state change to PLAYING
+0:00:01.521514893 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:01.521636964 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 4(PLAYING) successfully
+0:00:01.521759034 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:1384:gst_droidcamsrc_photography_set_flash_to_droid:<cam> setting flash-mode to auto
+0:00:01.521820069 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param flash-mode to auto
+0:00:01.521911622 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param focus-mode to continuous-picture
+0:00:01.521972657 19767    0x1c400 WARN             droidcamsrc gstdroidcamsrcphotography.c:1406:gst_droidcamsrc_photography_set_iso_to_droid:<cam> setting iso to 0 is not supported
+0:00:01.522033692 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcphotography.c:1423:gst_droidcamsrc_photography_set_zoom_to_droid:<cam> zoom set to 0
+0:00:01.522094727 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param zoom to 0
+0:00:01.522155762 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:1450:gst_droidcamsrc_photography_set_ev_compensation_to_droid:<cam> setting exposure-compensation to 0
+0:00:01.522216797 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param exposure-compensation to 0
+0:00:01.522277833 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:759:gst_droidcamsrc_photography_apply:<cam> setting whitebalance to auto
+0:00:01.522338868 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param whitebalance to auto
+0:00:01.522430421 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:761:gst_droidcamsrc_photography_apply:<cam> setting scene-mode to auto
+0:00:01.522491456 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param scene-mode to auto
+0:00:01.522552491 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:763:gst_droidcamsrc_photography_apply:<cam> setting effect to none
+0:00:01.522613526 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param effect to none
+0:00:01.522674561 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:765:gst_droidcamsrc_photography_apply:<cam> setting antibanding to auto
+0:00:01.522735596 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param antibanding to auto
+0:00:01.522827149 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:892:gst_element_get_static_pad: no such pad 'sink' in element "cam"
+0:00:01.522918702 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam> pad vfsrc uri query: 0xc1630, GstQueryURI, uri=(string)NULL;
+0:00:01.523010254 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrc.c:1418:gst_droidcamsrc_pad_query:<cam> discarding uri query: 0xc1630, GstQueryURI, uri=(string)NULL;
+0:00:01.523101807 19767    0x1c400 FIXME                default gstutils.c:3643:gst_pad_create_stream_id_internal:<cam:imgsrc> Creating random stream-id, consider implementing a deterministic way of creating a stream-id
+0:00:01.523498536 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1529:gst_droidcamsrc_imgsrc_negotiate:<cam> imgsrc negotiate
+0:00:01.523803711 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2592, height=(int)1952, framerate=(fraction)0/1
+0:00:01.521026612 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:01.524353028 19767    0xc15b0 INFO        GST_ELEMENT_PADS gstelement.c:892:gst_element_get_static_pad: no such pad 'sink' in element "cam"
+0:00:01.524566651 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam> pad vfsrc uri query: 0xc18c0, GstQueryURI, uri=(string)NULL;
+0:00:01.524688721 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1418:gst_droidcamsrc_pad_query:<cam> discarding uri query: 0xc18c0, GstQueryURI, uri=(string)NULL;
+0:00:01.524780274 19767    0xc15b0 FIXME                default gstutils.c:3643:gst_pad_create_stream_id_internal:<cam:vidsrc> Creating random stream-id, consider implementing a deterministic way of creating a stream-id
+0:00:01.524871827 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1037:gst_droidcamsrc_loop:<cam:vidsrc> Pushing STREAM_START for pad
+0:00:01.521057130 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:01.525054932 19767    0xc1580 INFO        GST_ELEMENT_PADS gstelement.c:892:gst_element_get_static_pad: no such pad 'sink' in element "cam"
+0:00:01.525268555 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1300:gst_droidcamsrc_pad_query:<cam> pad vfsrc uri query: 0x41a02d80, GstQueryURI, uri=(string)NULL;
+0:00:01.525390625 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1418:gst_droidcamsrc_pad_query:<cam> discarding uri query: 0x41a02d80, GstQueryURI, uri=(string)NULL;
+0:00:01.525451661 19767    0xc1580 FIXME                default gstutils.c:3643:gst_pad_create_stream_id_internal:<cam:vfsrc> Creating random stream-id, consider implementing a deterministic way of creating a stream-id
+0:00:01.525543213 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1037:gst_droidcamsrc_loop:<cam:vfsrc> Pushing STREAM_START for pad
+0:00:01.520782471 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:01.526123047 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2592, height=(int)1728, framerate=(fraction)0/1
+0:00:01.526367188 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2592, height=(int)1552, framerate=(fraction)0/1
+0:00:01.526550293 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2560, height=(int)1920, framerate=(fraction)0/1
+0:00:01.526733399 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2560, height=(int)1712, framerate=(fraction)0/1
+0:00:01.526916504 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2048, height=(int)1536, framerate=(fraction)0/1
+0:00:01.527099610 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2048, height=(int)1360, framerate=(fraction)0/1
+0:00:01.527282715 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2048, height=(int)1216, framerate=(fraction)0/1
+0:00:01.527465821 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)0/1
+0:00:01.527648926 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)0/1
+0:00:01.527923584 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)0/1
+0:00:01.528137207 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1280, height=(int)960, framerate=(fraction)0/1
+0:00:01.528625488 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1280, height=(int)848, framerate=(fraction)0/1
+0:00:01.528839112 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1280, height=(int)768, framerate=(fraction)0/1
+0:00:01.529022217 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)0/1
+0:00:01.529235840 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)1024, height=(int)768, framerate=(fraction)0/1
+0:00:01.529418945 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)0/1
+0:00:01.529632569 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)640, height=(int)416, framerate=(fraction)0/1
+0:00:01.529815674 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)640, height=(int)384, framerate=(fraction)0/1
+0:00:01.530059815 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)624, height=(int)416, framerate=(fraction)0/1
+0:00:01.530273438 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)512, height=(int)384, framerate=(fraction)0/1
+0:00:01.530670167 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)0/1
+0:00:01.531005860 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)0/1
+0:00:01.537780762 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1532:gst_droidcamsrc_imgsrc_negotiate:<cam> our caps image/jpeg, width=(int)2592, height=(int){ 1952, 1728, 1552 }, framerate=(fraction)0/1; image/jpeg, width=(int)2560, height=(int){ 1920, 1712 }, framerate=(fraction)0/1; image/jpeg, width=(int)2048, height=(int){ 1536, 1360, 1216 }, framerate=(fraction)0/1; image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)0/1; image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)0/1; image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)0/1; image/jpeg, width=(int)1280, height=(int){ 960, 848 }, framerate=(fraction)0/1; image/jpeg, width=(int){ 1280, 1024 }, height=(int)768, framerate=(fraction)0/1; image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)0/1; image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)0/1; image/jpeg, width=(int){ 640, 624 }, height=(int)416, framerate=(fraction)0/1; image/jpeg, width=(int){ 640, 512 }, height=(int)384, framerate=(fraction)0/1; image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)0/1; image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)0/1
+0:00:01.538482666 19767    0x1c400 INFO                GST_PADS gstpad.c:3745:gst_pad_peer_query:<cam:imgsrc> pad has no peer
+0:00:01.538543702 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1541:gst_droidcamsrc_imgsrc_negotiate:<cam> peer caps image/jpeg, width=(int)2592, height=(int){ 1952, 1728, 1552 }, framerate=(fraction)0/1; image/jpeg, width=(int)2560, height=(int){ 1920, 1712 }, framerate=(fraction)0/1; image/jpeg, width=(int)2048, height=(int){ 1536, 1360, 1216 }, framerate=(fraction)0/1; image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)0/1; image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)0/1; image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)0/1; image/jpeg, width=(int)1280, height=(int){ 960, 848 }, framerate=(fraction)0/1; image/jpeg, width=(int){ 1280, 1024 }, height=(int)768, framerate=(fraction)0/1; image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)0/1; image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)0/1; image/jpeg, width=(int){ 640, 624 }, height=(int)416, framerate=(fraction)0/1; image/jpeg, width=(int){ 640, 512 }, height=(int)384, framerate=(fraction)0/1; image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)0/1; image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)0/1
+0:00:01.539154053 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrc.c:2142:gst_droidcamsrc_pick_largest_resolution:<cam> pick largest resolution from image/jpeg, width=(int)2592, height=(int){ 1952, 1728, 1552 }, framerate=(fraction)0/1; image/jpeg, width=(int)2560, height=(int){ 1920, 1712 }, framerate=(fraction)0/1; image/jpeg, width=(int)2048, height=(int){ 1536, 1360, 1216 }, framerate=(fraction)0/1; image/jpeg, width=(int)2016, height=(int)1344, framerate=(fraction)0/1; image/jpeg, width=(int)1600, height=(int)1200, framerate=(fraction)0/1; image/jpeg, width=(int)1584, height=(int)1056, framerate=(fraction)0/1; image/jpeg, width=(int)1280, height=(int){ 960, 848 }, framerate=(fraction)0/1; image/jpeg, width=(int){ 1280, 1024 }, height=(int)768, framerate=(fraction)0/1; image/jpeg, width=(int)1248, height=(int)832, framerate=(fraction)0/1; image/jpeg, width=(int)640, height=(int)480, framerate=(fraction)0/1; image/jpeg, width=(int){ 640, 624 }, height=(int)416, framerate=(fraction)0/1; image/jpeg, width=(int){ 640, 512 }, height=(int)384, framerate=(fraction)0/1; image/jpeg, width=(int)400, height=(int)400, framerate=(fraction)0/1; image/jpeg, width=(int)272, height=(int)272, framerate=(fraction)0/1
+0:00:01.539947510 19767    0x1c400 INFO               GST_EVENT gstevent.c:678:gst_event_new_caps: creating caps event image/jpeg, width=(int)2016, height=(int)1344, framerate=(int)30
+0:00:01.540161133 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1565:gst_droidcamsrc_imgsrc_negotiate:<cam> pad imgsrc using caps image/jpeg, width=(int)2016, height=(int)1344, framerate=(int)30
+0:00:01.540344239 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param picture-size to 2016x1344
+0:00:01.540466309 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1436:gst_droidcamsrc_vfsrc_negotiate:<cam> vfsrc negotiate
+0:00:01.540740968 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)1280, height=(int)720, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.540954591 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)800, height=(int)480, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.541137696 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)768, height=(int)432, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.541351319 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)720, height=(int)480, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.541534425 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)640, height=(int)480, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.541717530 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)576, height=(int)432, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.542205811 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)480, height=(int)320, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.542419434 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)400, height=(int)240, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.542602540 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)384, height=(int)288, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.542816163 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)352, height=(int)288, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.542999268 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)320, height=(int)240, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.543212891 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)272, height=(int)272, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.543426514 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)240, height=(int)240, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.543640138 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)240, height=(int)160, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.543853761 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw(memory:DroidMediaBuffer), width=(int)176, height=(int)144, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.547180176 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)1280, height=(int)720, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.547393799 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)800, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.547576905 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)768, height=(int)432, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.547760010 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)720, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.547943116 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.548126221 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)576, height=(int)432, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.548309327 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)480, height=(int)320, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.548492432 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)400, height=(int)240, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.548645020 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)384, height=(int)288, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.548828125 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)352, height=(int)288, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.549011231 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)320, height=(int)240, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.549194336 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)272, height=(int)272, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.549377442 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)240, height=(int)240, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.549591065 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)240, height=(int)160, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.549804688 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:355:gst_droidcamsrc_params_get_caps_locked: merging caps video/x-raw, width=(int)176, height=(int)144, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.553253175 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1439:gst_droidcamsrc_vfsrc_negotiate:<cam> our caps video/x-raw, width=(int)1280, height=(int)720, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int){ 800, 720, 640 }, height=(int)480, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int){ 768, 576 }, height=(int)432, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int)480, height=(int)320, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int){ 400, 320 }, height=(int)240, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int){ 384, 352 }, height=(int)288, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int)272, height=(int)272, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int)240, height=(int){ 240, 160 }, format=(string)NV21, framerate=(fraction)0/1; video/x-raw, width=(int)176, height=(int)144, format=(string)NV21, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int)1280, height=(int)720, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int){ 800, 720, 640 }, height=(int)480, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int){ 768, 576 }, height=(int)432, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int)480, height=(int)320, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int){ 400, 320 }, height=(int)240, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int){ 384, 352 }, height=(int)288, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int)272, height=(int)272, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int)240, height=(int){ 240, 160 }, format=(string)YV12, framerate=(fraction)0/1; video/x-raw(memory:DroidMediaBuffer), width=(int)176, height=(int)144, format=(string)YV12, framerate=(fraction)0/1
+0:00:01.554595948 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1448:gst_droidcamsrc_vfsrc_negotiate:<cam> peer caps video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.554901124 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrc.c:2142:gst_droidcamsrc_pick_largest_resolution:<cam> pick largest resolution from video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+
+(gst_pipeline_probe_640:19767): GStreamer-CRITICAL **: range start is not smaller than end for `GstFractionRange'
+0:00:01.558990479 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param preview-fps-range to 15,30
+0:00:01.559112549 19767    0x1c400 INFO               GST_EVENT gstevent.c:678:gst_event_new_caps: creating caps event video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.559936524 19767    0x1c400 INFO           basetransform gstbasetransform.c:1359:gst_base_transform_setcaps:<capsfilter0> reuse caps
+0:00:01.560089112 19767    0x1c400 INFO               GST_EVENT gstevent.c:678:gst_event_new_caps: creating caps event video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.560516358 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1475:gst_droidcamsrc_vfsrc_negotiate:<cam> pad vfsrc using caps video/x-raw, width=(int)640, height=(int)480, format=(string)NV21, framerate=(fraction)0/1
+0:00:01.560760498 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param preview-size to 640x480
+0:00:01.560882570 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1693:gst_droidcamsrc_apply_params:<cam> apply params
+0:00:01.561798097 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcdev.c:807:gst_droidcamsrc_dev_set_params: setting parameters scene-mode=auto;video-size-values=1280x720,800x480,720x480,640x480,352x288,320x240,176x144;contrast-max=10;iso-values=auto,deblur,100,200,400,800,1250;picture-size=2016x1344;contrast-min=0;preview-fps-range=15,30;jpeg-thumbnail-height=576;antibanding-values=off,50hz,60hz,auto;sharpness-def=10;jpeg-quality=100;meter-mode=meter-center;exposure-compensation-step=0.5;focus-mode-values=auto,infinity;brightness-def=3;max-exposure-compensation=4;front-camera-mode=mirror;effect=none;jpeg-thumbnail-width=768;vertical-view-angle=42.5;min-exposure-compensation=-4;jpeg-thumbnail-quality=75;exposure-compensation=0;picture-size-values=2592x1952,2592x1728,2592x1552,2560x1920,2560x1712,2048x1536,2048x1360,2048x1216,2016x1344,1600x1200,1584x1056,1280x960,1280x848,1280x768,1248x832,1024x768,640x480,640x416,640x384,624x416,512x384,400x400,272x272;picture-format=jpeg;meter-mode-values=meter-average,meter-center,meter-spot;sharpness-min=0;preview-frame-rate=15;preferred-preview-size-for-video=640x480;sharpness-max=30;whitebalance-values=auto,incandescent,fluorescent,daylight,cloudy-daylight;preview-format-values=yuv420sp;smart-contrast=off;whitebalance=auto;preview-fps-range-values=(15,30);video-size=640x480;taking-picture-zoom=0;contrast=5;cam-mode=0;brightness-max=6;brightness-min=0;focus-mode=continuous-picture;sharpness=10;preview-frame-rate-values=15;focal-length=4.31;iso=auto;effect-values=none,mono,negative,solarize,sepia,posterize,aqua;jpeg-thumbnail-size-values=768x576,640x480,512x384,0x0;preview-size-values=1280x720,800x480,768x432,720x480,640x480,576x432,480x320,400x240,384x288,352x288,320x240,272x272,240x240,240x160,176x144;saturation=5;saturation-def=5;video-frame-format=yuv420sp;zoom=0;zoom-supported=true;horizontal-view-angle=54.8;antibanding=auto;contrast-def=5;zoom-ratios=100,114,131,151,174,200;preview-format=yuv420sp;preview-size=640x480;brightness=3;max-zoom=5;flash-mode-values=off,auto,on,torch;taking-picture-zoom-min=0;picture-format-values=jpeg;saturation-max=10;front-camera-mode-values=mirror,reverse;saturation-min=1;taking-picture-zoom-max=20;flash-mode=auto
+0:00:01.566284180 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcparams.c:164:gst_droidcamsrc_params_reload_locked: params reload
+0:00:01.566497804 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param antibanding = auto
+0:00:01.566589356 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param antibanding-values = off,50hz,60hz,auto
+0:00:01.566650391 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness = 3
+0:00:01.566680909 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness-def = 3
+0:00:01.566741944 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness-max = 6
+0:00:01.566802979 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param brightness-min = 0
+0:00:01.566864014 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param cam-mode = 0
+0:00:01.566925050 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast = 5
+0:00:01.566986085 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast-def = 5
+0:00:01.567047120 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast-max = 10
+0:00:01.567108155 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param contrast-min = 0
+0:00:01.567169190 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param effect = none
+0:00:01.567230225 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param effect-values = none,mono,negative,solarize,sepia,posterize,aqua
+0:00:01.567291260 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param exposure-compensation = 0
+0:00:01.567352296 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param exposure-compensation-step = 0.5
+0:00:01.567413331 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param flash-mode = auto
+0:00:01.567443848 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param flash-mode-values = off,auto,on,torch
+0:00:01.567504884 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param focal-length = 4.31
+0:00:01.567565919 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param focus-mode = auto
+0:00:01.567626954 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param focus-mode-values = auto,infinity
+0:00:01.567962647 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param front-camera-mode = mirror
+0:00:01.568023682 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param front-camera-mode-values = mirror,reverse
+0:00:01.568084717 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param horizontal-view-angle = 54.8
+0:00:01.568115235 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param iso = auto
+0:00:01.568176270 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param iso-values = auto,deblur,100,200,400,800,1250
+0:00:01.568237305 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-quality = 100
+0:00:01.568298341 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-height = 576
+0:00:01.568359376 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-quality = 75
+0:00:01.568420411 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-size-values = 768x576,640x480,512x384,0x0
+0:00:01.568481446 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param jpeg-thumbnail-width = 768
+0:00:01.568511964 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param max-exposure-compensation = 4
+0:00:01.568603516 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param max-zoom = 5
+0:00:01.568664551 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param meter-mode = meter-center
+0:00:01.568695069 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param meter-mode-values = meter-average,meter-center,meter-spot
+0:00:01.568756104 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param min-exposure-compensation = -4
+0:00:01.568817139 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-format = jpeg
+0:00:01.568939210 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-format-values = jpeg
+0:00:01.569000245 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-size = 2016x1344
+0:00:01.569061280 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param picture-size-values = 2592x1952,2592x1728,2592x1552,2560x1920,2560x1712,2048x1536,2048x1360,2048x1216,2016x1344,1600x1200,1584x1056,1280x960,1280x848,1280x768,1248x832,1024x768,640x480,640x416,640x384,624x416,512x384,400x400,272x272
+0:00:01.569122315 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preferred-preview-size-for-video = 640x480
+0:00:01.569183350 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-format = yuv420sp
+0:00:01.569244385 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-format-values = yuv420sp
+0:00:01.569305421 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-fps-range-values = (15,30)
+0:00:01.569335938 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-frame-rate = 15
+0:00:01.569396973 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-frame-rate-values = 15
+0:00:01.569458008 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-size = 640x480
+0:00:01.569519044 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param preview-size-values = 1280x720,800x480,768x432,720x480,640x480,576x432,480x320,400x240,384x288,352x288,320x240,272x272,240x240,240x160,176x144
+0:00:01.569580079 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation = 5
+0:00:01.569641114 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation-def = 5
+0:00:01.569702149 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation-max = 10
+0:00:01.569732667 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param saturation-min = 1
+0:00:01.569793702 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness = 10
+0:00:01.569854737 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness-def = 10
+0:00:01.569915772 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness-max = 30
+0:00:01.569976807 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param sharpness-min = 0
+0:00:01.570007325 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param smart-contrast = off
+0:00:01.570068360 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param taking-picture-zoom = 0
+0:00:01.570129395 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param taking-picture-zoom-max = 20
+0:00:01.570190430 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param taking-picture-zoom-min = 0
+0:00:01.570251465 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param vertical-view-angle = 42.5
+0:00:01.570312501 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param video-frame-format = yuv420sp
+0:00:01.570434571 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param video-size = 640x480
+0:00:01.570495606 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param video-size-values = 1280x720,800x480,720x480,640x480,352x288,320x240,176x144
+0:00:01.570556641 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param whitebalance = auto
+0:00:01.570617676 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param whitebalance-values = auto,incandescent,fluorescent,daylight,cloudy-daylight
+0:00:01.570678711 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param zoom = 0
+0:00:01.570739747 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param zoom-ratios = 100,114,131,151,174,200
+0:00:01.570770264 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:47:gst_droidcamsrc_params_parse: param zoom-supported = true
+0:00:01.570953370 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcparams.c:153:gst_droidcamsrc_params_fill_fps_range_arrays_locked: parsed fps range: 15 - 30
+0:00:01.571044923 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1914:gst_droidcamsrc_update_max_zoom:<cam> update max zoom
+0:00:01.571075441 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1934:gst_droidcamsrc_update_max_zoom:<cam> max zoom reported from HAL is 5
+0:00:01.571197511 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1950:gst_droidcamsrc_update_max_zoom:<cam> max zoom set to 6
+0:00:01.571289064 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:1975:gst_droidcamsrc_apply_mode_settings:<cam> apply mode settings
+0:00:01.571319581 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param focus-mode to continuous-picture
+0:00:01.571380616 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcphotography.c:1384:gst_droidcamsrc_photography_set_flash_to_droid:<cam> setting flash-mode to auto
+0:00:01.571441652 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:426:gst_droidcamsrc_params_set_string_locked: setting param flash-mode to auto
+0:00:01.571502687 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcquirks.c:281:gst_droidcamsrc_quirks_apply:<cam> quirk face-detection not known
+0:00:01.571533204 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcdev.c:1037:gst_droidcamsrc_dev_enable_face_detection: enable face detection 0
+0:00:01.571807862 19767    0x1c400 ERROR            droidcamsrc gstdroidcamsrcdev.c:1047:gst_droidcamsrc_dev_enable_face_detection: error disabling face detection
+0:00:01.571929933 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcquirks.c:281:gst_droidcamsrc_quirks_apply:<cam> quirk image-noise-reduction not known
+0:00:01.571960450 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcquirks.c:281:gst_droidcamsrc_quirks_apply:<cam> quirk fast-capture not known
+0:00:01.572021486 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:714:gst_droidcamsrc_dev_start:<cam> dev start
+0:00:01.573211671 19767    0x1c400 LOG              droidcamsrc gstdroidcamsrcdev.c:807:gst_droidcamsrc_dev_set_params: setting parameters video-size-values=1280x720,800x480,720x480,640x480,352x288,320x240,176x144;contrast-max=10;iso-values=auto,deblur,100,200,400,800,1250;picture-size=2016x1344;contrast-min=0;jpeg-thumbnail-height=576;antibanding-values=off,50hz,60hz,auto;sharpness-def=10;jpeg-quality=100;meter-mode=meter-center;exposure-compensation-step=0.5;focus-mode-values=auto,infinity;brightness-def=3;max-exposure-compensation=4;front-camera-mode=mirror;effect=none;jpeg-thumbnail-width=768;vertical-view-angle=42.5;min-exposure-compensation=-4;jpeg-thumbnail-quality=75;exposure-compensation=0;picture-size-values=2592x1952,2592x1728,2592x1552,2560x1920,2560x1712,2048x1536,2048x1360,2048x1216,2016x1344,1600x1200,1584x1056,1280x960,1280x848,1280x768,1248x832,1024x768,640x480,640x416,640x384,624x416,512x384,400x400,272x272;picture-format=jpeg;meter-mode-values=meter-average,meter-center,meter-spot;sharpness-min=0;preview-frame-rate=15;preferred-preview-size-for-video=640x480;sharpness-max=30;whitebalance-values=auto,incandescent,fluorescent,daylight,cloudy-daylight;preview-format-values=yuv420sp;smart-contrast=off;whitebalance=auto;preview-fps-range-values=(15,30);video-size=640x480;taking-picture-zoom=0;contrast=5;cam-mode=0;brightness-max=6;brightness-min=0;focus-mode=continuous-picture;sharpness=10;preview-frame-rate-values=15;focal-length=4.31;iso=auto;effect-values=none,mono,negative,solarize,sepia,posterize,aqua;jpeg-thumbnail-size-values=768x576,640x480,512x384,0x0;preview-size-values=1280x720,800x480,768x432,720x480,640x480,576x432,480x320,400x240,384x288,352x288,320x240,272x272,240x240,240x160,176x144;saturation=5;saturation-def=5;video-frame-format=yuv420sp;zoom=0;zoom-supported=true;horizontal-view-angle=54.8;antibanding=auto;contrast-def=5;zoom-ratios=100,114,131,151,174,200;preview-format=yuv420sp;preview-size=640x480;brightness=3;max-zoom=5;flash-mode-values=off,auto,on,torch;taking-picture-zoom-min=0;picture-format-values=jpeg;saturation-max=10;front-camera-mode-values=mirror,reverse;saturation-min=1;taking-picture-zoom-max=20;flash-mode=auto
+0:00:01.575836183 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrcdev.c:731:gst_droidcamsrc_dev_start:<cam> Using raw data mode
+0:00:01.666351319 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<cam> completed state change to PLAYING
+0:00:01.666473389 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<cam> notifying about state-changed PAUSED to PLAYING (VOID_PENDING pending)
+0:00:01.666595459 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'cam' changed state to 4(PLAYING) successfully
+0:00:01.666717530 19767    0x1c400 INFO              GST_STATES gstbin.c:1829:gst_bin_get_state_func:<pipeline0> getting state
+0:00:01.666778565 19767    0x1c400 INFO              GST_STATES gstelement.c:2046:gst_element_get_state_func:<pipeline0> waiting for element to commit state
+0:00:02.005279541 19767    0xdc580 DEBUG            droidcamsrc gstdroidcamsrcdev.c:141:gst_droidcamsrc_dev_error_callback:<cam> dev error callback
+0:00:02.005523682 19767    0xdc580 WARN             droidcamsrc gstdroidcamsrcdev.c:144:gst_droidcamsrc_dev_error_callback:<cam> error: error 0x64 from camera HAL
+0:00:02.005676270 19767    0xdc580 INFO        GST_ERROR_SYSTEM gstelement.c:1835:gst_element_message_full:<cam> posting message: GStreamer encountered a general supporting library error.
+0:00:02.005950928 19767    0xdc580 INFO        GST_ERROR_SYSTEM gstelement.c:1858:gst_element_message_full:<cam> posted error message: GStreamer encountered a general supporting library error.
+0:00:02.006134033 19767    0xdc580 FIXME            droidcamsrc gstdroidcamsrcdev.c:431:gst_droidcamsrc_dev_buffers_released:0xd2000 Not sure what to do here really
+0:00:17.007293701 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<fakesink0> current READY pending PAUSED, desired next READY
+0:00:17.008178711 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<fakesink0> completed state change to READY
+0:00:17.008361816 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<fakesink0> notifying about state-changed READY to READY (VOID_PENDING pending)
+0:00:17.008666992 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'fakesink0' changed state to 2(READY) successfully
+0:00:17.008972168 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<capsfilter0> current PLAYING pending VOID_PENDING, desired next READY
+0:00:17.009307861 19767    0x1c400 INFO              GST_STATES gstelement.c:2303:gst_element_continue_state:<capsfilter0> committing state from PLAYING to PAUSED, pending READY, next READY
+0:00:17.009552002 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed PLAYING to PAUSED (READY pending)
+0:00:17.009857178 19767    0x1c400 INFO              GST_STATES gstelement.c:2310:gst_element_continue_state:<capsfilter0> continue state change PAUSED to READY, final READY
+0:00:17.010559083 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<capsfilter0> completed state change to READY
+0:00:17.010742188 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:17.011047364 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 2(READY) successfully
+0:00:17.011810303 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<cam> current PLAYING pending VOID_PENDING, desired next READY
+0:00:17.012145997 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:763:gst_droidcamsrc_dev_stop: dev stop
+0:00:17.012298584 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:766:gst_droidcamsrc_dev_stop: stopping preview
+0:00:17.012573243 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:770:gst_droidcamsrc_dev_stop: stopped preview
+0:00:17.012725830 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:616:gst_droidcamsrc_change_state:<cam> pushing flush start
+0:00:17.012908936 19767    0x1c400 INFO               GST_EVENT gstpad.c:5182:gst_pad_send_event_unchecked:<capsfilter0:sink> Received event on flushing pad. Discarding
+0:00:17.013092041 19767    0x1c400 INFO              GST_STATES gstelement.c:2303:gst_element_continue_state:<cam> committing state from PLAYING to PAUSED, pending READY, next READY
+0:00:17.013275147 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<cam> notifying about state-changed PLAYING to PAUSED (READY pending)
+0:00:17.013580323 19767    0x1c400 INFO              GST_STATES gstelement.c:2310:gst_element_continue_state:<cam> continue state change PAUSED to READY, final READY
+0:00:17.013854981 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vfsrc 0
+0:00:17.014282227 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.014434815 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.014587403 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.014709473 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.014862061 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.014984131 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.015136719 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.015258789 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.015411377 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.015991211 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.016143799 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.016357422 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.016510010 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.016632080 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.016784668 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.016906738 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.017059326 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.017181397 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.017333984 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.017456055 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.017608643 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.017730713 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.017883301 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.018005371 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.018157959 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.018280029 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.018432617 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.018554688 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.018707275 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.018829346 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.018951416 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.019104004 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.019226074 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.019378662 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.019500732 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.019653320 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.019775391 19767    0xc1580 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vfsrc> loop
+0:00:17.021881104 19767    0xc1580 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vfsrc> task is not running
+0:00:17.022308350 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad imgsrc 0
+0:00:17.022460938 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.022491456 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.022552491 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.022644044 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.022735596 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.022766114 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.022827149 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.022888184 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.022918702 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.022979737 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023040772 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023071290 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023132325 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023193360 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023254395 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023284913 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023345948 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023406983 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023437501 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023498536 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023559571 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023590088 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023651124 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023712159 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023773194 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023803711 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023864747 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.023895264 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.023956299 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024017334 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024078370 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024353028 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024444581 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024475098 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024566651 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024627686 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024688721 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024719239 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024780274 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024841309 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024902344 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.024932862 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.024993897 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025054932 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025085450 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025146485 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025207520 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025238038 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025299073 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025360108 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025390625 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025451661 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025512696 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025573731 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025604248 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025665284 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025726319 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025756836 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025817871 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025878907 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.025909424 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.025970459 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026031495 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026062012 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026123047 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026214600 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026275635 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026306153 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026367188 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026428223 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026458741 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026519776 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026580811 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026611328 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026672364 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026733399 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026794434 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026824951 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026885987 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.026947022 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.026977539 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027038575 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027160645 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027252198 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027313233 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027435303 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027496338 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027557373 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027618408 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027648926 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027709961 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027770996 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027832032 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027862549 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.027923584 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.027984619 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.028076172 19767    0xc1550 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:imgsrc> loop
+0:00:17.028198242 19767    0xc1550 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:imgsrc> task is not running
+0:00:17.028930664 19767    0x1c400 INFO             droidcamsrc gstdroidcamsrc.c:1150:gst_droidcamsrc_pad_activate_mode:<cam> activating pad vidsrc 0
+0:00:17.029113770 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029174805 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029235840 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029266358 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029327393 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029357910 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029418945 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029479981 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029541016 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029571533 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029632569 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029693604 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029724121 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029785156 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029846192 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029907227 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.029937744 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.029998779 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030059815 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030090332 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030151367 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030212402 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030273438 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030334473 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030364990 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030426025 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030487061 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030517578 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030670167 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030731202 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030761720 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030822755 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030883790 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.030914307 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.030975343 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031036378 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031066895 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031127931 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031188966 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031219483 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031280518 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031341554 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031402589 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031433106 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031494141 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031524659 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031585694 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031646729 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031677247 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031738282 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031799317 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031829835 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031890870 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.031951905 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.031982423 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032043458 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032104493 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032135011 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032196046 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032287598 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032348634 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032379151 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032440186 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032501221 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032562257 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032592774 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032653809 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032714844 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032745362 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032806397 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032867432 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.032897950 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.032958985 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033020020 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033355714 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033447266 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033477784 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033538819 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033599854 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033630372 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033691407 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033752442 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033813477 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033843995 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033905030 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.033935548 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.033996583 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034057618 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034118653 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034149171 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034240723 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034301758 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034332276 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034393311 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034454346 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034484864 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034545899 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034606934 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034637452 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034698487 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034759522 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034790040 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034851075 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.034912110 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.034973145 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035003663 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035064698 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035125733 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035156251 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035217286 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035278321 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035308838 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035369874 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035400391 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035461426 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035522461 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035583497 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035614014 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035675049 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035736085 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035827637 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035858155 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.035919190 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.035949708 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036010743 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036071778 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036132813 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036163331 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036224366 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036285401 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036315918 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036376954 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036437989 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036468506 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036529541 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036590577 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036621094 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036682129 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036743165 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036773682 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036834717 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036895752 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.036926270 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.036987305 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.037048340 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.037078858 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.037139893 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.037200928 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.037261963 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.037292481 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.037353516 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.037445069 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.037475586 19767    0xc15b0 LOG              droidcamsrc gstdroidcamsrc.c:1016:gst_droidcamsrc_loop:<cam:vidsrc> loop
+0:00:17.037536622 19767    0xc15b0 DEBUG            droidcamsrc gstdroidcamsrc.c:1021:gst_droidcamsrc_loop:<cam:vidsrc> task is not running
+0:00:17.038055420 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:688:gst_droidcamsrc_dev_deinit: dev deinit
+0:00:17.038146973 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcparams.c:218:gst_droidcamsrc_params_destroy: params destroy
+0:00:17.038299561 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:595:gst_droidcamsrc_dev_close: dev close
+0:00:17.038574219 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<cam> completed state change to READY
+0:00:17.038665772 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<cam> notifying about state-changed PAUSED to READY (VOID_PENDING pending)
+0:00:17.038909912 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'cam' changed state to 2(READY) successfully
+0:00:17.039123535 19767    0x1c400 INFO              GST_STATES gstelement.c:2303:gst_element_continue_state:<pipeline0> committing state from PAUSED to READY, pending NULL, next NULL
+0:00:17.039184571 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed PAUSED to READY (NULL pending)
+0:00:17.039306641 19767    0x1c400 INFO              GST_STATES gstelement.c:2310:gst_element_continue_state:<pipeline0> continue state change READY to NULL, final NULL
+0:00:17.039550782 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<fakesink0> current READY pending VOID_PENDING, desired next NULL
+0:00:17.039672852 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<fakesink0> completed state change to NULL
+0:00:17.039764405 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<fakesink0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:17.039886475 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'fakesink0' changed state to 1(NULL) successfully
+0:00:17.040008545 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<capsfilter0> current READY pending VOID_PENDING, desired next NULL
+0:00:17.040161133 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<capsfilter0> completed state change to NULL
+0:00:17.040222168 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<capsfilter0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:17.040344239 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'capsfilter0' changed state to 1(NULL) successfully
+0:00:17.040527344 19767    0x1c400 INFO              GST_STATES gstbin.c:2230:gst_bin_element_set_state:<cam> current READY pending VOID_PENDING, desired next NULL
+0:00:17.041259767 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrcdev.c:611:gst_droidcamsrc_dev_destroy: dev destroy
+0:00:17.041503907 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<cam> completed state change to NULL
+0:00:17.041564942 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<cam> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:17.041687013 19767    0x1c400 INFO              GST_STATES gstbin.c:2673:gst_bin_change_state_func:<pipeline0> child 'cam' changed state to 1(NULL) successfully
+0:00:17.042755128 19767    0x1c400 INFO              GST_STATES gstelement.c:2328:gst_element_continue_state:<pipeline0> completed state change to NULL
+0:00:17.042907716 19767    0x1c400 INFO              GST_STATES gstelement.c:2233:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed READY to NULL (VOID_PENDING pending)
+0:00:17.043090821 19767    0x1c400 INFO        GST_ELEMENT_PADS gstpad.c:1943:gst_pad_unlink: unlinking cam:vfsrc(0xc9080) and capsfilter0:sink(0xc95a0)
+0:00:17.043212891 19767    0x1c400 INFO        GST_ELEMENT_PADS gstpad.c:1997:gst_pad_unlink: unlinked cam:vfsrc and capsfilter0:sink
+0:00:17.043365479 19767    0x1c400 INFO        GST_ELEMENT_PADS gstpad.c:1943:gst_pad_unlink: unlinking capsfilter0:src(0xc96e8) and fakesink0:sink(0xc9458)
+0:00:17.043487550 19767    0x1c400 INFO        GST_ELEMENT_PADS gstpad.c:1997:gst_pad_unlink: unlinked capsfilter0:src and fakesink0:sink
+0:00:17.043579102 19767    0x1c400 INFO           GST_PARENTAGE gstbin.c:1554:gst_bin_remove_func:<pipeline0> removed child "capsfilter0"
+0:00:17.043701173 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2873:gst_element_dispose:<capsfilter0> dispose
+0:00:17.043731690 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:763:gst_element_remove_pad:<capsfilter0> removing pad 'sink'
+0:00:17.043853761 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:763:gst_element_remove_pad:<capsfilter0> removing pad 'src'
+0:00:17.043945313 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2917:gst_element_dispose:<capsfilter0> parent class dispose
+0:00:17.044006348 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2948:gst_element_finalize:<capsfilter0> finalize
+0:00:17.044036866 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2953:gst_element_finalize:<capsfilter0> finalize parent
+0:00:17.044128419 19767    0x1c400 INFO           GST_PARENTAGE gstbin.c:1554:gst_bin_remove_func:<pipeline0> removed child "fakesink0"
+0:00:17.044311524 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2873:gst_element_dispose:<fakesink0> dispose
+0:00:17.044342042 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:763:gst_element_remove_pad:<fakesink0> removing pad 'sink'
+0:00:17.044433594 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2917:gst_element_dispose:<fakesink0> parent class dispose
+0:00:17.044494630 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2948:gst_element_finalize:<fakesink0> finalize
+0:00:17.044555665 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2953:gst_element_finalize:<fakesink0> finalize parent
+0:00:17.044677735 19767    0x1c400 INFO           GST_PARENTAGE gstbin.c:1554:gst_bin_remove_func:<pipeline0> removed child "cam"
+0:00:17.044769288 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2873:gst_element_dispose:<cam> dispose
+0:00:17.044799805 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:763:gst_element_remove_pad:<cam> removing pad 'vfsrc'
+0:00:17.044921876 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:763:gst_element_remove_pad:<cam> removing pad 'imgsrc'
+0:00:17.045043946 19767    0x1c400 INFO        GST_ELEMENT_PADS gstelement.c:763:gst_element_remove_pad:<cam> removing pad 'vidsrc'
+0:00:17.045135499 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2917:gst_element_dispose:<cam> parent class dispose
+0:00:17.045196534 19767    0x1c400 DEBUG            droidcamsrc gstdroidcamsrc.c:380:gst_droidcamsrc_finalize:<cam> finalize
+0:00:17.045318604 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2948:gst_element_finalize:<cam> finalize
+0:00:17.045379639 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2953:gst_element_finalize:<cam> finalize parent
+0:00:17.045410157 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2873:gst_element_dispose:<pipeline0> dispose
+0:00:17.045532227 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2917:gst_element_dispose:<pipeline0> parent class dispose
+0:00:17.045593262 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2948:gst_element_finalize:<pipeline0> finalize
+0:00:17.045684815 19767    0x1c400 INFO         GST_REFCOUNTING gstelement.c:2953:gst_element_finalize:<pipeline0> finalize parent
+parse_pipeline=yes error=(nil)
+set_playing_result=2
+get_state_result=0 state=3 pending=4

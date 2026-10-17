@@ -1,0 +1,813 @@
+> > > > > > > > > > > PID=23912
+Name:   jolla-gallery
+State:  S (sleeping)
+Tgid:   23912
+Pid:    23912
+PPid:   23173
+TracerPid:      0
+Uid:    100000  100000  100000  100000
+Gid:    100000  998     998     998
+FDSize: 256
+Groups: 39 100 995 996 999 1000 1002 1003 1004 1005 1006 1013 1023 1024 100000
+VmPeak:   317028 kB
+VmSize:   242236 kB
+VmLck:         0 kB
+VmHWM:     38028 kB
+VmRSS:     37548 kB
+VmData:   114584 kB
+VmStk:       264 kB
+VmExe:        20 kB
+VmLib:     62648 kB
+VmPTE:       206 kB
+Threads:        11
+SigQ:   0/3216
+SigPnd: 0000000000000000
+ShdPnd: 0000000000000000
+SigBlk: 0000000000000000
+SigIgn: 0000000000001000
+SigCgt: 0000000180010000
+CapInh: 0000000000000000
+CapPrm: 0000000000000000
+CapEff: 0000000000000000
+CapBnd: ffffffffffffffff
+voluntary_ctxt_switches:        1428
+nonvoluntary_ctxt_switches:     1223
+CMD
+/usr/bin/jolla-gallery
+ENV
+AG_PROVIDERS=/usr/share/accounts/providers
+AG_SERVICES=/usr/share/accounts/services
+AG_SERVICE_TYPES=/usr/share/accounts/service-types
+BOOTSTATE=USER
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100000/dbus/user_bus_socket
+EGL_DRIVER=egl_gallium
+EGL_PLATFORM=wayland
+GST_DEBUG_NO_COLOR=1
+G_BROKEN_FILENAMES=1
+HOME=/home/nemo
+HYBRIS_LD_LIBRARY_PATH=/usr/libexec/droid-hybris/system/lib:/vendor/lib:/system/lib:/system/lib/egl
+LANG=zh_CN.utf8
+LOGNAME=nemo
+MANAGERPID=360
+NOTIFY_SOCKET=@/org/freedesktop/systemd1/notify/17507425088503513805
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+QMLSCENE_DEVICE=customcontext
+QML_FIXED_ANIMATION_STEP=no
+QSG_FIXED_ANIMATION_STEP=no
+QTCONTACTS_MANAGER_OVERRIDE=org.nemomobile.contacts.sqlite
+QT_DF_BASE=0.5
+QT_DF_BASEDEVIATION=0.025
+QT_DF_RANGE=0.08
+QT_DF_SCALEFORMAXDEV=0.37
+QT_DF_SCALEFORNODEV=0.6
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_IM_MODULE=Maliit
+QT_MESSAGE_PATTERN=[%{if-debug}D%{endif}%{if-warning}W%{endif}%{if-critical}C%{endif}%{if-fatal}F%{endif}] %{function}:%{line} - %{message}
+QT_QPA_PLATFORM=wayland
+QT_WAYLAND_COMPOSITOR_NO_THROTTLE=1
+QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+QT_WAYLAND_FORCE_DPI=96
+QT_WAYLAND_RESIZE_AFTER_SWAP=1
+SESSION_TARGET=default.target
+USER=nemo
+WAYLAND_DISPLAY=../../display/wayland-0
+XDG_RUNTIME_DIR=/run/user/100000
+MAPS
+2a000000-2a005000 r-xp 00000000 07:00 8005       /usr/libexec/mapplauncherd/booster-silica-qt5
+2a015000-2a016000 rw-p 00005000 07:00 8005       /usr/libexec/mapplauncherd/booster-silica-qt5
+2a016000-2a50c000 rw-p 00000000 00:00 0          [heap]
+40000000-40019000 r-xp 00000000 07:00 1510       /lib/ld-2.19.so
+40019000-4001a000 rw-p 00000000 00:00 0
+4001a000-40020000 r-xp 00000000 07:00 7910       /usr/libexec/droid-hybris/system/lib/libGLESv2.so
+40020000-40021000 r--p 00005000 07:00 7910       /usr/libexec/droid-hybris/system/lib/libGLESv2.so
+40021000-40022000 rw-p 00006000 07:00 7910       /usr/libexec/droid-hybris/system/lib/libGLESv2.so
+40022000-40023000 r-xp 00000000 07:00 7960       /usr/libexec/droid-hybris/system/lib/libstdc++.so
+40023000-40024000 r--p 00000000 07:00 7960       /usr/libexec/droid-hybris/system/lib/libstdc++.so
+40024000-40025000 rw-p 00001000 07:00 7960       /usr/libexec/droid-hybris/system/lib/libstdc++.so
+40025000-40029000 rw-p 00000000 00:00 0
+40029000-4002a000 r--p 00019000 07:00 1510       /lib/ld-2.19.so
+4002a000-4002b000 rw-p 0001a000 07:00 1510       /lib/ld-2.19.so
+4002b000-40039000 r-xp 00000000 07:00 4787       /usr/lib/libapplauncherd.so.0.1
+40039000-40048000 ---p 0000e000 07:00 4787       /usr/lib/libapplauncherd.so.0.1
+40048000-40049000 rw-p 0000d000 07:00 4787       /usr/lib/libapplauncherd.so.0.1
+40049000-40078000 r-xp 00000000 07:00 5221       /usr/lib/libmlite5.so.0.2.16
+40078000-40087000 ---p 0002f000 07:00 5221       /usr/lib/libmlite5.so.0.2.16
+40087000-40089000 rw-p 0002e000 07:00 5221       /usr/lib/libmlite5.so.0.2.16
+40089000-40090000 r-xp 00000000 07:00 5425       /usr/lib/libsailfishsilicabackground-qt5.so.0.9.9
+40090000-4009f000 ---p 00007000 07:00 5425       /usr/lib/libsailfishsilicabackground-qt5.so.0.9.9
+4009f000-400a0000 rw-p 00006000 07:00 5425       /usr/lib/libsailfishsilicabackground-qt5.so.0.9.9
+400a0000-400a4000 rw-p 00000000 00:00 0
+400a4000-400d2000 r-xp 00000000 07:00 5552       /usr/lib/libtimed-qt5.so.0.3.1
+400d2000-400e1000 ---p 0002e000 07:00 5552       /usr/lib/libtimed-qt5.so.0.3.1
+400e1000-400e2000 rw-p 0002d000 07:00 5552       /usr/lib/libtimed-qt5.so.0.3.1
+400e2000-401f0000 r-xp 00000000 07:00 4950       /usr/lib/libgio-2.0.so.0.3800.2
+401f0000-40200000 ---p 0010e000 07:00 4950       /usr/lib/libgio-2.0.so.0.3800.2
+40200000-40203000 rw-p 0010e000 07:00 4950       /usr/lib/libgio-2.0.so.0.3800.2
+40203000-40204000 rw-p 00000000 00:00 0
+40204000-40206000 r-xp 00000000 07:00 4957       /usr/lib/libgmodule-2.0.so.0.3800.2
+40206000-40215000 ---p 00002000 07:00 4957       /usr/lib/libgmodule-2.0.so.0.3800.2
+40215000-40216000 rw-p 00001000 07:00 4957       /usr/lib/libgmodule-2.0.so.0.3800.2
+40216000-40253000 r-xp 00000000 07:00 4963       /usr/lib/libgobject-2.0.so.0.3800.2
+40253000-40262000 ---p 0003d000 07:00 4963       /usr/lib/libgobject-2.0.so.0.3800.2
+40262000-40263000 rw-p 0003c000 07:00 4963       /usr/lib/libgobject-2.0.so.0.3800.2
+40263000-40264000 rw-p 00000000 00:00 0
+40264000-40343000 r-xp 00000000 07:00 4953       /usr/lib/libglib-2.0.so.0.3800.2
+40343000-40353000 ---p 000df000 07:00 4953       /usr/lib/libglib-2.0.so.0.3800.2
+40353000-40354000 rw-p 000df000 07:00 4953       /usr/lib/libglib-2.0.so.0.3800.2
+40354000-40357000 r-xp 00000000 07:00 5204       /usr/lib/libmdeclarativecache5.so.0.0.0
+40357000-40366000 ---p 00003000 07:00 5204       /usr/lib/libmdeclarativecache5.so.0.0.0
+40366000-40367000 rw-p 00002000 07:00 5204       /usr/lib/libmdeclarativecache5.so.0.0.0
+40367000-40569000 r-xp 00000000 07:00 4714       /usr/lib/libQt5Quick.so.5.2.2
+40569000-40579000 ---p 00202000 07:00 4714       /usr/lib/libQt5Quick.so.5.2.2
+40579000-4058b000 rw-p 00202000 07:00 4714       /usr/lib/libQt5Quick.so.5.2.2
+4058b000-405b3000 r-xp 00000000 07:00 4732       /usr/lib/libQt5Svg.so.5.2.2
+405b3000-405c2000 ---p 00028000 07:00 4732       /usr/lib/libQt5Svg.so.5.2.2
+405c2000-405c4000 rw-p 00027000 07:00 4732       /usr/lib/libQt5Svg.so.5.2.2
+405c4000-4061a000 r-xp 00000000 07:00 4744       /usr/lib/libQt5WaylandClient.so.5.4.0
+4061a000-4062a000 ---p 00056000 07:00 4744       /usr/lib/libQt5WaylandClient.so.5.4.0
+4062a000-4062e000 rw-p 00056000 07:00 4744       /usr/lib/libQt5WaylandClient.so.5.4.0
+4062e000-4089f000 r-xp 00000000 07:00 4690       /usr/lib/libQt5Gui.so.5.2.2
+4089f000-408ae000 ---p 00271000 07:00 4690       /usr/lib/libQt5Gui.so.5.2.2
+408ae000-408bc000 rw-p 00270000 07:00 4690       /usr/lib/libQt5Gui.so.5.2.2
+408bc000-40b18000 r-xp 00000000 07:00 4711       /usr/lib/libQt5Qml.so.5.2.2
+40b18000-40b27000 ---p 0025c000 07:00 4711       /usr/lib/libQt5Qml.so.5.2.2
+40b27000-40b35000 rw-p 0025b000 07:00 4711       /usr/lib/libQt5Qml.so.5.2.2
+40b35000-40b36000 rw-p 00000000 00:00 0
+40b36000-40d6c000 r-xp 00000000 07:00 4759       /usr/lib/libQt5XmlPatterns.so.5.2.2
+40d6c000-40d7b000 ---p 00236000 07:00 4759       /usr/lib/libQt5XmlPatterns.so.5.2.2
+40d7b000-40d99000 rw-p 00235000 07:00 4759       /usr/lib/libQt5XmlPatterns.so.5.2.2
+40d99000-40e60000 r-xp 00000000 07:00 4699       /usr/lib/libQt5Network.so.5.2.2
+40e60000-40e70000 ---p 000c7000 07:00 4699       /usr/lib/libQt5Network.so.5.2.2
+40e70000-40e74000 rw-p 000c7000 07:00 4699       /usr/lib/libQt5Network.so.5.2.2
+40e74000-40e77000 r-xp 00000000 07:00 4675       /usr/lib/libQt5Concurrent.so.5.2.2
+40e77000-40e87000 ---p 00003000 07:00 4675       /usr/lib/libQt5Concurrent.so.5.2.2
+40e87000-40e88000 rw-p 00003000 07:00 4675       /usr/lib/libQt5Concurrent.so.5.2.2
+40e88000-40e91000 r-xp 00000000 07:00 4669       /usr/lib/libQt0Feedback.so.0.0.0
+40e91000-40ea0000 ---p 00009000 07:00 4669       /usr/lib/libQt0Feedback.so.0.0.0
+40ea0000-40ea1000 rw-p 00008000 07:00 4669       /usr/lib/libQt0Feedback.so.0.0.0
+40ea1000-40eef000 r-xp 00000000 07:00 4684       /usr/lib/libQt5DBus.so.5.2.2
+40eef000-40efe000 ---p 0004e000 07:00 4684       /usr/lib/libQt5DBus.so.5.2.2
+40efe000-40f00000 rw-p 0004d000 07:00 4684       /usr/lib/libQt5DBus.so.5.2.2
+40f00000-40f25000 r-xp 00000000 07:00 4729       /usr/lib/libQt5Sql.so.5.2.2
+40f25000-40f35000 ---p 00025000 07:00 4729       /usr/lib/libQt5Sql.so.5.2.2
+40f35000-40f36000 rw-p 00025000 07:00 4729       /usr/lib/libQt5Sql.so.5.2.2
+40f36000-40f59000 r-xp 00000000 07:00 4756       /usr/lib/libQt5Xml.so.5.2.2
+40f59000-40f69000 ---p 00023000 07:00 4756       /usr/lib/libQt5Xml.so.5.2.2
+40f69000-40f6a000 rw-p 00023000 07:00 4756       /usr/lib/libQt5Xml.so.5.2.2
+40f6a000-41256000 r-xp 00000000 07:00 4681       /usr/lib/libQt5Core.so.5.2.2
+41256000-41266000 ---p 002ec000 07:00 4681       /usr/lib/libQt5Core.so.5.2.2
+41266000-4126c000 rw-p 002ec000 07:00 4681       /usr/lib/libQt5Core.so.5.2.2
+4126c000-41272000 r-xp 00000000 07:00 4639       /usr/lib/libGLESv2.so.2.0.0
+41272000-41281000 ---p 00006000 07:00 4639       /usr/lib/libGLESv2.so.2.0.0
+41281000-41282000 rw-p 00005000 07:00 4639       /usr/lib/libGLESv2.so.2.0.0
+41282000-41292000 r-xp 00000000 07:00 1554       /lib/libpthread-2.19.so
+41292000-412a1000 ---p 00010000 07:00 1554       /lib/libpthread-2.19.so
+412a1000-412a2000 r--p 0000f000 07:00 1554       /lib/libpthread-2.19.so
+412a2000-412a3000 rw-p 00010000 07:00 1554       /lib/libpthread-2.19.so
+412a3000-412a6000 rw-p 00000000 00:00 0
+412a6000-4133d000 r-xp 00000000 07:00 5502       /usr/lib/libstdc++.so.6.0.19
+4133d000-4134c000 ---p 00097000 07:00 5502       /usr/lib/libstdc++.so.6.0.19
+4134c000-41350000 r--p 00096000 07:00 5502       /usr/lib/libstdc++.so.6.0.19
+41350000-41352000 rw-p 0009a000 07:00 5502       /usr/lib/libstdc++.so.6.0.19
+41352000-41358000 rw-p 00000000 00:00 0
+41358000-413bc000 r-xp 00000000 07:00 1531       /lib/libm-2.19.so
+413bc000-413cb000 ---p 00064000 07:00 1531       /lib/libm-2.19.so
+413cb000-413cc000 r--p 00063000 07:00 1531       /lib/libm-2.19.so
+413cc000-413cd000 rw-p 00064000 07:00 1531       /lib/libm-2.19.so
+413cd000-413d5000 r-xp 00000000 07:00 1529       /lib/libgcc_s-4.8.3.so.1
+413d5000-413e4000 ---p 00008000 07:00 1529       /lib/libgcc_s-4.8.3.so.1
+413e4000-413e5000 rw-p 00007000 07:00 1529       /lib/libgcc_s-4.8.3.so.1
+413e5000-414d4000 r-xp 00000000 07:00 1518       /lib/libc-2.19.so
+414d4000-414e3000 ---p 000ef000 07:00 1518       /lib/libc-2.19.so
+414e3000-414e5000 r--p 000ee000 07:00 1518       /lib/libc-2.19.so
+414e5000-414e6000 rw-p 000f0000 07:00 1518       /lib/libc-2.19.so
+414e6000-414e9000 rw-p 00000000 00:00 0
+414e9000-414eb000 r-xp 00000000 07:00 1527       /lib/libdl-2.19.so
+414eb000-414fa000 ---p 00002000 07:00 1527       /lib/libdl-2.19.so
+414fa000-414fb000 r--p 00001000 07:00 1527       /lib/libdl-2.19.so
+414fb000-414fc000 rw-p 00002000 07:00 1527       /lib/libdl-2.19.so
+414fc000-414fe000 r-xp 00000000 07:00 5511       /usr/lib/libsystemd-daemon.so.0.0.10
+414fe000-4150d000 ---p 00002000 07:00 5511       /usr/lib/libsystemd-daemon.so.0.0.10
+4150d000-4150e000 r--p 00001000 07:00 5511       /usr/lib/libsystemd-daemon.so.0.0.10
+4150e000-4150f000 rw-p 00002000 07:00 5511       /usr/lib/libsystemd-daemon.so.0.0.10
+4150f000-41510000 rw-p 00000000 00:00 0
+41510000-41518000 r-xp 00000000 07:00 4896       /usr/lib/libdconf.so.1.0.0
+41518000-41527000 ---p 00008000 07:00 4896       /usr/lib/libdconf.so.1.0.0
+41527000-41528000 rw-p 00007000 07:00 4896       /usr/lib/libdconf.so.1.0.0
+41528000-4152d000 r-xp 00000000 07:00 1558       /lib/librt-2.19.so
+4152d000-4153c000 ---p 00005000 07:00 1558       /lib/librt-2.19.so
+4153c000-4153d000 r--p 00004000 07:00 1558       /lib/librt-2.19.so
+4153d000-4153e000 rw-p 00005000 07:00 1558       /lib/librt-2.19.so
+4153e000-41543000 r-xp 00000000 07:00 4925       /usr/lib/libffi.so.5.0.10
+41543000-41552000 ---p 00005000 07:00 4925       /usr/lib/libffi.so.5.0.10
+41552000-41553000 rw-p 00004000 07:00 4925       /usr/lib/libffi.so.5.0.10
+41553000-41594000 r-xp 00000000 07:00 5310       /usr/lib/libpcre.so.1.0.1
+41594000-415a3000 ---p 00041000 07:00 5310       /usr/lib/libpcre.so.1.0.1
+415a3000-415a4000 rw-p 00040000 07:00 5310       /usr/lib/libpcre.so.1.0.1
+415a4000-415bc000 r-xp 00000000 07:00 5645       /usr/lib/libz.so.1.2.8
+415bc000-415cb000 ---p 00018000 07:00 5645       /usr/lib/libz.so.1.2.8
+415cb000-415cc000 rw-p 00017000 07:00 5645       /usr/lib/libz.so.1.2.8
+415cc000-415cd000 rw-p 00000000 00:00 0
+415cd000-415dd000 r-xp 00000000 07:00 1556       /lib/libresolv-2.19.so
+415dd000-415ec000 ---p 00010000 07:00 1556       /lib/libresolv-2.19.so
+415ec000-415ed000 r--p 0000f000 07:00 1556       /lib/libresolv-2.19.so
+415ed000-415ee000 rw-p 00010000 07:00 1556       /lib/libresolv-2.19.so
+415ee000-415f0000 rw-p 00000000 00:00 0
+415f0000-41612000 r-xp 00000000 07:00 4929       /usr/lib/libfontconfig.so.1.4.4
+41612000-41622000 ---p 00022000 07:00 4929       /usr/lib/libfontconfig.so.1.4.4
+41622000-41623000 rw-p 00022000 07:00 4929       /usr/lib/libfontconfig.so.1.4.4
+41623000-4167f000 r-xp 00000000 07:00 4937       /usr/lib/libfreetype.so.6.8.1
+4167f000-4168e000 ---p 0005c000 07:00 4937       /usr/lib/libfreetype.so.6.8.1
+4168e000-41692000 rw-p 0005b000 07:00 4937       /usr/lib/libfreetype.so.6.8.1
+41692000-416c9000 r-xp 00000000 07:00 5636       /usr/lib/libxkbcommon.so.0.0.0
+416c9000-416d9000 ---p 00037000 07:00 5636       /usr/lib/libxkbcommon.so.0.0.0
+416d9000-416da000 rw-p 00037000 07:00 5636       /usr/lib/libxkbcommon.so.0.0.0
+416da000-416db000 rw-p 00000000 00:00 0
+416db000-416e2000 r-xp 00000000 07:00 5622       /usr/lib/libwayland-client.so.0.3.0
+416e2000-416f1000 ---p 00007000 07:00 5622       /usr/lib/libwayland-client.so.0.3.0
+416f1000-416f2000 rw-p 00006000 07:00 5622       /usr/lib/libwayland-client.so.0.3.0
+416f2000-416f5000 r-xp 00000000 07:00 5624       /usr/lib/libwayland-cursor.so.0.0.0
+416f5000-41704000 ---p 00003000 07:00 5624       /usr/lib/libwayland-cursor.so.0.0.0
+41704000-41708000 rw-p 00002000 07:00 5624       /usr/lib/libwayland-cursor.so.0.0.0
+41708000-41729000 r-xp 00000000 07:00 5325       /usr/lib/libpng16.so.16.20.0
+41729000-41738000 ---p 00021000 07:00 5325       /usr/lib/libpng16.so.16.20.0
+41738000-41739000 rw-p 00020000 07:00 5325       /usr/lib/libpng16.so.16.20.0
+41739000-4173e000 r-xp 00000000 07:00 4631       /usr/lib/libEGL.so.1.0.0
+4173e000-4174d000 ---p 00005000 07:00 4631       /usr/lib/libEGL.so.1.0.0
+4174d000-4174e000 rw-p 00004000 07:00 4631       /usr/lib/libEGL.so.1.0.0
+4174e000-41778000 r-xp 00000000 07:00 4884       /usr/lib/libdbus-1.so.3.7.12
+41778000-41787000 ---p 0002a000 07:00 4884       /usr/lib/libdbus-1.so.3.7.12
+41787000-41788000 rw-p 00029000 07:00 4884       /usr/lib/libdbus-1.so.3.7.12
+41788000-41789000 rw-p 00000000 00:00 0
+41789000-418ca000 r-xp 00000000 07:00 5101       /usr/lib/libicui18n.so.52.1
+418ca000-418d9000 ---p 00141000 07:00 5101       /usr/lib/libicui18n.so.52.1
+418d9000-418e1000 rw-p 00140000 07:00 5101       /usr/lib/libicui18n.so.52.1
+418e1000-419c8000 r-xp 00000000 07:00 5113       /usr/lib/libicuuc.so.52.1
+419c8000-419d7000 ---p 000e7000 07:00 5113       /usr/lib/libicuuc.so.52.1
+419d7000-419e1000 rw-p 000e6000 07:00 5113       /usr/lib/libicuuc.so.52.1
+419e1000-419e5000 rw-p 00000000 00:00 0
+419e5000-41a20000 r-xp 00000000 07:00 5312       /usr/lib/libpcre16.so.0.0.1
+41a20000-41a2f000 ---p 0003b000 07:00 5312       /usr/lib/libpcre16.so.0.0.1
+41a2f000-41a30000 rw-p 0003a000 07:00 5312       /usr/lib/libpcre16.so.0.0.1
+41a30000-41a31000 r-xp 00000000 07:00 5070       /usr/lib/libgthread-2.0.so.0.3800.2
+41a31000-41a40000 ---p 00001000 07:00 5070       /usr/lib/libgthread-2.0.so.0.3800.2
+41a40000-41a41000 rw-p 00000000 07:00 5070       /usr/lib/libgthread-2.0.so.0.3800.2
+41a41000-41a54000 r-xp 00000000 07:00 5515       /usr/lib/libsystemd-journal.so.0.11.3
+41a54000-41a64000 ---p 00013000 07:00 5515       /usr/lib/libsystemd-journal.so.0.11.3
+41a64000-41a65000 r--p 00013000 07:00 5515       /usr/lib/libsystemd-journal.so.0.11.3
+41a65000-41a66000 rw-p 00014000 07:00 5515       /usr/lib/libsystemd-journal.so.0.11.3
+41a66000-41a67000 rw-p 00000000 00:00 0
+41a67000-41a6c000 r-xp 00000000 07:00 5513       /usr/lib/libsystemd-id128.so.0.0.26
+41a6c000-41a7b000 ---p 00005000 07:00 5513       /usr/lib/libsystemd-id128.so.0.0.26
+41a7b000-41a7c000 r--p 00004000 07:00 5513       /usr/lib/libsystemd-id128.so.0.0.26
+41a7c000-41a7d000 rw-p 00005000 07:00 5513       /usr/lib/libsystemd-id128.so.0.0.26
+41a7d000-41a91000 r-xp 00000000 07:00 5083       /usr/lib/libhybris-common.so.1.0.0
+41a91000-41aa1000 ---p 00014000 07:00 5083       /usr/lib/libhybris-common.so.1.0.0
+41aa1000-41aa2000 rw-p 00014000 07:00 5083       /usr/lib/libhybris-common.so.1.0.0
+41aa2000-41aae000 rw-p 00000000 00:00 0
+41aae000-41ab0000 r-xp 00000000 07:00 4783       /usr/lib/libandroid-properties.so.1.0.0
+41ab0000-41abf000 ---p 00002000 07:00 4783       /usr/lib/libandroid-properties.so.1.0.0
+41abf000-41ac0000 rw-p 00001000 07:00 4783       /usr/lib/libandroid-properties.so.1.0.0
+41ac0000-41ac2000 rw-p 00000000 00:00 0
+41ac2000-41ad7000 r-xp 00000000 07:00 4913       /usr/lib/libexpat.so.1.6.0
+41ad7000-41ae7000 ---p 00015000 07:00 4913       /usr/lib/libexpat.so.1.6.0
+41ae7000-41ae9000 rw-p 00015000 07:00 4913       /usr/lib/libexpat.so.1.6.0
+41ae9000-41aea000 rw-p 00000000 00:00 0
+41aea000-41aeb000 r-xp 00000000 07:00 5072       /usr/lib/libhardware.so.2.0.0
+41aeb000-41afa000 ---p 00001000 07:00 5072       /usr/lib/libhardware.so.2.0.0
+41afa000-41afb000 rw-p 00000000 07:00 5072       /usr/lib/libhardware.so.2.0.0
+41afb000-43166000 r-xp 00000000 07:00 5099       /usr/lib/libicudata.so.52.1
+43166000-43175000 ---p 0166b000 07:00 5099       /usr/lib/libicudata.so.52.1
+43175000-43176000 rw-p 0166a000 07:00 5099       /usr/lib/libicudata.so.52.1
+43176000-4318d000 r-xp 00000000 07:00 5194       /usr/lib/liblzma.so.5.0.4
+4318d000-4319c000 ---p 00017000 07:00 5194       /usr/lib/liblzma.so.5.0.4
+4319c000-4319d000 rw-p 00016000 07:00 5194       /usr/lib/liblzma.so.5.0.4
+4319d000-431f7000 r-xp 00000000 07:00 4944       /usr/lib/libgcrypt.so.11.7.0
+431f7000-43206000 ---p 0005a000 07:00 4944       /usr/lib/libgcrypt.so.11.7.0
+43206000-43209000 rw-p 00059000 07:00 4944       /usr/lib/libgcrypt.so.11.7.0
+43209000-4320c000 r-xp 00000000 07:00 4965       /usr/lib/libgpg-error.so.0.8.0
+4320c000-4321b000 ---p 00003000 07:00 4965       /usr/lib/libgpg-error.so.0.8.0
+4321b000-4321c000 rw-p 00002000 07:00 4965       /usr/lib/libgpg-error.so.0.8.0
+4321c000-43221000 rw-p 00000000 00:00 0
+43221000-4322a000 r-xp 00000000 07:00 7922       /usr/libexec/droid-hybris/system/lib/libcutils.so
+4322a000-4322b000 ---p 00000000 00:00 0
+4322b000-4322c000 r--p 00009000 07:00 7922       /usr/libexec/droid-hybris/system/lib/libcutils.so
+4322c000-4322d000 rw-p 0000a000 07:00 7922       /usr/libexec/droid-hybris/system/lib/libcutils.so
+4322d000-43230000 r-xp 00000000 07:00 7938       /usr/libexec/droid-hybris/system/lib/liblog.so
+43230000-43231000 r--p 00002000 07:00 7938       /usr/libexec/droid-hybris/system/lib/liblog.so
+43231000-43232000 rw-p 00003000 07:00 7938       /usr/libexec/droid-hybris/system/lib/liblog.so
+43232000-4327a000 r-xp 00000000 07:00 7915       /usr/libexec/droid-hybris/system/lib/libc.so
+4327a000-4327c000 r--p 00047000 07:00 7915       /usr/libexec/droid-hybris/system/lib/libc.so
+4327c000-4327f000 rw-p 00049000 07:00 7915       /usr/libexec/droid-hybris/system/lib/libc.so
+4327f000-4328d000 rw-p 00000000 00:00 0
+4328d000-432d3000 r-xp 00000000 07:00 7926       /usr/libexec/droid-hybris/system/lib/libdsyscalls.so
+432d3000-432d4000 ---p 00000000 00:00 0
+432d4000-432d6000 r--p 00046000 07:00 7926       /usr/libexec/droid-hybris/system/lib/libdsyscalls.so
+432d6000-432d9000 rw-p 00048000 07:00 7926       /usr/libexec/droid-hybris/system/lib/libdsyscalls.so
+432d9000-432e7000 rw-p 00000000 00:00 0
+432e7000-432ff000 r-xp 00000000 07:00 7939       /usr/libexec/droid-hybris/system/lib/libm.so
+432ff000-43300000 r--p 00017000 07:00 7939       /usr/libexec/droid-hybris/system/lib/libm.so
+43300000-43301000 rw-p 00018000 07:00 7939       /usr/libexec/droid-hybris/system/lib/libm.so
+43301000-43315000 r-xp 00000000 07:00 7964       /usr/libexec/droid-hybris/system/lib/libutils.so
+43315000-43316000 ---p 00000000 00:00 0
+43316000-43317000 r--p 00014000 07:00 7964       /usr/libexec/droid-hybris/system/lib/libutils.so
+43317000-43318000 rw-p 00015000 07:00 7964       /usr/libexec/droid-hybris/system/lib/libutils.so
+43318000-4331b000 r-xp 00000000 07:00 7920       /usr/libexec/droid-hybris/system/lib/libcorkscrew.so
+4331b000-4331c000 r--p 00002000 07:00 7920       /usr/libexec/droid-hybris/system/lib/libcorkscrew.so
+4331c000-4331d000 rw-p 00003000 07:00 7920       /usr/libexec/droid-hybris/system/lib/libcorkscrew.so
+4331d000-43321000 r-xp 00000000 07:00 7930       /usr/libexec/droid-hybris/system/lib/libgccdemangle.so
+43321000-43322000 ---p 00000000 00:00 0
+43322000-43323000 r--p 00004000 07:00 7930       /usr/libexec/droid-hybris/system/lib/libgccdemangle.so
+43323000-43324000 rw-p 00005000 07:00 7930       /usr/libexec/droid-hybris/system/lib/libgccdemangle.so
+43324000-4336f000 r-xp 00000000 07:00 7908       /usr/libexec/droid-hybris/system/lib/libEGL.so
+4336f000-43371000 r--p 0004a000 07:00 7908       /usr/libexec/droid-hybris/system/lib/libEGL.so
+43371000-43377000 rw-p 0004c000 07:00 7908       /usr/libexec/droid-hybris/system/lib/libEGL.so
+43377000-4337a000 rw-p 00000000 00:00 0
+4337a000-433c7000 r-xp 00000000 07:00 7909       /usr/libexec/droid-hybris/system/lib/libGLES_trace.so
+433c7000-433c8000 r--p 0004c000 07:00 7909       /usr/libexec/droid-hybris/system/lib/libGLES_trace.so
+433c8000-433c9000 rw-p 0004d000 07:00 7909       /usr/libexec/droid-hybris/system/lib/libGLES_trace.so
+433c9000-433fb000 r-xp 00000000 07:00 7961       /usr/libexec/droid-hybris/system/lib/libstlport.so
+433fb000-433fd000 r--p 00031000 07:00 7961       /usr/libexec/droid-hybris/system/lib/libstlport.so
+433fd000-433fe000 rw-p 00033000 07:00 7961       /usr/libexec/droid-hybris/system/lib/libstlport.so
+433fe000-433ff000 r--p 00000000 00:00 0
+433ff000-43400000 r--p 00000000 07:00 17950      /usr/share/translations/gallery_eng_en.qm
+43400000-43401000 r--p 00000000 07:00 17948      /usr/share/translations/gallery-zh_CN.qm
+43401000-43402000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+43402000-43404000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+43404000-43405000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+43405000-43408000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+43408000-43409000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+43409000-4340a000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+4340a000-4340c000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+4340c000-4340d000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+4340d000-43410000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+43410000-43411000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+43411000-43611000 r--p 00000000 07:00 5649       /usr/lib/locale/locale-archive
+43611000-43776000 r--p 001c8000 07:00 5649       /usr/lib/locale/locale-archive
+43776000-43778000 r-xp 00000000 07:00 6080       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+43778000-43787000 ---p 00002000 07:00 6080       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+43787000-43788000 rw-p 00001000 07:00 6080       /usr/lib/qt5/plugins/platforms/libqwayland-generic.so
+43788000-43789000 ---p 00000000 00:00 0
+43789000-43f88000 rw-p 00000000 00:00 0
+43f88000-43f8d000 rw-s 00000000 00:0b 174125     /run/user/100000/weston-shared-WxEDOZ (deleted)
+43f8d000-43fb4000 r-xp 00000000 07:00 6075       /usr/lib/qt5/plugins/platforminputcontexts/libmaliitplatforminputcontextplugin.so
+43fb4000-43fc3000 ---p 00027000 07:00 6075       /usr/lib/qt5/plugins/platforminputcontexts/libmaliitplatforminputcontextplugin.so
+43fc3000-43fc4000 rw-p 00026000 07:00 6075       /usr/lib/qt5/plugins/platforminputcontexts/libmaliitplatforminputcontextplugin.so
+43fc4000-43fd0000 r-xp 00000000 07:00 6099       /usr/lib/qt5/plugins/scenegraph/libcustomcontext.so
+43fd0000-43fe0000 ---p 0000c000 07:00 6099       /usr/lib/qt5/plugins/scenegraph/libcustomcontext.so
+43fe0000-43fe1000 rw-p 0000c000 07:00 6099       /usr/lib/qt5/plugins/scenegraph/libcustomcontext.so
+43fe1000-43fe9000 r-xp 00000000 07:00 6115       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+43fe9000-43ff8000 ---p 00008000 07:00 6115       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+43ff8000-43ff9000 rw-p 00007000 07:00 6115       /usr/lib/qt5/plugins/wayland-graphics-integration-client/libwayland-egl.so
+43ff9000-43ffa000 r-xp 00000000 07:00 7933       /usr/libexec/droid-hybris/system/lib/libhardware.so
+43ffa000-43ffb000 r--p 00000000 07:00 7933       /usr/libexec/droid-hybris/system/lib/libhardware.so
+43ffb000-43ffc000 rw-p 00001000 07:00 7933       /usr/libexec/droid-hybris/system/lib/libhardware.so
+43ffc000-43ffd000 r-xp 00000000 07:00 7931       /usr/libexec/droid-hybris/system/lib/libgenlock.so
+43ffd000-43ffe000 r--p 00000000 07:00 7931       /usr/libexec/droid-hybris/system/lib/libgenlock.so
+43ffe000-43fff000 rw-p 00001000 07:00 7931       /usr/libexec/droid-hybris/system/lib/libgenlock.so
+43fff000-44000000 rwxp 00000000 00:00 0
+44000000-44039000 rw-p 00000000 00:00 0
+44039000-44100000 ---p 00000000 00:00 0
+44100000-44105000 r-xp 00000000 07:00 2767       /system/lib/libGLESv1_CM.so
+44105000-44106000 r--p 00004000 07:00 2767       /system/lib/libGLESv1_CM.so
+44106000-44107000 rw-p 00005000 07:00 2767       /system/lib/libGLESv1_CM.so
+44107000-44108000 r-xp 00000000 07:00 7962       /usr/libexec/droid-hybris/system/lib/libsync.so
+44108000-44109000 r--p 00000000 07:00 7962       /usr/libexec/droid-hybris/system/lib/libsync.so
+44109000-4410a000 rw-p 00001000 07:00 7962       /usr/libexec/droid-hybris/system/lib/libsync.so
+4410a000-4410b000 rwxp 00000000 00:00 0
+4410b000-4410c000 r-xp 00000000 07:00 5626       /usr/lib/libwayland-egl.so.1.0.0
+4410c000-4411b000 ---p 00001000 07:00 5626       /usr/lib/libwayland-egl.so.1.0.0
+4411b000-4411c000 rw-p 00000000 07:00 5626       /usr/lib/libwayland-egl.so.1.0.0
+4411c000-4413c000 r-xp 00000000 07:00 2736       /system/lib/egl/libEGL_adreno200.so
+4413c000-4413d000 r--p 0001f000 07:00 2736       /system/lib/egl/libEGL_adreno200.so
+4413d000-4413e000 rw-p 00020000 07:00 2736       /system/lib/egl/libEGL_adreno200.so
+4413e000-4414b000 r-xp 00000000 07:00 2842       /system/lib/libgsl.so
+4414b000-4414c000 r--p 0000c000 07:00 2842       /system/lib/libgsl.so
+4414c000-4414d000 rw-p 0000d000 07:00 2842       /system/lib/libgsl.so
+4414d000-4417c000 r-xp 00000000 07:00 2738       /system/lib/egl/libGLESv1_CM_adreno200.so
+4417c000-4417d000 ---p 00000000 00:00 0
+4417d000-4417e000 r--p 0002f000 07:00 2738       /system/lib/egl/libGLESv1_CM_adreno200.so
+4417e000-4417f000 rw-p 00030000 07:00 2738       /system/lib/egl/libGLESv1_CM_adreno200.so
+4417f000-4422e000 r-xp 00000000 07:00 2739       /system/lib/egl/libGLESv2_adreno200.so
+4422e000-44230000 r--p 000ae000 07:00 2739       /system/lib/egl/libGLESv2_adreno200.so
+44230000-44233000 rw-p 000b0000 07:00 2739       /system/lib/egl/libGLESv2_adreno200.so
+44233000-44235000 rw-p 00000000 00:00 0
+44235000-44241000 r-xp 00000000 07:00 5081       /usr/lib/libhybris/eglplatform_wayland.so
+44241000-44250000 ---p 0000c000 07:00 5081       /usr/lib/libhybris/eglplatform_wayland.so
+44250000-44251000 rw-p 0000b000 07:00 5081       /usr/lib/libhybris/eglplatform_wayland.so
+44251000-44254000 r-xp 00000000 07:00 2753       /system/lib/hw/gralloc.qsd8k.so
+44254000-44255000 r--p 00002000 07:00 2753       /system/lib/hw/gralloc.qsd8k.so
+44255000-44256000 rw-p 00003000 07:00 2753       /system/lib/hw/gralloc.qsd8k.so
+44256000-44259000 r-xp 00000000 07:00 7947       /usr/libexec/droid-hybris/system/lib/libqdutils.so
+44259000-4425a000 ---p 00000000 00:00 0
+4425a000-4425b000 r--p 00003000 07:00 7947       /usr/libexec/droid-hybris/system/lib/libqdutils.so
+4425b000-4425c000 rw-p 00004000 07:00 7947       /usr/libexec/droid-hybris/system/lib/libqdutils.so
+4425c000-44264000 r-xp 00000000 07:00 22602      /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+44264000-44274000 ---p 00008000 07:00 22602      /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+44274000-44275000 rw-p 00008000 07:00 22602      /usr/lib/libhybris-eglplatformcommon.so.1.0.0
+44275000-4427e000 r-xp 00000000 07:00 5628       /usr/lib/libwayland-server.so.0.1.0
+4427e000-4428d000 ---p 00009000 07:00 5628       /usr/lib/libwayland-server.so.0.1.0
+4428d000-4428e000 rw-p 00008000 07:00 5628       /usr/lib/libwayland-server.so.0.1.0
+4428e000-4428f000 r-xp 00000000 07:00 5506       /usr/lib/libsync.so.2.0.0
+4428f000-4429e000 ---p 00001000 07:00 5506       /usr/lib/libsync.so.2.0.0
+4429e000-4429f000 rw-p 00000000 07:00 5506       /usr/lib/libsync.so.2.0.0
+4429f000-442a3000 r-xp 00000000 07:00 7942       /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+442a3000-442a4000 ---p 00000000 00:00 0
+442a4000-442a5000 r--p 00004000 07:00 7942       /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+442a5000-442a6000 rw-p 00005000 07:00 7942       /usr/libexec/droid-hybris/system/lib/libmemalloc.so
+442a6000-442b0000 r-xp 00000000 07:00 7963       /usr/libexec/droid-hybris/system/lib/libui.so
+442b0000-442b1000 r--p 00009000 07:00 7963       /usr/libexec/droid-hybris/system/lib/libui.so
+442b1000-442b2000 rw-p 0000a000 07:00 7963       /usr/libexec/droid-hybris/system/lib/libui.so
+442b2000-442b4000 r--s 21238000 00:05 181        /dev/kgsl-3d0
+442b4000-442bb000 r-xp 00000000 07:00 2735       /system/lib/egl/eglsubAndroid.so
+442bb000-442bc000 r--p 00006000 07:00 2735       /system/lib/egl/eglsubAndroid.so
+442bc000-442bd000 rw-p 00000000 00:00 0
+442bd000-442f3000 r-xp 00000000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442f3000-442f4000 ---p 00000000 00:00 0
+442f4000-442fd000 r--p 00036000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442fd000-442fe000 rw-p 0003f000 07:00 22777      /usr/libexec/droid-hybris/system/lib/libgui.so
+442fe000-44328000 r-xp 00000000 07:00 7914       /usr/libexec/droid-hybris/system/lib/libbinder.so
+44328000-4432f000 r--p 00029000 07:00 7914       /usr/libexec/droid-hybris/system/lib/libbinder.so
+4432f000-44330000 rw-p 00030000 07:00 7914       /usr/libexec/droid-hybris/system/lib/libbinder.so
+44330000-44389000 r-xp 00000000 07:00 2740       /system/lib/egl/libq3dtools_adreno200.so
+44389000-4438a000 r--p 00058000 07:00 2740       /system/lib/egl/libq3dtools_adreno200.so
+4438a000-4438b000 rw-p 00059000 07:00 2740       /system/lib/egl/libq3dtools_adreno200.so
+4438b000-4438c000 ---p 00000000 00:00 0
+4438c000-44bfb000 rw-p 00000000 00:00 0
+44bfb000-44bfc000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+44bfc000-44bfe000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+44bfe000-44bff000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+44bff000-44c00000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+44c00000-44d00000 rw-p 00000000 00:00 0
+44d00000-45530000 rw-p 00000000 00:00 0
+45530000-45531000 ---p 00000000 00:00 0
+45531000-45d30000 rw-p 00000000 00:00 0
+45d30000-45d47000 r-xp 00000000 07:00 3695       /usr/bin/jolla-gallery
+45d47000-45d56000 ---p 00017000 07:00 3695       /usr/bin/jolla-gallery
+45d56000-45d58000 rw-p 00016000 07:00 3695       /usr/bin/jolla-gallery
+45d58000-45d7c000 r-xp 00000000 07:00 5137       /usr/lib/libjollasignonuiservice-qt5.so.1.0.0
+45d7c000-45d8c000 ---p 00024000 07:00 5137       /usr/lib/libjollasignonuiservice-qt5.so.1.0.0
+45d8c000-45d8d000 rw-p 00024000 07:00 5137       /usr/lib/libjollasignonuiservice-qt5.so.1.0.0
+45d8d000-45dac000 r-xp 00000000 07:00 4869       /usr/lib/libcontentaction5.so.0.0.75
+45dac000-45dbc000 ---p 0001f000 07:00 4869       /usr/lib/libcontentaction5.so.0.0.75
+45dbc000-45dbd000 rw-p 0001f000 07:00 4869       /usr/lib/libcontentaction5.so.0.0.75
+45dbd000-45e49000 r-xp 00000000 07:00 4693       /usr/lib/libQt5Multimedia.so.5.5.0
+45e49000-45e58000 ---p 0008c000 07:00 4693       /usr/lib/libQt5Multimedia.so.5.5.0
+45e58000-45e5d000 rw-p 0008b000 07:00 4693       /usr/lib/libQt5Multimedia.so.5.5.0
+45e5d000-45e93000 r-xp 00000000 07:00 4687       /usr/lib/libQt5DocGallery.so.5.0.0
+45e93000-45ea2000 ---p 00036000 07:00 4687       /usr/lib/libQt5DocGallery.so.5.0.0
+45ea2000-45ea6000 rw-p 00035000 07:00 4687       /usr/lib/libQt5DocGallery.so.5.0.0
+45ea6000-45ed0000 r-xp 00000000 07:00 5452       /usr/lib/libsignon-qt5.so.1.0.0
+45ed0000-45edf000 ---p 0002a000 07:00 5452       /usr/lib/libsignon-qt5.so.1.0.0
+45edf000-45ee0000 rw-p 00029000 07:00 5452       /usr/lib/libsignon-qt5.so.1.0.0
+45ee0000-45f09000 r-xp 00000000 07:00 4735       /usr/lib/libQt5SystemInfo.so.5.3.0
+45f09000-45f19000 ---p 00029000 07:00 4735       /usr/lib/libQt5SystemInfo.so.5.3.0
+45f19000-45f1a000 rw-p 00029000 07:00 4735       /usr/lib/libQt5SystemInfo.so.5.3.0
+45f1a000-45f4c000 r-xp 00000000 07:00 5357       /usr/lib/libpulse.so.0.18.0
+45f4c000-45f5c000 ---p 00032000 07:00 5357       /usr/lib/libpulse.so.0.18.0
+45f5c000-45f5d000 rw-p 00032000 07:00 5357       /usr/lib/libpulse.so.0.18.0
+45f5d000-45f70000 r-xp 00000000 07:00 5570       /usr/lib/libtracker-sparql-1.0.so.0.104.0
+45f70000-45f7f000 ---p 00013000 07:00 5570       /usr/lib/libtracker-sparql-1.0.so.0.104.0
+45f7f000-45f80000 rw-p 00012000 07:00 5570       /usr/lib/libtracker-sparql-1.0.so.0.104.0
+45f80000-45fb0000 r-xp 00000000 07:00 5487       /usr/lib/libssu.so.1.0.0
+45fb0000-45fb1000 rw-p 00030000 07:00 5487       /usr/lib/libssu.so.1.0.0
+45fb1000-45fbd000 r-xp 00000000 07:00 5576       /usr/lib/libudev.so.1.4.0
+45fbd000-45fcc000 ---p 0000c000 07:00 5576       /usr/lib/libudev.so.1.4.0
+45fcc000-45fcd000 r--p 0000b000 07:00 5576       /usr/lib/libudev.so.1.4.0
+45fcd000-45fce000 rw-p 0000c000 07:00 5576       /usr/lib/libudev.so.1.4.0
+45fce000-45fde000 r-xp 00000000 07:00 4814       /usr/lib/libbluetooth.so.3.13.0
+45fde000-45fed000 ---p 00010000 07:00 4814       /usr/lib/libbluetooth.so.3.13.0
+45fed000-45fef000 rw-p 0000f000 07:00 4814       /usr/lib/libbluetooth.so.3.13.0
+45fef000-46003000 r-xp 00000000 07:00 4870       /usr/lib/libcontextkit-statefs-qt5.so
+46003000-46013000 ---p 00014000 07:00 4870       /usr/lib/libcontextkit-statefs-qt5.so
+46013000-46014000 rw-p 00014000 07:00 4870       /usr/lib/libcontextkit-statefs-qt5.so
+46014000-46063000 r-xp 00000000 07:00 6018       /usr/lib/pulseaudio/libpulsecommon-6.0.so
+46063000-46072000 ---p 0004f000 07:00 6018       /usr/lib/pulseaudio/libpulsecommon-6.0.so
+46072000-46074000 rw-p 0004e000 07:00 6018       /usr/lib/pulseaudio/libpulsecommon-6.0.so
+46074000-4607b000 r-xp 00000000 07:00 5141       /usr/lib/libjson-c.so.2.0.1
+4607b000-4608a000 ---p 00007000 07:00 5141       /usr/lib/libjson-c.so.2.0.1
+4608a000-4608b000 rw-p 00006000 07:00 5141       /usr/lib/libjson-c.so.2.0.1
+4608b000-460d0000 r-xp 00000000 07:00 5459       /usr/lib/libsndfile.so.1.0.25
+460d0000-460df000 ---p 00045000 07:00 5459       /usr/lib/libsndfile.so.1.0.25
+460df000-460e1000 rw-p 00044000 07:00 5459       /usr/lib/libsndfile.so.1.0.25
+460e1000-460e5000 rw-p 00000000 00:00 0
+460e5000-460e8000 r-xp 00000000 07:00 4793       /usr/lib/libasyncns.so.0.3.1
+460e8000-460f8000 ---p 00003000 07:00 4793       /usr/lib/libasyncns.so.0.3.1
+460f8000-460f9000 rw-p 00003000 07:00 4793       /usr/lib/libasyncns.so.0.3.1
+460f9000-460fc000 r-xp 00000000 07:00 4852       /usr/lib/libcap.so.2.24
+460fc000-4610b000 ---p 00003000 07:00 4852       /usr/lib/libcap.so.2.24
+4610b000-4610c000 rw-p 00002000 07:00 4852       /usr/lib/libcap.so.2.24
+4610c000-4615c000 r-xp 00000000 07:00 7755       /usr/lib/tracker-1.0/libtracker-data.so.0.0.0
+4615c000-4615e000 rw-p 00050000 07:00 7755       /usr/lib/tracker-1.0/libtracker-data.so.0.0.0
+4615e000-4616e000 r-xp 00000000 07:00 7752       /usr/lib/tracker-1.0/libtracker-common.so.0.0.0
+4616e000-4617d000 ---p 00010000 07:00 7752       /usr/lib/tracker-1.0/libtracker-common.so.0.0.0
+4617d000-4617e000 rw-p 0000f000 07:00 7752       /usr/lib/tracker-1.0/libtracker-common.so.0.0.0
+4617e000-461ef000 r-xp 00000000 07:00 5474       /usr/lib/libsqlite3.so.0.8.6
+461ef000-461ff000 ---p 00071000 07:00 5474       /usr/lib/libsqlite3.so.0.8.6
+461ff000-46202000 rw-p 00071000 07:00 5474       /usr/lib/libsqlite3.so.0.8.6
+46202000-46205000 r-xp 00000000 07:00 5600       /usr/lib/libuuid.so.1.3.0
+46205000-46214000 ---p 00003000 07:00 5600       /usr/lib/libuuid.so.1.3.0
+46214000-46215000 rw-p 00002000 07:00 5600       /usr/lib/libuuid.so.1.3.0
+46215000-46217000 r-xp 00000000 07:00 5438       /usr/lib/libshadowutils.so.0.0.1
+46217000-46226000 ---p 00002000 07:00 5438       /usr/lib/libshadowutils.so.0.0.1
+46226000-46227000 rw-p 00001000 07:00 5438       /usr/lib/libshadowutils.so.0.0.1
+46227000-4622c000 r-xp 00000000 07:00 5496       /usr/lib/libstatefs-qt5.so
+4622c000-4623c000 ---p 00005000 07:00 5496       /usr/lib/libstatefs-qt5.so
+4623c000-4623d000 rw-p 00005000 07:00 5496       /usr/lib/libstatefs-qt5.so
+4623d000-46262000 r-xp 00000000 07:00 5381       /usr/lib/libqtaround.so.0.2.4
+46262000-46272000 ---p 00025000 07:00 5381       /usr/lib/libqtaround.so.0.2.4
+46272000-46273000 rw-p 00025000 07:00 5381       /usr/lib/libqtaround.so.0.2.4
+46273000-462b3000 r-xp 00000000 07:00 4635       /usr/lib/libFLAC.so.8.3.0
+462b3000-462c2000 ---p 00040000 07:00 4635       /usr/lib/libFLAC.so.8.3.0
+462c2000-462c3000 rw-p 0003f000 07:00 4635       /usr/lib/libFLAC.so.8.3.0
+462c3000-46423000 r-xp 00000000 07:00 5618       /usr/lib/libvorbisenc.so.2.0.9
+46423000-46432000 ---p 00160000 07:00 5618       /usr/lib/libvorbisenc.so.2.0.9
+46432000-4643f000 rw-p 0015f000 07:00 5618       /usr/lib/libvorbisenc.so.2.0.9
+4643f000-46460000 r-xp 00000000 07:00 5616       /usr/lib/libvorbis.so.0.4.6
+46460000-4646f000 ---p 00021000 07:00 5616       /usr/lib/libvorbis.so.0.4.6
+4646f000-46470000 rw-p 00020000 07:00 5616       /usr/lib/libvorbis.so.0.4.6
+46470000-46474000 r-xp 00000000 07:00 5280       /usr/lib/libogg.so.0.8.0
+46474000-46483000 ---p 00004000 07:00 5280       /usr/lib/libogg.so.0.8.0
+46483000-46484000 rw-p 00003000 07:00 5280       /usr/lib/libogg.so.0.8.0
+46484000-46493000 r-xp 00000000 07:00 1533       /lib/libnsl-2.19.so
+46493000-464a2000 ---p 0000f000 07:00 1533       /lib/libnsl-2.19.so
+464a2000-464a3000 r--p 0000e000 07:00 1533       /lib/libnsl-2.19.so
+464a3000-464a4000 rw-p 0000f000 07:00 1533       /lib/libnsl-2.19.so
+464a4000-464a6000 rw-p 00000000 00:00 0
+464a6000-464a9000 r-xp 00000000 07:00 4795       /usr/lib/libattr.so.1.1.0
+464a9000-464b8000 ---p 00003000 07:00 4795       /usr/lib/libattr.so.1.1.0
+464b8000-464b9000 rw-p 00002000 07:00 4795       /usr/lib/libattr.so.1.1.0
+464b9000-464bb000 r-xp 00000000 07:00 6370       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+464bb000-464ca000 ---p 00002000 07:00 6370       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+464ca000-464cb000 rw-p 00001000 07:00 6370       /usr/lib/qt5/qml/QtQuick.2/libqtquick2plugin.so
+464cb000-46530000 r-xp 00000000 07:00 6682       /usr/lib/qt5/qml/Sailfish/Silica/libsailfishsilicaplugin.so
+46530000-46540000 ---p 00065000 07:00 6682       /usr/lib/qt5/qml/Sailfish/Silica/libsailfishsilicaplugin.so
+46540000-46545000 rw-p 00065000 07:00 6682       /usr/lib/qt5/qml/Sailfish/Silica/libsailfishsilicaplugin.so
+46545000-46552000 r-xp 00000000 07:00 5420       /usr/lib/libsailfishsilica.so.1.0.0
+46552000-46562000 ---p 0000d000 07:00 5420       /usr/lib/libsailfishsilica.so.1.0.0
+46562000-46563000 rw-p 0000d000 07:00 5420       /usr/lib/libsailfishsilica.so.1.0.0
+46563000-46567000 r-xp 00000000 07:00 5345       /usr/lib/libprofile.so.0
+46567000-46576000 ---p 00004000 07:00 5345       /usr/lib/libprofile.so.0
+46576000-46577000 rw-p 00003000 07:00 5345       /usr/lib/libprofile.so.0
+46577000-46590000 r-xp 00000000 07:00 4886       /usr/lib/libdbus-glib-1.so.2.2.2
+46590000-465a0000 ---p 00019000 07:00 4886       /usr/lib/libdbus-glib-1.so.2.2.2
+465a0000-465a1000 rw-p 00019000 07:00 4886       /usr/lib/libdbus-glib-1.so.2.2.2
+465a1000-465a2000 ---p 00000000 00:00 0
+465a2000-46da1000 rw-p 00000000 00:00 0
+46da1000-46da4000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+46da4000-46da5000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+46da5000-46da7000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+46da7000-46da8000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+46da8000-46dab000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+46dab000-46dac000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+46dac000-46dad000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+46dad000-46daf000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+46daf000-46db0000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+46db0000-46db3000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+46db3000-46db4000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+46db4000-46db5000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+46db5000-46db7000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+46db7000-46db8000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+46db8000-46dbb000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+46dbb000-46dbc000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+46dbc000-46dbd000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+46dbd000-46dbf000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+46dbf000-46dc0000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+46dc0000-46dc3000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+46dc3000-46dc4000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+46dc4000-46dcf000 rwxp 00000000 00:00 0
+46dcf000-46dd1000 r-xp 00000000 07:00 6362       /usr/lib/qt5/qml/QtQuick/Window.2/libwindowplugin.so
+46dd1000-46de0000 ---p 00002000 07:00 6362       /usr/lib/qt5/qml/QtQuick/Window.2/libwindowplugin.so
+46de0000-46de1000 rw-p 00001000 07:00 6362       /usr/lib/qt5/qml/QtQuick/Window.2/libwindowplugin.so
+46de1000-46de4000 rwxp 00000000 00:00 0
+46de4000-46de5000 r--p 00000000 07:00 18381      /usr/share/translations/sailfish_components_media_eng_en.qm
+46de5000-46dec000 r--p 00000000 07:00 18615      /usr/share/translations/settings-system-zh_CN.qm
+46dec000-46ded000 ---p 00000000 00:00 0
+46ded000-475ec000 rw-p 00000000 00:00 0
+475ec000-475f6000 r-xp 00000000 07:00 6551       /usr/lib/qt5/qml/Sailfish/Media/libsailfishmediaplugin.so
+475f6000-47605000 ---p 0000a000 07:00 6551       /usr/lib/qt5/qml/Sailfish/Media/libsailfishmediaplugin.so
+47605000-47606000 rw-p 00009000 07:00 6551       /usr/lib/qt5/qml/Sailfish/Media/libsailfishmediaplugin.so
+47606000-4760f000 r--p 00000000 07:00 18617      /usr/share/translations/settings-system_eng_en.qm
+4760f000-47611000 rwxp 00000000 00:00 0
+47611000-47660000 r-xp 00000000 07:00 5522       /usr/lib/libtag.so.1.7.2
+47660000-4766f000 ---p 0004f000 07:00 5522       /usr/lib/libtag.so.1.7.2
+4766f000-47672000 rw-p 0004e000 07:00 5522       /usr/lib/libtag.so.1.7.2
+47672000-4769e000 r-xp 00000000 07:00 7039       /usr/lib/qt5/qml/com/jolla/settings/system/libsystemsettingsplugin.so
+4769e000-476ae000 ---p 0002c000 07:00 7039       /usr/lib/qt5/qml/com/jolla/settings/system/libsystemsettingsplugin.so
+476ae000-476b0000 rw-p 0002c000 07:00 7039       /usr/lib/qt5/qml/com/jolla/settings/system/libsystemsettingsplugin.so
+476b0000-476c1000 rwxp 00000000 00:00 0
+476c1000-476c2000 r--p 00000000 07:00 18397      /usr/share/translations/sailfish_components_pickers_qt5_eng_en.qm
+476c2000-476c3000 r--p 00000000 07:00 18395      /usr/share/translations/sailfish_components_pickers_qt5-zh_CN.qm
+476c3000-476c4000 rwxp 00000000 00:00 0
+476c4000-476c6000 r--p 00000000 07:00 18476      /usr/share/translations/sailfishsilica-qt5_eng_en.qm
+476c6000-476c8000 r--p 00000000 07:00 18474      /usr/share/translations/sailfishsilica-qt5-zh_CN.qm
+476c8000-476cd000 r-xp 00000000 07:00 6865       /usr/lib/qt5/qml/com/jolla/gallery/ambience/libjollagalleryambienceplugin.so
+476cd000-476dc000 ---p 00005000 07:00 6865       /usr/lib/qt5/qml/com/jolla/gallery/ambience/libjollagalleryambienceplugin.so
+476dc000-476dd000 rw-p 00004000 07:00 6865       /usr/lib/qt5/qml/com/jolla/gallery/ambience/libjollagalleryambienceplugin.so
+476dd000-476de000 r--p 00000000 07:00 17918      /usr/share/translations/gallery-ambience_eng_en.qm
+476de000-476df000 r--p 00000000 07:00 17916      /usr/share/translations/gallery-ambience-zh_CN.qm
+476df000-476f7000 r-xp 00000000 07:00 6293       /usr/lib/qt5/qml/QtDocGallery/libdocgalleryplugin.so
+476f7000-47707000 ---p 00018000 07:00 6293       /usr/lib/qt5/qml/QtDocGallery/libdocgalleryplugin.so
+47707000-47709000 rw-p 00018000 07:00 6293       /usr/lib/qt5/qml/QtDocGallery/libdocgalleryplugin.so
+47709000-4776d000 r-xp 00000000 07:00 6414       /usr/lib/qt5/qml/Sailfish/Ambience/libdeclarativeambience-qt5.so
+4776d000-4777c000 ---p 00064000 07:00 6414       /usr/lib/qt5/qml/Sailfish/Ambience/libdeclarativeambience-qt5.so
+4777c000-4777f000 rw-p 00063000 07:00 6414       /usr/lib/qt5/qml/Sailfish/Ambience/libdeclarativeambience-qt5.so
+4777f000-47780000 rwxp 00000000 00:00 0
+47780000-47781000 r--p 00000000 07:00 18380      /usr/share/translations/sailfish_components_gallery_qt5_eng_en.qm
+47781000-47782000 r--p 00000000 07:00 18378      /usr/share/translations/sailfish_components_gallery_qt5-zh_CN.qm
+47782000-47783000 r--p 00000000 07:00 17948      /usr/share/translations/gallery-zh_CN.qm
+47783000-4778a000 rwxp 00000000 00:00 0
+4778a000-477a1000 r-xp 00000000 07:00 5389       /usr/lib/libquillmetadata-qt5.so.1.0.0
+477a1000-477b0000 ---p 00017000 07:00 5389       /usr/lib/libquillmetadata-qt5.so.1.0.0
+477b0000-477b1000 rw-p 00016000 07:00 5389       /usr/lib/libquillmetadata-qt5.so.1.0.0
+477b1000-477d2000 r-xp 00000000 07:00 4911       /usr/lib/libexif.so.12.3.3
+477d2000-477e1000 ---p 00021000 07:00 4911       /usr/lib/libexif.so.12.3.3
+477e1000-477ed000 rw-p 00020000 07:00 4911       /usr/lib/libexif.so.12.3.3
+477ed000-478a3000 r-xp 00000000 07:00 4909       /usr/lib/libexempi.so.3.2.2
+478a3000-478b3000 ---p 000b6000 07:00 4909       /usr/lib/libexempi.so.3.2.2
+478b3000-478b9000 rw-p 000b6000 07:00 4909       /usr/lib/libexempi.so.3.2.2
+478b9000-478d9000 rw-p 00000000 00:00 0
+478d9000-478ff000 r-xp 00000000 07:00 5139       /usr/lib/libjpeg.so.62.1.0
+478ff000-4790e000 ---p 00026000 07:00 5139       /usr/lib/libjpeg.so.62.1.0
+4790e000-4790f000 rw-p 00025000 07:00 5139       /usr/lib/libjpeg.so.62.1.0
+4790f000-4791f000 rw-p 00000000 00:00 0
+4791f000-47921000 r-xp 00000000 07:00 6346       /usr/lib/qt5/qml/QtQml/Models.2/libmodelsplugin.so
+47921000-47930000 ---p 00002000 07:00 6346       /usr/lib/qt5/qml/QtQml/Models.2/libmodelsplugin.so
+47930000-47931000 rw-p 00001000 07:00 6346       /usr/lib/qt5/qml/QtQml/Models.2/libmodelsplugin.so
+47931000-4794b000 r-xp 00000000 07:00 6507       /usr/lib/qt5/qml/Sailfish/Gallery/libsailfishgalleryplugin.so
+4794b000-4795a000 ---p 0001a000 07:00 6507       /usr/lib/qt5/qml/Sailfish/Gallery/libsailfishgalleryplugin.so
+4795a000-4795b000 rw-p 00019000 07:00 6507       /usr/lib/qt5/qml/Sailfish/Gallery/libsailfishgalleryplugin.so
+4795b000-47966000 r-xp 00000000 07:00 7406       /usr/lib/qt5/qml/org/nemomobile/thumbnailer/libnemothumbnailer.so
+47966000-47975000 ---p 0000b000 07:00 7406       /usr/lib/qt5/qml/org/nemomobile/thumbnailer/libnemothumbnailer.so
+47975000-47976000 rw-p 0000a000 07:00 7406       /usr/lib/qt5/qml/org/nemomobile/thumbnailer/libnemothumbnailer.so
+47976000-47977000 ---p 00000000 00:00 0
+47977000-48176000 rw-p 00000000 00:00 0
+48176000-4817b000 r-xp 00000000 07:00 7335       /usr/lib/qt5/qml/org/freedesktop/contextkit/libcontextkit.so
+4817b000-4818a000 ---p 00005000 07:00 7335       /usr/lib/qt5/qml/org/freedesktop/contextkit/libcontextkit.so
+4818a000-4818b000 rw-p 00004000 07:00 7335       /usr/lib/qt5/qml/org/freedesktop/contextkit/libcontextkit.so
+4818b000-48193000 r-xp 00000000 07:00 7403       /usr/lib/qt5/qml/org/nemomobile/systemsettings/libnemosystemsettings.so
+48193000-481a3000 ---p 00008000 07:00 7403       /usr/lib/qt5/qml/org/nemomobile/systemsettings/libnemosystemsettings.so
+481a3000-481a4000 rw-p 00008000 07:00 7403       /usr/lib/qt5/qml/org/nemomobile/systemsettings/libnemosystemsettings.so
+481a4000-481da000 r-xp 00000000 07:00 5520       /usr/lib/libsystemsettings.so.1.0.0
+481da000-481e9000 ---p 00036000 07:00 5520       /usr/lib/libsystemsettings.so.1.0.0
+481e9000-481eb000 rw-p 00035000 07:00 5520       /usr/lib/libsystemsettings.so.1.0.0
+481eb000-481ef000 r-xp 00000000 07:00 6605       /usr/lib/qt5/qml/Sailfish/Pickers/libsailfishcomponentspickersplugin.so
+481ef000-481ff000 ---p 00004000 07:00 6605       /usr/lib/qt5/qml/Sailfish/Pickers/libsailfishcomponentspickersplugin.so
+481ff000-48200000 rw-p 00004000 07:00 6605       /usr/lib/qt5/qml/Sailfish/Pickers/libsailfishcomponentspickersplugin.so
+48200000-48300000 rw-p 00000000 00:00 0
+48300000-4830b000 r-xp 00000000 07:00 5588       /usr/lib/libusb-moded-qt5.so.1.1.0
+4830b000-4831a000 ---p 0000b000 07:00 5588       /usr/lib/libusb-moded-qt5.so.1.1.0
+4831a000-4831b000 rw-p 0000a000 07:00 5588       /usr/lib/libusb-moded-qt5.so.1.1.0
+4831b000-48343000 r-xp 00000000 07:00 6337       /usr/lib/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+48343000-48352000 ---p 00028000 07:00 6337       /usr/lib/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+48352000-48354000 rw-p 00027000 07:00 6337       /usr/lib/qt5/qml/QtMultimedia/libdeclarative_multimedia.so
+48354000-4835f000 rwxp 00000000 00:00 0
+4835f000-48370000 r-xp 00000000 07:00 4696       /usr/lib/libQt5MultimediaQuick_p.so.5.5.0
+48370000-48380000 ---p 00011000 07:00 4696       /usr/lib/libQt5MultimediaQuick_p.so.5.5.0
+48380000-48381000 rw-p 00011000 07:00 4696       /usr/lib/libQt5MultimediaQuick_p.so.5.5.0
+48381000-48400000 rwxp 00000000 00:00 0
+48400000-48558000 rw-p 00000000 00:00 0
+48558000-48568000 rw-p 00000000 00:00 0
+48568000-485fa000 rw-p 00000000 00:00 0
+485fa000-48600000 ---p 00000000 00:00 0
+48600000-48661000 rwxp 00000000 00:00 0
+48661000-48681000 rw-p 00000000 00:00 0
+48681000-48689000 rw-s 00000000 07:00 22756      /home/nemo/.cache/tracker/meta.db-shm
+48689000-486e2000 r--p 00000000 07:00 803        /home/nemo/.cache/tracker/ontologies.gvdb
+486e2000-486e3000 r--p 00000000 07:00 17939      /usr/share/translations/gallery-facebook_eng_en.qm
+486e3000-486e4000 r--p 00000000 07:00 17937      /usr/share/translations/gallery-facebook-zh_CN.qm
+486e4000-486e5000 r--p 00000000 07:00 18637      /usr/share/translations/socialcache_eng_en.qm
+486e5000-486e6000 rwxp 00000000 00:00 0
+486ee000-486ef000 r--s 00000000 07:00 22558      /home/nemo/.fontconfig/f86b91f2c0641be336248d859c891c82-le32d8.cache-3
+486ef000-486f0000 r--s 00000000 07:00 22560      /home/nemo/.fontconfig/47f48679023f44a4d1e44699a69464f6-le32d8.cache-3
+486f0000-486f1000 r--s 00000000 07:00 22561      /home/nemo/.fontconfig/35283d03f9c424440af18d47c4536b5c-le32d8.cache-3
+486f1000-486f2000 r--s 00000000 07:00 22562      /home/nemo/.fontconfig/50f3b4c331a2a20faf0ea41633d3ad16-le32d8.cache-3
+486f2000-486fa000 r-xp 00000000 07:00 6106       /usr/lib/qt5/plugins/sqldrivers/libqsqlite.so
+486fa000-4870a000 ---p 00008000 07:00 6106       /usr/lib/qt5/plugins/sqldrivers/libqsqlite.so
+4870a000-4870b000 rw-p 00008000 07:00 6106       /usr/lib/qt5/plugins/sqldrivers/libqsqlite.so
+48713000-48714000 ---p 00000000 00:00 0
+48714000-48f13000 rw-p 00000000 00:00 0
+48f13000-48f14000 ---p 00000000 00:00 0
+48f14000-49723000 rw-p 00000000 00:00 0
+49723000-49724000 rwxp 00000000 00:00 0
+49724000-49734000 rw-p 00000000 00:00 0
+49734000-49737000 r-xp 00000000 07:00 6878       /usr/lib/qt5/qml/com/jolla/gallery/facebook/libjollagalleryfacebookplugin.so
+49737000-49746000 ---p 00003000 07:00 6878       /usr/lib/qt5/qml/com/jolla/gallery/facebook/libjollagalleryfacebookplugin.so
+49746000-49747000 rw-p 00002000 07:00 6878       /usr/lib/qt5/qml/com/jolla/gallery/facebook/libjollagalleryfacebookplugin.so
+49747000-4974c000 r--s 00000000 07:00 22559      /home/nemo/.fontconfig/1dce2cb908b447e938fc03acd9b47fcf-le32d8.cache-3
+4974c000-4974e000 r--s 00000000 07:00 22563      /home/nemo/.fontconfig/0b1bcc92b4d25cc154d77dafe3bceaa0-le32d8.cache-3
+4974e000-49751000 rwxp 00000000 00:00 0
+49751000-49752000 r--s 00000000 00:0b 172484     /run/user/100000/dconf/user
+49752000-49756000 r-xp 00000000 07:00 5417       /usr/lib/libsailfishkeyprovider.so.1.0.0
+49756000-49765000 ---p 00004000 07:00 5417       /usr/lib/libsailfishkeyprovider.so.1.0.0
+49765000-49766000 rw-p 00003000 07:00 5417       /usr/lib/libsailfishkeyprovider.so.1.0.0
+49766000-4979a000 r-xp 00000000 07:00 7400       /usr/lib/qt5/qml/org/nemomobile/socialcache/libsocialcacheqml.so
+4979a000-497a9000 ---p 00034000 07:00 7400       /usr/lib/qt5/qml/org/nemomobile/socialcache/libsocialcacheqml.so
+497a9000-497ab000 rw-p 00033000 07:00 7400       /usr/lib/qt5/qml/org/nemomobile/socialcache/libsocialcacheqml.so
+497ab000-49804000 r-xp 00000000 07:00 5462       /usr/lib/libsocialcache.so.0.0.44
+49804000-49813000 ---p 00059000 07:00 5462       /usr/lib/libsocialcache.so.0.0.44
+49813000-49815000 rw-p 00058000 07:00 5462       /usr/lib/libsocialcache.so.0.0.44
+49815000-4989b000 r-xp 00000000 07:00 4824       /usr/lib/libbuteosyncfw5.so.0.1.0
+4989b000-498aa000 ---p 00086000 07:00 4824       /usr/lib/libbuteosyncfw5.so.0.1.0
+498aa000-498ac000 rw-p 00085000 07:00 4824       /usr/lib/libbuteosyncfw5.so.0.1.0
+498ac000-498ad000 rw-p 00000000 00:00 0
+498ad000-498cc000 r-xp 00000000 07:00 6049       /usr/lib/qt5/plugins/bearer/libqconnmanbearer.so
+498cc000-498db000 ---p 0001f000 07:00 6049       /usr/lib/qt5/plugins/bearer/libqconnmanbearer.so
+498db000-498dc000 rw-p 0001e000 07:00 6049       /usr/lib/qt5/plugins/bearer/libqconnmanbearer.so
+498dc000-498fc000 rw-p 00000000 00:00 0
+498fc000-49920000 r--p 00000000 07:00 10616      /usr/share/fonts/sail-sans-pro/SailSansPro-Light.ttf
+49920000-4a96b000 r--p 00000000 07:00 10619      /usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc
+4a96b000-4a9c3000 rw-p 00000000 00:00 0
+4a9c3000-4a9c5000 r--p 00000000 07:00 22891      /home/nemo/.config/dconf/user
+4a9c5000-4a9c6000 r--p 00000000 07:00 291        /etc/dconf/db/vendor-variant
+4a9c6000-4a9c9000 r--p 00000000 07:00 22608      /etc/dconf/db/vendor
+4a9c9000-4a9ca000 r--p 00000000 07:00 22630      /etc/dconf/db/nemo
+4a9ca000-4b0c6000 rw-s 12683000 00:05 208        /dev/pmem
+4b0c6000-4b939000 rw-s 12683000 00:05 208        /dev/pmem
+4b939000-4c323000 rw-s 12683000 00:05 208        /dev/pmem
+4c323000-4c324000 rw-s 66062000 00:05 181        /dev/kgsl-3d0
+4c324000-4c485000 r-xp 00000000 07:00 2915       /system/lib/libsc-a2xx.so
+4c485000-4c495000 r--p 00160000 07:00 2915       /system/lib/libsc-a2xx.so
+4c495000-4c496000 rw-p 00170000 07:00 2915       /system/lib/libsc-a2xx.so
+4c496000-4c49d000 rw-p 00000000 00:00 0
+4c49d000-4c4ad000 rw-s 66560000 00:05 181        /dev/kgsl-3d0
+4c4ad000-4c4bd000 rw-s 66580000 00:05 181        /dev/kgsl-3d0
+4c4bd000-4c561000 rw-p 00000000 00:00 0
+4c561000-4c562000 rw-s 66064000 00:05 181        /dev/kgsl-3d0
+4c562000-4c57b000 rw-s 66590000 00:05 181        /dev/kgsl-3d0
+4c57b000-4c57c000 rw-s 66214000 00:05 181        /dev/kgsl-3d0
+4c57c000-4c57d000 rw-s 66218000 00:05 181        /dev/kgsl-3d0
+4c57d000-4c5a1000 r--p 00000000 07:00 10616      /usr/share/fonts/sail-sans-pro/SailSansPro-Light.ttf
+4c5a1000-4d5ec000 r--p 00000000 07:00 10619      /usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc
+4d5ec000-4d644000 rw-p 00000000 00:00 0
+4d644000-4d658000 r--p 00000000 07:00 14377      /usr/share/locale/zh_CN/LC_MESSAGES/libc.mo
+4d658000-4d65c000 r-xp 00000000 07:00 6066       /usr/lib/qt5/plugins/imageformats/libqgif.so
+4d65c000-4d66b000 ---p 00004000 07:00 6066       /usr/lib/qt5/plugins/imageformats/libqgif.so
+4d66b000-4d66c000 rw-p 00003000 07:00 6066       /usr/lib/qt5/plugins/imageformats/libqgif.so
+4d66c000-4e0b6000 rw-s 12683000 00:05 208        /dev/pmem
+4e0b6000-4e0c6000 rw-s 669ea000 00:05 181        /dev/kgsl-3d0
+4e0c6000-4e0d6000 rw-s 66a5a000 00:05 181        /dev/kgsl-3d0
+4e0d6000-4e17a000 rw-p 00000000 00:00 0
+4e17a000-4e17b000 rw-s 66258000 00:05 181        /dev/kgsl-3d0
+4e17b000-4e194000 rw-s 66a6a000 00:05 181        /dev/kgsl-3d0
+4e194000-4e195000 rw-s 6626a000 00:05 181        /dev/kgsl-3d0
+4e195000-4e196000 rw-s 6626c000 00:05 181        /dev/kgsl-3d0
+4e196000-4e197000 rwxp 00000000 00:00 0
+4e197000-4e1f7000 rw-s 66a84000 00:05 181        /dev/kgsl-3d0
+4e1f7000-4e207000 rw-s 66af8000 00:05 181        /dev/kgsl-3d0
+4e207000-4e217000 rw-s 66b08000 00:05 181        /dev/kgsl-3d0
+4e217000-4e227000 rw-s 66b78000 00:05 181        /dev/kgsl-3d0
+4e227000-4e22b000 r-xp 00000000 07:00 6067       /usr/lib/qt5/plugins/imageformats/libqico.so
+4e22b000-4e23a000 ---p 00004000 07:00 6067       /usr/lib/qt5/plugins/imageformats/libqico.so
+4e23a000-4e23b000 rw-p 00003000 07:00 6067       /usr/lib/qt5/plugins/imageformats/libqico.so
+4e23b000-4e241000 r-xp 00000000 07:00 6068       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+4e241000-4e250000 ---p 00006000 07:00 6068       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+4e250000-4e251000 rw-p 00005000 07:00 6068       /usr/lib/qt5/plugins/imageformats/libqjpeg.so
+4e251000-4e256000 rwxp 00000000 00:00 0
+4e256000-4e257000 rw-s 66270000 00:05 181        /dev/kgsl-3d0
+4e257000-4e25d000 rwxp 00000000 00:00 0
+4e25d000-4e28d000 rw-p 00000000 00:00 0
+4e28d000-4e290000 r-xp 00000000 07:00 6069       /usr/lib/qt5/plugins/imageformats/libqsvg.so
+4e290000-4e2a0000 ---p 00003000 07:00 6069       /usr/lib/qt5/plugins/imageformats/libqsvg.so
+4e2a0000-4e2a1000 rw-p 00003000 07:00 6069       /usr/lib/qt5/plugins/imageformats/libqsvg.so
+4e2a1000-4e2c5000 r--p 00000000 07:00 10616      /usr/share/fonts/sail-sans-pro/SailSansPro-Light.ttf
+4e2c5000-4e2c7000 rw-s 66296000 00:05 181        /dev/kgsl-3d0
+4e2c7000-4e2c8000 rw-s 662a2000 00:05 181        /dev/kgsl-3d0
+4e2c8000-4e2c9000 rw-s 664b8000 00:05 181        /dev/kgsl-3d0
+4e2c9000-4e2ca000 rw-s 664d6000 00:05 181        /dev/kgsl-3d0
+4e2ca000-4e2ee000 rw-s 665aa000 00:05 181        /dev/kgsl-3d0
+4e2ee000-4e30e000 rw-s 665ce000 00:05 181        /dev/kgsl-3d0
+4e341000-4e342000 ---p 00000000 00:00 0
+4e342000-4eb41000 rw-p 00000000 00:00 0
+4eb42000-4ecb9000 rw-s 673ba000 00:05 181        /dev/kgsl-3d0
+4ecb9000-4ecc9000 rw-s 66550000 00:05 181        /dev/kgsl-3d0
+4ecc9000-4eccd000 rw-s 6621e000 00:05 181        /dev/kgsl-3d0
+4eccd000-4ecce000 rw-s 66222000 00:05 181        /dev/kgsl-3d0
+4ecce000-4eccf000 rw-s 6623c000 00:05 181        /dev/kgsl-3d0
+4eccf000-4ecd0000 rw-s 66252000 00:05 181        /dev/kgsl-3d0
+4ecd0000-4ecd1000 rw-s 66254000 00:05 181        /dev/kgsl-3d0
+4ecd1000-4ecd2000 rw-s 66256000 00:05 181        /dev/kgsl-3d0
+4ecd2000-4ece2000 rw-s 66622000 00:05 181        /dev/kgsl-3d0
+4ece2000-4ecf2000 rw-s 669ca000 00:05 181        /dev/kgsl-3d0
+4ecf2000-4ed02000 rw-s 669da000 00:05 181        /dev/kgsl-3d0
+4ed02000-4f7ac000 rw-s 12683000 00:05 208        /dev/pmem
+4f7ac000-502b6000 rw-s 12683000 00:05 208        /dev/pmem
+502b6000-502b7000 ---p 00000000 00:00 0
+502b7000-50ab6000 rw-p 00000000 00:00 0
+50ab6000-50cb6000 rw-s 67d06000 00:05 181        /dev/kgsl-3d0
+50d19000-51d64000 r--p 00000000 07:00 10619      /usr/share/fonts/wqy-zenhei/wqy-zenhei.ttc
+51d64000-51dd2000 rw-s 66e32000 00:05 181        /dev/kgsl-3d0
+51e00000-51e21000 rw-p 00000000 00:00 0
+51e21000-51e95000 ---p 00000000 00:00 0
+51e95000-51f00000 ---p 00000000 00:00 0
+52bda000-52bdb000 ---p 00000000 00:00 0
+52bdb000-533da000 rw-p 00000000 00:00 0
+beada000-beb1c000 rw-p 00000000 00:00 0          [stack]
+USER_JOURNAL
+No journal files were found.
+ROOT_JOURNAL
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 20:59:59 EEST. --
+TOOLS
+/usr/bin/catchsegv

@@ -1,0 +1,65 @@
+> > > > -- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 19:33:41 EEST. --
+Oct 17 19:19:45 Jolla booster-silica-qt5[21960]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+Oct 17 19:19:46 Jolla [21960]: booster [silica-qt5][21960]: SilicaBooster: Initiate asynchronous preload.
+Oct 17 19:19:49 Jolla mapplauncherd[21960]: SilicaBooster: Preload compilation aborted.
+Oct 17 19:19:49 Jolla mapplauncherd[21960]: Couldn't open '/proc/self/oom_score_adj' for writing
+Oct 17 19:20:07 Jolla [21960]: [W] QQmlImportDatabase::registerPluginTypes:1875 - Module 'QtDocGallery' does not contain a module identifier directive - it cannot be protected from external registrations.
+Oct 17 19:20:14 Jolla [21960]: GLIB WARNING ** Tracker - Locale '0' is not set, defaulting to C locale
+Oct 17 19:20:15 Jolla [21960]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:20:15 Jolla [21960]: [W] QCameraFocusFakeFocusControl::setFocusMode:83 - Focus mode selection is not supported
+Oct 17 19:20:15 Jolla [21960]: [W] QCameraFocusFakeFocusControl::setFocusPointMode:87 - Focus points mode selection is not supported
+Oct 17 19:20:15 Jolla [21960]: [W] QCameraFocusFakeFocusControl::setFocusMode:83 - Focus mode selection is not supported
+Oct 17 19:20:15 Jolla [21960]: [W] QCameraFocusFakeFocusControl::setFocusPointMode:87 - Focus points mode selection is not supported
+Oct 17 19:20:17 Jolla [21960]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+Oct 17 19:20:18 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_pad_query_caps: assertion 'GST_IS_PAD (pad)' failed
+Oct 17 19:20:18 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_object_unref: assertion 'object != NULL' failed
+Oct 17 19:20:18 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_caps_can_intersect: assertion 'GST_IS_CAPS (caps2)' failed
+Oct 17 19:20:18 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_mini_object_unref: assertion 'mini_object != NULL' failed
+Oct 17 19:20:20 Jolla [21960]: [W] CameraBinSession::processBusMessage:1027 - CameraBin error: "Internal data flow error."
+Oct 17 19:20:22 Jolla [21960]: [D] QGstreamerVideoWindow::QGstreamerVideoWindow:72 - No m_videoSink available!
+Oct 17 19:20:23 Jolla [21960]: [W] unknown:43 - file:///usr/lib/qt5/qml/Sailfish/Silica/PulleyAnimationHint.qml:43:25: Unable to assign [undefined] to QQuickItem*
+Oct 17 19:27:23 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_pad_query_caps: assertion 'GST_IS_PAD (pad)' failed
+Oct 17 19:27:23 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_object_unref: assertion 'object != NULL' failed
+Oct 17 19:27:23 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_caps_can_intersect: assertion 'GST_IS_CAPS (caps2)' failed
+Oct 17 19:27:23 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_mini_object_unref: assertion 'mini_object != NULL' failed
+Oct 17 19:27:25 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_pad_query_caps: assertion 'GST_IS_PAD (pad)' failed
+Oct 17 19:27:25 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_object_unref: assertion 'object != NULL' failed
+Oct 17 19:27:25 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_caps_can_intersect: assertion 'GST_IS_CAPS (caps2)' failed
+Oct 17 19:27:25 Jolla [21960]: GLIB CRITICAL ** GStreamer - gst_mini_object_unref: assertion 'mini_object != NULL' failed
+Oct 17 19:27:29 Jolla [21960]: [W] QWaylandWindow::createDecoration:537 - No decoration plugins available. Running with no decorations.
+10-17 16:27:42.217 21182 21212 D QualcommCameraHardware: requested preview size 768 x 432
+10-17 16:27:42.337 21182 21185 D QualcommCameraHardware: requested preview size 640 x 480
+10-17 16:27:42.347 21182 21182 D QualcommCameraHardware: initPreview E: preview size=640x480
+10-17 16:27:42.347 21182 21182 D QualcommCameraHardware: initPreview E: preview size=640x480 videosize = 640 x 480
+10-17 16:27:42.347 21182 21182 D QualcommCameraHardware: initPreview : preview size=640x480 videosize = 640 x 480
+10-17 16:27:42.357 21182 21182 D QualcommCameraHardware: initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+10-17 16:27:42.577 22003 22192 D memalloc: ashmem: Mapped buffer base:0x51e04000 size:1228800 fd:62
+10-17 16:27:42.577 21182 22209 D memalloc: ashmem: Mapped buffer base:0x4175b000 size:1228800 fd:30
+10-17 16:27:42.837 22003 22210 D memalloc: ashmem: Mapped buffer base:0x55027000 size:1228800 fd:69
+10-17 16:27:42.837 21182 22209 D memalloc: ashmem: Mapped buffer base:0x41969000 size:1228800 fd:34
+10-17 16:27:43.117 21182 21185 W CameraService: Disconnecting camera client 0x1e9c8 since the binder for it died (this pid 21182)
+10-17 16:27:43.117 21182 21185 D memalloc: ashmem: Unmapping buffer base: 0x4175b000 size: 1228800
+10-17 16:27:43.117 21182 21185 D memalloc: ashmem: Unmapping buffer base: 0x41969000 size: 1228800
+10-17 16:28:01.077 21182 21182 D QualcommCameraHardware: requested preview size 768 x 432
+10-17 16:28:01.177 21182 21212 D QualcommCameraHardware: requested preview size 640 x 480
+10-17 16:28:01.197 21182 21185 D QualcommCameraHardware: initPreview E: preview size=640x480
+10-17 16:28:01.197 21182 21185 D QualcommCameraHardware: initPreview E: preview size=640x480 videosize = 640 x 480
+10-17 16:28:01.197 21182 21185 D QualcommCameraHardware: initPreview : preview size=640x480 videosize = 640 x 480
+10-17 16:28:01.207 21182 21185 D QualcommCameraHardware: initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+10-17 16:28:01.367 22182 22235 D memalloc: ashmem: Mapped buffer base:0x51d8a000 size:1228800 fd:62
+10-17 16:28:01.367 21182 22252 D memalloc: ashmem: Mapped buffer base:0x4175b000 size:1228800 fd:30
+10-17 16:28:01.817 21182 22252 E QcomCamera: internal_handle_preview: ERROR dequeueing the buffer
+10-17 16:28:01.817 21182 21212 W CameraService: Disconnecting camera client 0x17c80 since the binder for it died (this pid 21182)
+10-17 16:28:01.817 21182 21212 D memalloc: ashmem: Unmapping buffer base: 0x4175b000 size: 1228800
+10-17 16:29:30.147 21182 21185 D QualcommCameraHardware: requested preview size 768 x 432
+10-17 16:29:30.277 21182 21182 D QualcommCameraHardware: requested preview size 640 x 480
+10-17 16:29:30.297 21182 21212 D QualcommCameraHardware: initPreview E: preview size=640x480
+10-17 16:29:30.297 21182 21212 D QualcommCameraHardware: initPreview E: preview size=640x480 videosize = 640 x 480
+10-17 16:29:30.297 21182 21212 D QualcommCameraHardware: initPreview : preview size=640x480 videosize = 640 x 480
+10-17 16:29:30.297 21182 21212 D QualcommCameraHardware: initpreview before cam_frame thread carete , video frame  buffer=1094443008 fd=26 y_off=0 cbcr_off=307200
+10-17 16:29:30.537 22218 22291 D memalloc: ashmem: Mapped buffer base:0x51e01000 size:1228800 fd:62
+10-17 16:29:30.537 21182 22307 D memalloc: ashmem: Mapped buffer base:0x4175b000 size:1228800 fd:30
+10-17 16:29:30.797 22218 22309 D memalloc: ashmem: Mapped buffer base:0x55037000 size:1228800 fd:60
+10-17 16:29:30.937 21182 22307 E QcomCamera: internal_handle_preview: ERROR dequeueing the buffer
+10-17 16:29:30.937 21182 21182 W CameraService: Disconnecting camera client 0x222d0 since the binder for it died (this pid 21182)
+10-17 16:29:30.947 21182 21182 D memalloc: ashmem: Unmapping buffer base: 0x4175b000 size: 1228800

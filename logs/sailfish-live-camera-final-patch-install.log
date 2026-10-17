@@ -1,0 +1,5 @@
+> > > > > > > > > > root      7684     1  0 18:05 ?        00:00:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+nemo      7714  5425  7 18:06 ?        00:00:13 /usr/bin/jolla-camera
+root      8252  7822  0 18:08 pts/0    00:00:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+media     8254   263  0 18:08 ?        00:00:00 /usr/libexec/droid-hybris/system/bin/minimediaservice
+nemo      8263     1  0 18:09 ?        00:00:00 invoker -s --type=silica-qt5 /usr/bin/jolla-camera

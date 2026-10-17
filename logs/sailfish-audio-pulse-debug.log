@@ -1,0 +1,6 @@
+> > > > > > > > > > > > > > > > > No valid command specified.
+START=2026-10-17 22:18:34
+/bin/sh: line 13:  7308 Terminated              runuser -u nemo -- env $userenv paplay --device=sink.primary --volume=65536 /usr/share/sounds/jolla-ringtones/stereo/jolla-ringtone.wav > /tmp/hd2-pulse-debug-paplay.out 2>&1
+
+Session terminated, killing shell... ...killed.
+No valid command specified.

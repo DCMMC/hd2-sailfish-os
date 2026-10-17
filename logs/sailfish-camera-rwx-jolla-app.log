@@ -1,0 +1,7 @@
+> > > > > > > > > > > > > > > > > --- camera process ---
+nemo     21251   360 31 19:12 ?        00:00:21 /usr/bin/lipstick -plugin evdevtouch:/dev/touchscreen -plugin evdevkeyboard:keymap=/usr/share/qt5/keymaps/droid.qmap --systemd
+nemo     21289   360  2 19:12 ?        00:00:01 /usr/bin/lipstick-bluetooth-agent
+nemo     21364 21287 18 19:12 ?        00:00:04 /usr/bin/jolla-camera
+nemo     21379     1  0 19:12 ?        00:00:00 invoker -s --type=silica-qt5 /usr/bin/jolla-camera
+--- camera log ---
+--- android failures ---

@@ -1,0 +1,37 @@
+tap_uptime=748.25
+1 uptime=748.96 pid=2544 fb=b39a407b545086d4a97761bf2dbe768b
+2 uptime=750.13 pid=2544 fb=019f644e4bb1c5c71c2967a12d6971ea
+3 uptime=751.34 pid=2544 fb=9a5eed02b2b660aebbafc55666c0583f
+4 uptime=752.63 pid=2544 fb=a593fc5a4d8273e8652179d3ff7a9739
+5 uptime=753.91 pid=2544 fb=43d255077ebd4961f196f2213965b00a
+6 uptime=755.16 pid=2544 fb=abf34b24a1fd5091965326c966033ce5
+7 uptime=756.52 pid=2544 fb=80015c978b9ff0d09e55333e81fcd97a
+8 uptime=757.91 pid=2544 fb=4ae7cd63f40c0c4b65835460e40af01e
+9 uptime=759.29 pid=2544 fb=ac37d6ddd2ceb92f8522979639339229
+10 uptime=760.56 pid=2544 fb=9b4d11b0fe4b727e5159c1cb8c34b34e
+11 uptime=761.85 pid=2544 fb=f8b84941c88befa9360a084d24b83b75
+12 uptime=763.15 pid=2544 fb=23c740e0f758638201589357c58ec3e3
+13 uptime=764.44 pid=2544 fb=a772b8198b21c9a7cb91ef4e168aae0b
+14 uptime=765.75 pid=2544 fb=9f0696858951a19e80d4bfcc44c4c2db
+15 uptime=767.13 pid=2544 fb=b67e6bcc1bc40f04157dbfb1f6e2c3a2
+16 uptime=768.46 pid=2544 fb=cc689c2df845afed314e742c7a39b0ee
+KERNEL
+[  756.539520] msm_open_common: open control0
+[  756.742706] msm_open_common: open config0
+[  756.755584] msm_enqueue: queue control new max is 1
+[  757.170928] msm_open_common: open frame0
+> > > > > > > > > > NOW
+774.79
+CAMERA
+2544
+JOURNAL
+[  658.075118] Jolla [2531]: booster [silica-qt5][2531]: SilicaBooster: Initiate asynchronous preload.
+[  662.303206] Jolla mapplauncherd[2531]: SilicaBooster: Preload compilation aborted.
+[  667.251357] Jolla [2544]: booster [silica-qt5][2544]: SilicaBooster: Initiate asynchronous preload.
+[  751.166396] Jolla [2887]: booster [silica-qt5][2887]: SilicaBooster: Initiate asynchronous preload.
+[  760.673903] Jolla [2544]: [W] unknown:380 - file:///usr/share/jolla-camera/pages/settings/SettingsOverlay.qml:380:27: Unable to assign [undefined] to QUrl
+KERNEL
+[  756.539520] msm_open_common: open control0
+[  756.742706] msm_open_common: open config0
+[  756.755584] msm_enqueue: queue control new max is 1
+[  757.170928] msm_open_common: open frame0

@@ -1,0 +1,215 @@
+> > > > > > > > Sat Oct 17 20:59:35 EEST 2026
+nemo       378  0.0  0.2   3472   856 ?        Ss   16:48   0:00 /usr/libexec/mapplauncherd/booster-generic --systemd
+nemo       384  0.0  0.8  45728  3704 ?        Ss   16:48   0:00 /usr/libexec/mapplauncherd/booster-qt5 --systemd --boot-mode
+nemo       386  0.0  0.1   3472   488 ?        Ss   16:48   0:00 booster [generic]
+root     21193  0.0  0.3   4624  1600 ?        Sl   19:11   0:00 /usr/libexec/droid-hybris/system/bin/minisfservice
+nemo     21251  1.0 16.4 289380 67912 ?        Ssl  19:12   1:08 /usr/bin/lipstick -plugin evdevtouch:/dev/touchscreen -plugin evdevkeyboard:keymap=/usr/share/qt5/keymaps/droid.qmap --systemd
+nemo     21289  0.0  3.7 106904 15584 ?        Ssl  19:12   0:01 /usr/bin/lipstick-bluetooth-agent
+nemo     21336  0.0  1.5  53052  6416 ?        Ss   19:12   0:00 /usr/libexec/mapplauncherd/booster-browser --systemd
+nemo     21344  0.0  4.0 115212 16736 ?        Ssl  19:12   0:05 booster [browser]
+nemo     23173  0.0  1.7  53556  7020 ?        Ss   19:48   0:00 /usr/libexec/mapplauncherd/booster-silica-qt5 --systemd
+nemo     23912  0.2  9.1 242236 37572 ?        Ssl  20:06   0:09 /usr/bin/jolla-gallery
+nemo     23955  0.0  0.3  45728  1244 ?        Ss   20:06   0:00 booster [qt5]
+nemo     23961  0.0  0.1   1956   556 ?        S    20:06   0:00 invoker --type=silica-qt5 -s /usr/bin/jolla-gallery
+nemo     23963  0.2  4.7 119324 19716 ?        Ssl  20:06   0:06 booster [silica-qt5]
+/bin/sh: line 5: coredumpctl: command not found
+[ 7665.276824] msm_release_config: config0
+[ 7665.276824] __msm_release:sync->opencnt:3
+[ 7665.276824] release config atomic_set pmsm->opened as 0
+[ 7665.944732] msm_release_control: control0
+[ 7665.944763] __msm_release:sync->opencnt:2
+[ 7665.944763] msm_release_frame: frame0
+[ 7665.944763] __msm_release:sync->opencnt:1
+[ 7666.161010] release frame atomic_set pmsm->opened as 0
+[ 7671.829986] msm_open_common: open control0
+[ 7671.965240] msm_open_common: open config0
+[ 7671.971832] msm_enqueue: queue control new max is 1
+[ 7672.058563] msm_open_common: open frame0
+[ 7672.308197] msm_get_stats: error -512
+[ 7672.473846] msm_release_config: config0
+[ 7672.473876] __msm_release:sync->opencnt:3
+[ 7672.473876] release config atomic_set pmsm->opened as 0
+[ 7672.473907] msm_release_control: control0
+[ 7672.473907] __msm_release:sync->opencnt:2
+[ 7672.473937] msm_release_frame: frame0
+[ 7672.473937] __msm_release:sync->opencnt:1
+[ 7672.691009] release frame atomic_set pmsm->opened as 0
+[ 7905.446166] msm_open_common: open control0
+[ 7905.627380] msm_open_common: open config0
+[ 7905.634643] msm_enqueue: queue control new max is 1
+[ 7905.724731] msm_open_common: open frame0
+[ 7921.322601] msm_enqueue: queue event new max is 3
+[ 7957.994171] msm_release_config: config0
+[ 7957.994201] __msm_release:sync->opencnt:3
+[ 7957.994201] release config atomic_set pmsm->opened as 0
+[ 7958.062927] msm_release_frame: frame0
+[ 7958.062957] __msm_release:sync->opencnt:2
+[ 7958.062988] release frame atomic_set pmsm->opened as 0
+[ 7958.063323] msm_release_control: control0
+[ 7958.063323] __msm_release:sync->opencnt:1
+[ 7964.049591] msm_open_common: open control0
+[ 7964.184844] msm_open_common: open config0
+[ 7964.190277] msm_enqueue: queue control new max is 1
+[ 7964.268615] msm_open_common: open frame0
+[ 7964.509063] msm_get_stats: error -512
+[ 7964.655090] msm_release_config: config0
+[ 7964.655120] __msm_release:sync->opencnt:3
+[ 7964.655120] release config atomic_set pmsm->opened as 0
+[ 7964.655151] msm_release_control: control0
+[ 7964.655181] __msm_release:sync->opencnt:2
+[ 7964.655181] msm_release_frame: frame0
+[ 7964.655181] __msm_release:sync->opencnt:1
+[ 7964.870635] release frame atomic_set pmsm->opened as 0
+[ 8279.132415] msm_open_common: open control0
+[ 8279.818237] msm_open_common: open config0
+[ 8279.883361] msm_enqueue: queue control new max is 1
+[ 8281.106445] msm_open_common: open frame0
+[ 8282.823699] msm_get_stats: error -512
+[ 8285.178497] msm_release_config: config0
+[ 8285.178527] __msm_release:sync->opencnt:3
+[ 8285.178527] release config atomic_set pmsm->opened as 0
+[ 8285.178558] msm_release_control: control0
+[ 8285.178558] __msm_release:sync->opencnt:2
+[ 8285.178588] msm_release_frame: frame0
+[ 8285.178588] __msm_release:sync->opencnt:1
+[ 8285.400573] release frame atomic_set pmsm->opened as 0
+[ 8405.960510] msm_open_common: open control0
+[ 8406.105255] msm_open_common: open config0
+[ 8406.111541] msm_enqueue: queue control new max is 1
+[ 8406.202575] msm_open_common: open frame0
+[ 8406.486419] msm_get_stats: error -512
+[ 8406.620422] msm_release_config: config0
+[ 8406.620422] __msm_release:sync->opencnt:3
+[ 8406.620452] release config atomic_set pmsm->opened as 0
+[ 8406.620483] msm_release_control: control0
+[ 8406.620483] __msm_release:sync->opencnt:2
+[ 8406.620513] msm_release_frame: frame0
+[ 8406.620513] __msm_release:sync->opencnt:1
+[ 8406.841339] release frame atomic_set pmsm->opened as 0
+[ 8474.717498] msm_open_common: open control0
+[ 8474.855133] msm_open_common: open config0
+[ 8474.861175] msm_enqueue: queue control new max is 1
+[ 8474.949005] msm_open_common: open frame0
+[ 8475.178405] msm_get_stats: error -512
+[ 8475.305541] msm_release_config: config0
+[ 8475.305572] __msm_release:sync->opencnt:3
+[ 8475.305603] release config atomic_set pmsm->opened as 0
+[ 8475.305633] msm_release_control: control0
+[ 8475.305633] __msm_release:sync->opencnt:2
+[ 8475.305633] msm_release_frame: frame0
+[ 8475.305664] __msm_release:sync->opencnt:1
+[ 8475.521362] release frame atomic_set pmsm->opened as 0
+[ 8590.405395] msm_open_common: open control0
+[ 8590.535095] msm_open_common: open config0
+[ 8590.541229] msm_enqueue: queue control new max is 1
+[ 8590.636260] msm_open_common: open frame0
+[ 8605.907135] msm_release_config: config0
+[ 8605.907165] __msm_release:sync->opencnt:3
+[ 8605.907165] release config atomic_set pmsm->opened as 0
+[ 8605.930541] msm_release_frame: frame0
+[ 8605.930541] __msm_release:sync->opencnt:2
+[ 8605.930572] release frame atomic_set pmsm->opened as 0
+[ 8605.930908] msm_release_control: control0
+[ 8605.930908] __msm_release:sync->opencnt:1
+[ 8984.526428] msm_open_common: open control0
+[ 8984.666687] msm_open_common: open config0
+[ 8984.675720] msm_enqueue: queue control new max is 1
+[ 8984.754974] msm_open_common: open frame0
+[ 8994.671813] msm_release_config: config0
+[ 8994.671844] __msm_release:sync->opencnt:3
+[ 8994.671844] release config atomic_set pmsm->opened as 0
+[ 8994.686187] msm_release_frame: frame0
+[ 8994.686187] __msm_release:sync->opencnt:2
+[ 8994.686218] release frame atomic_set pmsm->opened as 0
+[ 8994.686553] msm_release_control: control0
+[ 8994.686553] __msm_release:sync->opencnt:1
+[ 9562.726898] msm_open_common: open control0
+[ 9562.904113] msm_open_common: open config0
+[ 9562.911529] msm_enqueue: queue control new max is 1
+[ 9563.075103] msm_open_common: open frame0
+[ 9563.815490] msm_release_config: config0
+[ 9563.815521] __msm_release:sync->opencnt:3
+[ 9563.815521] release config atomic_set pmsm->opened as 0
+[ 9563.872497] msm_release_frame: frame0
+[ 9563.872528] __msm_release:sync->opencnt:2
+[ 9563.872528] release frame atomic_set pmsm->opened as 0
+[ 9563.872894] msm_release_control: control0
+[ 9563.872924] __msm_release:sync->opencnt:1
+[ 9581.602966] msm_open_common: open control0
+[ 9581.761138] msm_open_common: open config0
+[ 9581.768829] msm_enqueue: queue control new max is 1
+[ 9581.919647] msm_open_common: open frame0
+[ 9582.514038] msm_release_config: config0
+[ 9582.514068] __msm_release:sync->opencnt:3
+[ 9582.514068] release config atomic_set pmsm->opened as 0
+[ 9582.565673] msm_release_frame: frame0
+[ 9582.565704] __msm_release:sync->opencnt:2
+[ 9582.565704] release frame atomic_set pmsm->opened as 0
+[ 9582.566070] msm_release_control: control0
+[ 9582.566070] __msm_release:sync->opencnt:1
+[ 9670.682464] msm_open_common: open control0
+[ 9670.831176] msm_open_common: open config0
+[ 9670.837707] msm_enqueue: queue control new max is 1
+[ 9671.010467] msm_open_common: open frame0
+[ 9671.636566] msm_release_config: config0
+[ 9671.636566] __msm_release:sync->opencnt:3
+[ 9671.636596] release config atomic_set pmsm->opened as 0
+[ 9671.690765] msm_release_frame: frame0
+[ 9671.690795] __msm_release:sync->opencnt:2
+[ 9671.690795] release frame atomic_set pmsm->opened as 0
+[ 9671.691162] msm_release_control: control0
+[ 9671.691162] __msm_release:sync->opencnt:1
+[10941.701721] msm_open_common: open control0
+[10941.832855] msm_open_common: open config0
+[10941.838470] msm_enqueue: queue control new max is 1
+[10941.896514] msm_open_common: open frame0
+[10957.187286] msm_release_frame: frame0
+[10957.187316] __msm_release:sync->opencnt:3
+[10957.187316] release frame atomic_set pmsm->opened as 0
+[10957.196960] msm_release_config: config0
+[10957.196960] __msm_release:sync->opencnt:2
+[10957.196990] release config atomic_set pmsm->opened as 0
+[10957.197113] msm_release_control: control0
+[10957.197113] __msm_release:sync->opencnt:1
+[11443.313690] msm_open_common: open control0
+[11443.442871] msm_open_common: open config0
+[11443.448486] msm_enqueue: queue control new max is 1
+[11443.662109] msm_open_common: open frame0
+[11445.326995] msm_release_config: config0
+[11445.327026] __msm_release:sync->opencnt:3
+[11445.327026] release config atomic_set pmsm->opened as 0
+[11445.327056] msm_release_control: control0
+[11445.327087] __msm_release:sync->opencnt:2
+[11445.327087] msm_release_frame: frame0
+[11445.327117] __msm_release:sync->opencnt:1
+[11445.548614] release frame atomic_set pmsm->opened as 0
+[11793.699554] msm_open_common: open control0
+[11793.857238] msm_open_common: open config0
+[11793.865112] msm_enqueue: queue control new max is 1
+[11794.017700] msm_open_common: open frame0
+[11811.403350] msm_release_frame: frame0
+[11811.403381] __msm_release:sync->opencnt:3
+[11811.403381] release frame atomic_set pmsm->opened as 0
+[11811.489318] msm_enqueue: queue pict new max is 1
+[11811.489990] msm_get_pic: flushing cache for [d5612000, d5732000)
+[11811.856842] msm_open_common: open frame0
+[11814.293579] msm_release_config: config0
+[11814.293609] __msm_release:sync->opencnt:3
+[11814.293609] release config atomic_set pmsm->opened as 0
+[11814.748260] msm_release_control: control0
+[11814.748291] __msm_release:sync->opencnt:2
+[11814.748291] msm_release_frame: frame0
+[11814.748321] __msm_release:sync->opencnt:1
+[11814.974487] release frame atomic_set pmsm->opened as 0
+[11846.300201] msm_open_common: open control0
+[11846.460113] msm_open_common: open config0
+[11846.471496] msm_enqueue: queue control new max is 1
+[11846.647918] msm_open_common: open frame0
+[11847.578369] msm_release_config: config0
+[11847.578399] __msm_release:sync->opencnt:3
+[11847.578399] release config atomic_set pmsm->opened as 0
+[11847.959045] msm_release_control: control0
+[11847.959075] __msm_release:sync->opencnt:2
+[11847.959106] msm_release_frame: frame0
+[11847.959106] __msm_release:sync->opencnt:1
+[11848.183746] release frame atomic_set pmsm->opened as 0

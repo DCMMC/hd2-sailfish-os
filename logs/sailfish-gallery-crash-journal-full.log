@@ -1,0 +1,27 @@
+> > -- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:02:56 EEST. --
+Oct 17 21:02:30.022922 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:02:30.024203 Jolla DSME[216]: [1;39mIPHB: failed to open /dev/rtc0: No such file or directory[0m
+Oct 17 21:02:31.169162 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:02:31.872592 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:02:33.298526 Jolla ohmd[264]: *** resource_request:  register   96
+Oct 17 21:02:33.445102 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mute-by-route[0m
+Oct 17 21:02:33.870029 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:02:34.582004 Jolla dbus-daemon[385]: Activating via systemd: service name='org.nemo.transferengine' unit='transferengine.service'
+Oct 17 21:02:34.583621 Jolla systemd[360]: Starting Transfer engine...
+Oct 17 21:02:34.769931 Jolla [23912]: [D] CustomContext::NativeBuffer::NativeBuffer:130 - eglHybrisCreateNativeBuffer failed, error: 3000
+Oct 17 21:02:34.865695 Jolla lipstick[21251]: [1;39m[W] QQuickShaderEffectCommon::updateMaterial:428 - ShaderEffect: Property 'source' is not assigned a valid texture provider (QQuickItem*).[0m
+Oct 17 21:02:34.888309 Jolla lipstick[21251]: [D] CoverActionModel::update:131 - void CoverActionModel::update() Clearing model
+Oct 17 21:02:34.916324 Jolla pulseaudio[472]: [1;31minvalid (<null>) target sink for mute-by-route[0m
+Oct 17 21:02:34.967532 Jolla mapplauncherd[23173]: Boosted process (pid=23912) was terminated due to signal 11
+Oct 17 21:02:34.968753 Jolla invoker[23961]: [1;31merror: Can't send signal 11 to application [23912]: No such process[0m
+Oct 17 21:02:34.988437 Jolla ohmd[264]: *** resource_request:  unregister   96
+Oct 17 21:02:35.048587 Jolla mapplauncherd[23955]: [1;31mCouldn't open '/proc/self/oom_score_adj' for writing[0m
+Oct 17 21:02:35.240451 Jolla dbus-daemon[385]: Successfully activated service 'org.nemo.transferengine'
+Oct 17 21:02:35.244876 Jolla systemd[360]: Started Transfer engine.
+Oct 17 21:02:35.881351 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:02:36.179568 Jolla mce[177]: [1;39mmodules/battery-statefs.c: tracker_open(): /run/state/namespaces/Battery/State: open: Invalid argument[0m
+Oct 17 21:02:37.878879 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:02:39.872653 Jolla wpa_supplicant[2012]: WEXT: SIOCGIWSTATS: Operation not supported
+Oct 17 21:02:39.921329 Jolla ne[23955]: [D] TransferEnginePrivate::delayedExitSafely:198 - Stopping transfer engine
+Oct 17 21:02:39.962161 Jolla mapplauncherd[384]: Boosted process (pid=23955) was terminated due to signal 15
+Oct 17 21:02:39.964358 Jolla mapplauncherd[384]: [1;31mDaemon: Failed to kill 25111: No such process[0m

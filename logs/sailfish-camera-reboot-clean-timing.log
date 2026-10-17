@@ -1,0 +1,28 @@
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_CAMERABIN_VIDEOSRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+Last login: Sat Oct 17 21:33:48 EEST 2026 on pts/0
+osupdate-check.timer
+   Loaded: masked (/dev/null)
+   Active: inactive (dead)
+
+launch_uptime=58.03
+1 uptime=60.33 pid=none fb=6eb8c366315498feabd796786a621bcb
+2 uptime=63.51 pid=442 fb=6eb8c366315498feabd796786a621bcb
+3 uptime=66.55 pid=none fb=6eb8c366315498feabd796786a621bcb
+4 uptime=69.31 pid=none fb=6eb8c366315498feabd796786a621bcb
+5 uptime=72.12 pid=none fb=6eb8c366315498feabd796786a621bcb
+6 uptime=74.76 pid=none fb=6eb8c366315498feabd796786a621bcb
+7 uptime=77.39 pid=none fb=6eb8c366315498feabd796786a621bcb
+8 uptime=80.34 pid=none fb=6eb8c366315498feabd796786a621bcb
+9 uptime=83.04 pid=none fb=6eb8c366315498feabd796786a621bcb
+10 uptime=85.01 pid=none fb=d40fd2a08a7f5c16b4e01b8f5f9cb8bc
+11 uptime=87.36 pid=none fb=f2ec64cd241b55b2928c26444613790b
+12 uptime=88.68 pid=none fb=f2ec64cd241b55b2928c26444613790b
+--- kernel ---
+--- app log ---
+invoker: Invoking execution: '/usr/bin/jolla-camera'
+invoker: error: Failed to initiate connect on the socket.
+invoker: warning: Booster silica-qt5 is not available. Falling back to generic.
+Last login: Sat Oct 17 21:33:49 EEST 2026 on pts/0

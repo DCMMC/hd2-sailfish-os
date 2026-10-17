@@ -1,0 +1,98 @@
+> > > > > > > > > > > > > > > [Unit]
+Description=Bluetooth service
+After=connman.service
+ConditionPathExists=!/run/systemd/boot-status/ACT_DEAD
+ConditionPathIsDirectory=/sys/kernel/debug/bluetooth
+
+[Service]
+Type=dbus
+BusName=org.bluez
+EnvironmentFile=-/etc/tracing/bluez/bluez.tracing
+ExecStart=/usr/sbin/bluetoothd -n $TRACING
+Restart=on-failure
+
+[Install]
+WantedBy=bluetooth.target
+Alias=dbus-org.bluez.service
+#
+# Wait unti a BT HCI adapter is available.
+#
+
+[Unit]
+Description=Wait for Bluetooth HCI adapter
+Before=connman.service
+After=dbus.socket
+
+[Service]
+Type=oneshot
+EnvironmentFile=-/etc/hw-release
+ExecStart=/usr/sbin/jolla-rfkill-hciwait
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=WPA Supplicant daemon
+Before=network.target
+Requires=dbus.socket
+After=dbus.socket
+
+[Service]
+Type=dbus
+BusName=fi.w1.wpa_supplicant1
+EnvironmentFile=-/etc/sysconfig/wpa_supplicant
+ExecStart=/usr/sbin/wpa_supplicant -u -c /etc/wpa_supplicant/wpa_supplicant.conf -O/var/run/wpa_supplicant $INTERFACES $DRIVERS $OTHER_ARGS
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=HD2 Wi-Fi module
+After=systemd-udev-settle.service
+[Service]
+Type=simple
+ExecStart=/sbin/modprobe bcm4329
+Selected interface 'wlan0'
+Available interfaces:
+wlan0
+OK
+sed: invalid option -- 'E'
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if extension supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -r, --regexp-extended
+                 use extended regular expressions in the script.
+  -s, --separate
+                 consider files as separate rather than as a single continuous
+                 long stream.
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+E-mail bug reports to: <EMAIL-REDACTED> .
+Be sure to include the word ``sed'' somewhere in the ``Subject:'' field.
+0: bcm4329: Bluetooth
+        Soft blocked: no
+        Hard blocked: no
+bluetooth
+1
+bcm4329
+/bin/sh: line 14: strings: command not found

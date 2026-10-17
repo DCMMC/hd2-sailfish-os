@@ -1,0 +1,18 @@
+> > > > > > > > > > > > > > > > > 1 start=16522.50 uptime=16524.70 pid=28964 fb=c3729800aec9d4bf6079bc8735bac0fe
+2 start=16522.50 uptime=16525.91 pid=28964 fb=b94b3579ab67513490e4d1bc856f9960
+3 start=16522.50 uptime=16527.27 pid=28964 fb=bc1552b8937f58abfef327f8aa9ea20e
+4 start=16522.50 uptime=16528.44 pid=28964 fb=81a77f319b0e50f0b32392fe943514f1
+5 start=16522.50 uptime=16529.60 pid=28964 fb=bf3370b9078614e2ec08c2483c7cafcf
+6 start=16522.50 uptime=16530.76 pid=28964 fb=aa76025296e5fb12ff01fc34f21c04f1
+7 start=16522.50 uptime=16531.94 pid=28964 fb=617032c133cbb707ddf2dd0def0505d3
+8 start=16522.50 uptime=16533.11 pid=28964 fb=013a9a2fbf99907340b7420cf6721635
+9 start=16522.50 uptime=16534.28 pid=28964 fb=fd01ac71c1f4be385af5c7e3ab0c2ee8
+10 start=16522.50 uptime=16535.43 pid=28964 fb=a68def6aa4e19f557115886af90a0d79
+11 start=16522.50 uptime=16536.57 pid=28964 fb=a68def6aa4e19f557115886af90a0d79
+12 start=16522.50 uptime=16537.71 pid=28964 fb=a68def6aa4e19f557115886af90a0d79
+PID=28964
+QT_GSTREAMER_CAMERABIN_SRC=droidcamsrc
+QT_GSTREAMER_PLAYBIN_FLAGS=0
+QT_GSTREAMER_CAMERABIN_FLAGS=15
+QT_GSTREAMER_CAMERABIN_VIDEOSRC=droidcamsrc
+--- new kernel messages ---

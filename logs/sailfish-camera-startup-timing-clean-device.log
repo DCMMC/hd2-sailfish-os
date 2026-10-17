@@ -1,0 +1,249 @@
+> > > > > > > > > > > > > > > > > > > > start_uptime=15565.75
+1 uptime=15565.77 pid=none
+2 uptime=15566.93 pid=25755
+3 uptime=15567.98 pid=25755
+4 uptime=15569.04 pid=25755
+5 uptime=15570.09 pid=25755
+6 uptime=15571.13 pid=25755
+7 uptime=15572.18 pid=25755
+8 uptime=15573.23 pid=25755
+9 uptime=15574.27 pid=25755
+10 uptime=15575.33 pid=25755
+11 uptime=15576.38 pid=25755
+12 uptime=15577.42 pid=25755
+13 uptime=15578.47 pid=25755
+14 uptime=15579.52 pid=25755
+15 uptime=15580.56 pid=25755
+16 uptime=15581.61 pid=25755
+17 uptime=15582.66 pid=25755
+18 uptime=15583.74 pid=25755
+19 uptime=15584.95 pid=25755
+20 uptime=15586.34 pid=25755
+21 uptime=15587.46 pid=25755
+22 uptime=15588.73 pid=25755
+23 uptime=15589.85 pid=25755
+24 uptime=15591.09 pid=25755
+25 uptime=15592.13 pid=25755
+26 uptime=15593.17 pid=25755
+27 uptime=15594.21 pid=25755
+28 uptime=15595.26 pid=25755
+29 uptime=15596.31 pid=25755
+30 uptime=15597.36 pid=25755
+dmesg_after=15565.75
+[    2.796478] android_bind_config
+[    2.796875] rndis_function_bind_config MAC: <MAC-REDACTED>
+[    2.797485] mass_storage_bind_config
+[    2.798065] adb_bind_config
+[    3.250762]     Actions configured
+[    4.238189] android_usb gadget: high speed config #1: android
+[    5.206207] android_usb gadget: high speed config #1: android
+[    7.466094] android_usb gadget: high speed config #1: android
+[  182.468719] android_usb gadget: high speed config #1: android
+[  185.500885] android_usb gadget: high speed config #1: android
+[ 2563.275665] pmem: mmap unable to allocate memoryon pmem
+[ 3734.302947] msm_open_common: open control0
+[ 3734.438598] msm_open_common: open config0
+[ 3742.496032] msm_release_config: config0
+[ 3742.496093] release config atomic_set pmsm->opened as 0
+[ 4151.939880] msm_open_common: open control0
+[ 4152.078338] msm_open_common: open config0
+[ 4152.146270] msm_open_common: open frame0
+[ 4152.270446] msm_enqueue: queue frame new max is 1
+[ 4152.299804] pmem: mmap unable to allocate memoryon pmem
+[ 4167.271759] msm_release_config: config0
+[ 4167.271789] release config atomic_set pmsm->opened as 0
+[ 4170.612243] msm_release_frame: frame0
+[ 4170.833038] release frame atomic_set pmsm->opened as 0
+[ 4374.552612] msm_open_common: open control0
+[ 4374.690948] msm_open_common: open config0
+[ 4374.757293] msm_open_common: open frame0
+[ 4374.930755] pmem: mmap unable to allocate memoryon pmem
+[ 4389.928558] msm_release_config: config0
+[ 4389.928588] release config atomic_set pmsm->opened as 0
+[ 4393.154418] msm_release_frame: frame0
+[ 4393.375946] release frame atomic_set pmsm->opened as 0
+[ 4421.094696] msm_open_common: open control0
+[ 4421.229827] msm_open_common: open config0
+[ 4421.300872] msm_open_common: open frame0
+[ 4421.469390] pmem: mmap unable to allocate memoryon pmem
+[ 4436.464996] msm_release_config: config0
+[ 4436.465026] release config atomic_set pmsm->opened as 0
+[ 4439.695098] msm_release_frame: frame0
+[ 4439.917266] release frame atomic_set pmsm->opened as 0
+[ 4481.820159] msm_open_common: open control0
+[ 4481.950256] msm_open_common: open config0
+[ 4482.016235] msm_open_common: open frame0
+[ 4482.193756] pmem: mmap unable to allocate memoryon pmem
+[ 4497.243316] msm_release_config: config0
+[ 4497.243377] release config atomic_set pmsm->opened as 0
+[ 4500.463958] msm_release_frame: frame0
+[ 4500.685607] release frame atomic_set pmsm->opened as 0
+[ 4627.197967] msm_open_common: open control0
+[ 4627.329681] msm_open_common: open config0
+[ 4627.398193] msm_open_common: open frame0
+[ 4627.573272] pmem: mmap unable to allocate memoryon pmem
+[ 4642.640106] msm_release_config: config0
+[ 4642.640106] release config atomic_set pmsm->opened as 0
+[ 4645.873382] msm_release_frame: frame0
+[ 4646.095947] release frame atomic_set pmsm->opened as 0
+[ 4664.571746] msm_open_common: open control0
+[ 4664.709625] msm_open_common: open config0
+[ 4664.781005] msm_open_common: open frame0
+[ 4664.953125] pmem: mmap unable to allocate memoryon pmem
+[ 4665.251892] msm_release_config: config0
+[ 4665.251922] release config atomic_set pmsm->opened as 0
+[ 4665.251983] msm_release_frame: frame0
+[ 4665.476104] release frame atomic_set pmsm->opened as 0
+[ 4686.438842] msm_open_common: open control0
+[ 4686.622833] msm_open_common: open config0
+[ 4686.740722] msm_open_common: open frame0
+[ 4689.723999] msm_open_common: open control0
+[ 4691.687713] msm_release_config: config0
+[ 4691.687713] release config atomic_set pmsm->opened as 0
+[ 4694.891296] msm_release_frame: frame0
+[ 4695.115539] release frame atomic_set pmsm->opened as 0
+[ 5105.084838] msm_open_common: open control0
+[ 5105.219818] msm_open_common: open config0
+[ 5105.291259] msm_open_common: open frame0
+[ 5105.464508] pmem: mmap unable to allocate memoryon pmem
+[ 5105.742401] msm_release_config: config0
+[ 5105.742431] release config atomic_set pmsm->opened as 0
+[ 5105.742492] msm_release_frame: frame0
+[ 5105.965881] release frame atomic_set pmsm->opened as 0
+[ 5338.563049] msm_open_common: open control0
+[ 5338.739379] msm_open_common: open config0
+[ 5338.842895] msm_open_common: open frame0
+[ 5380.934997] msm_release_config: config0
+[ 5380.934997] release config atomic_set pmsm->opened as 0
+[ 5384.158874] msm_release_frame: frame0
+[ 5384.386138] release frame atomic_set pmsm->opened as 0
+[ 5443.316009] msm_open_common: open control0
+[ 5443.485961] msm_open_common: open config0
+[ 5443.594055] msm_open_common: open frame0
+[ 5621.603485] msm_release_config: config0
+[ 5621.603515] release config atomic_set pmsm->opened as 0
+[ 5624.813049] msm_release_frame: frame0
+[ 5625.037475] release frame atomic_set pmsm->opened as 0
+[ 5935.816070] msm_open_common: open control0
+[ 5935.989562] msm_open_common: open config0
+[ 5936.097290] msm_open_common: open frame0
+[ 5936.252166] pmem: mmap unable to allocate memoryon pmem
+[ 6039.417510] msm_release_config: config0
+[ 6039.417541] release config atomic_set pmsm->opened as 0
+[ 6042.642028] msm_release_frame: frame0
+[ 6042.856445] release frame atomic_set pmsm->opened as 0
+[ 6233.862823] msm_open_common: open control0
+[ 6234.032684] msm_open_common: open config0
+[ 6234.145050] msm_open_common: open frame0
+[ 6234.310729] pmem: mmap unable to allocate memoryon pmem
+[ 6629.082519] msm_release_config: config0
+[ 6629.082550] release config atomic_set pmsm->opened as 0
+[ 6629.665832] msm_release_frame: frame0
+[ 6629.884033] release frame atomic_set pmsm->opened as 0
+[ 6648.803192] msm_open_common: open control0
+[ 6648.961486] msm_open_common: open config0
+[ 6649.061584] msm_open_common: open frame0
+[ 6686.202789] msm_release_config: config0
+[ 6686.202789] release config atomic_set pmsm->opened as 0
+[ 6686.816894] msm_release_frame: frame0
+[ 6687.033966] release frame atomic_set pmsm->opened as 0
+[ 6742.239105] msm_open_common: open control0
+[ 6742.393463] msm_open_common: open config0
+[ 6742.503936] msm_open_common: open frame0
+[ 7310.078948] msm_release_config: config0
+[ 7310.078979] release config atomic_set pmsm->opened as 0
+[ 7310.636108] msm_release_frame: frame0
+[ 7310.854003] release frame atomic_set pmsm->opened as 0
+[ 7333.417144] msm_open_common: open control0
+[ 7333.619812] msm_open_common: open config0
+[ 7333.726745] msm_open_common: open frame0
+[ 7375.119659] msm_release_config: config0
+[ 7375.119689] release config atomic_set pmsm->opened as 0
+[ 7375.758666] msm_release_frame: frame0
+[ 7375.982360] release frame atomic_set pmsm->opened as 0
+[ 7413.681579] msm_open_common: open control0
+[ 7413.836944] msm_open_common: open config0
+[ 7413.942199] msm_open_common: open frame0
+[ 7665.276824] msm_release_config: config0
+[ 7665.276824] release config atomic_set pmsm->opened as 0
+[ 7665.944763] msm_release_frame: frame0
+[ 7666.161010] release frame atomic_set pmsm->opened as 0
+[ 7671.829986] msm_open_common: open control0
+[ 7671.965240] msm_open_common: open config0
+[ 7672.058563] msm_open_common: open frame0
+[ 7672.473846] msm_release_config: config0
+[ 7672.473876] release config atomic_set pmsm->opened as 0
+[ 7672.473937] msm_release_frame: frame0
+[ 7672.691009] release frame atomic_set pmsm->opened as 0
+[ 7905.446166] msm_open_common: open control0
+[ 7905.627380] msm_open_common: open config0
+[ 7905.724731] msm_open_common: open frame0
+[ 7957.994171] msm_release_config: config0
+[ 7957.994201] release config atomic_set pmsm->opened as 0
+[ 7958.062927] msm_release_frame: frame0
+[ 7958.062988] release frame atomic_set pmsm->opened as 0
+[ 7964.049591] msm_open_common: open control0
+[ 7964.184844] msm_open_common: open config0
+[ 7964.268615] msm_open_common: open frame0
+[ 7964.655090] msm_release_config: config0
+[ 7964.655120] release config atomic_set pmsm->opened as 0
+[ 7964.655181] msm_release_frame: frame0
+[ 7964.870635] release frame atomic_set pmsm->opened as 0
+[ 8279.132415] msm_open_common: open control0
+[ 8279.818237] msm_open_common: open config0
+[ 8281.106445] msm_open_common: open frame0
+[ 8285.178497] msm_release_config: config0
+[ 8285.178527] release config atomic_set pmsm->opened as 0
+[ 8285.178588] msm_release_frame: frame0
+[ 8285.400573] release frame atomic_set pmsm->opened as 0
+[ 8405.960510] msm_open_common: open control0
+[ 8406.105255] msm_open_common: open config0
+[ 8406.202575] msm_open_common: open frame0
+[ 8406.620422] msm_release_config: config0
+[ 8406.620452] release config atomic_set pmsm->opened as 0
+[ 8406.620513] msm_release_frame: frame0
+[ 8406.841339] release frame atomic_set pmsm->opened as 0
+[ 8474.717498] msm_open_common: open control0
+[ 8474.855133] msm_open_common: open config0
+[ 8474.949005] msm_open_common: open frame0
+[ 8475.057678] pmem: mmap unable to allocate memoryon pmem
+[ 8475.305541] msm_release_config: config0
+[ 8475.305603] release config atomic_set pmsm->opened as 0
+[ 8475.305633] msm_release_frame: frame0
+[ 8475.521362] release frame atomic_set pmsm->opened as 0
+[ 8590.405395] msm_open_common: open control0
+[ 8590.535095] msm_open_common: open config0
+[ 8590.636260] msm_open_common: open frame0
+[ 8590.734558] pmem: mmap unable to allocate memoryon pmem
+[ 8605.907135] msm_release_config: config0
+[ 8605.907165] release config atomic_set pmsm->opened as 0
+[ 8605.930541] msm_release_frame: frame0
+[ 8605.930572] release frame atomic_set pmsm->opened as 0
+[ 8984.526428] msm_open_common: open control0
+[ 8984.666687] msm_open_common: open config0
+[ 8984.754974] msm_open_common: open frame0
+[ 8994.671813] msm_release_config: config0
+[ 8994.671844] release config atomic_set pmsm->opened as 0
+[ 8994.686187] msm_release_frame: frame0
+[ 8994.686218] release frame atomic_set pmsm->opened as 0
+[ 9562.726898] msm_open_common: open control0
+[ 9562.904113] msm_open_common: open config0
+[ 9563.075103] msm_open_common: open frame0
+[ 9563.815490] msm_release_config: config0
+[ 9563.815521] release config atomic_set pmsm->opened as 0
+[ 9563.872497] msm_release_frame: frame0
+[ 9563.872528] release frame atomic_set pmsm->opened as 0
+[ 9581.602966] msm_open_common: open control0
+[ 9581.761138] msm_open_common: open config0
+[ 9581.919647] msm_open_common: open frame0
+[ 9582.514038] msm_release_config: config0
+[ 9582.514068] release config atomic_set pmsm->opened as 0
+[ 9582.565673] msm_release_frame: frame0
+[ 9582.565704] release frame atomic_set pmsm->opened as 0
+[ 9670.682464] msm_open_common: open control0
+[ 9670.831176] msm_open_common: open config0
+[ 9671.010467] msm_open_common: open frame0
+[ 9671.636566] msm_release_config: config0
+[ 9671.636596] release config atomic_set pmsm->opened as 0
+[ 9671.690765] msm_release_frame: frame0
+[ 9671.690795] release frame atomic_set pmsm->opened as 0

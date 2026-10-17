@@ -1,0 +1,25 @@
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > before_start
+[wifi_38e7d88c4968_43555f4565634e_managed_psk]
+Name=<REDACTED>
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+Security=psk
+Favorite=true
+AutoConnect=true
+IPv4.method=dhcp
+IPv6.method=auto
+IPv6.privacy=disabled
+after_start
+[wifi_38e7d88c4968_43555f4565634e_managed_psk]
+Name=<REDACTED>
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+[REDACTED: network/device identifier or credential-bearing diagnostic line]
+Security=psk
+Favorite=true
+AutoConnect=true
+IPv4.method=dhcp
+IPv6.method=auto
+IPv6.privacy=disabled
+Frequency=2442
+Modified=2026-10-17T14:04:51.620788Z
+IPv4.DHCP.LastAddress=192.168.1.3

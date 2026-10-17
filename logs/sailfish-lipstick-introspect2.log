@@ -1,0 +1,73 @@
+> > > > > PATH=/
+method return sender=:1.201 -> dest=:1.348 reply_serial=2
+   string "<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+        <interface name="com.jolla.lipstick.ConnectionSelectorIf">
+                <method name="openConnection">
+                        <arg name="type" type="s" direction="in"/>
+                </method>
+                <method name="openConnectionNow">
+                        <arg name="type" type="s" direction="in"/>
+                </method>
+                <signal name="connectionSelectorClosed">
+                        <arg name="connectionSelected" type="b" direction="out"/>
+                </signal>
+        </interface>
+  <interface name="org.freedesktop.DBus.Properties">
+    <method name="Get">
+      <arg name="interface_name" type="s" direction="in"/>
+      <arg name="property_name" type="s" direction="in"/>
+      <arg name="value" type="v" direction="out"/>
+    </method>
+    <method name="Set">
+      <arg name="interface_name" type="s" direction="in"/>
+      <arg name="property_name" type="s" direction="in"/>
+      <arg name="value" type="v" direction="in"/>
+    </method>
+    <method name="GetAll">
+      <arg name="interface_name" type="s" direction="in"/>
+      <arg name="values" type="a{sv}" direction="out"/>
+      <annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="QVariantMap"/>
+    </method>
+  </interface>
+  <interface name="org.freedesktop.DBus.Introspectable">
+    <method name="Introspect">
+      <arg name="xml_data" type="s" direction="out"/>
+    </method>
+  </interface>
+  <interface name="org.freedesktop.DBus.Peer">
+    <method name="Ping"/>
+    <method name="GetMachineId">
+      <arg name="machine_uuid" type="s" direction="out"/>
+    </method>
+  </interface>
+  <node name="LauncherModel"/>
+  <node name="WindowModel"/>
+  <node name="com"/>
+  <node name="org"/>
+</node>
+"
+PATH=/org/nemomobile/lipstick
+method return sender=:1.201 -> dest=:1.349 reply_serial=2
+   string "<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="org.freedesktop.DBus.Introspectable">
+    <method name="Introspect">
+      <arg name="xml_data" type="s" direction="out"/>
+    </method>
+  </interface>
+  <interface name="org.freedesktop.DBus.Peer">
+    <method name="Ping"/>
+    <method name="GetMachineId">
+      <arg name="machine_uuid" type="s" direction="out"/>
+    </method>
+  </interface>
+  <node name="screenshot"/>
+</node>
+"
+PATH=/org/nemomobile/lipstick/LauncherModel
+Error org.freedesktop.DBus.Error.UnknownObject: No such object path '/org/nemomobile/lipstick/LauncherModel'
+PATH=/org/nemomobile/lipstick/WindowModel
+Error org.freedesktop.DBus.Error.UnknownObject: No such object path '/org/nemomobile/lipstick/WindowModel'

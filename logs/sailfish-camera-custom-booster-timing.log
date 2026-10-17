@@ -1,0 +1,42 @@
+> > > > > > > UPTIME_CHECK=1626.11
+CAMERA_PID=6000
+[processes]
+[camera log]
+Unable to open log device '/dev/log/main': Not a directory
+> > > > > > > > > > > > > [camera process]
+PID=6000 UPTIME=1636.37
+/usr/bin/jolla-camera
+Name:   jolla-camera
+State:  S (sleeping)
+Tgid:   6000
+Pid:    6000
+PPid:   5999
+TracerPid:      0
+Uid:    100000  100000  100000  100000
+Gid:    100000  998     998     998
+FDSize: 256
+Groups: 39 100 995 996 999 1000 1002 1003 1004 1005 1006 1013 1023 1024 100000
+VmPeak:   387332 kB
+VmSize:   323004 kB
+VmLck:         0 kB
+VmHWM:     49652 kB
+VmRSS:     49600 kB
+VmData:   190636 kB
+VmStk:       264 kB
+VmExe:        20 kB
+VmLib:     75320 kB
+VmPTE:       232 kB
+Threads:        21
+SigQ:   0/3216
+SigPnd: 0000000000000000
+ShdPnd: 0000000000000000
+[booster replacement]
+ 5999   379 Ss    6908  0.0       02:01 booster-camera- /usr/libexec/mapplauncherd/booster-camera-qt5 --systemd
+ 6000  5999 Ssl  49540 11.7       02:01 jolla-camera    /usr/bin/jolla-camera
+ 6083  5999 Ssl  14940 13.5       00:24 booster [camera booster [camera-qt5]
+[android log]
+[framebuffer]
+6 /dev/graphics/fb0
+0 /dev/fb0
+hd2-busybox: applet not found
+chmod: cannot access `/data/local/tmp/camera-custom.raw': No such file or directory

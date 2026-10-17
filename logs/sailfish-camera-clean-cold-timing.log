@@ -1,0 +1,20 @@
+tap_uptime=17021.44
+1 uptime=17023.52 pid=30389 fb=917c7b67d57c85d93654282efa7057c7
+2 uptime=17024.70 pid=30389 fb=b242fe90919e695bdb23eb8cb85e093d
+3 uptime=17025.86 pid=30389 fb=77aa1e6ad31206dbda5f5e32e6a25db5
+4 uptime=17027.02 pid=30389 fb=2ab1353249dfc8d32ca25f8438b44bd3
+5 uptime=17028.19 pid=30389 fb=a704aaac080f6fa68c5a9d7472b1bfc6
+6 uptime=17029.37 pid=30389 fb=abf4def1d5da00c884d6405dac23c014
+7 uptime=17030.61 pid=30389 fb=3f944e3dd647ee79d9d308dfa799b246
+8 uptime=17031.76 pid=30389 fb=cd1a0a2953195c6ef0bf82dd7068b4f1
+9 uptime=17032.94 pid=30389 fb=62f74d1f60439d738c0030d26df3fa19
+10 uptime=17034.12 pid=30389 fb=3aeae9d076d03d32e1dc453675e74ccb
+11 uptime=17035.27 pid=30389 fb=f5185d9ea514fd7ff6bc35d2673534dc
+12 uptime=17036.43 pid=30389 fb=42e5f3ca4bd140c8eeea2d400fbfe8c7
+--- kernel ---
+--- app journal ---
+-- Logs begin at Sat 2026-10-17 18:39:08 EEST, end at Sat 2026-10-17 21:32:17 EEST. --
+[17019.281724] Jolla booster-silica-qt5[30389]: [D] QWaylandEglClientBufferIntegration::QWaylandEglClientBufferIntegration:62 - Using Wayland-EGL
+[17020.055986] Jolla [30389]: booster [silica-qt5][30389]: SilicaBooster: Initiate asynchronous preload.
+[17023.423814] Jolla mapplauncherd[30389]: SilicaBooster: Preload compilation aborted.
+[17023.432328] Jolla mapplauncherd[30389]: Couldn't open '/proc/self/oom_score_adj' for writing
